@@ -1,12 +1,18 @@
-# Stylish Portolio template for Jekyll
+# schnatterer.info
 
-A Jekyll implementation of the [Stylish Portfolio](http://startbootstrap.com/template-overviews/stylish-portfolio/) template by [Start Bootstrap](http://startbootstrap.com/).
+## Build
 
-See the site in action at https://volny.github.io/stylish-portfolio-jekyll/
+```bash
+# Install ruby
+sudo apt-get install ruby-full build-essential zlib1g-dev
+# Install gems for local user
+echo '# Install Ruby Gems to ~/gems' >> ~/.zshrc
+echo 'export GEM_HOME="$HOME/gems"' >> ~/.zshrc
+echo 'export PATH="$HOME/gems/bin:$PATH"' >> ~/.zshrc
+source ~/.zshrc
 
-## To use the Stylish Portfolio template in your project
-
-- Start by adding your info in `_config.yml`
-- Add as many address lines as you want. Your address will also be used to show your location on the map.
-- For the emdeded map to work you'll need to [get a key from Google Maps Embed API](https://developers.google.com/maps/documentation/embed/?hl=en)
-- In `_layouts/front.html` reorder or remove section as you prefer.
+# Download dependencies
+bundle install 
+# Start jekyll development server with client-side live-reload
+bundle exec jekyll serve --livereload
+```

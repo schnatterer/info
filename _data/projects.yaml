@@ -1,0 +1,329 @@
+- name: schnatterer/smeagol-galore
+  type: GitHub
+  description: A git-based wiki featuring markdown, a WYSIWYG Editor, PlantUML, and much more
+  technologies: Java, Docker, Tomcat, PlantUML, CAS, Maven
+  contribution: Creator
+  time-active: 
+    from: 05-2018
+    to: 
+- name: schnatterer/letsencrypt-tomcat
+  type: GitHub
+  description: Tomcat that automatically fetches certificates via letsencrypt
+  technologies: Java, Tomcat, Docker, Maven, Travis
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/tomcat-reloading-connector
+  type: GitHub
+  description: Tomcat connector that automatically reload SSLConfig
+  technologies: Java, Tomcat, Docker, Maven, Travis
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: cloudogu/k8s-diagrams
+  type: GitHub
+  description: A collection of kubernetes-related diagrams
+  technologies: Kubernetes, PlantUML
+  contribution: Creator
+  time-active:
+    from:
+    to:
+- name: schnatterer/moby-names-generator-java
+  type: GitHub
+  description: Java Version of the famous Moby (Docker) Names Generator
+  technologies: Java, Maven, Travis, SonarQube
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: cloudogu/k8s-security-demos
+  type: GitHub
+  description: Demos for several kubernetes security features
+  technologies: Kubernetes, Bash
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: cloudogu/command-bus
+  type: GitHub
+  description: Java implementation of the Command-Bus pattern for Spring and CDI
+  technologies: Java, Maven, Jenkins, SonarQube
+  contribution: Co-creator
+  time-active: 
+    from: 
+    to: 
+- name: cloudogu/versionName
+  type: GitHub
+  description: A tiny Java library that allows for conveniently reading the version name of an application
+  technologies: Java, Maven, Jenkins, SonarQube
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: cloudogu/jenkinsfiles
+  type: GitHub
+  description: Examples for jenkins pipelines, comparing scripted and declarative syntax
+  technologies: Groovy, Jenkins, Kubernetes, SonarQube
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: cloudogu/ces-build-lib
+  type: GitHub
+  description: Jenkins pipeline shared library adding features for Maven, Docker, SonarQube and others
+  technologies: Groovy, Jenkins, Maven, SonarQube, Docker
+  contribution: Co-creator
+  time-active: 
+    from: 
+    to: 
+- name: triologygmbh/test-data-loader
+  type: GitHub
+  description: A Groovy DSL for creating test data via JPA
+  technologies: Groovy, Maven, Jenkins, SonarQube
+  contribution: Maintainer
+  time-active: 
+    from: 
+    to: 
+- name: triologygmbh/reCAPTCHA-V2-java
+  type: GitHub
+  description: Java Bindings for reCAPTCHA V2
+  technologies: Java, Maven, Jenkins, SonarQube
+  contribution: Co-creator
+  time-active: 
+    from: 
+    to: 
+- name: triologygmbh/dependency-check
+  type: GitHub
+  description: An example on how to use the OWASP Dependency-Check maven plugin
+  technologies: Java, Maven, Jenkins
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/docker-aliases
+  type: GitHub
+  description: app that fetches stock prices, compares them to defined references and triggers alerts
+  technologies: NodeJS, Docker, Yarn, Travis
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/docker-image-size
+  type: GitHub
+  description: Queries and compares docker image sizes
+  technologies: Bash, Docker, Travis
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/musicbrainzws2-java
+  type: GitHub
+  description: java binding for MusicBrainz XML Web Service/Version 2
+  technologies: Java, Maven
+  contribution: Fork Maintainer
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/gollum-galore
+  type: GitHub
+  description: Gollum wiki with lots of sugar
+  technologies: Caddy, Docker, Bash, OpenShift, Kubernetes
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/nusic
+  type: GitHub
+  description: your new music (android app)
+  technologies: Android, Java, Groovy, Travis, SonarQube 
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: scm-manager/scm-manager
+  type: GitHub
+  description: The easiest way to share and manage your Git, Mercurial and Subversion repositories over http.
+  technologies: Java, Maven, Jenkins, SonarQube
+  contribution: Team member
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/fernflower-docker
+  type: GitHub
+  description: Unofficial Docker builds of FernFlower Java decompiler
+  technologies: Docker
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/pmcaFilesystemServer
+  type: GitHub
+  description: Simple Android app for Sony Cameras (PlayMemories Camera App Store) that provides the File System of the camera via HTTP
+  technologies: Android, Java, Gradle, Travis
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: cloudogu/k8s-appops-security-talks
+  type: GitHub
+  description: Resources for talks on Kubernetes appOps Security
+  technologies: Kubernetes
+  contribution: Creator
+  time-active:
+    from:
+    to:
+- name: cloudogu/k8s-intro-talk
+  type: GitHub
+  description: Slides for an intro talk to kubernetes
+  technologies: Kubernetes
+  contribution: Creator
+  time-active:
+    from:
+    to:
+- name: cloudogu/reveal.js-docker
+  type: GitHub
+  description: Docker images providing easier to use, opinionated reveal.js web apps - web-based slides/presentations
+  technologies: JavaScript, CSS, Gulp, Grunt, Docker, Jenkins, Bash
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: cloudogu/reveal.js-docker-example
+  type: GitHub
+  description: Advanced example for using web-based slides/presentations via cloudogu/reveal.js-docker
+  technologies: Docker, Kubernetes, Jenkins, Maven
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: cloudogu/continuous-delivery-slides
+  type: GitHub
+  description: Continuously deliver your presentations to Kubernetes, Maven Sites (Nexus) or GitHub Pages
+  technologies:  JavaScript, CSS, Gulp, Grunt, Docker, Jenkins, Bash
+  contribution: Creator
+  time-active:
+    from:
+    to:
+- name: cloudogu/continuous-delivery-docs-example
+  type: GitHub
+  description: Continous delivery of your docs as code to ODT & PDF
+  technologies: Docker, Gulp, Pandoc
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/dsdl
+  type: GitHub
+  description: DiskStation DownLoader - gets files from Synology DiskStation Manager
+  technologies: NodeJS, Docker, Travis, SonarQube
+  contribution: Creator
+  time-active: 
+    from: 
+    to:
+- name: schnatterer/colander
+  type: GitHub
+  description: colander - filtering your calendar
+  technologies: Java, Maven, Docker, Jenkins, Travis, SonarQube
+  contribution: Creator
+  time-active:
+    from:
+    to:
+- name: schnatterer/stock-alert
+  type: GitHub
+  description: app that fetches stock prices, compares them to defined references and triggers alerts
+  technologies: NodeJS, Docker, Yarn, Travis, SonarQube
+  contribution: Creator
+  time-active:
+    from:
+    to:
+- name: schnatterer/devboxes
+  type: GitHub
+  description: Ansible playbook to setup my development machines and helps to keep them in sync
+  technologies: Ansible
+  contribution: Fork Maintainer
+  time-active: 
+    from: 
+    to: 
+      
+- name: schnatterer/songbirdDbTools
+  type: GitHub
+  description: Gets more out of your music library
+  technologies: Java, Maven, Travis
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/drupal2gollum
+  type: GitHub
+  description: Drupal (html) to gollum (markdown) migration 
+  technologies: Groovy, Gradle
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/logback-android-demo
+  type: GitHub
+  description: An example that shows some possibilities of using logback-android 
+  technologies:  Android, Java, Groovy, Jenkins, Travis, SonarQube
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/songbirdDbApi4j
+  type: GitHub
+  description: Java wrapper for songbird SQLite database
+  technologies: Java, Maven, Travis
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/remoteDbDumper
+  type: GitHub
+  description: Command-line interface for downloading dumps via by web-based tools
+  technologies: Java, Maven, Travis
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/songbird2itunes
+  type: GitHub
+  description: Migration tool to migrate a songbird database to itunes
+  technologies: Java, Maven, Travis
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/logback-android-utils
+  type: GitHub
+  description: A small library that conveniently provides additional features for logback-android
+  technologies: Java, Maven, Jenkins, Travis
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/logback-spike
+  type: GitHub
+  description:  Logback unit testing
+  technologies: Java, Maven, Travis
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/itunes4j
+  type: GitHub
+  description: Java wrapper for the windows COM API of iTunes
+  technologies: Java, Maven
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 
+- name: schnatterer/info
+  type: GitHub
+  description: Source of this page
+  technologies: HTML, CSS, GitHub Actions
+  contribution: Creator
+  time-active: 
+    from: 
+    to: 

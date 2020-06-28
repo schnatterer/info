@@ -1,28 +1,22 @@
-# Site settings
-title:
-email:
-description: > # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-baseurl: "" # the subpath of your site, e.g. /blog/
-url: "" # the base hostname & protocol for your site
-
 # User setting
-owner:
-email:
-facebook_username:
-twitter_username:
-github_username:
-address:
-  - line:
-  - line:
-  # Feel free to add more lines here 
-telephone:
-copyright:
+twitter_username: jschnatterer
+github_username: schnatterer
+stackoverflow_userid: 1845976
+linkedin_personal_url: johannes-schnatterer
+xing_profile: Johannes_Schnatterer
+keybase_id: schnatterer
 
-# API settings
-google_api_key:
+copyright: Johannes Schnatterer
+
+blog_url: 'https://itaffinity.wordpress.com/'
+publications_url: '/publications'
+talks_url: '/talks'
+projects_url: '/projects'
+
+blog_text: IT affinity - my personal blog (external link)
+publications_text: Articles I published in journals and on other sites
+talks_text: A list of public talks I gave
+projects_text: A excerpt of FOSS projects I started or contributed to
 
 # Build settings
 markdown: kramdown
