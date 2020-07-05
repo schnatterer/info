@@ -13,10 +13,10 @@ publications_url: '/publications'
 talks_url: '/talks'
 projects_url: '/projects'
 
-blog_text: IT affinity - my personal blog (external link)
-publications_text: Articles I published in journals and on other sites
-talks_text: A list of public talks I gave
-projects_text: A excerpt of FOSS projects I started or contributed to
+blog_text: IT affinity - personal blog (external link)
+publications_text: Articles published in journals and on blogs
+talks_text: A list of public talks
+projects_text: An excerpt of contributions to FOSS projects
 
 # Build settings
 markdown: kramdown

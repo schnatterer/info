@@ -1,5 +1,6 @@
 <section id="projects" class="about">
-    
+    <p style="text-align: right;"><strong>Updated: {{ site.data.projects.updated }}</strong></p>
+    <br/>
     <div class="table-container">
         <table class="table center">
             <thead>
@@ -19,24 +20,28 @@
                 <th scope="col" title="Role">
                     <i class="fas fa-user-tag"></i> <span class="hidden-xs"> Role</span>
                 </th>
-                <th scope="col" title="Time active">
-                    <i class="fas fa-clock"></i> <span class="hidden-xs"> Time active</span>
+                <th scope="col" title="First Commit">
+                    <i class="fas fa-hourglass-start"></i> <span class="hidden-xs"> First Commit</span>
+                </th>
+                <th scope="col" title="Last Commit">
+                    <i class="fas fa-hourglass-end"></i> <span class="hidden-xs"> Last Commit</span>
+                </th>
+                <th scope="col" title="Number of Commits">
+                    <i class="fas fa-hashtag"></i> <span class="hidden-xs"> Number of Commits</span>
                 </th>
             </tr>
             </thead>
             <tbody>
-            {% for project in site.data.projects %}
+            {% for project in site.data.projects.projects %}
             <tr>
                 <td class="row"><a href="https://github.com/{{ project.name }}">{{ project.name }}</a></td>
                 <td class="row"><img src="https://img.shields.io/github/stars/{{ project.name }}.svg?style=flat&label=&logo=github&labelColor=000000"/></td>
                 <td class="row">{{ project.description }}</td>
                 <td class="row">{{ project.technologies }}</td>
                 <td class="row">{{ project.contribution }}</td>
-                <td class="row">
-                    {% if project.time-active.from != null %}
-                    {{ project.time-active.from }} - {% if project.time-active.to != null %}{{project.time-active.to}}{% else %}now{% endif %}
-                    {% endif %}
-                </td>
+                <td class="row">{{ project.commits.from }}</td>
+                <td class="row">{{ project.commits.to }}</td>
+                <td class="row">{{ project.commits.amount }}</td>
             </tr>
             {% endfor %}
             </tbody>
