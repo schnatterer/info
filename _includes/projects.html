@@ -34,7 +34,7 @@
             <tbody>
             {% for project in site.data.projects.projects %}
             <tr>
-                <td class="row"><a href="https://github.com/{{ project.name }}">{{ project.name }}</a></td>
+                <td class="row"><a href="https://github.com/{{ project.name }}">{{ project.name | replace: "/", "/&#8203;" }}</a></td>
                 <td class="row"><img src="https://img.shields.io/github/stars/{{ project.name }}.svg?style=flat&label=&logo=github&labelColor=000000"/></td>
                 <td class="row">{{ project.description }}</td>
                 <td class="row">{{ project.technologies }}</td>

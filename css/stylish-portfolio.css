@@ -29,6 +29,33 @@ body {
     font-weight: 700;
 }
 
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
 /* Custom Horizontal Rule */
 
 hr.small {
@@ -79,6 +106,9 @@ table.center th {
 
 .about {
     padding: 50px 0;
+    font-size: 16px;
+    /*background-color: black;
+    color: #C8C3BC;*/
 }
 
 .about-text {
@@ -89,11 +119,13 @@ table.center th {
 
 .services {
     padding: 50px 0;
+    
 }
 
 .service-item {
     margin-bottom: 30px;
 }
+
 
 .service-link {
     color:inherit;
@@ -114,20 +146,14 @@ footer {
 
 /* Nav bar */
 
-.navbar
+#nav
 {
     vertical-align: top;
     width: 100%;
 }
 
-.navbar a:hover {
+#nav a:hover {
     background-color: #000;
-}
-
-.nav-list {
-    overflow: hidden;
-    text-overflow: ellipsis;
-    white-space: nowrap;
 }
 
 #nav > ul
@@ -135,6 +161,9 @@ footer {
     margin: 0;
     padding: 0;
     text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
 }
 
 #nav > ul > li
