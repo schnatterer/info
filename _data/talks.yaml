@@ -29,7 +29,7 @@
       video: https://www.youtube.com/watch?v=YlvdFE1RsmI
       location: Online
       date: 2020-03-18
-      notes: <a href="https://github.com/cloudogu/k8s-security-demos">Demo Source</a><br/>Cancelled (COVID19) ➡ video
+      notes: <a href="https://github.com/cloudogu/k8s-security-demos">Demo Source</a>; Cancelled (COVID19) ➡ video
 - year: 2019
   talks:
     - occasion: IT-Tage

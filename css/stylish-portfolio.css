@@ -92,9 +92,8 @@ hr.small {
     overflow-x:auto;
 }
 
-h1.heading-above-table {
-    text-align: center;
-    text-decoration: underline;
+h3.year {
+    font-weight: bold;
 }
 
 table.center th {
@@ -194,4 +193,79 @@ img.emoji {
     width: 1em;
     margin: 0 .05em 0 .1em;
     vertical-align: -0.1em;
+}
+
+
+/*************************************************
+ *  Card component
+ * From https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+.card-simple {
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    border: 1px solid rgba(0,0,0,.09);
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+}
+
+.card-simple:first-of-type {
+    margin-top: 0;
+}
+
+.card-simple p.read-more {
+    margin: 0;
+}
+
+.dark .card-simple {
+    background: rgb(40, 42, 54);
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    border: 1px solid rgb(68, 71, 90);
+}
+
+/* In page listings, display the linked summaries as normal text except for the hover cursor. */
+a.summary-link {
+    color: unset;
+    text-decoration: none;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: all 0.2s ease-out;
+}
+
+.universal-wrapper {
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.1rem;
+    width: 100%;
+}
+@media only screen and (min-width:1001px) {
+    .universal-wrapper {
+        width: 1000px;
+    }
+}
+
+.article-metadata {
+    margin-bottom: 15px;
+    overflow: hidden;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: rgba(0,0,0,0.54);
+}
+
+.icon-button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
 }

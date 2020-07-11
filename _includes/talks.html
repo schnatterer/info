@@ -1,64 +1,54 @@
 <section id="talks" class="about">
 
-    <div class="table-container">
-        {% for talksPerYear in site.data.talks %}
-        <h1 class="heading-above-table">{{ talksPerYear.year }}</h1>
-        <table class="table center">
-            <thead>
-            <tr>
-                <th scope="col" title="Occasion">
-                    <i class="far fa-handshake"></i> <span class="hidden-xs"> Occasion</span>
-                </th>
-                <th scope="col" title="Title">
-                    <i class="fas fa-exclamation-circle"></i> <span class="hidden-xs"> Title</span>
-                </th>
-                <th scope="col" title="Slides">
-                    <i class="fas fa-chalkboard"></i> <span class="hidden-xs"> Slides</span>
-                </th>
-                <th scope="col" title="Video">
-                    <i class="fas fa-video"></i> <span class="hidden-xs"> Video</span>
-                </th>
-                <th scope="col" title="Location">
-                    <i class="fas fa-map-marker-alt"></i> <span class="hidden-xs"> Location</span>
-                </th>
-                <th scope="col" title="Date">
-                    <i class="far fa-calendar-alt"></i> <span class="hidden-xs"> Date</span>
-                </th>
-                <th scope="col" title="Notes">
-                    <i class="far fa-sticky-note"></i> <span class="hidden-xs"> Notes</span>
-                </th>
-            </tr>
-            </thead>
-            <tbody>
-            {% for talk in talksPerYear.talks %}
-            <tr>
-                <td class="row">{{ talk.occasion }}</td>
-                <td class="row"><a href="{{ talk.link }}">{{ talk.title }}</a></td>
-                <td class="row">
-                    {% if talk.slides-speakerdeck != null %}
-                    <a href="{{ talk.slides-speakerdeck }}"><i class="fab fa-speaker-deck"></i></a>
-                    {% endif %}
-                    {% if talk.slides-pdf != null %}
-                    <a href="{{ talk.slides-pdf }}"><i class="fas fa-file-pdf"></i></a>
-                    {% endif %}
-                    {% if talk.slides-github != null %}
-                    <a href="{{ talk.slides-github }}"><i class="fab fa-github"></i></a>
-                    {% endif %}
-                </td>
-                <td class="row">
-                    {% if talk.video != null %}
-                    <a href="{{ talk.video }}"><i class="fas fa-file-video"></i></a></td>
-                    {% endif %}
-                <td class="row">{{ talk.location }}</td>
-                <td class="row">{{ talk.date }} </td>
-                <td class="row">
-                    {% if talk.notes != null %}
-                    {{ talk.notes }}
-                    {% endif %}
-            </tr>
-            {% endfor %}
-            </tbody>
-        </table>
-        {% endfor %}
+    <div class="universal-wrapper">
+        <div class="row">
+            <div class="col-lg-12 text-center">
+                {% for talksPerYear in site.data.talks %}
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h3 class="year">{{ talksPerYear.year }}</h3>
+                    </div>
+                    <div class="col-lg-10">
+                        {% for talk in talksPerYear.talks %}
+                        <div class="card-simple">
+                            <div class="article-metadata">
+                                <div title="Event"><strong>{{ talk.occasion }}</strong></div>
+                                <div title="Date"><i class="far fa-calendar-alt"></i> {{ talk.date }}</div>
+                                <div title="Location"><i class="fas fa-map-marker-alt"></i> {{ talk.location }}</span></div>
+                            </div>
+                            <h3><a href="{{ talk.link }}">{{ talk.title }}</a></h3>
+                            <div class="article-metadata">
+                                {% if talk.slides-speakerdeck != or talk.slides-pdf != null or talk.slides-github != null %}
+                                <div>Slides
+                                        {% if talk.slides-speakerdeck != null %}
+                                        <a title="Speakerdeck" href="{{ talk.slides-speakerdeck }}" class="icon-button"> <i class="fab fa-speaker-deck"></i></a>
+                                        {% endif %}
+                                        {% if talk.slides-pdf != null %}
+                                        <a title="PDF" href="{{ talk.slides-pdf }}" class="icon-button"><i class="fas fa-file-pdf"></i></a>
+                                        {% endif %}
+                                        {% if talk.slides-github != null %}
+                                        <a title="GitHub" href="{{ talk.slides-github }}" class="icon-button"><i class="fab fa-github"></i></a>
+                                        {% endif %}
+                                </div>
+                                {% endif %}
+                                {% if talk.video != null %}
+                                <div title="Video">Video
+                                    <a href="{{ talk.video }}" class="icon-button"><i class="fas fa-file-video"></i></a></td>
+                                {% endif %}
+                                {% if talk.notes != null %}
+                                <div title="Notes">
+                                    <i class="far fa-sticky-note"></i> Notes <div>{{ talk.notes }}</div>
+                                </div>
+                                {% endif %}
+                            </div>   
+                        </div>
+                        {% endfor %}
+                    </div>
+                </div>
+                <br/>&nbsp;
+                {% endfor %}
+            </div>
+            </div>
+        </div>
     </div>
 </section>
