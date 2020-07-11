@@ -1,120 +1,130 @@
-- date: 03/2020
-  title: 'Kubernetes AppOps Security Part 4: Security Context (2/2) – Background'
-  media:
-    - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2020-02-Java-Spektrum--Johannes-Schnatterer_Security-Context_Teil-2.pdf">
-        <i class="fas fa-newspaper"></i> Java SPEKTRUM 02/2020
-      </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
-    - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/k8s-app-ops-part-4-security-context-2">
-        <i class="fas fa-rss-square"></i> Cloudogu blog
-      </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
-- date: 02/2020
-  title: Docs As Code - Continuous Delivery of Presentations with reveal.js and Jenkins - Part 2
-  media: <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/continuous-delivery-with-revealjs-part-2">
-           <i class="fas fa-rss-square"></i> Cloudogu blog
-         </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
-- date: 01/2020	
-  title: 'Kubernetes AppOps Security Part 3: Security Context (1/2) – Good Practices'
-  media: 
-    - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2020-01-Java-Spektrum--Johannes-Schnatterer_Security-Context_Teil-1.pdf">
-        <i class="fas fa-newspaper"></i> Java SPEKTRUM 01/2020
-      </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg"> 
-    - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/k8s-app-ops-part-3-security-context-1">
-        <i class="fas fa-rss-square"></i> Cloudogu blog
-      </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
-- date: 11/2019
-  title: 'Kubernetes AppOps Security Part 2: Using Network Policies (2/2) - Advanced Topics and Tricks'
-  media:
-    - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2019-06-Java-Spektrum-Network-Policies_Teil-2.pdf">
-        <i class="fas fa-newspaper"></i> Java SPEKTRUM 06/2019
-      </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
-    - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/k8s-app-ops-part-2">
-        <i class="fas fa-rss-square"></i> Cloudogu blog
-      </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
-- date: 09/2019
-  title: 'Kubernetes AppOps Security Part 1: Using Network Policies (1/2) - Basics and Good Practices'
-  media: 
-    - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2019-05-Java-Spektrum-Network-Policies-Teil-1.pdf">
-        <i class="fas fa-newspaper"></i> Java SPEKTRUM 05/2019
-      </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
-    - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/k8s-app-ops-part-1">
-        <i class="fas fa-rss-square"></i> Cloudogu blog
-      </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
-- date: 05/2019
-  title: Docs As Code - Continuous Delivery of Presentations with reveal.js and Jenkins - Part 1
-  media: <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/k8s-app-ops-part-1">
-           <i class="fas fa-rss-square"></i> Cloudogu blog
-         </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
-- date: 05/2019
-  title: Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu EcoSystem
-  media: <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces">
-           <i class="fas fa-rss-square"></i> Cloudogu blog
-         </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
-- date: 07/2018
-  title: Coding Continuous Delivery — Static Code Analysis with SonarQube and Deployment on Kubernetes et al. with the Jenkins Pipeline Plugin
-  media: 
-    - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2018-04-Java-aktuell--Johannes-Schnatterer_Coding_Continuous_Delivery-SonarQube%20und%20Kubernetes.pdf">
-        <i class="fas fa-newspaper"></i> Java aktuell 04/2018
-      </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
-    - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/continuous_delivery_4_en">
-        <i class="fas fa-rss-square"></i> Cloudogu blog
-      </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
-- date: 05/2018
-  title: Coding Continuous Delivery – Helpful Tools for the Jenkins Pipeline
-  media:
-    - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2018-03-Java-aktuell--Coding_Continuous_Delivery-Hilfreiche%20Werkzeuge%20f%C3%BCr%20die%20Jenkins-Pipeline.pdf">
-        <i class="fas fa-newspaper"></i> Java aktuell 03/2018
-      </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
-    - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/continuous_delivery_part_3">
-        <i class="fas fa-rss-square"></i> Cloudogu blog
-      </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
-- date: 02/2018
-  title: Coding Continuous Delivery – Performance optimization for the Jenkins Pipeline
-  media:
-    - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2018-02-Java-Aktuell--Coding_Continuous_Delivery%E2%80%93Performance-Optimierung_f%C3%BCr_die_Jenkins-Pipeline.pdf">
-        <i class="fas fa-newspaper"></i> Java aktuell 02/2018
-      </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
-    - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/continuous_delivery_2">
-        <i class="fas fa-rss-square"></i> Cloudogu blog
-      </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
-- date: 01/2018
-  title: Coding Continuous Delivery – Jenkins pipeline plugin basics
-  media:
-    - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2018-01-Java-Aktuell--Coding-Continous-Delivery-Grundlagen-des-Jenkins-Pipeline-Plug-ins.pdf">
-        <i class="fas fa-newspaper"></i> Java aktuell 01/2018
-      </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
-    - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/continuous_delivery_1_basics">
-        <i class="fas fa-rss-square"></i> Cloudogu blog
-      </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
-- date: 08/2017
-  title: Android Logging for Java Professionals – SLF4J - Logback in Android 
-  media:
-    - <a title="Journal" target="_blank" href="https://www.triology.de/wp-content/uploads/2017/09/Sonderdruck_Triology_JM9_17_Schnatterer_Android-Logging-fuer-Java-Profis.pdf">
-        <i class="fas fa-newspaper"></i> Java Magazin 9.17
-      </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
-    - <a title="Blog" target="_blank" href="https://www.triology.de/en/blog-entries/slf4j-and-logback-android">
-        <i class="fas fa-rss-square"></i> Triology blog
-      </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
-- date: 06/2017
-  title: 'Jenkins Pipeline plugin: code completion in IntelliJ'
-  media: <a title="Blog" target="_blank" href="https://www.triology.de/en/blog-entries/jenkins-pipeline-plugin-code-completion">
-           <i class="fas fa-rss-square"></i> Triology blog
-         </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
-- date: 01/2017
-  title: Automatic checks for vulnerabilities in Java project dependencies
-  media:
-    - <a title="Journal" target="_blank" href="https://www.triology.de/wp-content/uploads/2017/01/01_2017-Java_aktuell-Johannes-Schnatterer_Automatisierte-Ueberpruefung-von-Sicherheitsluecken-in-Abhaengigkeiten-von-Java-Projekten.pdf">
-        <i class="fas fa-newspaper"></i> Java aktuell 01/2017
-      </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
-    - <a title="Blog" target="_blank" href="https://www.triology.de/en/blog-entries/automatic-checks-for-vulnerabilities-in-java-project-dependencies">
-        <i class="fas fa-rss-square"></i> Triology blog
-      </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
-- date: 11/2016
-  title: 'Version names with Maven: Reading the version name'
-  media: <a title="Blog" target="_blank" href="https://www.triology.de/en/blog-entries/version-names-with-maven-reading-the-version-name">
-           <i class="fas fa-rss-square"></i> Triology blog
+- year: 2020
+  pubs:
+  - date: 03/2020
+    title: 'Kubernetes AppOps Security Part 4: Security Context (2/2) – Background'
+    media:
+      - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2020-02-Java-Spektrum--Johannes-Schnatterer_Security-Context_Teil-2.pdf">
+          <i class="fas fa-newspaper"></i> Java SPEKTRUM 02/2020
+        </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
+      - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/k8s-app-ops-part-4-security-context-2">
+          <i class="fas fa-rss-square"></i> Cloudogu Blog
         </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
-- date: 10/2016
-  title: 'Version names with Maven: Creating the version name'
-  media: <a title="Blog" target="_blank" href="https://www.triology.de/en/blog-entries/version-names-with-maven-creating-the-version-name">
-           <i class="fas fa-rss-square"></i> Triology blog
-         </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
+  - date: 02/2020
+    title: Docs As Code - Continuous Delivery of Presentations with reveal.js and Jenkins - Part 2
+    media: <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/continuous-delivery-with-revealjs-part-2">
+             <i class="fas fa-rss-square"></i> Cloudogu Blog
+           </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
+  - date: 01/2020	
+    title: 'Kubernetes AppOps Security Part 3: Security Context (1/2) – Good Practices'
+    media: 
+      - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2020-01-Java-Spektrum--Johannes-Schnatterer_Security-Context_Teil-1.pdf">
+          <i class="fas fa-newspaper"></i> Java SPEKTRUM 01/2020
+        </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg"> 
+      - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/k8s-app-ops-part-3-security-context-1">
+          <i class="fas fa-rss-square"></i> Cloudogu Blog
+        </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
+- year: 2019
+  pubs:
+  - date: 11/2019
+    title: 'Kubernetes AppOps Security Part 2: Using Network Policies (2/2) - Advanced Topics and Tricks'
+    media:
+      - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2019-06-Java-Spektrum-Network-Policies_Teil-2.pdf">
+          <i class="fas fa-newspaper"></i> Java SPEKTRUM 06/2019
+        </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
+      - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/k8s-app-ops-part-2">
+          <i class="fas fa-rss-square"></i> Cloudogu Blog
+        </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
+  - date: 09/2019
+    title: 'Kubernetes AppOps Security Part 1: Using Network Policies (1/2) - Basics and Good Practices'
+    media: 
+      - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2019-05-Java-Spektrum-Network-Policies-Teil-1.pdf">
+          <i class="fas fa-newspaper"></i> Java SPEKTRUM 05/2019
+        </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
+      - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/k8s-app-ops-part-1">
+          <i class="fas fa-rss-square"></i> Cloudogu Blog
+        </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
+  - date: 05/2019
+    title: Docs As Code - Continuous Delivery of Presentations with reveal.js and Jenkins - Part 1
+    media: <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/k8s-app-ops-part-1">
+             <i class="fas fa-rss-square"></i> Cloudogu Blog
+           </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
+  - date: 05/2019
+    title: Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu EcoSystem
+    media: <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces">
+             <i class="fas fa-rss-square"></i> Cloudogu Blog
+           </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
+- year: 2018
+  pubs:
+  - date: 07/2018
+    title: Coding Continuous Delivery — Static Code Analysis with SonarQube and Deployment on Kubernetes et al. with the Jenkins Pipeline Plugin
+    media: 
+      - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2018-04-Java-aktuell--Johannes-Schnatterer_Coding_Continuous_Delivery-SonarQube%20und%20Kubernetes.pdf">
+          <i class="fas fa-newspaper"></i> Java aktuell 04/2018
+        </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
+      - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/continuous_delivery_4_en">
+          <i class="fas fa-rss-square"></i> Cloudogu Blog
+        </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
+  - date: 05/2018
+    title: Coding Continuous Delivery – Helpful Tools for the Jenkins Pipeline
+    media:
+      - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2018-03-Java-aktuell--Coding_Continuous_Delivery-Hilfreiche%20Werkzeuge%20f%C3%BCr%20die%20Jenkins-Pipeline.pdf">
+          <i class="fas fa-newspaper"></i> Java aktuell 03/2018
+        </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
+      - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/continuous_delivery_part_3">
+          <i class="fas fa-rss-square"></i> Cloudogu Blog
+        </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
+  - date: 02/2018
+    title: Coding Continuous Delivery – Performance optimization for the Jenkins Pipeline
+    media:
+      - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2018-02-Java-Aktuell--Coding_Continuous_Delivery%E2%80%93Performance-Optimierung_f%C3%BCr_die_Jenkins-Pipeline.pdf">
+          <i class="fas fa-newspaper"></i> Java aktuell 02/2018
+        </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
+      - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/continuous_delivery_2">
+          <i class="fas fa-rss-square"></i> Cloudogu Blog
+        </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
+  - date: 01/2018
+    title: Coding Continuous Delivery – Jenkins pipeline plugin basics
+    media:
+      - <a title="Journal" target="_blank" href="https://cloudogu.com/downloads/publications/2018-01-Java-Aktuell--Coding-Continous-Delivery-Grundlagen-des-Jenkins-Pipeline-Plug-ins.pdf">
+          <i class="fas fa-newspaper"></i> Java aktuell 01/2018
+        </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
+      - <a title="Blog" target="_blank" href="https://cloudogu.com/en/blog/continuous_delivery_1_basics">
+          <i class="fas fa-rss-square"></i> Cloudogu Blog
+        </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
+- year: 2017
+  pubs:
+  - date: 08/2017
+    title: Android Logging for Java Professionals – SLF4J - Logback in Android 
+    media:
+      - <a title="Journal" target="_blank" href="https://www.triology.de/wp-content/uploads/2017/09/Sonderdruck_Triology_JM9_17_Schnatterer_Android-Logging-fuer-Java-Profis.pdf">
+          <i class="fas fa-newspaper"></i> Java Magazin 9.17
+        </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
+      - <a title="Blog" target="_blank" href="https://www.triology.de/en/blog-entries/slf4j-and-logback-android">
+          <i class="fas fa-rss-square"></i> Triology blog
+        </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
+  - date: 06/2017
+    title: 'Jenkins Pipeline plugin: code completion in IntelliJ'
+    media: <a title="Blog" target="_blank" href="https://www.triology.de/en/blog-entries/jenkins-pipeline-plugin-code-completion">
+             <i class="fas fa-rss-square"></i> Triology blog
+           </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
+  - date: 01/2017
+    title: Automatic checks for vulnerabilities in Java project dependencies
+    media:
+      - <a title="Journal" target="_blank" href="https://www.triology.de/wp-content/uploads/2017/01/01_2017-Java_aktuell-Johannes-Schnatterer_Automatisierte-Ueberpruefung-von-Sicherheitsluecken-in-Abhaengigkeiten-von-Java-Projekten.pdf">
+          <i class="fas fa-newspaper"></i> Java aktuell 01/2017
+        </a> <img class="emoji" title="German" alt="🇬🇧🇩🇪" src="img/de.svg">
+      - <a title="Blog" target="_blank" href="https://www.triology.de/en/blog-entries/automatic-checks-for-vulnerabilities-in-java-project-dependencies">
+          <i class="fas fa-rss-square"></i> Triology blog
+        </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
+- year: 2016
+  pubs:
+  - date: 11/2016
+    title: 'Version names with Maven: Reading the version name'
+    media: <a title="Blog" target="_blank" href="https://www.triology.de/en/blog-entries/version-names-with-maven-reading-the-version-name">
+             <i class="fas fa-rss-square"></i> Triology blog
+          </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
+  - date: 10/2016
+    title: 'Version names with Maven: Creating the version name'
+    media: <a title="Blog" target="_blank" href="https://www.triology.de/en/blog-entries/version-names-with-maven-creating-the-version-name">
+             <i class="fas fa-rss-square"></i> Triology blog
+           </a> <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">

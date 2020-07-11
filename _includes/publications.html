@@ -1,14 +1,32 @@
 <section id="projects" class="about">
-    <div class="container">
+    
+    <div class="universal-wrapper">
         <div class="row">
             <div class="col-lg-12 text-center">
-            {% for publication in site.data.publications %}
-                <h4><strong>{{ publication.date }}: {{ publication.title }}</strong></h4>
-                {% for medium in publication.media %}
-                <div>{{ medium }}</div>
+                {% for pubsPerYear in site.data.publications %}
+                <div class="row">
+                    <div class="col-lg-2">
+                        <h3 class="year">{{ pubsPerYear.year }}</h3>
+                    </div>
+                    <div class="col-lg-10">
+                        {% for pub in pubsPerYear.pubs %}
+                        <div class="card-simple">
+                            <div class="article-metadata">
+                                <div title="Date"><i class="far fa-calendar-alt"></i> {{ pub.date }}</div>
+                            </div>
+                            <h3><span>{{ pub.title }}</span></h3>
+                            <div class="article-metadata">
+                                {% for medium in pub.media %}
+                                <div>{{ medium }}</div>
+                                {% endfor %}
+                            </div>
+                        </div>
+                    {% endfor %}
+                    </div>
+                </div>
+                <br/>&nbsp;
                 {% endfor %}
-                <br/>
-            {% endfor %}
+            </div>
             </div>
         </div>
     </div>
