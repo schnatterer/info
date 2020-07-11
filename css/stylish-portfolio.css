@@ -97,7 +97,7 @@ h3.year {
 }
 
 table.center th {
-    font-size: 20px;
+    font-size: 18px;
     white-space: nowrap;
 }
 
@@ -249,6 +249,19 @@ a.summary-link {
 @media only screen and (min-width:1001px) {
     .universal-wrapper {
         width: 1000px;
+    }
+}
+
+.universal-wrapper-table {
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.1rem;
+    width: 100%;
+}
+@media only screen and (min-width:1401px) {
+    .universal-wrapper-table {
+        width: 1400px;
     }
 }
 
