@@ -1,5 +1,13 @@
 - year: 2020
   pubs:
+    - date: '2020-04-26'
+      title: Continuous Delivery to Maven Central with Travis CI
+      ID: '1316'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2020/04/26/continuous-delivery-to-maven-central-with-travis-ci/
+          lang: EN
     - date: '2020-03-27'
       title: 'Kubernetes AppOps Security Part 4: Security Context (2/2) – Background'
       media:
@@ -30,14 +38,6 @@
           medium: Cloudogu Blog
           link: https://cloudogu.com/en/blog/k8s-app-ops-part-3-security-context-1
           lang: EN
-    - date: '2020-04-26'
-      title: Continuous Delivery to Maven Central with Travis CI
-      ID: '1316'
-      media:
-        - type: Blog
-          medium: IT Affinity Blog
-          link: https://itaffinity.wordpress.com/2020/04/26/continuous-delivery-to-maven-central-with-travis-ci/
-          lang: EN
 - year: 2019
   pubs:
     - date: '2019-11-29'
@@ -51,6 +51,14 @@
         - type: Blog
           medium: Cloudogu Blog
           link: https://cloudogu.com/en/blog/k8s-app-ops-part-2
+          lang: EN
+    - date: '2019-10-03'
+      title: Querying docker image sizes via the command line
+      ID: '1229'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2019/10/03/querying-docker-image-sizes-via-the-command-line/
           lang: EN
     - date: '2019-09-27'
       title: 'Kubernetes AppOps Security Part 1: Using Network Policies (1/2) - Basics
@@ -71,21 +79,6 @@
         - type: Blog
           medium: Cloudogu Blog
           link: https://cloudogu.com/en/blog/continuous-delivery-with-revealjs
-          lang: EN
-    - date: '2019-05-09'
-      title: Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu EcoSystem
-      media:
-        - type: Blog
-          medium: Cloudogu Blog
-          link: https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces
-          lang: EN
-    - date: '2019-10-03'
-      title: Querying docker image sizes via the command line
-      ID: '1229'
-      media:
-        - type: Blog
-          medium: IT Affinity Blog
-          link: https://itaffinity.wordpress.com/2019/10/03/querying-docker-image-sizes-via-the-command-line/
           lang: EN
     - date: '2019-07-02'
       title: Generating a hard-coded build number/version name in your Java app
@@ -112,8 +105,23 @@
           medium: IT Affinity Blog
           link: https://itaffinity.wordpress.com/2019/05/16/graal-native-images-quarkus-micronaut-helidon/
           lang: EN
+    - date: '2019-05-09'
+      title: Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu EcoSystem
+      media:
+        - type: Blog
+          medium: Cloudogu Blog
+          link: https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces
+          lang: EN
 - year: 2018
   pubs:
+    - date: '2018-07-15'
+      title: Coding Continuous Delivery with Jenkins Pipelines
+      ID: '1107'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2018/07/15/coding-continuous-delivery-with-jenkins-pipelines/
+          lang: EN
     - date: '2018-07-13'
       title: Coding Continuous Delivery — Static Code Analysis with SonarQube and
         Deployment on Kubernetes et al. with the Jenkins Pipeline Plugin
@@ -160,14 +168,6 @@
           medium: Cloudogu Blog
           link: https://cloudogu.com/en/blog/continuous_delivery_1_basics
           lang: EN
-    - date: '2018-07-15'
-      title: Coding Continuous Delivery with Jenkins Pipelines
-      ID: '1107'
-      media:
-        - type: Blog
-          medium: IT Affinity Blog
-          link: https://itaffinity.wordpress.com/2018/07/15/coding-continuous-delivery-with-jenkins-pipelines/
-          lang: EN
     - date: '2018-04-03'
       title: The pragmatic migration to JUnit 5
       ID: '1080'
@@ -178,35 +178,6 @@
           lang: EN
 - year: 2017
   pubs:
-    - date: '2017-08-21'
-      title: Android Logging for Java Professionals – SLF4J - Logback in Android
-      media:
-        - type: Journal
-          medium: Java Magazin 9.17
-          link: https://www.triology.de/wp-content/uploads/2017/09/Sonderdruck_Triology_JM9_17_Schnatterer_Android-Logging-fuer-Java-Profis.pdf
-          lang: DE
-        - type: Blog
-          medium: Triology Blog
-          link: https://www.triology.de/en/blog-entries/slf4j-and-logback-android
-          lang: EN
-    - date: '2017-06-06'
-      title: 'Jenkins Pipeline plugin: code completion in IntelliJ'
-      media:
-        - type: Blog
-          medium: Triology Blog
-          link: https://www.triology.de/en/blog-entries/jenkins-pipeline-plugin-code-completion
-          lang: EN
-    - date: '2017-01-16'
-      title: Automatic checks for vulnerabilities in Java project dependencies
-      media:
-        - type: Journal
-          medium: Java Aktuell 01/2017
-          link: https://www.triology.de/wp-content/uploads/2017/01/01_2017-Java_aktuell-Johannes-Schnatterer_Automatisierte-Ueberpruefung-von-Sicherheitsluecken-in-Abhaengigkeiten-von-Java-Projekten.pdf
-          lang: DE
-        - type: Blog
-          medium: Triology Blog
-          link: https://www.triology.de/en/blog-entries/automatic-checks-for-vulnerabilities-in-java-project-dependencies
-          lang: EN
     - date: '2017-10-05'
       title: More sutainable Android Software with Project Treble and 6-y LTS Kernels
         on Android O?
@@ -224,6 +195,17 @@
           medium: IT Affinity Blog
           link: https://itaffinity.wordpress.com/2017/09/09/android-logging-for-java-professionals-slf4j-and-logback-in-android/
           lang: EN
+    - date: '2017-08-21'
+      title: Android Logging for Java Professionals – SLF4J - Logback in Android
+      media:
+        - type: Journal
+          medium: Java Magazin 9.17
+          link: https://www.triology.de/wp-content/uploads/2017/09/Sonderdruck_Triology_JM9_17_Schnatterer_Android-Logging-fuer-Java-Profis.pdf
+          lang: DE
+        - type: Blog
+          medium: Triology Blog
+          link: https://www.triology.de/en/blog-entries/slf4j-and-logback-android
+          lang: EN
     - date: '2017-06-10'
       title: Android 7 (Nougat) on a 5-year-old phone
       ID: '984'
@@ -231,6 +213,13 @@
         - type: Blog
           medium: IT Affinity Blog
           link: https://itaffinity.wordpress.com/2017/06/10/android-7-nougat-on-a-5-year-old-phone/
+          lang: EN
+    - date: '2017-06-06'
+      title: 'Jenkins Pipeline plugin: code completion in IntelliJ'
+      media:
+        - type: Blog
+          medium: Triology Blog
+          link: https://www.triology.de/en/blog-entries/jenkins-pipeline-plugin-code-completion
           lang: EN
     - date: '2017-01-17'
       title: Automatic checks for vulnerabilities in Java project dependencies
@@ -240,8 +229,27 @@
           medium: IT Affinity Blog
           link: https://itaffinity.wordpress.com/2017/01/17/automatic-checks-for-vulnerabilities-in-java-project-dependencies/
           lang: EN
+    - date: '2017-01-16'
+      title: Automatic checks for vulnerabilities in Java project dependencies
+      media:
+        - type: Journal
+          medium: Java Aktuell 01/2017
+          link: https://www.triology.de/wp-content/uploads/2017/01/01_2017-Java_aktuell-Johannes-Schnatterer_Automatisierte-Ueberpruefung-von-Sicherheitsluecken-in-Abhaengigkeiten-von-Java-Projekten.pdf
+          lang: DE
+        - type: Blog
+          medium: Triology Blog
+          link: https://www.triology.de/en/blog-entries/automatic-checks-for-vulnerabilities-in-java-project-dependencies
+          lang: EN
 - year: 2016
   pubs:
+    - date: '2016-11-08'
+      title: 'Maven: Create a more sophisticated build number'
+      ID: '966'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2016/11/08/maven-create-a-more-sophisticated-build-number/
+          lang: EN
     - date: '2016-11-07'
       title: 'Version names with Maven: Reading the version name'
       media:
@@ -255,14 +263,6 @@
         - type: Blog
           medium: Triology Blog
           link: https://www.triology.de/en/blog-entries/version-names-with-maven-creating-the-version-name
-          lang: EN
-    - date: '2016-11-08'
-      title: 'Maven: Create a more sophisticated build number'
-      ID: '966'
-      media:
-        - type: Blog
-          medium: IT Affinity Blog
-          link: https://itaffinity.wordpress.com/2016/11/08/maven-create-a-more-sophisticated-build-number/
           lang: EN
 - year: 2015
   pubs:
@@ -309,20 +309,20 @@
           link: https://itaffinity.wordpress.com/2015/07/01/modernizing-android-uis-part-1-migrating-from-actionbarsherlock-to-material-design/
           lang: EN
     - date: '2015-05-25'
-      title: 'iTunes: Exporting playlists with relative paths'
-      ID: '603'
-      media:
-        - type: Blog
-          medium: IT Affinity Blog
-          link: https://itaffinity.wordpress.com/2015/05/25/itunes-exporting-playlists-with-relative-paths/
-          lang: EN
-    - date: '2015-05-25'
       title: Migrating from Songbird/Nightingale to iTunes
       ID: '589'
       media:
         - type: Blog
           medium: IT Affinity Blog
           link: https://itaffinity.wordpress.com/2015/05/25/migrating-from-songbirdnightingale-to-itunes/
+          lang: EN
+    - date: '2015-05-25'
+      title: 'iTunes: Exporting playlists with relative paths'
+      ID: '603'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2015/05/25/itunes-exporting-playlists-with-relative-paths/
           lang: EN
     - date: '2015-02-26'
       title: Building GitHub projects with Jenkins, Maven and SonarQube 4.1.1 on OpenShift
@@ -410,14 +410,6 @@
           link: https://itaffinity.wordpress.com/2013/04/17/hibernate-write-sql-to-a-specific-logfile-without-additional-framework/
           lang: EN
     - date: '2013-01-27'
-      title: 'Songbird/Nightingale: Improving search performance'
-      ID: '317'
-      media:
-        - type: Blog
-          medium: IT Affinity Blog
-          link: https://itaffinity.wordpress.com/2013/01/27/songbirdnightingale-improving-search-performance/
-          lang: EN
-    - date: '2013-01-27'
       title: 'NAS: Downgrading DSM (DS213+)'
       ID: '302'
       media:
@@ -425,13 +417,13 @@
           medium: IT Affinity Blog
           link: https://itaffinity.wordpress.com/2013/01/27/nas-downgrading-dsm-ds213/
           lang: EN
-    - date: '2013-01-23'
-      title: 'Songbird/Nightingale: Exporting playlists'
-      ID: '291'
+    - date: '2013-01-27'
+      title: 'Songbird/Nightingale: Improving search performance'
+      ID: '317'
       media:
         - type: Blog
           medium: IT Affinity Blog
-          link: https://itaffinity.wordpress.com/2013/01/23/export-songbird-playlists-2/
+          link: https://itaffinity.wordpress.com/2013/01/27/songbirdnightingale-improving-search-performance/
           lang: EN
     - date: '2013-01-23'
       title: 'Songbird/Nightingale: Using Songbird database in Nightingale'
@@ -440,6 +432,14 @@
         - type: Blog
           medium: IT Affinity Blog
           link: https://itaffinity.wordpress.com/2013/01/23/using-songbird-database-in-nightingale/
+          lang: EN
+    - date: '2013-01-23'
+      title: 'Songbird/Nightingale: Exporting playlists'
+      ID: '291'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/01/23/export-songbird-playlists-2/
           lang: EN
     - date: '2013-01-05'
       title: 'Microsoft Robocopy vs Linux NAS: Robocopy Pitfalls'
@@ -458,20 +458,20 @@
           link: https://itaffinity.wordpress.com/2013/01/04/nas-ds213-wd20npvt-3-performance-and-encryption/
           lang: EN
     - date: '2013-01-01'
-      title: 'NAS: DS213+ &amp; WD20NPVT – 2. Power Consumption'
-      ID: '191'
-      media:
-        - type: Blog
-          medium: IT Affinity Blog
-          link: https://itaffinity.wordpress.com/2013/01/01/nas-ds213-wd20npvt-2-power-consumption/
-          lang: EN
-    - date: '2013-01-01'
       title: 'NAS: DS213+ &amp; WD20NPVT – 1. Conclusion'
       ID: '183'
       media:
         - type: Blog
           medium: IT Affinity Blog
           link: https://itaffinity.wordpress.com/2013/01/01/nas-dsj213-wd20npvt-1-conclusion/
+          lang: EN
+    - date: '2013-01-01'
+      title: 'NAS: DS213+ &amp; WD20NPVT – 2. Power Consumption'
+      ID: '191'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/01/01/nas-ds213-wd20npvt-2-power-consumption/
           lang: EN
 - year: 2012
   pubs:

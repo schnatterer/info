@@ -20,8 +20,6 @@ while [[ 1 ]]; do
     #  }
   fi
     
-  # TODO sorting
-  
   postIndex=0
   for post in $(jq -r '.posts[] | @base64' ${posts}); do
     _jq() {
