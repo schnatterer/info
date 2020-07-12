@@ -1,6 +1,6 @@
 - year: 2020
   pubs:
-    - date: 2020/03/27
+    - date: '2020-03-27'
       title: 'Kubernetes AppOps Security Part 4: Security Context (2/2) – Background'
       media:
         - type: Journal
@@ -11,7 +11,7 @@
           medium: Cloudogu Blog
           link: https://cloudogu.com/en/blog/k8s-app-ops-part-4-security-context-2
           lang: EN
-    - date: 2020/02/11
+    - date: '2020-02-11'
       title: Docs As Code - Continuous Delivery of Presentations with reveal.js and
         Jenkins - Part 2
       media:
@@ -19,7 +19,7 @@
           medium: Cloudogu Blog
           link: https://cloudogu.com/en/blog/continuous-delivery-with-revealjs-part-2
           lang: EN
-    - date: 2020/01/31
+    - date: '2020-01-31'
       title: 'Kubernetes AppOps Security Part 3: Security Context (1/2) – Good Practices'
       media:
         - type: Journal
@@ -40,7 +40,7 @@
           lang: EN
 - year: 2019
   pubs:
-    - date: 2019/11/29
+    - date: '2019-11-29'
       title: 'Kubernetes AppOps Security Part 2: Using Network Policies (2/2) - Advanced
         Topics and Tricks'
       media:
@@ -52,7 +52,7 @@
           medium: Cloudogu Blog
           link: https://cloudogu.com/en/blog/k8s-app-ops-part-2
           lang: EN
-    - date: 2019/09/27
+    - date: '2019-09-27'
       title: 'Kubernetes AppOps Security Part 1: Using Network Policies (1/2) - Basics
         and Good Practices'
       media:
@@ -64,7 +64,7 @@
           medium: Cloudogu Blog
           link: https://cloudogu.com/en/blog/k8s-app-ops-part-1
           lang: EN
-    - date: 2019/09/05
+    - date: '2019-09-05'
       title: Docs As Code - Continuous Delivery of Presentations with reveal.js and
         Jenkins - Part 1
       media:
@@ -72,7 +72,7 @@
           medium: Cloudogu Blog
           link: https://cloudogu.com/en/blog/continuous-delivery-with-revealjs
           lang: EN
-    - date: 2019/05/09
+    - date: '2019-05-09'
       title: Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu EcoSystem
       media:
         - type: Blog
@@ -114,7 +114,7 @@
           lang: EN
 - year: 2018
   pubs:
-    - date: 2018/07/13
+    - date: '2018-07-13'
       title: Coding Continuous Delivery — Static Code Analysis with SonarQube and
         Deployment on Kubernetes et al. with the Jenkins Pipeline Plugin
       media:
@@ -126,7 +126,7 @@
           medium: Cloudogu Blog
           link: https://cloudogu.com/en/blog/continuous_delivery_4_en
           lang: EN
-    - date: 2018/05/24
+    - date: '2018-05-24'
       title: Coding Continuous Delivery – Helpful Tools for the Jenkins Pipeline
       media:
         - type: Journal
@@ -137,7 +137,7 @@
           medium: Cloudogu Blog
           link: https://cloudogu.com/en/blog/continuous_delivery_part_3
           lang: EN
-    - date: 2018/05/02
+    - date: '2018-05-02'
       title: Coding Continuous Delivery – Performance optimization for the Jenkins
         Pipeline
       media:
@@ -149,7 +149,7 @@
           medium: Cloudogu Blog
           link: https://cloudogu.com/en/blog/continuous_delivery_2
           lang: EN
-    - date: 2018/04/19
+    - date: '2018-04-19'
       title: Coding Continuous Delivery – Jenkins pipeline plugin basics
       media:
         - type: Journal
@@ -178,7 +178,7 @@
           lang: EN
 - year: 2017
   pubs:
-    - date: 2017/08/21
+    - date: '2017-08-21'
       title: Android Logging for Java Professionals – SLF4J - Logback in Android
       media:
         - type: Journal
@@ -189,14 +189,14 @@
           medium: Triology Blog
           link: https://www.triology.de/en/blog-entries/slf4j-and-logback-android
           lang: EN
-    - date: 2017/06/06
+    - date: '2017-06-06'
       title: 'Jenkins Pipeline plugin: code completion in IntelliJ'
       media:
         - type: Blog
           medium: Triology Blog
           link: https://www.triology.de/en/blog-entries/jenkins-pipeline-plugin-code-completion
           lang: EN
-    - date: 2017/01/16
+    - date: '2017-01-16'
       title: Automatic checks for vulnerabilities in Java project dependencies
       media:
         - type: Journal
@@ -242,14 +242,14 @@
           lang: EN
 - year: 2016
   pubs:
-    - date: 2016/11/07
+    - date: '2016-11-07'
       title: 'Version names with Maven: Reading the version name'
       media:
         - type: Blog
           medium: Triology Blog
           link: https://www.triology.de/en/blog-entries/version-names-with-maven-reading-the-version-name
           lang: EN
-    - date: 2016/10/24
+    - date: '2016-10-24'
       title: 'Version names with Maven: Creating the version name'
       media:
         - type: Blog
