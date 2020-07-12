@@ -11,9 +11,9 @@ for project in $(yq -r '.projects[].name' ${BASEDIR}/../projects.yaml); do
   cd ..
   echo ${i}: ${project}, commits from ${firstDate} to ${lastDate}
   tmpfile=$(mktemp)
-  yq --arg val ${firstDate} ".projects[$i].commits.from=\$val" ${BASEDIR}/../projects.yaml | \
-  jq --arg val ${lastDate} ".projects[$i].commits.to=\$val" | \
-  yq --arg val ${nCommits} --yaml-output ".projects[$i].commits.amount=\$val" > ${tmpfile}
+  yq --arg val ${firstDate} ".projects[$i].commits.from=\$val" ${BASEDIR}/../projects.yaml \
+    | jq --arg val ${lastDate} ".projects[$i].commits.to=\$val" \
+    | yq --arg val ${nCommits} --yaml-output ".projects[$i].commits.amount=\$val" > ${tmpfile}
   mv ${tmpfile} ${BASEDIR}/../projects.yaml
   rm -rf tmp
   i=$((i+1))
