@@ -1,52 +1,54 @@
 <section id="projects" class="about">
-    <div class="universal-wrapper-table">
-    <p style="text-align: right;"><strong>Updated: {{ site.data.projects.updated }}</strong></p>
-    <br/>
-    <div class="table-container">
-        <table class="table center">
-            <thead>
-            <tr>
-                <th scope="col" title="Name">
-                    <i class="fab fa-github"></i> <span class="hidden-xs"> Name</span>
-                </th>
-                <th scope="col" title="Stars">
-                    <i class="fas fa-star"></i><span class="hidden-xs"> Stars</span>
-                </th>
-                <th scope="col" title="Description">
-                    <i class="fas fa-info-circle"></i><span class="hidden-xs"> Description</span>
-                </th>
-                <th scope="col" title="Technologies">
-                    <i class="fas fa-cogs"></i> <span class="hidden-xs"> Technologies</span>
-                </th>
-                <th scope="col" title="Role">
-                    <i class="fas fa-user-tag"></i> <span class="hidden-xs"> Role</span>
-                </th>
-                <th scope="col" title="First Commit">
-                    <i class="fas fa-play"></i> <span class="hidden-xs"> Commit</span>
-                </th>
-                <th scope="col" title="Last Commit">
-                    <i class="fas fa-stop"></i> <span class="hidden-xs"> Commit</span>
-                </th>
-                <th scope="col" title="Number of Commits">
-                    <i class="fas fa-hashtag"></i> <span class="hidden-xs"> Commits</span>
-                </th>
-            </tr>
-            </thead>
-            <tbody>
-            {% for project in site.data.projects.projects %}
-            <tr>
-                <td class="row"><a href="https://github.com/{{ project.name }}">{{ project.name | replace: "/", "/&#8203;" }}</a></td>
-                <td class="row"><img src="https://img.shields.io/github/stars/{{ project.name }}.svg?style=flat&label=&logo=github&labelColor=000000"/></td>
-                <td class="row">{{ project.description }}</td>
-                <td class="row">{{ project.technologies }}</td>
-                <td class="row">{{ project.contribution }}</td>
-                <td class="row">{{ project.commits.from }}</td>
-                <td class="row">{{ project.commits.to }}</td>
-                <td class="row">{{ project.commits.amount }}</td>
-            </tr>
-            {% endfor %}
-            </tbody>
-        </table>
-    </div>
+    <div class="container">
+        <div class="universal-wrapper-table">
+            <span class="col-xs-6 text-left ">Supported by <a title="Jet Brains" href="https://www.jetbrains.com/?from=Nusic" target="_blank"><img src="img/jetbrains.png" alt="Jet Brains" width="50"></a></span>    
+            <span class="col-xs-6 text-right"><strong>Updated: {{ site.data.projects.updated }}</strong></span>
+            <div class="col-xs-12 table-container">
+                <table class="table center">
+                    <thead>
+                    <tr>
+                        <th scope="col" title="Name">
+                            <i class="fab fa-github"></i> <span class="hidden-xs"> Name</span>
+                        </th>
+                        <th scope="col" title="Stars">
+                            <i class="fas fa-star"></i><span class="hidden-xs"> Stars</span>
+                        </th>
+                        <th scope="col" title="Description">
+                            <i class="fas fa-info-circle"></i><span class="hidden-xs"> Description</span>
+                        </th>
+                        <th scope="col" title="Technologies">
+                            <i class="fas fa-cogs"></i> <span class="hidden-xs"> Technologies</span>
+                        </th>
+                        <th scope="col" title="Role">
+                            <i class="fas fa-user-tag"></i> <span class="hidden-xs"> Role</span>
+                        </th>
+                        <th scope="col" title="First Commit">
+                            <i class="fas fa-play"></i> <span class="hidden-xs"> Commit</span>
+                        </th>
+                        <th scope="col" title="Last Commit">
+                            <i class="fas fa-stop"></i> <span class="hidden-xs"> Commit</span>
+                        </th>
+                        <th scope="col" title="Number of Commits">
+                            <i class="fas fa-hashtag"></i> <span class="hidden-xs"> Commits</span>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    {% for project in site.data.projects.projects %}
+                    <tr>
+                        <td class="row"><a href="https://github.com/{{ project.name }}">{{ project.name | replace: "/", "/&#8203;" }}</a></td>
+                        <td class="row"><img src="https://img.shields.io/github/stars/{{ project.name }}.svg?style=flat&label=&logo=github&labelColor=000000"/></td>
+                        <td class="row">{{ project.description }}</td>
+                        <td class="row">{{ project.technologies }}</td>
+                        <td class="row">{{ project.contribution }}</td>
+                        <td class="row">{{ project.commits.from }}</td>
+                        <td class="row">{{ project.commits.to }}</td>
+                        <td class="row">{{ project.commits.amount }}</td>
+                    </tr>
+                    {% endfor %}
+                    </tbody>
+                </table>
+            </div>
+        </div>
     </div>
 </section>
