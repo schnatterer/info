@@ -1,162 +1,509 @@
 - year: 2020
   pubs:
-  - date: 2020/03/27
-    title: 'Kubernetes AppOps Security Part 4: Security Context (2/2) – Background'
-    media:
-      - type: Journal
-        medium: Java SPEKTRUM 02/2020
-        link: https://cloudogu.com/downloads/publications/2020-02-Java-Spektrum--Johannes-Schnatterer_Security-Context_Teil-2.pdf
-        lang: DE
-      - type: Blog
-        medium: Cloudogu Blog
-        link: https://cloudogu.com/en/blog/k8s-app-ops-part-4-security-context-2
-        lang: EN
-  - date: 2020/02/11
-    title: Docs As Code - Continuous Delivery of Presentations with reveal.js and Jenkins - Part 2
-    media:
-      - type: Blog
-        medium: Cloudogu Blog
-        link: https://cloudogu.com/en/blog/continuous-delivery-with-revealjs-part-2
-        lang: EN
-  - date: 2020/01/31
-    title: 'Kubernetes AppOps Security Part 3: Security Context (1/2) – Good Practices'
-    media:
-      - type: Journal
-        medium: Java SPEKTRUM 01/2020
-        link: https://cloudogu.com/downloads/publications/2020-01-Java-Spektrum--Johannes-Schnatterer_Security-Context_Teil-1.pdf
-        lang: DE
-      - type: Blog
-        medium: Cloudogu Blog
-        link: https://cloudogu.com/en/blog/k8s-app-ops-part-3-security-context-1
-        lang: EN
+    - date: 2020/03/27
+      title: 'Kubernetes AppOps Security Part 4: Security Context (2/2) – Background'
+      media:
+        - type: Journal
+          medium: Java SPEKTRUM 02/2020
+          link: https://cloudogu.com/downloads/publications/2020-02-Java-Spektrum--Johannes-Schnatterer_Security-Context_Teil-2.pdf
+          lang: DE
+        - type: Blog
+          medium: Cloudogu Blog
+          link: https://cloudogu.com/en/blog/k8s-app-ops-part-4-security-context-2
+          lang: EN
+    - date: 2020/02/11
+      title: Docs As Code - Continuous Delivery of Presentations with reveal.js and
+        Jenkins - Part 2
+      media:
+        - type: Blog
+          medium: Cloudogu Blog
+          link: https://cloudogu.com/en/blog/continuous-delivery-with-revealjs-part-2
+          lang: EN
+    - date: 2020/01/31
+      title: 'Kubernetes AppOps Security Part 3: Security Context (1/2) – Good Practices'
+      media:
+        - type: Journal
+          medium: Java SPEKTRUM 01/2020
+          link: https://cloudogu.com/downloads/publications/2020-01-Java-Spektrum--Johannes-Schnatterer_Security-Context_Teil-1.pdf
+          lang: DE
+        - type: Blog
+          medium: Cloudogu Blog
+          link: https://cloudogu.com/en/blog/k8s-app-ops-part-3-security-context-1
+          lang: EN
+    - date: '2020-04-26'
+      title: Continuous Delivery to Maven Central with Travis CI
+      ID: '1316'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2020/04/26/continuous-delivery-to-maven-central-with-travis-ci/
+          lang: EN
 - year: 2019
   pubs:
-  - date: 2019/11/29
-    title: 'Kubernetes AppOps Security Part 2: Using Network Policies (2/2) - Advanced Topics and Tricks'
-    media:
-      - type: Journal
-        medium: Java SPEKTRUM 06/2019
-        link: https://cloudogu.com/downloads/publications/2019-06-Java-Spektrum-Network-Policies_Teil-2.pdf
-        lang: DE
-      - type: Blog
-        medium: Cloudogu Blog
-        link: https://cloudogu.com/en/blog/k8s-app-ops-part-2
-        lang: EN
-  - date: 2019/09/27
-    title: 'Kubernetes AppOps Security Part 1: Using Network Policies (1/2) - Basics and Good Practices'
-    media:
-      - type: Journal
-        medium: Java SPEKTRUM 05/2019
-        link: https://cloudogu.com/downloads/publications/2019-05-Java-Spektrum-Network-Policies-Teil-1.pdf
-        lang: DE
-      - type: Blog
-        medium: Cloudogu Blog
-        link: https://cloudogu.com/en/blog/k8s-app-ops-part-1
-        lang: EN
-  - date: 2019/09/05
-    title: Docs As Code - Continuous Delivery of Presentations with reveal.js and Jenkins - Part 1
-    media:
-      - type: Blog
-        medium: Cloudogu Blog
-        link: https://cloudogu.com/en/blog/continuous-delivery-with-revealjs
-        lang: EN
-  - date: 2019/05/09
-    title: Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu EcoSystem
-    media:
-      - type: Blog
-        medium: Cloudogu Blog
-        link: https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces
-        lang: EN
+    - date: 2019/11/29
+      title: 'Kubernetes AppOps Security Part 2: Using Network Policies (2/2) - Advanced
+        Topics and Tricks'
+      media:
+        - type: Journal
+          medium: Java SPEKTRUM 06/2019
+          link: https://cloudogu.com/downloads/publications/2019-06-Java-Spektrum-Network-Policies_Teil-2.pdf
+          lang: DE
+        - type: Blog
+          medium: Cloudogu Blog
+          link: https://cloudogu.com/en/blog/k8s-app-ops-part-2
+          lang: EN
+    - date: 2019/09/27
+      title: 'Kubernetes AppOps Security Part 1: Using Network Policies (1/2) - Basics
+        and Good Practices'
+      media:
+        - type: Journal
+          medium: Java SPEKTRUM 05/2019
+          link: https://cloudogu.com/downloads/publications/2019-05-Java-Spektrum-Network-Policies-Teil-1.pdf
+          lang: DE
+        - type: Blog
+          medium: Cloudogu Blog
+          link: https://cloudogu.com/en/blog/k8s-app-ops-part-1
+          lang: EN
+    - date: 2019/09/05
+      title: Docs As Code - Continuous Delivery of Presentations with reveal.js and
+        Jenkins - Part 1
+      media:
+        - type: Blog
+          medium: Cloudogu Blog
+          link: https://cloudogu.com/en/blog/continuous-delivery-with-revealjs
+          lang: EN
+    - date: 2019/05/09
+      title: Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu EcoSystem
+      media:
+        - type: Blog
+          medium: Cloudogu Blog
+          link: https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces
+          lang: EN
+    - date: '2019-10-03'
+      title: Querying docker image sizes via the command line
+      ID: '1229'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2019/10/03/querying-docker-image-sizes-via-the-command-line/
+          lang: EN
+    - date: '2019-07-02'
+      title: Generating a hard-coded build number/version name in your Java app
+      ID: '1184'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2019/07/02/generating-a-hard-coded-build-number-version-name-in-your-java-app/
+          lang: EN
+    - date: '2019-06-22'
+      title: GraalVM (a bit) beyond Hello World
+      ID: '1170'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2019/06/22/graalvm-a-bit-beyond-hello-world/
+          lang: EN
+    - date: '2019-05-16'
+      title: 'Short comparison: Building Graal Native Images with Quarkus, Micronaut
+        and Helidon'
+      ID: '1171'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2019/05/16/graal-native-images-quarkus-micronaut-helidon/
+          lang: EN
 - year: 2018
   pubs:
-  - date: 2018/07/13
-    title: Coding Continuous Delivery — Static Code Analysis with SonarQube and Deployment on Kubernetes et al. with the Jenkins Pipeline Plugin
-    media:
-      - type: Journal
-        medium: Java Aktuell 04/2018
-        link: https://cloudogu.com/downloads/publications/2018-04-Java-aktuell--Johannes-Schnatterer_Coding_Continuous_Delivery-SonarQube%20und%20Kubernetes.pdf
-        lang: DE
-      - type: Blog
-        medium: Cloudogu Blog
-        link: https://cloudogu.com/en/blog/continuous_delivery_4_en
-        lang: EN
-  - date: 2018/05/24
-    title: Coding Continuous Delivery – Helpful Tools for the Jenkins Pipeline
-    media:
-      - type: Journal
-        medium: Java Aktuell 03/2018
-        link: https://cloudogu.com/downloads/publications/2018-03-Java-aktuell--Coding_Continuous_Delivery-Hilfreiche%20Werkzeuge%20f%C3%BCr%20die%20Jenkins-Pipeline.pdf
-        lang: DE
-      - type: Blog
-        medium: Cloudogu Blog
-        link: https://cloudogu.com/en/blog/continuous_delivery_part_3
-        lang: EN
-  - date: 2018/05/02
-    title: Coding Continuous Delivery – Performance optimization for the Jenkins Pipeline
-    media:
-      - type: Journal
-        medium: Java Aktuell 02/2018
-        link: https://cloudogu.com/downloads/publications/2018-02-Java-Aktuell--Coding_Continuous_Delivery%E2%80%93Performance-Optimierung_f%C3%BCr_die_Jenkins-Pipeline.pdf
-        lang: DE
-      - type: Blog
-        medium: Cloudogu Blog
-        link: https://cloudogu.com/en/blog/continuous_delivery_2
-        lang: EN
-  - date: 2018/04/19
-    title: Coding Continuous Delivery – Jenkins pipeline plugin basics
-    media:
-      - type: Journal
-        medium: Java Aktuell 01/2018
-        link: https://cloudogu.com/downloads/publications/2018-01-Java-Aktuell--Coding-Continous-Delivery-Grundlagen-des-Jenkins-Pipeline-Plug-ins.pdf
-        lang: DE
-      - type: Blog
-        medium: Cloudogu Blog
-        link: https://cloudogu.com/en/blog/continuous_delivery_1_basics
-        lang: EN
+    - date: 2018/07/13
+      title: Coding Continuous Delivery — Static Code Analysis with SonarQube and
+        Deployment on Kubernetes et al. with the Jenkins Pipeline Plugin
+      media:
+        - type: Journal
+          medium: Java Aktuell 04/2018
+          link: https://cloudogu.com/downloads/publications/2018-04-Java-aktuell--Johannes-Schnatterer_Coding_Continuous_Delivery-SonarQube%20und%20Kubernetes.pdf
+          lang: DE
+        - type: Blog
+          medium: Cloudogu Blog
+          link: https://cloudogu.com/en/blog/continuous_delivery_4_en
+          lang: EN
+    - date: 2018/05/24
+      title: Coding Continuous Delivery – Helpful Tools for the Jenkins Pipeline
+      media:
+        - type: Journal
+          medium: Java Aktuell 03/2018
+          link: https://cloudogu.com/downloads/publications/2018-03-Java-aktuell--Coding_Continuous_Delivery-Hilfreiche%20Werkzeuge%20f%C3%BCr%20die%20Jenkins-Pipeline.pdf
+          lang: DE
+        - type: Blog
+          medium: Cloudogu Blog
+          link: https://cloudogu.com/en/blog/continuous_delivery_part_3
+          lang: EN
+    - date: 2018/05/02
+      title: Coding Continuous Delivery – Performance optimization for the Jenkins
+        Pipeline
+      media:
+        - type: Journal
+          medium: Java Aktuell 02/2018
+          link: https://cloudogu.com/downloads/publications/2018-02-Java-Aktuell--Coding_Continuous_Delivery%E2%80%93Performance-Optimierung_f%C3%BCr_die_Jenkins-Pipeline.pdf
+          lang: DE
+        - type: Blog
+          medium: Cloudogu Blog
+          link: https://cloudogu.com/en/blog/continuous_delivery_2
+          lang: EN
+    - date: 2018/04/19
+      title: Coding Continuous Delivery – Jenkins pipeline plugin basics
+      media:
+        - type: Journal
+          medium: Java Aktuell 01/2018
+          link: https://cloudogu.com/downloads/publications/2018-01-Java-Aktuell--Coding-Continous-Delivery-Grundlagen-des-Jenkins-Pipeline-Plug-ins.pdf
+          lang: DE
+        - type: Blog
+          medium: Cloudogu Blog
+          link: https://cloudogu.com/en/blog/continuous_delivery_1_basics
+          lang: EN
+    - date: '2018-07-15'
+      title: Coding Continuous Delivery with Jenkins Pipelines
+      ID: '1107'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2018/07/15/coding-continuous-delivery-with-jenkins-pipelines/
+          lang: EN
+    - date: '2018-04-03'
+      title: The pragmatic migration to JUnit 5
+      ID: '1080'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2018/04/03/the-pragmatic-migration-to-junit-5/
+          lang: EN
 - year: 2017
   pubs:
-  - date: 2017/08/21
-    title: Android Logging for Java Professionals – SLF4J - Logback in Android 
-    media:
-      - type: Journal
-        medium: Java Magazin 9.17
-        link: https://www.triology.de/wp-content/uploads/2017/09/Sonderdruck_Triology_JM9_17_Schnatterer_Android-Logging-fuer-Java-Profis.pdf
-        lang: DE
-      - type: Blog
-        medium: Triology Blog
-        link: https://www.triology.de/en/blog-entries/slf4j-and-logback-android
-        lang: EN
-  - date: 2017/06/06
-    title: 'Jenkins Pipeline plugin: code completion in IntelliJ'
-    media:
-      - type: Blog
-        medium: Triology Blog
-        link: https://www.triology.de/en/blog-entries/jenkins-pipeline-plugin-code-completion
-        lang: EN
-  - date: 2017/01/16
-    title: Automatic checks for vulnerabilities in Java project dependencies
-    media:
-      - type: Journal
-        medium: Java Aktuell 01/2017
-        link: https://www.triology.de/wp-content/uploads/2017/01/01_2017-Java_aktuell-Johannes-Schnatterer_Automatisierte-Ueberpruefung-von-Sicherheitsluecken-in-Abhaengigkeiten-von-Java-Projekten.pdf
-        lang: DE
-      - type: Blog
-        medium: Triology Blog
-        link: https://www.triology.de/en/blog-entries/automatic-checks-for-vulnerabilities-in-java-project-dependencies
-        lang: EN
+    - date: 2017/08/21
+      title: Android Logging for Java Professionals – SLF4J - Logback in Android
+      media:
+        - type: Journal
+          medium: Java Magazin 9.17
+          link: https://www.triology.de/wp-content/uploads/2017/09/Sonderdruck_Triology_JM9_17_Schnatterer_Android-Logging-fuer-Java-Profis.pdf
+          lang: DE
+        - type: Blog
+          medium: Triology Blog
+          link: https://www.triology.de/en/blog-entries/slf4j-and-logback-android
+          lang: EN
+    - date: 2017/06/06
+      title: 'Jenkins Pipeline plugin: code completion in IntelliJ'
+      media:
+        - type: Blog
+          medium: Triology Blog
+          link: https://www.triology.de/en/blog-entries/jenkins-pipeline-plugin-code-completion
+          lang: EN
+    - date: 2017/01/16
+      title: Automatic checks for vulnerabilities in Java project dependencies
+      media:
+        - type: Journal
+          medium: Java Aktuell 01/2017
+          link: https://www.triology.de/wp-content/uploads/2017/01/01_2017-Java_aktuell-Johannes-Schnatterer_Automatisierte-Ueberpruefung-von-Sicherheitsluecken-in-Abhaengigkeiten-von-Java-Projekten.pdf
+          lang: DE
+        - type: Blog
+          medium: Triology Blog
+          link: https://www.triology.de/en/blog-entries/automatic-checks-for-vulnerabilities-in-java-project-dependencies
+          lang: EN
+    - date: '2017-10-05'
+      title: More sutainable Android Software with Project Treble and 6-y LTS Kernels
+        on Android O?
+      ID: '1026'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2017/10/05/more-sutainable-android-software-with-project-treble-and-6-y-lts-kernels-on-android-o/
+          lang: EN
+    - date: '2017-09-09'
+      title: Android Logging for Java Professionals – SLF4J and Logback in Android
+      ID: '999'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2017/09/09/android-logging-for-java-professionals-slf4j-and-logback-in-android/
+          lang: EN
+    - date: '2017-06-10'
+      title: Android 7 (Nougat) on a 5-year-old phone
+      ID: '984'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2017/06/10/android-7-nougat-on-a-5-year-old-phone/
+          lang: EN
+    - date: '2017-01-17'
+      title: Automatic checks for vulnerabilities in Java project dependencies
+      ID: '973'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2017/01/17/automatic-checks-for-vulnerabilities-in-java-project-dependencies/
+          lang: EN
 - year: 2016
   pubs:
-  - date: 2016/11/07
-    title: 'Version names with Maven: Reading the version name'
-    media:
-      - type: Blog
-        medium: Triology Blog
-        link: https://www.triology.de/en/blog-entries/version-names-with-maven-reading-the-version-name
-        lang: EN
-  - date: 2016/10/24
-    title: 'Version names with Maven: Creating the version name'
-    media:
-      - type: Blog
-        medium: Triology Blog
-        link: https://www.triology.de/en/blog-entries/version-names-with-maven-creating-the-version-name
-        lang: EN
+    - date: 2016/11/07
+      title: 'Version names with Maven: Reading the version name'
+      media:
+        - type: Blog
+          medium: Triology Blog
+          link: https://www.triology.de/en/blog-entries/version-names-with-maven-reading-the-version-name
+          lang: EN
+    - date: 2016/10/24
+      title: 'Version names with Maven: Creating the version name'
+      media:
+        - type: Blog
+          medium: Triology Blog
+          link: https://www.triology.de/en/blog-entries/version-names-with-maven-creating-the-version-name
+          lang: EN
+    - date: '2016-11-08'
+      title: 'Maven: Create a more sophisticated build number'
+      ID: '966'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2016/11/08/maven-create-a-more-sophisticated-build-number/
+          lang: EN
+- year: 2015
+  pubs:
+    - date: '2015-11-17'
+      title: Building GitHub projects with Jenkins, Maven and SonarQube 5.2 on OpenShift
+      ID: '730'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2015/11/17/building-github-projects-with-jenkins-maven-and-sonarqube-5-2-on-openshift/
+          lang: EN
+    - date: '2015-09-09'
+      title: Using Custom Maven / JDK version when building with Jenkins on OpenShift
+      ID: '704'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2015/09/09/using-custom-maven-jdk-version-when-building-with-jenkins-on-openshift/
+          lang: EN
+    - date: '2015-08-09'
+      title: Building GitHub projects on Jenkins slaves on OpenShift
+      ID: '680'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2015/08/09/building-github-projects-on-jenkins-slaves-on-openshift/
+          lang: EN
+    - date: '2015-07-08'
+      title: 'Modernizing android UIs part 2: design support library, switches, action
+        buttons'
+      ID: '661'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2015/07/08/modernizing-android-uis-part-2-design-support-library-switches-action-buttons/
+          lang: EN
+    - date: '2015-07-01'
+      title: 'Modernizing android UIs part 1: Migrating from Actionbarsherlock to
+        Material Design'
+      ID: '634'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2015/07/01/modernizing-android-uis-part-1-migrating-from-actionbarsherlock-to-material-design/
+          lang: EN
+    - date: '2015-05-25'
+      title: 'iTunes: Exporting playlists with relative paths'
+      ID: '603'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2015/05/25/itunes-exporting-playlists-with-relative-paths/
+          lang: EN
+    - date: '2015-05-25'
+      title: Migrating from Songbird/Nightingale to iTunes
+      ID: '589'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2015/05/25/migrating-from-songbirdnightingale-to-itunes/
+          lang: EN
+    - date: '2015-02-26'
+      title: Building GitHub projects with Jenkins, Maven and SonarQube 4.1.1 on OpenShift
+      ID: '546'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2015/02/26/building-github-projects-with-jenkins-maven-and-sonarqube-4-1-1-on-openshift/
+          lang: EN
+- year: 2014
+  pubs:
+    - date: '2014-09-07'
+      title: 'Moving from Google Code to GitHub: Migrating the wiki'
+      ID: '536'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2014/09/07/moving-from-google-code-to-github-migrating-the-wiki/
+          lang: EN
+    - date: '2014-02-25'
+      title: 'Maven: Create a simple build number'
+      ID: '504'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2014/02/25/maven-create-a-simple-build-number/
+          lang: EN
+    - date: '2014-01-12'
+      title: 'Synology: Backup and restore encrypted folders'
+      ID: '485'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2014/01/12/synology-backup-and-restore-encrypted-folders/
+          lang: EN
+- year: 2013
+  pubs:
+    - date: '2013-10-26'
+      title: 'Android apps &#8211;  nusic: Find New Music Albums'
+      ID: '440'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/10/26/android-apps-nusic-find-new-music/
+          lang: EN
+    - date: '2013-06-28'
+      title: Automatically downloading/backing up/dumping/exporting databases from
+        remote hosts via the web
+      ID: '385'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/06/28/automatically-downloadingbacking-updumpingexporting-databases-from-remote-hosts-via-the-web/
+          lang: EN
+    - date: '2013-06-08'
+      title: 'JSF: Displaying FacesMessages during render response phase'
+      ID: '376'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/06/08/jsf-displaying-facesmessages-during-render-response-phase/
+          lang: EN
+    - date: '2013-04-28'
+      title: 'Android: Custom Rom &#8211; Installing Google Play only (Customize GApps)'
+      ID: '351'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/04/28/android-custom-rom-installing-google-play-only-customize-gapps/
+          lang: EN
+    - date: '2013-04-20'
+      title: 'Raspberry Pi: What to do if SD card doesn&#8217;t work'
+      ID: '338'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/04/20/raspberry-pi-what-to-do-if-sd-card-doesnt-work/
+          lang: EN
+    - date: '2013-04-17'
+      title: 'Hibernate: Write SQL to a specific logfile (without additional framework)'
+      ID: '322'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/04/17/hibernate-write-sql-to-a-specific-logfile-without-additional-framework/
+          lang: EN
+    - date: '2013-01-27'
+      title: 'Songbird/Nightingale: Improving search performance'
+      ID: '317'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/01/27/songbirdnightingale-improving-search-performance/
+          lang: EN
+    - date: '2013-01-27'
+      title: 'NAS: Downgrading DSM (DS213+)'
+      ID: '302'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/01/27/nas-downgrading-dsm-ds213/
+          lang: EN
+    - date: '2013-01-23'
+      title: 'Songbird/Nightingale: Exporting playlists'
+      ID: '291'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/01/23/export-songbird-playlists-2/
+          lang: EN
+    - date: '2013-01-23'
+      title: 'Songbird/Nightingale: Using Songbird database in Nightingale'
+      ID: '294'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/01/23/using-songbird-database-in-nightingale/
+          lang: EN
+    - date: '2013-01-05'
+      title: 'Microsoft Robocopy vs Linux NAS: Robocopy Pitfalls'
+      ID: '241'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/01/05/microsoft-robocopy-vs-linux-nas-robocopy-pitfalls/
+          lang: EN
+    - date: '2013-01-04'
+      title: 'NAS: DS213+ &amp; WD20NPVT – 3. Performance and Encryption'
+      ID: '193'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/01/04/nas-ds213-wd20npvt-3-performance-and-encryption/
+          lang: EN
+    - date: '2013-01-01'
+      title: 'NAS: DS213+ &amp; WD20NPVT – 2. Power Consumption'
+      ID: '191'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/01/01/nas-ds213-wd20npvt-2-power-consumption/
+          lang: EN
+    - date: '2013-01-01'
+      title: 'NAS: DS213+ &amp; WD20NPVT – 1. Conclusion'
+      ID: '183'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/01/01/nas-dsj213-wd20npvt-1-conclusion/
+          lang: EN
+- year: 2012
+  pubs:
+    - date: '2012-11-21'
+      title: Shutting down JUnit tests &#8220;gracefully&#8221; in eclipse
+      ID: '163'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2012/11/21/shutting-down-junit-tests-gracefully-in-eclipse/
+          lang: EN
+    - date: '2012-06-20'
+      title: Running Windows batch files from eclipse using workspace-relative paths
+      ID: '75'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2012/06/20/running-windows-batch-files-from-eclipse-using-workspace-relative-paths/
+          lang: EN
+    - date: '2012-06-17'
+      title: Using Unix command-line tools in the Win32 console
+      ID: '73'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2012/06/17/using-unix-command-line-tools-in-the-win32-console/
+          lang: EN
+    - date: '2012-06-05'
+      title: Generating and customizing JUnit and Code Coverage reports with Ant
+      ID: '31'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2012/06/05/generating-and-customizing-junit-and-code-coverage-reports-with-ant/
+          lang: EN
