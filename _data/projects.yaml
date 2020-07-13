@@ -141,8 +141,7 @@ projects:
       amount: '18'
   - name: schnatterer/docker-aliases
     type: GitHub
-    description: app that fetches stock prices, compares them to defined references
-      and triggers alerts
+    description: Programmatically generated docker client aliases 
     technologies: NodeJS, Docker, Yarn, Travis
     contribution: Creator
     commits:
