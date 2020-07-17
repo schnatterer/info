@@ -13,7 +13,7 @@
     - occasion: Forum Digitale Transformation
       title: Plunging into Kubernetes — an introduction
       link: https://forum-digitale-transformation.com/
-      slides-speakerdeck:
+      slides-speakerdeck: https://speakerdeck.com/schnatterer/kubernetes-einstieg-mit-der-tur-ins-haus
       slides-pdf: https://cloudogu.github.io/k8s-intro-talk/pdf/Plunging-Into-Kubernetes-An-Introduction.pdf
       slides-github: https://github.com/cloudogu/k8s-intro-talk
       video:
