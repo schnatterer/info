@@ -7,8 +7,8 @@ projects:
     contribution: Creator
     commits:
       from: '2020-06-30'
-      to: '2020-07-06'
-      amount: '3'
+      to: '2020-07-17'
+      amount: '15'
   - name: cloudogu/reveal.js-docker
     type: GitHub
     description: Docker images providing easier to use, opinionated reveal.js web
@@ -17,8 +17,8 @@ projects:
     contribution: Creator
     commits:
       from: '2020-03-11'
-      to: '2020-07-06'
-      amount: '29'
+      to: '2020-07-16'
+      amount: '33'
   - name: schnatterer/info
     type: GitHub
     description: Source of this page
@@ -26,8 +26,8 @@ projects:
     contribution: Creator
     commits:
       from: '2020-06-28'
-      to: '2020-07-06'
-      amount: '5'
+      to: '2020-07-17'
+      amount: '18'
   - name: cloudogu/k8s-diagrams
     type: GitHub
     description: A collection of kubernetes-related diagrams
@@ -35,8 +35,8 @@ projects:
     contribution: Creator
     commits:
       from: '2020-04-09'
-      to: '2020-07-03'
-      amount: '4'
+      to: '2020-07-08'
+      amount: '5'
   - name: cloudogu/reveal.js-docker-example
     type: GitHub
     description: Advanced example for using web-based slides/presentations via cloudogu/reveal.js-docker
@@ -44,8 +44,8 @@ projects:
     contribution: Creator
     commits:
       from: '2020-03-27'
-      to: '2020-07-03'
-      amount: '42'
+      to: '2020-07-08'
+      amount: '55'
   - name: schnatterer/letsencrypt-tomcat
     type: GitHub
     description: Tomcat that automatically fetches certificates via letsencrypt
@@ -63,8 +63,8 @@ projects:
     contribution: Co-creator
     commits:
       from: '2017-02-22'
-      to: '2020-06-26'
-      amount: '237'
+      to: '2020-07-10'
+      amount: '240'
   - name: schnatterer/smeagol-galore
     type: GitHub
     description: A git-based wiki featuring markdown, a WYSIWYG Editor, PlantUML,
@@ -74,7 +74,7 @@ projects:
     commits:
       from: '2018-05-31'
       to: '2020-06-23'
-      amount: '148'
+      amount: '149'
   - name: cloudogu/k8s-security-demos
     type: GitHub
     description: Demos for several kubernetes security features
@@ -141,7 +141,7 @@ projects:
       amount: '18'
   - name: schnatterer/docker-aliases
     type: GitHub
-    description: Programmatically generated docker client aliases 
+    description: Programmatically generated docker client aliases
     technologies: NodeJS, Docker, Yarn, Travis
     contribution: Creator
     commits:
