@@ -1,0 +1,33 @@
+name: Update projects and posts
+
+on:
+  schedule:
+    - cron:  '0 3 * * *'
+  # Allows for trigger action manually (e.g. for testing)
+  # curl -H "Accept: application/vnd.github.everest-preview+json" \ 
+  #    -H "Authorization: token $token" \
+  #    --request POST \
+  #    --data '{"event_type": "update-data"}' \
+  #    https://api.github.com/repos/schnatterer/info/dispatches
+  repository_dispatch:
+    types: update-data
+
+jobs:
+  build:
+    runs-on: ubuntu-20.04
+    steps:
+      - run: sudo apt-get install -y jq
+      - run: sudo -H pip install yq
+      - uses: actions/checkout@v2
+      - run: _data/scripts/update-projects.sh
+      - run: _data/scripts/sort-projects.sh
+      - run: _data/scripts/update-posts.sh
+      - run: _data/scripts/sort-posts.sh
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: Updates projects and posts
+      - uses: peter-evans/repository-dispatch@v1
+        with:
+          token: ${{ secrets.JEKYLL_PAT }}
+          repository: schnatterer/info
+          event-type: github-pages
