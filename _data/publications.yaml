@@ -309,20 +309,20 @@
           link: https://itaffinity.wordpress.com/2015/07/01/modernizing-android-uis-part-1-migrating-from-actionbarsherlock-to-material-design/
           lang: EN
     - date: '2015-05-25'
-      title: Migrating from Songbird/Nightingale to iTunes
-      ID: '589'
-      media:
-        - type: Blog
-          medium: IT Affinity Blog
-          link: https://itaffinity.wordpress.com/2015/05/25/migrating-from-songbirdnightingale-to-itunes/
-          lang: EN
-    - date: '2015-05-25'
       title: 'iTunes: Exporting playlists with relative paths'
       ID: '603'
       media:
         - type: Blog
           medium: IT Affinity Blog
           link: https://itaffinity.wordpress.com/2015/05/25/itunes-exporting-playlists-with-relative-paths/
+          lang: EN
+    - date: '2015-05-25'
+      title: Migrating from Songbird/Nightingale to iTunes
+      ID: '589'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2015/05/25/migrating-from-songbirdnightingale-to-itunes/
           lang: EN
     - date: '2015-02-26'
       title: Building GitHub projects with Jenkins, Maven and SonarQube 4.1.1 on OpenShift
@@ -410,20 +410,20 @@
           link: https://itaffinity.wordpress.com/2013/04/17/hibernate-write-sql-to-a-specific-logfile-without-additional-framework/
           lang: EN
     - date: '2013-01-27'
-      title: 'NAS: Downgrading DSM (DS213+)'
-      ID: '302'
-      media:
-        - type: Blog
-          medium: IT Affinity Blog
-          link: https://itaffinity.wordpress.com/2013/01/27/nas-downgrading-dsm-ds213/
-          lang: EN
-    - date: '2013-01-27'
       title: 'Songbird/Nightingale: Improving search performance'
       ID: '317'
       media:
         - type: Blog
           medium: IT Affinity Blog
           link: https://itaffinity.wordpress.com/2013/01/27/songbirdnightingale-improving-search-performance/
+          lang: EN
+    - date: '2013-01-27'
+      title: 'NAS: Downgrading DSM (DS213+)'
+      ID: '302'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/01/27/nas-downgrading-dsm-ds213/
           lang: EN
     - date: '2013-01-23'
       title: 'Songbird/Nightingale: Using Songbird database in Nightingale'
@@ -458,20 +458,20 @@
           link: https://itaffinity.wordpress.com/2013/01/04/nas-ds213-wd20npvt-3-performance-and-encryption/
           lang: EN
     - date: '2013-01-01'
-      title: 'NAS: DS213+ &amp; WD20NPVT – 1. Conclusion'
-      ID: '183'
-      media:
-        - type: Blog
-          medium: IT Affinity Blog
-          link: https://itaffinity.wordpress.com/2013/01/01/nas-dsj213-wd20npvt-1-conclusion/
-          lang: EN
-    - date: '2013-01-01'
       title: 'NAS: DS213+ &amp; WD20NPVT – 2. Power Consumption'
       ID: '191'
       media:
         - type: Blog
           medium: IT Affinity Blog
           link: https://itaffinity.wordpress.com/2013/01/01/nas-ds213-wd20npvt-2-power-consumption/
+          lang: EN
+    - date: '2013-01-01'
+      title: 'NAS: DS213+ &amp; WD20NPVT – 1. Conclusion'
+      ID: '183'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2013/01/01/nas-dsj213-wd20npvt-1-conclusion/
           lang: EN
 - year: 2012
   pubs:
