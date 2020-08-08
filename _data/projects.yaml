@@ -1,4 +1,4 @@
-updated: '2020-08-07'
+updated: '2020-08-08'
 projects:
   - name: schnatterer/info
     type: GitHub
@@ -7,8 +7,8 @@ projects:
     contribution: Creator
     commits:
       from: '2020-06-28'
-      to: '2020-08-06'
-      amount: '22'
+      to: '2020-08-07'
+      amount: '23'
   - name: cloudogu/k8s-intro-talk
     type: GitHub
     description: Slides for an intro talk to kubernetes
@@ -38,15 +38,6 @@ projects:
       from: '2017-02-22'
       to: '2020-07-10'
       amount: '240'
-  - name: cloudogu/reveal.js-docker-example
-    type: GitHub
-    description: Advanced example for using web-based slides/presentations via cloudogu/reveal.js-docker
-    technologies: Docker, Kubernetes, Jenkins, Maven
-    contribution: Creator
-    commits:
-      from: '2020-03-27'
-      to: '2020-07-08'
-      amount: '55'
   - name: cloudogu/k8s-diagrams
     type: GitHub
     description: A collection of kubernetes-related diagrams
@@ -56,6 +47,15 @@ projects:
       from: '2020-04-09'
       to: '2020-07-08'
       amount: '5'
+  - name: cloudogu/reveal.js-docker-example
+    type: GitHub
+    description: Advanced example for using web-based slides/presentations via cloudogu/reveal.js-docker
+    technologies: Docker, Kubernetes, Jenkins, Maven
+    contribution: Creator
+    commits:
+      from: '2020-03-27'
+      to: '2020-07-08'
+      amount: '55'
   - name: schnatterer/letsencrypt-tomcat
     type: GitHub
     description: Tomcat that automatically fetches certificates via letsencrypt
@@ -75,15 +75,6 @@ projects:
       from: '2018-05-31'
       to: '2020-06-23'
       amount: '149'
-  - name: cloudogu/command-bus
-    type: GitHub
-    description: Java implementation of the Command-Bus pattern for Spring and CDI
-    technologies: Java, Maven, Jenkins, SonarQube
-    contribution: Co-creator
-    commits:
-      from: '2017-07-31'
-      to: '2020-06-22'
-      amount: '94'
   - name: cloudogu/k8s-security-demos
     type: GitHub
     description: Demos for several kubernetes security features
@@ -93,6 +84,15 @@ projects:
       from: '2019-02-07'
       to: '2020-06-22'
       amount: '44'
+  - name: cloudogu/command-bus
+    type: GitHub
+    description: Java implementation of the Command-Bus pattern for Spring and CDI
+    technologies: Java, Maven, Jenkins, SonarQube
+    contribution: Co-creator
+    commits:
+      from: '2017-07-31'
+      to: '2020-06-22'
+      amount: '94'
   - name: schnatterer/tomcat-reloading-connector
     type: GitHub
     description: Tomcat connector that automatically reload SSLConfig
@@ -112,15 +112,6 @@ projects:
       from: '2019-06-21'
       to: '2020-04-24'
       amount: '13'
-  - name: triologygmbh/reCAPTCHA-V2-java
-    type: GitHub
-    description: Java Bindings for reCAPTCHA V2
-    technologies: Java, Maven, Jenkins, SonarQube
-    contribution: Co-creator
-    commits:
-      from: '2017-07-03'
-      to: '2020-04-21'
-      amount: '31'
   - name: cloudogu/k8s-appops-security-talks
     type: GitHub
     description: Resources for talks on Kubernetes appOps Security
@@ -130,6 +121,15 @@ projects:
       from: '2019-02-08'
       to: '2020-04-21'
       amount: '74'
+  - name: triologygmbh/reCAPTCHA-V2-java
+    type: GitHub
+    description: Java Bindings for reCAPTCHA V2
+    technologies: Java, Maven, Jenkins, SonarQube
+    contribution: Co-creator
+    commits:
+      from: '2017-07-03'
+      to: '2020-04-21'
+      amount: '31'
   - name: schnatterer/moby-names-generator-java
     type: GitHub
     description: Java Version of the famous Moby (Docker) Names Generator
@@ -242,25 +242,6 @@ projects:
       from: '2019-05-14'
       to: '2019-06-16'
       amount: '13'
-  - name: schnatterer/helidon-getting-started
-    type: GitHub
-    description: Result of the Helidon quickstart sample
-    technologies: Java, Docker, GraalVM
-    contribution: Creator
-    commits:
-      from: '2019-05-11'
-      to: '2019-05-15'
-      amount: '7'
-  - name: schnatterer/micronaut-getting-started
-    type: GitHub
-    description: Result of micronaut.io getting started in a self-contained minimal
-      docker image
-    technologies: Java, Docker, GraalVM
-    contribution: Creator
-    commits:
-      from: '2019-05-01'
-      to: '2019-05-15'
-      amount: '8'
   - name: schnatterer/quarkus-getting-started
     type: GitHub
     description: Result of quarkus.io getting started in a self-contained minimal
@@ -271,6 +252,25 @@ projects:
       from: '2019-04-27'
       to: '2019-05-15'
       amount: '13'
+  - name: schnatterer/micronaut-getting-started
+    type: GitHub
+    description: Result of micronaut.io getting started in a self-contained minimal
+      docker image
+    technologies: Java, Docker, GraalVM
+    contribution: Creator
+    commits:
+      from: '2019-05-01'
+      to: '2019-05-15'
+      amount: '8'
+  - name: schnatterer/helidon-getting-started
+    type: GitHub
+    description: Result of the Helidon quickstart sample
+    technologies: Java, Docker, GraalVM
+    contribution: Creator
+    commits:
+      from: '2019-05-11'
+      to: '2019-05-15'
+      amount: '7'
   - name: schnatterer/pmcaFilesystemServer
     type: GitHub
     description: Simple Android app for Sony Cameras (PlayMemories Camera App Store)
@@ -345,6 +345,33 @@ projects:
       from: '2016-08-17'
       to: '2017-09-09'
       amount: '57'
+  - name: schnatterer/songbirdDbApi4j
+    type: GitHub
+    description: Java wrapper for songbird SQLite database
+    technologies: Java, Maven, Travis
+    contribution: Creator
+    commits:
+      from: '2015-04-18'
+      to: '2017-08-27'
+      amount: '36'
+  - name: schnatterer/remoteDbDumper
+    type: GitHub
+    description: Command-line interface for downloading dumps via by web-based tools
+    technologies: Java, Maven, Travis
+    contribution: Creator
+    commits:
+      from: '2013-06-28'
+      to: '2017-08-27'
+      amount: '7'
+  - name: schnatterer/songbird2itunes
+    type: GitHub
+    description: Migration tool to migrate a songbird database to itunes
+    technologies: Java, Maven, Travis
+    contribution: Creator
+    commits:
+      from: '2015-04-19'
+      to: '2017-08-27'
+      amount: '67'
   - name: schnatterer/logback-android-utils
     type: GitHub
     description: A small library that conveniently provides additional features for
@@ -355,33 +382,6 @@ projects:
       from: '2016-10-03'
       to: '2017-08-27'
       amount: '17'
-  - name: schnatterer/songbird2itunes
-    type: GitHub
-    description: Migration tool to migrate a songbird database to itunes
-    technologies: Java, Maven, Travis
-    contribution: Creator
-    commits:
-      from: '2015-04-19'
-      to: '2017-08-27'
-      amount: '67'
-  - name: schnatterer/remoteDbDumper
-    type: GitHub
-    description: Command-line interface for downloading dumps via by web-based tools
-    technologies: Java, Maven, Travis
-    contribution: Creator
-    commits:
-      from: '2013-06-28'
-      to: '2017-08-27'
-      amount: '7'
-  - name: schnatterer/songbirdDbApi4j
-    type: GitHub
-    description: Java wrapper for songbird SQLite database
-    technologies: Java, Maven, Travis
-    contribution: Creator
-    commits:
-      from: '2015-04-18'
-      to: '2017-08-27'
-      amount: '36'
   - name: triologygmbh/dependency-check
     type: GitHub
     description: An example on how to use the OWASP Dependency-Check maven plugin
