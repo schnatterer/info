@@ -8,7 +8,7 @@ projects:
     commits:
       from: '2020-04-09'
       to: '2020-08-13'
-      amount: '6'
+      amount: '13'
   - name: schnatterer/info
     type: GitHub
     description: Source of this page
@@ -409,3 +409,44 @@ projects:
       from: '2015-04-16'
       to: '2017-01-21'
       amount: '28'
+  - name: ohmyzsh/ohmyzsh
+    type: GitHub
+    description: 🙃 A delightful community-driven (with 1700+ contributors) framework
+      for managing your zsh configuration. Includes 200+ optional plugins (rails,
+      git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to
+      spice up your morning, and an auto-update tool so that makes it easy to keep
+      up with the latest updates from the community.
+    technologies: ''
+    contribution: Contributor
+  - name: ericdaugherty/itunesexport-scala
+    type: GitHub
+    description: Command Line tool to export/copy playlists from iTunes written in
+      Scala
+    technologies: ''
+    contribution: Contributor
+  - name: bitnami/charts
+    type: GitHub
+    description: Helm Charts
+    technologies: ''
+    contribution: Contributor
+  - name: fluxcd/flux
+    type: GitHub
+    description: The GitOps Kubernetes operator
+    technologies: ''
+    contribution: Contributor
+  - name: Shopify/kubeaudit
+    type: GitHub
+    description: kubeaudit helps you audit your Kubernetes clusters against common
+      security controls
+    technologies: ''
+    contribution: Contributor
+  - name: cloudogu/annotation-processors
+    type: GitHub
+    description: An example on how to use Java Annotation Processors
+    technologies: ''
+    contribution: Contributor
+ignored:
+  - cloudogu/cloudogu.github.io
+  - schnatterer/spotify-playlist-import
+  - schnatterer/schnatterer.github.io
+  - schnatterer/gh-pages-redirect
