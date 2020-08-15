@@ -95,8 +95,9 @@ function updateProjects() {
     cd "${tmpdir}" || exit
     firstDate="$(git log --all --author='schnatterer' --reverse --pretty=format:'%as' | head -n1)"
     lastDate="$(git log --all --author='schnatterer' --pretty=format:'%as' | head -n1)"
-    # Add Line Break (%n) in order to avoid off by one errors
-    nCommits="$(git log --all --author='schnatterer' --pretty=format:'%as%n' | wc -l)"
+    nCommits="$(git log --all --author='schnatterer' --pretty=format:'%as' | wc -l)"
+    # Last line does not have a line break and therefore is not counted
+    nCommits=$((nCommits + 1))
     cd - || exit
     rm -rf "${tmpdir}"
     echo ${i}: "${project}", commits from "${firstDate}" to "${lastDate}"
