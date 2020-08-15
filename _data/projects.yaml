@@ -1,5 +1,33 @@
-updated: '2020-08-14'
+updated: '2020-08-15'
 projects:
+  - name: cloudogu/reveal.js-docker-example
+    type: GitHub
+    description: Advanced example for using web-based slides/presentations via cloudogu/reveal.js-docker
+    technologies: Docker, Kubernetes, Jenkins, Maven
+    contribution: Creator
+    commits:
+      from: '2020-03-27'
+      to: '2020-08-14'
+      amount: '115'
+  - name: schnatterer/smeagol-galore
+    type: GitHub
+    description: A git-based wiki featuring markdown, a WYSIWYG Editor, PlantUML,
+      and much more
+    technologies: Java, Docker, Tomcat, PlantUML, CAS, Maven
+    contribution: Creator
+    commits:
+      from: '2018-05-31'
+      to: '2020-08-14'
+      amount: '303'
+  - name: schnatterer/info
+    type: GitHub
+    description: Source of this page
+    technologies: HTML, CSS, GitHub Actions
+    contribution: Creator
+    commits:
+      from: '2020-06-28'
+      to: '2020-08-14'
+      amount: '65'
   - name: cloudogu/k8s-diagrams
     type: GitHub
     description: A collection of kubernetes-related diagrams
@@ -9,25 +37,6 @@ projects:
       from: '2020-04-09'
       to: '2020-08-13'
       amount: '13'
-  - name: schnatterer/info
-    type: GitHub
-    description: Source of this page
-    technologies: HTML, CSS, GitHub Actions
-    contribution: Creator
-    commits:
-      from: '2020-06-28'
-      to: '2020-08-13'
-      amount: '30'
-  - name: schnatterer/smeagol-galore
-    type: GitHub
-    description: A git-based wiki featuring markdown, a WYSIWYG Editor, PlantUML,
-      and much more
-    technologies: Java, Docker, Tomcat, PlantUML, CAS, Maven
-    contribution: Creator
-    commits:
-      from: '2018-05-31'
-      to: '2020-08-12'
-      amount: '150'
   - name: schnatterer/docker-aliases
     type: GitHub
     description: Programmatically generated docker client aliases
@@ -36,7 +45,7 @@ projects:
     commits:
       from: '2019-09-17'
       to: '2020-08-12'
-      amount: '64'
+      amount: '129'
   - name: cloudogu/k8s-intro-talk
     type: GitHub
     description: Slides for an intro talk to kubernetes
@@ -45,7 +54,7 @@ projects:
     commits:
       from: '2020-06-30'
       to: '2020-07-17'
-      amount: '15'
+      amount: '31'
   - name: cloudogu/reveal.js-docker
     type: GitHub
     description: Docker images providing easier to use, opinionated reveal.js web
@@ -55,7 +64,7 @@ projects:
     commits:
       from: '2020-03-11'
       to: '2020-07-16'
-      amount: '33'
+      amount: '67'
   - name: cloudogu/ces-build-lib
     type: GitHub
     description: Jenkins pipeline shared library adding features for Maven, Docker,
@@ -65,16 +74,7 @@ projects:
     commits:
       from: '2017-02-22'
       to: '2020-07-10'
-      amount: '240'
-  - name: cloudogu/reveal.js-docker-example
-    type: GitHub
-    description: Advanced example for using web-based slides/presentations via cloudogu/reveal.js-docker
-    technologies: Docker, Kubernetes, Jenkins, Maven
-    contribution: Creator
-    commits:
-      from: '2020-03-27'
-      to: '2020-07-08'
-      amount: '55'
+      amount: '481'
   - name: schnatterer/letsencrypt-tomcat
     type: GitHub
     description: Tomcat that automatically fetches certificates via letsencrypt
@@ -83,16 +83,7 @@ projects:
     commits:
       from: '2020-05-14'
       to: '2020-06-27'
-      amount: '22'
-  - name: cloudogu/k8s-security-demos
-    type: GitHub
-    description: Demos for several kubernetes security features
-    technologies: Kubernetes, Bash
-    contribution: Creator
-    commits:
-      from: '2019-02-07'
-      to: '2020-06-22'
-      amount: '44'
+      amount: '45'
   - name: cloudogu/command-bus
     type: GitHub
     description: Java implementation of the Command-Bus pattern for Spring and CDI
@@ -101,7 +92,16 @@ projects:
     commits:
       from: '2017-07-31'
       to: '2020-06-22'
-      amount: '94'
+      amount: '189'
+  - name: cloudogu/k8s-security-demos
+    type: GitHub
+    description: Demos for several kubernetes security features
+    technologies: Kubernetes, Bash
+    contribution: Creator
+    commits:
+      from: '2019-02-07'
+      to: '2020-06-22'
+      amount: '89'
   - name: schnatterer/tomcat-reloading-connector
     type: GitHub
     description: Tomcat connector that automatically reload SSLConfig
@@ -110,7 +110,25 @@ projects:
     commits:
       from: '2020-05-05'
       to: '2020-06-20'
-      amount: '31'
+      amount: '63'
+  - name: fluxcd/flux
+    type: GitHub
+    description: The GitOps Kubernetes operator
+    technologies: ''
+    contribution: Contributor
+    commits:
+      from: '2020-06-03'
+      to: '2020-06-03'
+      amount: '1'
+  - name: bitnami/charts
+    type: GitHub
+    description: Helm Charts
+    technologies: ''
+    contribution: Contributor
+    commits:
+      from: '2020-05-07'
+      to: '2020-05-12'
+      amount: '5'
   - name: schnatterer/devboxes
     type: GitHub
     description: Ansible playbook to setup my development machines and helps to keep
@@ -120,16 +138,7 @@ projects:
     commits:
       from: '2019-06-21'
       to: '2020-04-24'
-      amount: '13'
-  - name: cloudogu/k8s-appops-security-talks
-    type: GitHub
-    description: Resources for talks on Kubernetes appOps Security
-    technologies: Kubernetes
-    contribution: Creator
-    commits:
-      from: '2019-02-08'
-      to: '2020-04-21'
-      amount: '74'
+      amount: '27'
   - name: triologygmbh/reCAPTCHA-V2-java
     type: GitHub
     description: Java Bindings for reCAPTCHA V2
@@ -138,277 +147,16 @@ projects:
     commits:
       from: '2017-07-03'
       to: '2020-04-21'
-      amount: '31'
-  - name: schnatterer/moby-names-generator-java
+      amount: '63'
+  - name: cloudogu/k8s-appops-security-talks
     type: GitHub
-    description: Java Version of the famous Moby (Docker) Names Generator
-    technologies: Java, Maven, Travis, SonarQube
+    description: Resources for talks on Kubernetes appOps Security
+    technologies: Kubernetes
     contribution: Creator
     commits:
-      from: '2020-03-04'
-      to: '2020-04-05'
-      amount: '18'
-  - name: cloudogu/continuous-delivery-slides
-    type: GitHub
-    description: Continuously deliver your presentations to Kubernetes, Maven Sites
-      (Nexus) or GitHub Pages
-    technologies: JavaScript, CSS, Gulp, Grunt, Docker, Jenkins, Bash
-    contribution: Creator
-    commits:
-      from: '2018-06-13'
-      to: '2020-03-27'
-      amount: '230'
-  - name: schnatterer/docker-image-size
-    type: GitHub
-    description: Queries and compares docker image sizes
-    technologies: Bash, Docker, Travis
-    contribution: Creator
-    commits:
-      from: '2019-09-06'
-      to: '2020-02-15'
-      amount: '34'
-  - name: schnatterer/stock-alert
-    type: GitHub
-    description: app that fetches stock prices, compares them to defined references
-      and triggers alerts
-    technologies: NodeJS, Docker, Yarn, Travis, SonarQube
-    contribution: Creator
-    commits:
-      from: '2019-08-15'
-      to: '2020-01-04'
-      amount: '4'
-  - name: schnatterer/musicbrainzws2-java
-    type: GitHub
-    description: java binding for MusicBrainz XML Web Service/Version 2
-    technologies: Java, Maven
-    contribution: Fork Maintainer
-    commits:
-      from: '2013-07-17'
-      to: '2019-09-03'
-      amount: '46'
-  - name: schnatterer/gollum-galore
-    type: GitHub
-    description: Gollum wiki with lots of sugar
-    technologies: Caddy, Docker, Bash, OpenShift, Kubernetes
-    contribution: Creator
-    commits:
-      from: '2017-09-06'
-      to: '2019-08-15'
-      amount: '86'
-  - name: cloudogu/jenkinsfiles
-    type: GitHub
-    description: Examples for jenkins pipelines, comparing scripted and declarative
-      syntax
-    technologies: Groovy, Jenkins, Kubernetes, SonarQube
-    contribution: Creator
-    commits:
-      from: '2017-07-17'
-      to: '2019-07-12'
-      amount: '145'
-  - name: schnatterer/nusic
-    type: GitHub
-    description: your new music (android app)
-    technologies: Android, Java, Groovy, Travis, SonarQube
-    contribution: Creator
-    commits:
-      from: '2013-07-17'
-      to: '2019-07-06'
-      amount: '706'
-  - name: schnatterer/colander
-    type: GitHub
-    description: colander - filtering your calendar
-    technologies: Java, Maven, Docker, GraalVM, Jenkins, Travis, SonarQube
-    contribution: Creator
-    commits:
-      from: '2017-01-15'
-      to: '2019-06-28'
-      amount: '120'
-  - name: cloudogu/versionName
-    type: GitHub
-    description: A tiny Java library that allows for conveniently reading the version
-      name of an application
-    technologies: Java, Maven, Jenkins, SonarQube
-    contribution: Creator
-    commits:
-      from: '2016-09-14'
-      to: '2019-06-27'
-      amount: '104'
-  - name: schnatterer/fernflower-docker
-    type: GitHub
-    description: Unofficial Docker builds of FernFlower Java decompiler
-    technologies: Docker, GraalVM
-    contribution: Creator
-    commits:
-      from: '2019-05-14'
-      to: '2019-06-16'
-      amount: '13'
-  - name: schnatterer/quarkus-getting-started
-    type: GitHub
-    description: Result of quarkus.io getting started in a self-contained minimal
-      docker image
-    technologies: Java, Docker, GraalVM
-    contribution: Creator
-    commits:
-      from: '2019-04-27'
-      to: '2019-05-15'
-      amount: '13'
-  - name: schnatterer/micronaut-getting-started
-    type: GitHub
-    description: Result of micronaut.io getting started in a self-contained minimal
-      docker image
-    technologies: Java, Docker, GraalVM
-    contribution: Creator
-    commits:
-      from: '2019-05-01'
-      to: '2019-05-15'
-      amount: '8'
-  - name: schnatterer/helidon-getting-started
-    type: GitHub
-    description: Result of the Helidon quickstart sample
-    technologies: Java, Docker, GraalVM
-    contribution: Creator
-    commits:
-      from: '2019-05-11'
-      to: '2019-05-15'
-      amount: '7'
-  - name: schnatterer/pmcaFilesystemServer
-    type: GitHub
-    description: Simple Android app for Sony Cameras (PlayMemories Camera App Store)
-      that provides the File System of the camera via HTTP
-    technologies: Android, Java, Gradle, Travis
-    contribution: Creator
-    commits:
-      from: '2015-05-21'
-      to: '2019-03-26'
-      amount: '30'
-  - name: schnatterer/dsdl
-    type: GitHub
-    description: DiskStation DownLoader - gets files from Synology DiskStation Manager
-    technologies: NodeJS, Docker, Travis, SonarQube
-    contribution: Creator
-    commits:
-      from: '2018-04-26'
-      to: '2019-02-24'
-      amount: '70'
-  - name: scm-manager/scm-manager
-    type: GitHub
-    description: The easiest way to share and manage your Git, Mercurial and Subversion
-      repositories over http.
-    technologies: Java, Maven, Jenkins, SonarQube
-    contribution: Team member
-    commits:
-      from: '2018-06-21'
-      to: '2018-12-20'
-      amount: '118'
-  - name: cloudogu/continuous-delivery-docs-example
-    type: GitHub
-    description: Continous delivery of your docs as code to ODT & PDF
-    technologies: Docker, Gulp, Pandoc
-    contribution: Creator
-    commits:
-      from: '2018-03-18'
-      to: '2018-07-31'
-      amount: '6'
-  - name: schnatterer/songbirdDbTools
-    type: GitHub
-    description: Gets more out of your music library
-    technologies: Java, Maven, Travis
-    contribution: Creator
-    commits:
-      from: '2013-01-19'
-      to: '2018-05-10'
-      amount: '64'
-  - name: triologygmbh/test-data-loader
-    type: GitHub
-    description: A Groovy DSL for creating test data via JPA
-    technologies: Groovy, Maven, Jenkins, SonarQube
-    contribution: Maintainer
-    commits:
-      from: '2017-06-21'
-      to: '2018-01-12'
-      amount: '37'
-  - name: schnatterer/drupal2gollum
-    type: GitHub
-    description: Drupal (html) to gollum (markdown) migration
-    technologies: Groovy, Gradle
-    contribution: Creator
-    commits:
-      from: '2017-09-19'
-      to: '2017-10-04'
-      amount: '8'
-  - name: schnatterer/logback-android-demo
-    type: GitHub
-    description: An example that shows some possibilities of using logback-android
-    technologies: Android, Java, Groovy, Jenkins, Travis, SonarQube
-    contribution: Creator
-    commits:
-      from: '2016-08-17'
-      to: '2017-09-09'
-      amount: '57'
-  - name: schnatterer/songbirdDbApi4j
-    type: GitHub
-    description: Java wrapper for songbird SQLite database
-    technologies: Java, Maven, Travis
-    contribution: Creator
-    commits:
-      from: '2015-04-18'
-      to: '2017-08-27'
-      amount: '36'
-  - name: schnatterer/remoteDbDumper
-    type: GitHub
-    description: Command-line interface for downloading dumps via by web-based tools
-    technologies: Java, Maven, Travis
-    contribution: Creator
-    commits:
-      from: '2013-06-28'
-      to: '2017-08-27'
-      amount: '7'
-  - name: schnatterer/songbird2itunes
-    type: GitHub
-    description: Migration tool to migrate a songbird database to itunes
-    technologies: Java, Maven, Travis
-    contribution: Creator
-    commits:
-      from: '2015-04-19'
-      to: '2017-08-27'
-      amount: '67'
-  - name: schnatterer/logback-android-utils
-    type: GitHub
-    description: A small library that conveniently provides additional features for
-      logback-android
-    technologies: Java, Maven, Jenkins, Travis
-    contribution: Creator
-    commits:
-      from: '2016-10-03'
-      to: '2017-08-27'
-      amount: '17'
-  - name: triologygmbh/dependency-check
-    type: GitHub
-    description: An example on how to use the OWASP Dependency-Check maven plugin
-    technologies: Java, Maven, Jenkins
-    contribution: Creator
-    commits:
-      from: '2016-07-29'
-      to: '2017-08-11'
-      amount: '20'
-  - name: schnatterer/logback-spike
-    type: GitHub
-    description: Logback unit testing
-    technologies: Java, Maven, Travis
-    contribution: Creator
-    commits:
-      from: '2017-06-09'
-      to: '2017-07-12'
-      amount: '18'
-  - name: schnatterer/itunes4j
-    type: GitHub
-    description: Java wrapper for the windows COM API of iTunes
-    technologies: Java, Maven
-    contribution: Creator
-    commits:
-      from: '2015-04-16'
-      to: '2017-01-21'
-      amount: '28'
+      from: '2019-02-08'
+      to: '2020-04-21'
+      amount: '149'
   - name: ohmyzsh/ohmyzsh
     type: GitHub
     description: 🙃 A delightful community-driven (with 1700+ contributors) framework
@@ -418,33 +166,309 @@ projects:
       up with the latest updates from the community.
     technologies: ''
     contribution: Contributor
+    commits:
+      from: '2020-04-10'
+      to: '2020-04-10'
+      amount: '1'
+  - name: schnatterer/moby-names-generator-java
+    type: GitHub
+    description: Java Version of the famous Moby (Docker) Names Generator
+    technologies: Java, Maven, Travis, SonarQube
+    contribution: Creator
+    commits:
+      from: '2020-03-04'
+      to: '2020-04-05'
+      amount: '37'
+  - name: cloudogu/continuous-delivery-slides
+    type: GitHub
+    description: Continuously deliver your presentations to Kubernetes, Maven Sites
+      (Nexus) or GitHub Pages
+    technologies: JavaScript, CSS, Gulp, Grunt, Docker, Jenkins, Bash
+    contribution: Creator
+    commits:
+      from: '2018-06-13'
+      to: '2020-03-27'
+      amount: '461'
+  - name: schnatterer/docker-image-size
+    type: GitHub
+    description: Queries and compares docker image sizes
+    technologies: Bash, Docker, Travis
+    contribution: Creator
+    commits:
+      from: '2019-09-06'
+      to: '2020-02-15'
+      amount: '69'
+  - name: cloudogu/annotation-processors
+    type: GitHub
+    description: An example on how to use Java Annotation Processors
+    technologies: ''
+    contribution: Contributor
+    commits:
+      from: '2018-01-10'
+      to: '2020-02-11'
+      amount: '5'
   - name: ericdaugherty/itunesexport-scala
     type: GitHub
     description: Command Line tool to export/copy playlists from iTunes written in
       Scala
     technologies: ''
     contribution: Contributor
-  - name: bitnami/charts
+    commits:
+      from: '2020-02-02'
+      to: '2020-02-02'
+      amount: '3'
+  - name: schnatterer/stock-alert
     type: GitHub
-    description: Helm Charts
-    technologies: ''
-    contribution: Contributor
-  - name: fluxcd/flux
+    description: app that fetches stock prices, compares them to defined references
+      and triggers alerts
+    technologies: NodeJS, Docker, Yarn, Travis, SonarQube
+    contribution: Creator
+    commits:
+      from: '2019-08-15'
+      to: '2020-01-04'
+      amount: '9'
+  - name: schnatterer/musicbrainzws2-java
     type: GitHub
-    description: The GitOps Kubernetes operator
-    technologies: ''
-    contribution: Contributor
+    description: java binding for MusicBrainz XML Web Service/Version 2
+    technologies: Java, Maven
+    contribution: Fork Maintainer
+    commits:
+      from: '2013-07-17'
+      to: '2019-09-03'
+      amount: '93'
   - name: Shopify/kubeaudit
     type: GitHub
     description: kubeaudit helps you audit your Kubernetes clusters against common
       security controls
     technologies: ''
     contribution: Contributor
-  - name: cloudogu/annotation-processors
+    commits:
+      from: '2019-08-24'
+      to: '2019-08-24'
+      amount: '1'
+  - name: schnatterer/gollum-galore
     type: GitHub
-    description: An example on how to use Java Annotation Processors
-    technologies: ''
-    contribution: Contributor
+    description: Gollum wiki with lots of sugar
+    technologies: Caddy, Docker, Bash, OpenShift, Kubernetes
+    contribution: Creator
+    commits:
+      from: '2017-09-06'
+      to: '2019-08-15'
+      amount: '173'
+  - name: cloudogu/jenkinsfiles
+    type: GitHub
+    description: Examples for jenkins pipelines, comparing scripted and declarative
+      syntax
+    technologies: Groovy, Jenkins, Kubernetes, SonarQube
+    contribution: Creator
+    commits:
+      from: '2017-07-17'
+      to: '2019-07-12'
+      amount: '291'
+  - name: schnatterer/nusic
+    type: GitHub
+    description: your new music (android app)
+    technologies: Android, Java, Groovy, Travis, SonarQube
+    contribution: Creator
+    commits:
+      from: '2013-07-17'
+      to: '2019-07-06'
+      amount: '1413'
+  - name: schnatterer/colander
+    type: GitHub
+    description: colander - filtering your calendar
+    technologies: Java, Maven, Docker, GraalVM, Jenkins, Travis, SonarQube
+    contribution: Creator
+    commits:
+      from: '2017-01-15'
+      to: '2019-06-28'
+      amount: '241'
+  - name: cloudogu/versionName
+    type: GitHub
+    description: A tiny Java library that allows for conveniently reading the version
+      name of an application
+    technologies: Java, Maven, Jenkins, SonarQube
+    contribution: Creator
+    commits:
+      from: '2016-09-14'
+      to: '2019-06-27'
+      amount: '209'
+  - name: schnatterer/fernflower-docker
+    type: GitHub
+    description: Unofficial Docker builds of FernFlower Java decompiler
+    technologies: Docker, GraalVM
+    contribution: Creator
+    commits:
+      from: '2019-05-14'
+      to: '2019-06-16'
+      amount: '27'
+  - name: schnatterer/helidon-getting-started
+    type: GitHub
+    description: Result of the Helidon quickstart sample
+    technologies: Java, Docker, GraalVM
+    contribution: Creator
+    commits:
+      from: '2019-05-11'
+      to: '2019-05-15'
+      amount: '15'
+  - name: schnatterer/micronaut-getting-started
+    type: GitHub
+    description: Result of micronaut.io getting started in a self-contained minimal
+      docker image
+    technologies: Java, Docker, GraalVM
+    contribution: Creator
+    commits:
+      from: '2019-05-01'
+      to: '2019-05-15'
+      amount: '17'
+  - name: schnatterer/quarkus-getting-started
+    type: GitHub
+    description: Result of quarkus.io getting started in a self-contained minimal
+      docker image
+    technologies: Java, Docker, GraalVM
+    contribution: Creator
+    commits:
+      from: '2019-04-27'
+      to: '2019-05-15'
+      amount: '27'
+  - name: schnatterer/pmcaFilesystemServer
+    type: GitHub
+    description: Simple Android app for Sony Cameras (PlayMemories Camera App Store)
+      that provides the File System of the camera via HTTP
+    technologies: Android, Java, Gradle, Travis
+    contribution: Creator
+    commits:
+      from: '2015-05-21'
+      to: '2019-03-26'
+      amount: '61'
+  - name: schnatterer/dsdl
+    type: GitHub
+    description: DiskStation DownLoader - gets files from Synology DiskStation Manager
+    technologies: NodeJS, Docker, Travis, SonarQube
+    contribution: Creator
+    commits:
+      from: '2018-04-26'
+      to: '2019-02-24'
+      amount: '141'
+  - name: scm-manager/scm-manager
+    type: GitHub
+    description: The easiest way to share and manage your Git, Mercurial and Subversion
+      repositories over http.
+    technologies: Java, Maven, Jenkins, SonarQube
+    contribution: Team member
+    commits:
+      from: '2018-06-21'
+      to: '2018-12-20'
+      amount: '237'
+  - name: cloudogu/continuous-delivery-docs-example
+    type: GitHub
+    description: Continous delivery of your docs as code to ODT & PDF
+    technologies: Docker, Gulp, Pandoc
+    contribution: Creator
+    commits:
+      from: '2018-03-18'
+      to: '2018-07-31'
+      amount: '13'
+  - name: schnatterer/songbirdDbTools
+    type: GitHub
+    description: Gets more out of your music library
+    technologies: Java, Maven, Travis
+    contribution: Creator
+    commits:
+      from: '2013-01-19'
+      to: '2018-05-10'
+      amount: '129'
+  - name: triologygmbh/test-data-loader
+    type: GitHub
+    description: A Groovy DSL for creating test data via JPA
+    technologies: Groovy, Maven, Jenkins, SonarQube
+    contribution: Maintainer
+    commits:
+      from: '2017-06-21'
+      to: '2018-01-12'
+      amount: '75'
+  - name: schnatterer/drupal2gollum
+    type: GitHub
+    description: Drupal (html) to gollum (markdown) migration
+    technologies: Groovy, Gradle
+    contribution: Creator
+    commits:
+      from: '2017-09-19'
+      to: '2017-10-04'
+      amount: '17'
+  - name: schnatterer/logback-android-demo
+    type: GitHub
+    description: An example that shows some possibilities of using logback-android
+    technologies: Android, Java, Groovy, Jenkins, Travis, SonarQube
+    contribution: Creator
+    commits:
+      from: '2016-08-17'
+      to: '2017-09-09'
+      amount: '115'
+  - name: schnatterer/logback-android-utils
+    type: GitHub
+    description: A small library that conveniently provides additional features for
+      logback-android
+    technologies: Java, Maven, Jenkins, Travis
+    contribution: Creator
+    commits:
+      from: '2016-10-03'
+      to: '2017-08-27'
+      amount: '35'
+  - name: schnatterer/songbird2itunes
+    type: GitHub
+    description: Migration tool to migrate a songbird database to itunes
+    technologies: Java, Maven, Travis
+    contribution: Creator
+    commits:
+      from: '2015-04-19'
+      to: '2017-08-27'
+      amount: '135'
+  - name: schnatterer/remoteDbDumper
+    type: GitHub
+    description: Command-line interface for downloading dumps via by web-based tools
+    technologies: Java, Maven, Travis
+    contribution: Creator
+    commits:
+      from: '2013-06-28'
+      to: '2017-08-27'
+      amount: '15'
+  - name: schnatterer/songbirdDbApi4j
+    type: GitHub
+    description: Java wrapper for songbird SQLite database
+    technologies: Java, Maven, Travis
+    contribution: Creator
+    commits:
+      from: '2015-04-18'
+      to: '2017-08-27'
+      amount: '73'
+  - name: triologygmbh/dependency-check
+    type: GitHub
+    description: An example on how to use the OWASP Dependency-Check maven plugin
+    technologies: Java, Maven, Jenkins
+    contribution: Creator
+    commits:
+      from: '2016-07-29'
+      to: '2017-08-11'
+      amount: '41'
+  - name: schnatterer/logback-spike
+    type: GitHub
+    description: Logback unit testing
+    technologies: Java, Maven, Travis
+    contribution: Creator
+    commits:
+      from: '2017-06-09'
+      to: '2017-07-12'
+      amount: '37'
+  - name: schnatterer/itunes4j
+    type: GitHub
+    description: Java wrapper for the windows COM API of iTunes
+    technologies: Java, Maven
+    contribution: Creator
+    commits:
+      from: '2015-04-16'
+      to: '2017-01-21'
+      amount: '57'
 ignored:
   - cloudogu/cloudogu.github.io
   - schnatterer/spotify-playlist-import
