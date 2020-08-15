@@ -469,8 +469,234 @@ projects:
       from: '2015-04-16'
       to: '2017-01-21'
       amount: '57'
+  - name: cloudogu/smeagol
+    type: GitHub
+    description: Store your technical documentation with in your git repository
+    technologies: Java, Spring, Maven
+    contribution: Contributor
+  - name: cloudogu/docker-doc_template
+    type: GitHub
+    description: An example for generating PDF from Markdown with cloudogu/pandoc container
+    technologies: Docker, PanDoc
+    contribution: Contributor
+  - name: schnatterer/AntTestReporting
+    type: GitHub
+    description: Demo project that shows how to automatically generate reports that visualize the results of JUnit tests and code coverage measurements
+    technologies: Ant, JUnit
+    contribution: Creator
+  - name: cloudogu/cas
+    type: GitHub
+    description: CAS Server
+    technologies: Java, CAS
+    contribution: Contributor
+  - name: cloudogu/base
+    type: GitHub
+    description: Base image for Dogus
+    technologies: Docker
+    contribution: Contributor
+  - name: sdorra/shiro-static-permissions
+    type: GitHub
+    description: AnnotationProcessor which generates static shiro permission check objects
+    technologies: Java, Shiro
+    contribution: Contributor
+  - name: cloudogu/java
+    type: GitHub
+    description: Base image for Java-Dogus
+    technologies: Java
+    contribution: Contributor
+  - name: cloudogu/dogu-build-lib
+    type: GitHub
+    description: Jenkins Pipeline Shared library for Cloudogu EcoSystem Dogus
+    technologies: Groovy, Jenkins
+    contribution: Contributor
+  - name: SonarSource/sonarqube
+    type: GitHub
+    description: Continuous Inspection
+    technologies: Java, SonarQube
+    contribution: Contributor
+  - name: cloudogu/usermgt
+    type: GitHub
+    description: A simple user management application for the Cloudogu EcoSystem.
+    technologies: Java
+    contribution: Contributor
+  - name: schnatterer/JUnitShutdown
+    type: GitHub
+    description: A mechanism for clean shutdowns of JUnit tests during development
+    technologies: Java, JUnit
+    contribution: Creator
+  - name: lastfm/coverartarchive-api
+    type: GitHub
+    description: Java data bindings for the Cover Art Archive
+    technologies: Java
+    contribution: Contributor
+  - name: triologygmbh/gauge-e2e-tests
+    type: GitHub
+    description: An example on how to implement end-to-end tests using Gauge and Selenium
+    technologies: Java, Gauge
+    contribution: Contributor
+  - name: triologygmbh/angular-chart-samples
+    type: GitHub
+    description: Demonstrates the use of different angular-charting-directives
+    technologies: AngularJS
+    contribution: Contributor
+  - name: ical4j/ical4j
+    type: GitHub
+    description: A Java library for parsing and building iCalendar data models
+    technologies: Java
+    contribution: Contributor
+  - name:  cloudogu/nginx
+    type: GitHub
+    description:
+    technologies: NGINX
+    contribution: Contributor
+  - name: cloudogu/ldap
+    type: GitHub
+    description: OpenLDAP Dogu
+    technologies: Docker, LDAP
+    contribution: Contributor
+  - name: jenkinsci/configuration-as-code-plugin
+    type: GitHub
+    description: Jenkins Configuration as Code Plugin
+    technologies: Jenkins, Java
+    contribution: Contributor
+  - name: triologygmbh/database-conventions
+    type: GitHub
+    description: Design and Naming Conventions for Relational Databases
+    technologies: SQL
+    contribution: Contributor
+  - name: cloudogu/postgresql
+    type: GitHub
+    description: PostgreSQL Dogu for Cloudogu EcoSystem
+    technologies: PostgreSQL
+    contribution: Contributor
+  - name: cloudogu/k8s-ops-ansible
+    type: GitHub
+    description: Setup a Kubernetes Cluster with Ansible
+    technologies: Ansible, Kubernetes
+    contribution: Contributor
+  - name: apache/shiro
+    type: GitHub
+    description: Apache Shiro
+    technologies: Java, Shiro
+    contribution: Contributor
+  - name: triologygmbh/complex-shiro-permissions
+    type: GitHub
+    description:
+    technologies: Java, Shiro
+    contribution: Contributor
+  - name: cloudogu/redmine
+    type: GitHub
+    description: Redmine Dogu for the Cloudogu EcoSystem
+    technologies: Java, Shiro
+    contribution: Contributor
+  - name: cloudogu/ecosystem
+    type: GitHub
+    description: Cloudogu Ecosystem is an open platform, which lets you choose how and where your team creates great software. Each service or tool is delivered as a Dōgu, a Docker container, that can be easily integrated in your environment just by pulling it from our registry.
+    technologies: Java, Shiro
+    contribution: Contributor
+  - name: tarent/loginsrv
+    type: GitHub
+    description: JWT login microservice with plugable backends such as OAuth2, Google, Github, htpasswd, osiam, ..
+    technologies: JWT, OAuth2
+    contribution: Contributor
+  - name: ahmetb/kubectx
+    type: GitHub
+    description: Faster way to switch between clusters and namespaces in kubectl
+    technologies: Kubernetes, Bash
+    contribution: Contributor
+  - name: cloudogu/scm
+    type: GitHub
+    description: SCM-Manager Dogu for Cloudogu EcoSystem
+    technologies: Docker, Java
+    contribution: Contributor
+  - name: cloudogu/zalenium-build-lib
+    type: GitHub
+    description: Jenkins shared library that provides a step that runs a temporary zalenium server that archives videos of selenium tests
+    technologies: Groovy, Jenkins, Zalenium, Selenium
+    contribution: Creator
+  - name: cloudogu/nexus
+    type: GitHub
+    description: Sonatype Nexus Dogu for Cloudogu EcoSystem
+    technologies: Docker, Groovy, Nexus
+    contribution: Contributor
+  - name: schnatterer/openshift-sonarqube
+    type: GitHub
+    description: SonarQube for OpenShift v2
+    technologies:
+    contribution: Fork Maintainer
+  - name: cloudogu/postfix
+    type: GitHub
+    description: Postfix MTA Dogu for the Cloudogu EcoSystem
+    technologies:
+    contribution: Contributor
+  - name: triologygmbh/angularjs-tutorial
+    type: GitHub
+    description:
+    technologies: AngularJS
+    contribution: Contributor
+  - name: cloudogu/docker-pandoc
+    type: GitHub
+    description: A docker container with Pandoc and LaTeX for building PDF files from markdown
+    technologies: Docker, PanDoc
+    contribution: Contributor
+  - name: schnatterer/reCAPTCHA-V2-jee7
+    type: GitHub
+    description: Java Bindings for reCAPTCHA V2
+    technologies: JavaEE
+    contribution: Creator
+  - name: cloudogu/sonar
+    type: GitHub
+    description: SonarQube Dogu for the Cloudogu EcoSystem
+    technologies: Docker
+    contribution: Contributor
+  - name: cloudogu/springboot-micrometer-demo-command-bus
+    type: GitHub
+    description: This project shows how to use micrometer in springboot
+    technologies: Java, Micrometer, Prometheus
+    contribution: Contributor
+  - name: schnatterer/web-console
+    type: GitHub
+    description: Simple web-based SSH, remote shell in your browser
+    technologies: Docker
+    contribution: Fork Maintainer
+  - name: schnatterer/nodejs-simple-file-upload
+    type: GitHub
+    description: a simple app for uploading files using node.js and express
+    technologies: NodeJS, JavaScript, Docker
+    contribution: Fork Maintainer
+  - name: schnatterer/docker-sudo
+    type: GitHub
+    description: Docker image containing sudo command for show casing privilege escalation
+    technologies: Docker
+    contribution: Contributor
+  - name: cloudogu/spring-petclinic
+    type: GitHub
+    description: The famous sample Spring-based application, extend by a Jenkins CD Pipeline that runs selenium tests, anlyzes via SonarQube and deploys to Nexus
+    technologies: Java, Jenkins, Selenium
+    contribution: Contributor
+  - name: schnatterer/loggly-docker
+    type: GitHub
+    description: Docker container for loggly (via syslog)
+    technologies: Docker
+    contribution: Contributor
+  - name: helm/charts
+    type: GitHub
+    description: Curated applications for Kubernetes
+    technologies: Helm, Kubernetes
+    contribution: Contributor
+  - name: ma1co/OpenMemories-AppList
+    type: GitHub
+    description: App list for OpenMemories' app store
+    technologies:
+    contribution: Contributor
+  - name: schnatterer/nginx-unpriv
+    type: GitHub
+    description: Example on how to run nginx in a docker container as non-root
+    technologies: Docker, NGINX
+    contribution: Contributor
 ignored:
   - cloudogu/cloudogu.github.io
   - schnatterer/spotify-playlist-import
   - schnatterer/schnatterer.github.io
   - schnatterer/gh-pages-redirect
+  - cloudogu/dotnet-docker
