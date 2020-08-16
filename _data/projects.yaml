@@ -250,7 +250,7 @@ projects:
     type: GitHub
     description: Docker container for loggly (via syslog)
     technologies: Docker
-    contribution: Contributor
+    contribution: Fork Maintainer
     commits:
       from: '2019-08-28'
       to: '2019-08-31'
@@ -400,7 +400,7 @@ projects:
     type: GitHub
     description: Example on how to run nginx in a docker container as non-root
     technologies: Docker, NGINX
-    contribution: Contributor
+    contribution: Creator
     commits:
       from: '2019-02-01'
       to: '2019-03-01'
@@ -418,7 +418,7 @@ projects:
     type: GitHub
     description: Docker image containing sudo command for show casing privilege escalation
     technologies: Docker
-    contribution: Contributor
+    contribution: Creator
     commits:
       from: '2019-02-01'
       to: '2019-02-01'
