@@ -1,14 +1,14 @@
-updated: '2020-08-15'
+updated: '2020-08-16'
 projects:
-  - name: cloudogu/reveal.js-docker-example
+  - name: schnatterer/info
     type: GitHub
-    description: Advanced example for using web-based slides/presentations via cloudogu/reveal.js-docker
-    technologies: Docker, Kubernetes, Jenkins, Maven
+    description: Source of this page
+    technologies: HTML, CSS, GitHub Actions
     contribution: Creator
     commits:
-      from: '2020-03-27'
-      to: '2020-08-14'
-      amount: '115'
+      from: '2020-06-28'
+      to: '2020-08-15'
+      amount: '36'
   - name: schnatterer/smeagol-galore
     type: GitHub
     description: A git-based wiki featuring markdown, a WYSIWYG Editor, PlantUML,
@@ -18,16 +18,16 @@ projects:
     commits:
       from: '2018-05-31'
       to: '2020-08-14'
-      amount: '303'
-  - name: schnatterer/info
+      amount: '152'
+  - name: cloudogu/reveal.js-docker-example
     type: GitHub
-    description: Source of this page
-    technologies: HTML, CSS, GitHub Actions
+    description: Advanced example for using web-based slides/presentations via cloudogu/reveal.js-docker
+    technologies: Docker, Kubernetes, Jenkins, Maven
     contribution: Creator
     commits:
-      from: '2020-06-28'
+      from: '2020-03-27'
       to: '2020-08-14'
-      amount: '65'
+      amount: '58'
   - name: cloudogu/k8s-diagrams
     type: GitHub
     description: A collection of kubernetes-related diagrams
@@ -36,7 +36,7 @@ projects:
     commits:
       from: '2020-04-09'
       to: '2020-08-13'
-      amount: '13'
+      amount: '7'
   - name: schnatterer/docker-aliases
     type: GitHub
     description: Programmatically generated docker client aliases
@@ -45,7 +45,7 @@ projects:
     commits:
       from: '2019-09-17'
       to: '2020-08-12'
-      amount: '129'
+      amount: '65'
   - name: cloudogu/k8s-intro-talk
     type: GitHub
     description: Slides for an intro talk to kubernetes
@@ -54,7 +54,7 @@ projects:
     commits:
       from: '2020-06-30'
       to: '2020-07-17'
-      amount: '31'
+      amount: '16'
   - name: cloudogu/reveal.js-docker
     type: GitHub
     description: Docker images providing easier to use, opinionated reveal.js web
@@ -64,7 +64,7 @@ projects:
     commits:
       from: '2020-03-11'
       to: '2020-07-16'
-      amount: '67'
+      amount: '34'
   - name: cloudogu/ces-build-lib
     type: GitHub
     description: Jenkins pipeline shared library adding features for Maven, Docker,
@@ -74,7 +74,7 @@ projects:
     commits:
       from: '2017-02-22'
       to: '2020-07-10'
-      amount: '481'
+      amount: '241'
   - name: schnatterer/letsencrypt-tomcat
     type: GitHub
     description: Tomcat that automatically fetches certificates via letsencrypt
@@ -83,6 +83,15 @@ projects:
     commits:
       from: '2020-05-14'
       to: '2020-06-27'
+      amount: '23'
+  - name: cloudogu/k8s-security-demos
+    type: GitHub
+    description: Demos for several kubernetes security features
+    technologies: Kubernetes, Bash
+    contribution: Creator
+    commits:
+      from: '2019-02-07'
+      to: '2020-06-22'
       amount: '45'
   - name: cloudogu/command-bus
     type: GitHub
@@ -92,16 +101,7 @@ projects:
     commits:
       from: '2017-07-31'
       to: '2020-06-22'
-      amount: '189'
-  - name: cloudogu/k8s-security-demos
-    type: GitHub
-    description: Demos for several kubernetes security features
-    technologies: Kubernetes, Bash
-    contribution: Creator
-    commits:
-      from: '2019-02-07'
-      to: '2020-06-22'
-      amount: '89'
+      amount: '95'
   - name: schnatterer/tomcat-reloading-connector
     type: GitHub
     description: Tomcat connector that automatically reload SSLConfig
@@ -110,7 +110,7 @@ projects:
     commits:
       from: '2020-05-05'
       to: '2020-06-20'
-      amount: '63'
+      amount: '32'
   - name: fluxcd/flux
     type: GitHub
     description: The GitOps Kubernetes operator
@@ -128,7 +128,7 @@ projects:
     commits:
       from: '2020-05-07'
       to: '2020-05-12'
-      amount: '5'
+      amount: '3'
   - name: schnatterer/devboxes
     type: GitHub
     description: Ansible playbook to setup my development machines and helps to keep
@@ -138,16 +138,7 @@ projects:
     commits:
       from: '2019-06-21'
       to: '2020-04-24'
-      amount: '27'
-  - name: triologygmbh/reCAPTCHA-V2-java
-    type: GitHub
-    description: Java Bindings for reCAPTCHA V2
-    technologies: Java, Maven, Jenkins, SonarQube
-    contribution: Co-creator
-    commits:
-      from: '2017-07-03'
-      to: '2020-04-21'
-      amount: '63'
+      amount: '14'
   - name: cloudogu/k8s-appops-security-talks
     type: GitHub
     description: Resources for talks on Kubernetes appOps Security
@@ -156,7 +147,16 @@ projects:
     commits:
       from: '2019-02-08'
       to: '2020-04-21'
-      amount: '149'
+      amount: '75'
+  - name: triologygmbh/reCAPTCHA-V2-java
+    type: GitHub
+    description: Java Bindings for reCAPTCHA V2
+    technologies: Java, Maven, Jenkins, SonarQube
+    contribution: Co-creator
+    commits:
+      from: '2017-07-03'
+      to: '2020-04-21'
+      amount: '32'
   - name: ohmyzsh/ohmyzsh
     type: GitHub
     description: 🙃 A delightful community-driven (with 1700+ contributors) framework
@@ -178,7 +178,7 @@ projects:
     commits:
       from: '2020-03-04'
       to: '2020-04-05'
-      amount: '37'
+      amount: '19'
   - name: cloudogu/continuous-delivery-slides
     type: GitHub
     description: Continuously deliver your presentations to Kubernetes, Maven Sites
@@ -188,7 +188,7 @@ projects:
     commits:
       from: '2018-06-13'
       to: '2020-03-27'
-      amount: '461'
+      amount: '231'
   - name: schnatterer/docker-image-size
     type: GitHub
     description: Queries and compares docker image sizes
@@ -197,7 +197,17 @@ projects:
     commits:
       from: '2019-09-06'
       to: '2020-02-15'
-      amount: '69'
+      amount: '35'
+  - name: cloudogu/spring-petclinic
+    type: GitHub
+    description: The famous sample Spring-based application, extend by a Jenkins CD
+      Pipeline that runs selenium tests, anlyzes via SonarQube and deploys to Nexus
+    technologies: Java, Jenkins, Selenium
+    contribution: Contributor
+    commits:
+      from: '2017-10-09'
+      to: '2020-02-11'
+      amount: '29'
   - name: cloudogu/annotation-processors
     type: GitHub
     description: An example on how to use Java Annotation Processors
@@ -206,7 +216,7 @@ projects:
     commits:
       from: '2018-01-10'
       to: '2020-02-11'
-      amount: '5'
+      amount: '3'
   - name: ericdaugherty/itunesexport-scala
     type: GitHub
     description: Command Line tool to export/copy playlists from iTunes written in
@@ -216,7 +226,7 @@ projects:
     commits:
       from: '2020-02-02'
       to: '2020-02-02'
-      amount: '3'
+      amount: '2'
   - name: schnatterer/stock-alert
     type: GitHub
     description: app that fetches stock prices, compares them to defined references
@@ -226,7 +236,7 @@ projects:
     commits:
       from: '2019-08-15'
       to: '2020-01-04'
-      amount: '9'
+      amount: '5'
   - name: schnatterer/musicbrainzws2-java
     type: GitHub
     description: java binding for MusicBrainz XML Web Service/Version 2
@@ -235,7 +245,16 @@ projects:
     commits:
       from: '2013-07-17'
       to: '2019-09-03'
-      amount: '93'
+      amount: '47'
+  - name: schnatterer/loggly-docker
+    type: GitHub
+    description: Docker container for loggly (via syslog)
+    technologies: Docker
+    contribution: Contributor
+    commits:
+      from: '2019-08-28'
+      to: '2019-08-31'
+      amount: '3'
   - name: Shopify/kubeaudit
     type: GitHub
     description: kubeaudit helps you audit your Kubernetes clusters against common
@@ -254,7 +273,7 @@ projects:
     commits:
       from: '2017-09-06'
       to: '2019-08-15'
-      amount: '173'
+      amount: '87'
   - name: cloudogu/jenkinsfiles
     type: GitHub
     description: Examples for jenkins pipelines, comparing scripted and declarative
@@ -264,7 +283,16 @@ projects:
     commits:
       from: '2017-07-17'
       to: '2019-07-12'
-      amount: '291'
+      amount: '146'
+  - name: cloudogu/springboot-micrometer-demo-command-bus
+    type: GitHub
+    description: This project shows how to use micrometer in springboot
+    technologies: Java, Micrometer, Prometheus
+    contribution: Contributor
+    commits:
+      from: '2019-07-11'
+      to: '2019-07-11'
+      amount: '4'
   - name: schnatterer/nusic
     type: GitHub
     description: your new music (android app)
@@ -273,7 +301,7 @@ projects:
     commits:
       from: '2013-07-17'
       to: '2019-07-06'
-      amount: '1413'
+      amount: '707'
   - name: schnatterer/colander
     type: GitHub
     description: colander - filtering your calendar
@@ -282,7 +310,7 @@ projects:
     commits:
       from: '2017-01-15'
       to: '2019-06-28'
-      amount: '241'
+      amount: '121'
   - name: cloudogu/versionName
     type: GitHub
     description: A tiny Java library that allows for conveniently reading the version
@@ -292,7 +320,7 @@ projects:
     commits:
       from: '2016-09-14'
       to: '2019-06-27'
-      amount: '209'
+      amount: '105'
   - name: schnatterer/fernflower-docker
     type: GitHub
     description: Unofficial Docker builds of FernFlower Java decompiler
@@ -301,26 +329,7 @@ projects:
     commits:
       from: '2019-05-14'
       to: '2019-06-16'
-      amount: '27'
-  - name: schnatterer/helidon-getting-started
-    type: GitHub
-    description: Result of the Helidon quickstart sample
-    technologies: Java, Docker, GraalVM
-    contribution: Creator
-    commits:
-      from: '2019-05-11'
-      to: '2019-05-15'
-      amount: '15'
-  - name: schnatterer/micronaut-getting-started
-    type: GitHub
-    description: Result of micronaut.io getting started in a self-contained minimal
-      docker image
-    technologies: Java, Docker, GraalVM
-    contribution: Creator
-    commits:
-      from: '2019-05-01'
-      to: '2019-05-15'
-      amount: '17'
+      amount: '14'
   - name: schnatterer/quarkus-getting-started
     type: GitHub
     description: Result of quarkus.io getting started in a self-contained minimal
@@ -330,7 +339,35 @@ projects:
     commits:
       from: '2019-04-27'
       to: '2019-05-15'
-      amount: '27'
+      amount: '14'
+  - name: schnatterer/micronaut-getting-started
+    type: GitHub
+    description: Result of micronaut.io getting started in a self-contained minimal
+      docker image
+    technologies: Java, Docker, GraalVM
+    contribution: Creator
+    commits:
+      from: '2019-05-01'
+      to: '2019-05-15'
+      amount: '9'
+  - name: schnatterer/helidon-getting-started
+    type: GitHub
+    description: Result of the Helidon quickstart sample
+    technologies: Java, Docker, GraalVM
+    contribution: Creator
+    commits:
+      from: '2019-05-11'
+      to: '2019-05-15'
+      amount: '8'
+  - name: helm/charts
+    type: GitHub
+    description: Curated applications for Kubernetes
+    technologies: Helm, Kubernetes
+    contribution: Contributor
+    commits:
+      from: '2019-05-02'
+      to: '2019-05-02'
+      amount: '1'
   - name: schnatterer/pmcaFilesystemServer
     type: GitHub
     description: Simple Android app for Sony Cameras (PlayMemories Camera App Store)
@@ -340,7 +377,34 @@ projects:
     commits:
       from: '2015-05-21'
       to: '2019-03-26'
-      amount: '61'
+      amount: '31'
+  - name: ma1co/OpenMemories-AppList
+    type: GitHub
+    description: App list for OpenMemories' app store
+    technologies: null
+    contribution: Contributor
+    commits:
+      from: '2019-03-25'
+      to: '2019-03-25'
+      amount: '1'
+  - name: schnatterer/nodejs-simple-file-upload
+    type: GitHub
+    description: a simple app for uploading files using node.js and express
+    technologies: NodeJS, JavaScript, Docker
+    contribution: Fork Maintainer
+    commits:
+      from: '2019-02-14'
+      to: '2019-03-08'
+      amount: '5'
+  - name: schnatterer/nginx-unpriv
+    type: GitHub
+    description: Example on how to run nginx in a docker container as non-root
+    technologies: Docker, NGINX
+    contribution: Contributor
+    commits:
+      from: '2019-02-01'
+      to: '2019-03-01'
+      amount: '4'
   - name: schnatterer/dsdl
     type: GitHub
     description: DiskStation DownLoader - gets files from Synology DiskStation Manager
@@ -349,7 +413,35 @@ projects:
     commits:
       from: '2018-04-26'
       to: '2019-02-24'
-      amount: '141'
+      amount: '71'
+  - name: schnatterer/docker-sudo
+    type: GitHub
+    description: Docker image containing sudo command for show casing privilege escalation
+    technologies: Docker
+    contribution: Contributor
+    commits:
+      from: '2019-02-01'
+      to: '2019-02-01'
+      amount: '3'
+  - name: schnatterer/web-console
+    type: GitHub
+    description: Simple web-based SSH, remote shell in your browser
+    technologies: Docker
+    contribution: Fork Maintainer
+    commits:
+      from: '2019-01-21'
+      to: '2019-01-21'
+      amount: '1'
+  - name: cloudogu/zalenium-build-lib
+    type: GitHub
+    description: Jenkins shared library that provides a step that runs a temporary
+      zalenium server that archives videos of selenium tests
+    technologies: Groovy, Jenkins, Zalenium, Selenium
+    contribution: Creator
+    commits:
+      from: '2018-12-04'
+      to: '2019-01-17'
+      amount: '9'
   - name: scm-manager/scm-manager
     type: GitHub
     description: The easiest way to share and manage your Git, Mercurial and Subversion
@@ -359,7 +451,182 @@ projects:
     commits:
       from: '2018-06-21'
       to: '2018-12-20'
-      amount: '237'
+      amount: '119'
+  - name: cloudogu/nexus
+    type: GitHub
+    description: Sonatype Nexus Dogu for Cloudogu EcoSystem
+    technologies: Docker, Groovy, Nexus
+    contribution: Contributor
+    commits:
+      from: '2018-05-28'
+      to: '2018-12-13'
+      amount: '4'
+  - name: cloudogu/redmine
+    type: GitHub
+    description: Redmine Dogu for the Cloudogu EcoSystem
+    technologies: Java, Shiro
+    contribution: Contributor
+    commits:
+      from: '2018-10-17'
+      to: '2018-12-13'
+      amount: '3'
+  - name: cloudogu/dogu-build-lib
+    type: GitHub
+    description: Jenkins Pipeline Shared library for Cloudogu EcoSystem Dogus
+    technologies: Groovy, Jenkins
+    contribution: Contributor
+    commits:
+      from: '2018-12-05'
+      to: '2018-12-13'
+      amount: '4'
+  - name: cloudogu/sonar
+    type: GitHub
+    description: SonarQube Dogu for the Cloudogu EcoSystem
+    technologies: Docker
+    contribution: Contributor
+    commits:
+      from: '2018-10-17'
+      to: '2018-12-05'
+      amount: '4'
+  - name: cloudogu/usermgt
+    type: GitHub
+    description: A simple user management application for the Cloudogu EcoSystem.
+    technologies: Java
+    contribution: Contributor
+    commits:
+      from: '2018-03-26'
+      to: '2018-12-05'
+      amount: '11'
+  - name: cloudogu/smeagol
+    type: GitHub
+    description: Store your technical documentation with in your git repository
+    technologies: Java, Spring, Maven
+    contribution: Contributor
+    commits:
+      from: '2018-01-15'
+      to: '2018-12-05'
+      amount: '23'
+  - name: cloudogu/nginx
+    type: GitHub
+    description: null
+    technologies: NGINX
+    contribution: Contributor
+    commits:
+      from: '2018-10-17'
+      to: '2018-10-25'
+      amount: '2'
+  - name: cloudogu/postgresql
+    type: GitHub
+    description: PostgreSQL Dogu for Cloudogu EcoSystem
+    technologies: PostgreSQL
+    contribution: Contributor
+    commits:
+      from: '2018-10-18'
+      to: '2018-10-18'
+      amount: '1'
+  - name: cloudogu/base
+    type: GitHub
+    description: Base image for Dogus
+    technologies: Docker
+    contribution: Contributor
+    commits:
+      from: '2018-10-17'
+      to: '2018-10-18'
+      amount: '6'
+  - name: cloudogu/postfix
+    type: GitHub
+    description: Postfix MTA Dogu for the Cloudogu EcoSystem
+    technologies: null
+    contribution: Contributor
+    commits:
+      from: '2018-10-17'
+      to: '2018-10-17'
+      amount: '1'
+  - name: cloudogu/scm
+    type: GitHub
+    description: SCM-Manager Dogu for Cloudogu EcoSystem
+    technologies: Docker, Java
+    contribution: Contributor
+    commits:
+      from: '2018-10-17'
+      to: '2018-10-17'
+      amount: '1'
+  - name: cloudogu/ecosystem
+    type: GitHub
+    description: Cloudogu Ecosystem is an open platform, which lets you choose how
+      and where your team creates great software. Each service or tool is delivered
+      as a Dōgu, a Docker container, that can be easily integrated in your environment
+      just by pulling it from our registry.
+    technologies: Java, Shiro
+    contribution: Contributor
+    commits:
+      from: '2017-11-24'
+      to: '2018-10-17'
+      amount: '9'
+  - name: cloudogu/ldap
+    type: GitHub
+    description: OpenLDAP Dogu
+    technologies: Docker, LDAP
+    contribution: Contributor
+    commits:
+      from: '2018-10-17'
+      to: '2018-10-17'
+      amount: '1'
+  - name: cloudogu/java
+    type: GitHub
+    description: Base image for Java-Dogus
+    technologies: Java
+    contribution: Contributor
+    commits:
+      from: '2018-10-17'
+      to: '2018-10-17'
+      amount: '5'
+  - name: cloudogu/cas
+    type: GitHub
+    description: CAS Server
+    technologies: Java, CAS
+    contribution: Contributor
+    commits:
+      from: '2016-10-26'
+      to: '2018-10-17'
+      amount: '26'
+  - name: cloudogu/k8s-ops-ansible
+    type: GitHub
+    description: Setup a Kubernetes Cluster with Ansible
+    technologies: Ansible, Kubernetes
+    contribution: Contributor
+    commits:
+      from: '2018-10-08'
+      to: '2018-10-11'
+      amount: '7'
+  - name: jenkinsci/configuration-as-code-plugin
+    type: GitHub
+    description: Jenkins Configuration as Code Plugin
+    technologies: Jenkins, Java
+    contribution: Contributor
+    commits:
+      from: '2018-09-17'
+      to: '2018-09-17'
+      amount: '1'
+  - name: ahmetb/kubectx
+    type: GitHub
+    description: Faster way to switch between clusters and namespaces in kubectl
+    technologies: Kubernetes, Bash
+    contribution: Contributor
+    commits:
+      from: '2018-09-05'
+      to: '2018-09-05'
+      amount: '1'
+  - name: sdorra/shiro-static-permissions
+    type: GitHub
+    description: AnnotationProcessor which generates static shiro permission check
+      objects
+    technologies: Java, Shiro
+    contribution: Contributor
+    commits:
+      from: '2018-07-30'
+      to: '2018-08-01'
+      amount: '2'
   - name: cloudogu/continuous-delivery-docs-example
     type: GitHub
     description: Continous delivery of your docs as code to ODT & PDF
@@ -368,7 +635,27 @@ projects:
     commits:
       from: '2018-03-18'
       to: '2018-07-31'
-      amount: '13'
+      amount: '7'
+  - name: cloudogu/docker-pandoc
+    type: GitHub
+    description: A docker container with Pandoc and LaTeX for building PDF files from
+      markdown
+    technologies: Docker, PanDoc
+    contribution: Contributor
+    commits:
+      from: '2018-05-14'
+      to: '2018-05-24'
+      amount: '2'
+  - name: cloudogu/docker-doc_template
+    type: GitHub
+    description: An example for generating PDF from Markdown with cloudogu/pandoc
+      container
+    technologies: Docker, PanDoc
+    contribution: Contributor
+    commits:
+      from: '2018-05-14'
+      to: '2018-05-24'
+      amount: '9'
   - name: schnatterer/songbirdDbTools
     type: GitHub
     description: Gets more out of your music library
@@ -377,7 +664,7 @@ projects:
     commits:
       from: '2013-01-19'
       to: '2018-05-10'
-      amount: '129'
+      amount: '65'
   - name: triologygmbh/test-data-loader
     type: GitHub
     description: A Groovy DSL for creating test data via JPA
@@ -386,7 +673,17 @@ projects:
     commits:
       from: '2017-06-21'
       to: '2018-01-12'
-      amount: '75'
+      amount: '38'
+  - name: tarent/loginsrv
+    type: GitHub
+    description: JWT login microservice with plugable backends such as OAuth2, Google,
+      Github, htpasswd, osiam, ..
+    technologies: JWT, OAuth2
+    contribution: Contributor
+    commits:
+      from: '2017-10-07'
+      to: '2017-10-07'
+      amount: '1'
   - name: schnatterer/drupal2gollum
     type: GitHub
     description: Drupal (html) to gollum (markdown) migration
@@ -395,7 +692,7 @@ projects:
     commits:
       from: '2017-09-19'
       to: '2017-10-04'
-      amount: '17'
+      amount: '9'
   - name: schnatterer/logback-android-demo
     type: GitHub
     description: An example that shows some possibilities of using logback-android
@@ -404,7 +701,34 @@ projects:
     commits:
       from: '2016-08-17'
       to: '2017-09-09'
-      amount: '115'
+      amount: '58'
+  - name: schnatterer/songbirdDbApi4j
+    type: GitHub
+    description: Java wrapper for songbird SQLite database
+    technologies: Java, Maven, Travis
+    contribution: Creator
+    commits:
+      from: '2015-04-18'
+      to: '2017-08-27'
+      amount: '37'
+  - name: schnatterer/remoteDbDumper
+    type: GitHub
+    description: Command-line interface for downloading dumps via by web-based tools
+    technologies: Java, Maven, Travis
+    contribution: Creator
+    commits:
+      from: '2013-06-28'
+      to: '2017-08-27'
+      amount: '8'
+  - name: schnatterer/songbird2itunes
+    type: GitHub
+    description: Migration tool to migrate a songbird database to itunes
+    technologies: Java, Maven, Travis
+    contribution: Creator
+    commits:
+      from: '2015-04-19'
+      to: '2017-08-27'
+      amount: '68'
   - name: schnatterer/logback-android-utils
     type: GitHub
     description: A small library that conveniently provides additional features for
@@ -414,34 +738,7 @@ projects:
     commits:
       from: '2016-10-03'
       to: '2017-08-27'
-      amount: '35'
-  - name: schnatterer/songbird2itunes
-    type: GitHub
-    description: Migration tool to migrate a songbird database to itunes
-    technologies: Java, Maven, Travis
-    contribution: Creator
-    commits:
-      from: '2015-04-19'
-      to: '2017-08-27'
-      amount: '135'
-  - name: schnatterer/remoteDbDumper
-    type: GitHub
-    description: Command-line interface for downloading dumps via by web-based tools
-    technologies: Java, Maven, Travis
-    contribution: Creator
-    commits:
-      from: '2013-06-28'
-      to: '2017-08-27'
-      amount: '15'
-  - name: schnatterer/songbirdDbApi4j
-    type: GitHub
-    description: Java wrapper for songbird SQLite database
-    technologies: Java, Maven, Travis
-    contribution: Creator
-    commits:
-      from: '2015-04-18'
-      to: '2017-08-27'
-      amount: '73'
+      amount: '18'
   - name: triologygmbh/dependency-check
     type: GitHub
     description: An example on how to use the OWASP Dependency-Check maven plugin
@@ -450,7 +747,7 @@ projects:
     commits:
       from: '2016-07-29'
       to: '2017-08-11'
-      amount: '41'
+      amount: '21'
   - name: schnatterer/logback-spike
     type: GitHub
     description: Logback unit testing
@@ -459,7 +756,70 @@ projects:
     commits:
       from: '2017-06-09'
       to: '2017-07-12'
-      amount: '37'
+      amount: '19'
+  - name: schnatterer/reCAPTCHA-V2-jee7
+    type: GitHub
+    description: Java Bindings for reCAPTCHA V2
+    technologies: JavaEE
+    contribution: Creator
+    commits:
+      from: '2017-07-03'
+      to: '2017-07-07'
+      amount: '12'
+  - name: triologygmbh/database-conventions
+    type: GitHub
+    description: Design and Naming Conventions for Relational Databases
+    technologies: SQL
+    contribution: Contributor
+    commits:
+      from: '2017-06-26'
+      to: '2017-06-26'
+      amount: '1'
+  - name: ical4j/ical4j
+    type: GitHub
+    description: A Java library for parsing and building iCalendar data models
+    technologies: Java
+    contribution: Contributor
+    commits:
+      from: '2017-02-05'
+      to: '2017-02-05'
+      amount: '1'
+  - name: triologygmbh/angularjs-tutorial
+    type: GitHub
+    description: null
+    technologies: AngularJS
+    contribution: Contributor
+    commits:
+      from: '2017-01-30'
+      to: '2017-01-30'
+      amount: '1'
+  - name: triologygmbh/complex-shiro-permissions
+    type: GitHub
+    description: null
+    technologies: Java, Shiro
+    contribution: Contributor
+    commits:
+      from: '2017-01-30'
+      to: '2017-01-30'
+      amount: '1'
+  - name: triologygmbh/angular-chart-samples
+    type: GitHub
+    description: Demonstrates the use of different angular-charting-directives
+    technologies: AngularJS
+    contribution: Contributor
+    commits:
+      from: '2017-01-30'
+      to: '2017-01-30'
+      amount: '1'
+  - name: triologygmbh/gauge-e2e-tests
+    type: GitHub
+    description: An example on how to implement end-to-end tests using Gauge and Selenium
+    technologies: Java, Gauge
+    contribution: Contributor
+    commits:
+      from: '2017-01-30'
+      to: '2017-01-30'
+      amount: '1'
   - name: schnatterer/itunes4j
     type: GitHub
     description: Java wrapper for the windows COM API of iTunes
@@ -468,232 +828,62 @@ projects:
     commits:
       from: '2015-04-16'
       to: '2017-01-21'
-      amount: '57'
-  - name: cloudogu/smeagol
-    type: GitHub
-    description: Store your technical documentation with in your git repository
-    technologies: Java, Spring, Maven
-    contribution: Contributor
-  - name: cloudogu/docker-doc_template
-    type: GitHub
-    description: An example for generating PDF from Markdown with cloudogu/pandoc container
-    technologies: Docker, PanDoc
-    contribution: Contributor
-  - name: schnatterer/AntTestReporting
-    type: GitHub
-    description: Demo project that shows how to automatically generate reports that visualize the results of JUnit tests and code coverage measurements
-    technologies: Ant, JUnit
-    contribution: Creator
-  - name: cloudogu/cas
-    type: GitHub
-    description: CAS Server
-    technologies: Java, CAS
-    contribution: Contributor
-  - name: cloudogu/base
-    type: GitHub
-    description: Base image for Dogus
-    technologies: Docker
-    contribution: Contributor
-  - name: sdorra/shiro-static-permissions
-    type: GitHub
-    description: AnnotationProcessor which generates static shiro permission check objects
-    technologies: Java, Shiro
-    contribution: Contributor
-  - name: cloudogu/java
-    type: GitHub
-    description: Base image for Java-Dogus
-    technologies: Java
-    contribution: Contributor
-  - name: cloudogu/dogu-build-lib
-    type: GitHub
-    description: Jenkins Pipeline Shared library for Cloudogu EcoSystem Dogus
-    technologies: Groovy, Jenkins
-    contribution: Contributor
-  - name: SonarSource/sonarqube
-    type: GitHub
-    description: Continuous Inspection
-    technologies: Java, SonarQube
-    contribution: Contributor
-  - name: cloudogu/usermgt
-    type: GitHub
-    description: A simple user management application for the Cloudogu EcoSystem.
-    technologies: Java
-    contribution: Contributor
-  - name: schnatterer/JUnitShutdown
-    type: GitHub
-    description: A mechanism for clean shutdowns of JUnit tests during development
-    technologies: Java, JUnit
-    contribution: Creator
-  - name: lastfm/coverartarchive-api
-    type: GitHub
-    description: Java data bindings for the Cover Art Archive
-    technologies: Java
-    contribution: Contributor
-  - name: triologygmbh/gauge-e2e-tests
-    type: GitHub
-    description: An example on how to implement end-to-end tests using Gauge and Selenium
-    technologies: Java, Gauge
-    contribution: Contributor
-  - name: triologygmbh/angular-chart-samples
-    type: GitHub
-    description: Demonstrates the use of different angular-charting-directives
-    technologies: AngularJS
-    contribution: Contributor
-  - name: ical4j/ical4j
-    type: GitHub
-    description: A Java library for parsing and building iCalendar data models
-    technologies: Java
-    contribution: Contributor
-  - name:  cloudogu/nginx
-    type: GitHub
-    description:
-    technologies: NGINX
-    contribution: Contributor
-  - name: cloudogu/ldap
-    type: GitHub
-    description: OpenLDAP Dogu
-    technologies: Docker, LDAP
-    contribution: Contributor
-  - name: jenkinsci/configuration-as-code-plugin
-    type: GitHub
-    description: Jenkins Configuration as Code Plugin
-    technologies: Jenkins, Java
-    contribution: Contributor
-  - name: triologygmbh/database-conventions
-    type: GitHub
-    description: Design and Naming Conventions for Relational Databases
-    technologies: SQL
-    contribution: Contributor
-  - name: cloudogu/postgresql
-    type: GitHub
-    description: PostgreSQL Dogu for Cloudogu EcoSystem
-    technologies: PostgreSQL
-    contribution: Contributor
-  - name: cloudogu/k8s-ops-ansible
-    type: GitHub
-    description: Setup a Kubernetes Cluster with Ansible
-    technologies: Ansible, Kubernetes
-    contribution: Contributor
+      amount: '29'
   - name: apache/shiro
     type: GitHub
     description: Apache Shiro
     technologies: Java, Shiro
     contribution: Contributor
-  - name: triologygmbh/complex-shiro-permissions
+    commits:
+      from: '2016-05-25'
+      to: '2016-09-26'
+      amount: '5'
+  - name: schnatterer/JUnitShutdown
     type: GitHub
-    description:
-    technologies: Java, Shiro
-    contribution: Contributor
-  - name: cloudogu/redmine
-    type: GitHub
-    description: Redmine Dogu for the Cloudogu EcoSystem
-    technologies: Java, Shiro
-    contribution: Contributor
-  - name: cloudogu/ecosystem
-    type: GitHub
-    description: Cloudogu Ecosystem is an open platform, which lets you choose how and where your team creates great software. Each service or tool is delivered as a Dōgu, a Docker container, that can be easily integrated in your environment just by pulling it from our registry.
-    technologies: Java, Shiro
-    contribution: Contributor
-  - name: tarent/loginsrv
-    type: GitHub
-    description: JWT login microservice with plugable backends such as OAuth2, Google, Github, htpasswd, osiam, ..
-    technologies: JWT, OAuth2
-    contribution: Contributor
-  - name: ahmetb/kubectx
-    type: GitHub
-    description: Faster way to switch between clusters and namespaces in kubectl
-    technologies: Kubernetes, Bash
-    contribution: Contributor
-  - name: cloudogu/scm
-    type: GitHub
-    description: SCM-Manager Dogu for Cloudogu EcoSystem
-    technologies: Docker, Java
-    contribution: Contributor
-  - name: cloudogu/zalenium-build-lib
-    type: GitHub
-    description: Jenkins shared library that provides a step that runs a temporary zalenium server that archives videos of selenium tests
-    technologies: Groovy, Jenkins, Zalenium, Selenium
+    description: A mechanism for clean shutdowns of JUnit tests during development
+    technologies: Java, JUnit
     contribution: Creator
-  - name: cloudogu/nexus
+    commits:
+      from: '2012-11-21'
+      to: '2016-08-25'
+      amount: '3'
+  - name: schnatterer/AntTestReporting
     type: GitHub
-    description: Sonatype Nexus Dogu for Cloudogu EcoSystem
-    technologies: Docker, Groovy, Nexus
-    contribution: Contributor
+    description: Demo project that shows how to automatically generate reports that
+      visualize the results of JUnit tests and code coverage measurements
+    technologies: Ant, JUnit
+    contribution: Creator
+    commits:
+      from: '2012-06-05'
+      to: '2016-08-25'
+      amount: '7'
   - name: schnatterer/openshift-sonarqube
     type: GitHub
     description: SonarQube for OpenShift v2
-    technologies:
+    technologies: null
     contribution: Fork Maintainer
-  - name: cloudogu/postfix
+    commits:
+      from: '2015-02-27'
+      to: '2016-06-03'
+      amount: '11'
+  - name: SonarSource/sonarqube
     type: GitHub
-    description: Postfix MTA Dogu for the Cloudogu EcoSystem
-    technologies:
+    description: Continuous Inspection
+    technologies: Java, SonarQube
     contribution: Contributor
-  - name: triologygmbh/angularjs-tutorial
+    commits:
+      from: '2015-02-28'
+      to: '2015-02-28'
+      amount: '1'
+  - name: lastfm/coverartarchive-api
     type: GitHub
-    description:
-    technologies: AngularJS
+    description: Java data bindings for the Cover Art Archive
+    technologies: Java
     contribution: Contributor
-  - name: cloudogu/docker-pandoc
-    type: GitHub
-    description: A docker container with Pandoc and LaTeX for building PDF files from markdown
-    technologies: Docker, PanDoc
-    contribution: Contributor
-  - name: schnatterer/reCAPTCHA-V2-jee7
-    type: GitHub
-    description: Java Bindings for reCAPTCHA V2
-    technologies: JavaEE
-    contribution: Creator
-  - name: cloudogu/sonar
-    type: GitHub
-    description: SonarQube Dogu for the Cloudogu EcoSystem
-    technologies: Docker
-    contribution: Contributor
-  - name: cloudogu/springboot-micrometer-demo-command-bus
-    type: GitHub
-    description: This project shows how to use micrometer in springboot
-    technologies: Java, Micrometer, Prometheus
-    contribution: Contributor
-  - name: schnatterer/web-console
-    type: GitHub
-    description: Simple web-based SSH, remote shell in your browser
-    technologies: Docker
-    contribution: Fork Maintainer
-  - name: schnatterer/nodejs-simple-file-upload
-    type: GitHub
-    description: a simple app for uploading files using node.js and express
-    technologies: NodeJS, JavaScript, Docker
-    contribution: Fork Maintainer
-  - name: schnatterer/docker-sudo
-    type: GitHub
-    description: Docker image containing sudo command for show casing privilege escalation
-    technologies: Docker
-    contribution: Contributor
-  - name: cloudogu/spring-petclinic
-    type: GitHub
-    description: The famous sample Spring-based application, extend by a Jenkins CD Pipeline that runs selenium tests, anlyzes via SonarQube and deploys to Nexus
-    technologies: Java, Jenkins, Selenium
-    contribution: Contributor
-  - name: schnatterer/loggly-docker
-    type: GitHub
-    description: Docker container for loggly (via syslog)
-    technologies: Docker
-    contribution: Contributor
-  - name: helm/charts
-    type: GitHub
-    description: Curated applications for Kubernetes
-    technologies: Helm, Kubernetes
-    contribution: Contributor
-  - name: ma1co/OpenMemories-AppList
-    type: GitHub
-    description: App list for OpenMemories' app store
-    technologies:
-    contribution: Contributor
-  - name: schnatterer/nginx-unpriv
-    type: GitHub
-    description: Example on how to run nginx in a docker container as non-root
-    technologies: Docker, NGINX
-    contribution: Contributor
+    commits:
+      from: '2014-08-03'
+      to: '2014-08-18'
+      amount: '4'
 ignored:
   - cloudogu/cloudogu.github.io
   - schnatterer/spotify-playlist-import
