@@ -7,7 +7,7 @@
       slides-pdf:
       slides-github:
       video:
-      location: Heidelberg, Germany
+      location: Online
       date: 2020-10-23
       notes:
     - occasion: Forum Digitale Transformation
@@ -60,5 +60,5 @@
       slides-github: https://cloudogu.github.io/k8s-appops-security-talks/2019-02-08-Kubecologne
       video:
       location: Cologne, Germany
-      date: 2020-02-08
+      date: 2019-02-08
       notes: <a href="https://github.com/cloudogu/k8s-security-demos">Demo Source</a>
