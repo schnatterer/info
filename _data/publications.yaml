@@ -1,5 +1,14 @@
 - year: 2020
   pubs:
+    - date: '2020-09-21'
+      title: Automatic Let&#8217;s Encrypt Certificates with Apache Tomcat / Spring
+        Boot
+      ID: '1330'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2020/09/21/automatic-lets-encrypt-certificates-with-apache-tomcat/
+          lang: EN
     - date: '2020-04-26'
       title: Continuous Delivery to Maven Central with Travis CI
       ID: '1316'
