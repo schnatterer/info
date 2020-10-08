@@ -21,9 +21,9 @@ projects:
       amount: '158'
   - name: schnatterer/scm-smeagol-plugin
     type: GitHub
-    description: 'null'
-    technologies: ''
-    contribution: Contributor
+    description: Integrates Smeagol wiki with SCM-Manager
+    technologies: Java, React
+    contribution: Creator
     commits:
       from: '2020-09-28'
       to: '2020-09-29'

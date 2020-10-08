@@ -1,6 +1,6 @@
 - year: 2020
   talks:
-   - occasion: Continuous Lifecycle
+    - occasion: Continuous Lifecycle
       title: Hands on GitOps with K8s - a field report
       link: https://www.continuouslifecycle.de/lecture_compact1.php?id=12274&source=0
       slides-speakerdeck:
@@ -10,7 +10,7 @@
       location: Online
       date: 2020-11-04
       notes:
-   - occasion: Heise devSec()
+    - occasion: Heise devSec()
       title: Secure by Default?<br/>Pragmatically Improve App Security Using K8s Built-Ins
       link: https://www.heise-devsec.de/lecture.php?id=12174&source=0
       slides-speakerdeck:
