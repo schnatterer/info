@@ -3,8 +3,8 @@ projects:
   - name: cloudogu/k8s-gitops-playground
     type: GitHub
     description: Reproducible infrastructure to showcase GitOps workflows
-    technologies: ''
-    contribution: Contributor
+    technologies: 'Flux, k3s, Helm, Jenkins, SCM-Manager'
+    contribution: Co-Creator
     commits:
       from: '2020-10-14'
       to: '2020-10-19'
@@ -27,15 +27,6 @@ projects:
       from: '2019-02-08'
       to: '2020-10-19'
       amount: '84'
-  - name: cloudogu/gitops-example-cluster
-    type: GitHub
-    description: Reproducible infrastructure to showcase GitOps workflows
-    technologies: ''
-    contribution: Contributor
-    commits:
-      from: '2020-10-14'
-      to: '2020-10-19'
-      amount: '7'
   - name: cloudogu/k8s-security-demos
     type: GitHub
     description: Demos for several kubernetes security features
@@ -83,10 +74,10 @@ projects:
       to: '2020-10-15'
       amount: '23'
   - name: cloudogu/helm-docker
-    type: GitHub
-    description: 'Containerized Kubernetes Helm client with support for plugins '
-    technologies: ''
-    contribution: Contributor
+    type: GitHubu
+    description: Containerized Kubernetes Helm client with support for plugins
+    technologies: Docker, Helm
+    contribution: Co-Creator
     commits:
       from: '2020-10-14'
       to: '2020-10-14'
@@ -141,8 +132,8 @@ projects:
   - name: cloudogu/gitops-talks
     type: GitHub
     description: Slides for talks on GitOps
-    technologies: ''
-    contribution: Contributor
+    technologies: Flux, Kubernetes
+    contribution: Creator
     commits:
       from: '2020-10-13'
       to: '2020-10-13'
