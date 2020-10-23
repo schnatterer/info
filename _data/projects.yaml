@@ -39,17 +39,8 @@ projects:
   - name: nickola/web-console
     type: GitHub
     description: Simple web-based shell, remote shell in your browser
-    technologies: ''
-    contribution: Contributor
-    commits:
-      from: '2019-01-21'
-      to: '2020-10-19'
-      amount: '2'
-  - name: schnatterer/web-console
-    type: GitHub
-    description: Simple web-based SSH, remote shell in your browser
     technologies: Docker
-    contribution: Fork Maintainer
+    contribution: Contributor
     commits:
       from: '2019-01-21'
       to: '2020-10-19'
