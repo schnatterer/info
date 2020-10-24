@@ -19,7 +19,7 @@
                             <h3><a href="{{ talk.link }}">{{ talk.title }}</a></h3>
                             <div class="article-metadata">
                                 {% if talk.slides-speakerdeck != or talk.slides-pdf != null or talk.slides-github != null %}
-                                <div>Slides
+                                <div title="Slides">Slides
                                         {% if talk.slides-speakerdeck != null %}
                                         <a title="Speakerdeck" href="{{ talk.slides-speakerdeck }}" class="icon-button"> <i class="fab fa-speaker-deck"></i></a>
                                         {% endif %}
@@ -35,9 +35,19 @@
                                 <div title="Video">Video
                                     <a href="{{ talk.video }}" class="icon-button"><i class="fas fa-file-video"></i></a></td>
                                 {% endif %}
+                                {% if talk.demo-recording != null or talk.demo-github != null %}
+                                <div title="Demo">Demo
+                                    {% if talk.demo-recording != null %}
+                                    <a title="Demo Recording" href="{{ talk.demo-recording}}" class="icon-button"><i class="fas fa-terminal"></i></a>
+                                    {% endif %}
+                                    {% if talk.demo-github != null %}
+                                    <a title="GitHub" href="{{ talk.demo-github }}" class="icon-button"><i class="fab fa-github"></i></a>
+                                    {% endif %}
+                                </div>
+                                {% endif %}
                                 {% if talk.notes != null %}
                                 <div title="Notes">
-                                    <i class="far fa-sticky-note"></i> Notes <div>{{ talk.notes }}</div>
+                                    <i class="far fa-sticky-note"></i> {{ talk.notes }}
                                 </div>
                                 {% endif %}
                             </div>   

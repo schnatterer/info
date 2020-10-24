@@ -13,10 +13,12 @@
     - occasion: Heise devSec()
       title: Secure by Default?<br/>Pragmatically Improve App Security Using K8s Built-Ins
       link: https://www.heise-devsec.de/lecture.php?id=12174&source=0
-      slides-speakerdeck:
-      slides-pdf:
-      slides-github:
+      slides-speakerdeck: https://speakerdeck.com/schnatterer/secure-by-default-anwendungssicherheit-mit-kubernetes-bordmitteln-verbessern
+      slides-pdf: https://cloudogu.github.io/k8s-appops-security-talks/2020-10-23-heise-devsec/Secure-by-Default-Pragmatically-Improve-App-Security-Using-K8s-Built-Ins.pdf
+      slides-github: https://cloudogu.github.io/k8s-appops-security-talks/2020-10-23-heise-devsec/
       video:
+      demo-recording: https://asciinema.org/a/366999
+      demo-github: https://github.com/cloudogu/k8s-security-demos
       location: Online
       date: 2020-10-23
       notes:
@@ -37,9 +39,10 @@
       slides-pdf: https://cloudogu.github.io/k8s-security-3-things/2019-12-12-it-tage/3-things-every-developer-should-know-about-k8s-security.pdf
       slides-github: https://cloudogu.github.io/k8s-appops-security-talks/2020-03-18-javaLand/
       video: https://www.youtube.com/watch?v=YlvdFE1RsmI
+      demo-github: https://github.com/cloudogu/k8s-security-demos 
       location: Online
       date: 2020-03-18
-      notes: <a href="https://github.com/cloudogu/k8s-security-demos">Demo Source</a>; Cancelled (COVID19) ➡ video
+      notes: Conf cancelled (COVID19) ➡ video
 - year: 2019
   talks:
     - occasion: IT-Tage
@@ -49,9 +52,10 @@
       slides-pdf: https://cloudogu.github.io/k8s-appops-security-talks/2019-12-12-it-tage/3-things-every-developer-should-know-about-k8s-security.pdf
       slides-github: https://cloudogu.github.io/k8s-appops-security-talks/2019-12-12-it-tage/
       video:
+      demo-github: https://github.com/cloudogu/k8s-security-demos
       location: Frankfurt am Main, Germany
       date: 2019-12-12
-      notes: <a href="https://github.com/cloudogu/k8s-security-demos">Demo Source</a>
+      notes: 
     - occasion: Heise devSec()
       title: 3 things every developer should know about K8s security
       link: https://www.heise-devsec.de/2019/lecturea7f2.html?id=8864&source=
@@ -59,9 +63,9 @@
       slides-pdf: https://cloudogu.github.io/k8s-appops-security-talks/2019-09-26-heise-devsec/3%20things%20every%20developer%20should%20know%20about%20K8s%20security.pdf
       slides-github: https://cloudogu.github.io/k8s-appops-security-talks/2019-09-26-heise-devsec/
       video:
+      demo-github: https://github.com/cloudogu/k8s-security-demos
       location: Heidelerg, Germany
       date: 2019-09-26
-      notes: <a href="https://github.com/cloudogu/k8s-security-demos">Demo Source</a>
     - occasion: Kubecologne
       title: 3 things every developer should know about K8s security
       link: https://kubecologne.io/conference/security-best-practices-for-developers/
@@ -69,6 +73,7 @@
       slides-pdf:
       slides-github: https://cloudogu.github.io/k8s-appops-security-talks/2019-02-08-Kubecologne
       video:
+      demo-github: https://github.com/cloudogu/k8s-security-demos
       location: Cologne, Germany
       date: 2019-02-08
-      notes: <a href="https://github.com/cloudogu/k8s-security-demos">Demo Source</a>
+      notes: 
