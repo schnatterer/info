@@ -930,6 +930,15 @@ projects:
       from: '2014-08-03'
       to: '2014-08-18'
       amount: '4'
+  - name: jenkinsci/jenkinsfile-runner
+    type: GitHub
+    description: A command line tool to run Jenkinsfile as a function 
+    technologies: Docker, Java, Maven
+    contribution: Contributor
+    commits:
+      from: ''
+      to: ''
+      amount: ''
 ignored:
   - cloudogu/cloudogu.github.io
   - schnatterer/spotify-playlist-import
