@@ -1,5 +1,16 @@
 - year: 2020
   pubs:
+    - date: '2020-10-28'
+      title: 'Kubernetes AppOps Security Part 6: Pod Security Policies (2/2) - Exceptions and Troubleshooting'
+      media:
+        - type: Journal
+          medium: Java SPEKTRUM 05/2020
+          link: https://cloudogu.com/downloads/publications/2020-05-Java-Spektrum--Johannes-Schnatterer_Pod-Security-Policies_Teil-2.pdf
+          lang: DE
+        - type: Blog
+          medium: Cloudogu Blog
+          link: https://cloudogu.com/en/blog/k8s-app-ops-part-6-pod-security-policies-2
+          lang: EN
     - date: '2020-09-30'
       title: 'Kubernetes AppOps Security Part 5: Pod Security Policies (1/2) – Good
         Practices'
@@ -13,8 +24,7 @@
           link: https://cloudogu.com/en/blog/k8s-app-ops-part-5-pod-security-policies-1
           lang: EN
     - date: '2020-09-21'
-      title: Automatic Let&#8217;s Encrypt Certificates with Apache Tomcat / Spring
-        Boot
+      title: Automatic Let&#8217;s Encrypt Certificates with Apache Tomcat / Spring Boot
       ID: '1330'
       media:
         - type: Blog
