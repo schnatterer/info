@@ -1,5 +1,13 @@
 - year: 2020
   pubs:
+    - date: '2020-10-31'
+      title: Kubernetes AppOps Security Series
+      ID: '1421'
+      media:
+        - type: Blog
+          medium: IT Affinity Blog
+          link: https://itaffinity.wordpress.com/2020/10/31/kubernetes-appops-security-series/
+          lang: EN
     - date: '2020-10-28'
       title: 'Kubernetes AppOps Security Part 6: Pod Security Policies (2/2) - Exceptions
         and Troubleshooting'
