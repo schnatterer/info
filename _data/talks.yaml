@@ -15,9 +15,9 @@
     - occasion: Continuous Lifecycle
       title: Hands on GitOps with K8s - a field report
       link: https://www.continuouslifecycle.de/lecture_compact1.php?id=12274&source=0
-      slides-speakerdeck:
-      slides-pdf:
-      slides-github:
+      slides-speakerdeck: https://speakerdeck.com/schnatterer/gitops-mit-k8s-in-der-praxis-ein-erfahrungsbericht
+      slides-pdf: https://cloudogu.github.io/gitops-talks/pdf/Hands-on%20GitOps%20with%20K8s%20-%20a%20field%20report.pdf
+      slides-github: https://cloudogu.github.io/gitops-talks/
       video:
       location: Online
       date: 2020-11-04
