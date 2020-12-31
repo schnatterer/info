@@ -9,8 +9,8 @@
           link: https://itaffinity.wordpress.com/2020/10/31/kubernetes-appops-security-series/
           lang: EN
     - date: '2020-10-28'
-      title: 'Kubernetes AppOps Security Part 6: Pod Security Policies (2/2) - Exceptions
-        and Troubleshooting'
+      title: 'Kubernetes AppOps Security Part 6: Pod Security Policies (2/2) - Exceptions and Troubleshooting'
+      excerpt: 'Use cases that call for several Pod Security Policies withing one Kubernetes cluster and how to handle them, including troubleshooting tips.'
       media:
         - type: Journal
           medium: Java SPEKTRUM 05/2020
@@ -21,8 +21,8 @@
           link: https://cloudogu.com/en/blog/k8s-app-ops-part-6-pod-security-policies-2
           lang: EN
     - date: '2020-09-30'
-      title: 'Kubernetes AppOps Security Part 5: Pod Security Policies (1/2) – Good
-        Practices'
+      title: 'Kubernetes AppOps Security Part 5: Pod Security Policies (1/2) – Good Practices'
+      excerpt: 'Setting global security settings for pods and containers within a Kubernetes cluster using Pod Security Policies.'
       media:
         - type: Journal
           medium: Java SPEKTRUM 04/2020
@@ -33,8 +33,7 @@
           link: https://cloudogu.com/en/blog/k8s-app-ops-part-5-pod-security-policies-1
           lang: EN
     - date: '2020-09-21'
-      title: Automatic Let&#8217;s Encrypt Certificates with Apache Tomcat / Spring
-        Boot
+      title: Automatic Let&#8217;s Encrypt Certificates with Apache Tomcat / Spring Boot
       ID: '1330'
       media:
         - type: Blog
@@ -51,6 +50,7 @@
           lang: EN
     - date: '2020-03-27'
       title: 'Kubernetes AppOps Security Part 4: Security Context (2/2) – Background'
+      excerpt: 'Backgrounds on Security Context in Kubernetes: Isolation of containers, attack vectors, defense and tooling.'
       media:
         - type: Journal
           medium: Java SPEKTRUM 02/2020
@@ -70,6 +70,7 @@
           lang: EN
     - date: '2020-01-31'
       title: 'Kubernetes AppOps Security Part 3: Security Context (1/2) – Good Practices'
+      excerpt: 'Recommended settings for the Security Context in Kubernetes pods.'
       media:
         - type: Journal
           medium: Java SPEKTRUM 01/2020
@@ -84,6 +85,7 @@
     - date: '2019-11-29'
       title: 'Kubernetes AppOps Security Part 2: Using Network Policies (2/2) - Advanced
         Topics and Tricks'
+      excerpt: 'Advanced topics around Kubernetes Network Policies like CNI, testing, debugging, limitations, alternatives and pitfalls.'
       media:
         - type: Journal
           medium: Java SPEKTRUM 06/2019
@@ -104,6 +106,7 @@
     - date: '2019-09-27'
       title: 'Kubernetes AppOps Security Part 1: Using Network Policies (1/2) - Basics
         and Good Practices'
+      excerpt: 'Attack vectors mitigated by and good practices for Kubernetes Network Policies.'
       media:
         - type: Journal
           medium: Java SPEKTRUM 05/2019
@@ -164,8 +167,9 @@
           link: https://itaffinity.wordpress.com/2018/07/15/coding-continuous-delivery-with-jenkins-pipelines/
           lang: EN
     - date: '2018-07-13'
-      title: Coding Continuous Delivery — Static Code Analysis with SonarQube and
+      title: Coding Continuous Delivery Part 4 — Static Code Analysis with SonarQube and
         Deployment on Kubernetes et al. with the Jenkins Pipeline Plugin
+      excerpt: 'How to trigger static code analysis using SonarQube and continuously deliver to Kubernetes from Jenkins pipelines.'
       media:
         - type: Journal
           medium: Java Aktuell 04/2018
@@ -176,7 +180,8 @@
           link: https://cloudogu.com/en/blog/continuous_delivery_4_en
           lang: EN
     - date: '2018-05-24'
-      title: Coding Continuous Delivery – Helpful Tools for the Jenkins Pipeline
+      title: Coding Continuous Delivery Part 3 – Helpful Tools for the Jenkins Pipeline
+      excerpt: 'Useful tools and methods for Jenkins pipelines: Shared libraries for reusing and unit testing; Advantages of using Docker containers.'
       media:
         - type: Journal
           medium: Java Aktuell 03/2018
@@ -187,8 +192,8 @@
           link: https://cloudogu.com/en/blog/continuous_delivery_part_3
           lang: EN
     - date: '2018-05-02'
-      title: Coding Continuous Delivery – Performance optimization for the Jenkins
-        Pipeline
+      title: Coding Continuous Delivery Part 2 – Performance optimization for the Jenkins Pipeline
+      excerpt: 'Faster feedback by accelerating Jenkins pipelines using parallelization and nightly builds.'
       media:
         - type: Journal
           medium: Java Aktuell 02/2018
@@ -199,7 +204,8 @@
           link: https://cloudogu.com/en/blog/continuous_delivery_2
           lang: EN
     - date: '2018-04-19'
-      title: Coding Continuous Delivery – Jenkins pipeline plugin basics
+      title: Coding Continuous Delivery Part 1 – Jenkins pipeline plugin basics
+      excerpt: 'Basics and some practical tips for getting started with Jenkins pipelines.'
       media:
         - type: Journal
           medium: Java Aktuell 01/2018
@@ -238,6 +244,7 @@
           lang: EN
     - date: '2017-08-21'
       title: Android Logging for Java Professionals – SLF4J - Logback in Android
+      excerpt: 'Reusing Java know-how for logging in Android.'
       media:
         - type: Journal
           medium: Java Magazin 9.17
@@ -272,6 +279,7 @@
           lang: EN
     - date: '2017-01-16'
       title: Automatic checks for vulnerabilities in Java project dependencies
+      excerpt: 'Automating discovery of known security vulnerabilities in Java dependencies using Maven,Jenkins and OWASP Dependency-Check.'
       media:
         - type: Journal
           medium: Java Aktuell 01/2017
