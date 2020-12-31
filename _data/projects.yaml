@@ -3,7 +3,7 @@ projects:
   - name: postfinance/kubectl-sudo
     type: GitHub
     description: Run kubernetes commands with the security privileges of another user
-    technologies: ''
+    technologies: Kubernetes, Bash
     contribution: Contributor
     commits:
       from: '2020-12-30'
@@ -68,8 +68,8 @@ projects:
   - name: cloudogu/sudo-kubeconfig
     type: GitHub
     description: Create a sudo kubeconfig for your current kubernetes context
-    technologies: ''
-    contribution: Contributor
+    technologies: Kubernetes, Bash
+    contribution: Creator
     commits:
       from: '2020-12-17'
       to: '2020-12-17'
@@ -116,8 +116,8 @@ projects:
     type: GitHub
     description: A versatile helm chart that can be used to deploy images containing
       spring boot apps
-    technologies: ''
-    contribution: Contributor
+    technologies: Helm, Kubernetes
+    contribution: Co-Creator
     commits:
       from: '2020-11-10'
       to: '2020-11-10'
@@ -135,7 +135,7 @@ projects:
   - name: triologygmbh/arquillian-tests-with-intellij-idea
     type: GitHub
     description: a sample Arquillian test configuation
-    technologies: ''
+    technologies: Arquilian
     contribution: Contributor
     commits:
       from: '2020-11-04'
