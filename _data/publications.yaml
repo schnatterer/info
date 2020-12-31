@@ -10,7 +10,7 @@
           lang: EN
     - date: '2020-10-28'
       title: 'Kubernetes AppOps Security Part 6: Pod Security Policies (2/2) - Exceptions and Troubleshooting'
-      excerpt: 'Use cases that call for several Pod Security Policies withing one Kubernetes cluster and how to handle them, including troubleshooting tips.'
+      excerpt: 'Use cases that call for several Pod Security Policies within one Kubernetes cluster and how to handle them, including troubleshooting tips.'
       media:
         - type: Journal
           medium: Java SPEKTRUM 05/2020
