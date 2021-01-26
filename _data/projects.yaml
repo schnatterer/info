@@ -20,9 +20,9 @@ projects:
       amount: '217'
   - name: cloudogu/helm-sudo
     type: GitHub
-    description: 'null'
-    technologies: ''
-    contribution: Contributor
+    description: 'A helm plugin that uses impersonating to execute helm-commands on clusters within the admin context'
+    technologies: 'Helm, Bash'
+    contribution: Co-Creator
     commits:
       from: '2021-01-21'
       to: '2021-01-21'
