@@ -1,0 +1,27 @@
+<section id="pinned" class="portfolio bg-primary">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-10 col-lg-offset-1 text-center">
+        <h2><strong><i class="fas fa-thumbtack"></i> Pinned Projects</strong></h2>
+        <div>Selected projects I had a great influence on and the other way round.</div>
+        <hr class="small">
+        <div class="row">
+          {% for project in site.data.pinned-projects %}
+          <div class="col-md-6 container-fluid">
+            <div class="portfolio-item container-fluid">
+              <a href="https://github.com/{{ project.username }}/{{ project.repo }}">
+                <img style="height: 100%" class="img-portfolio img-responsive" 
+                     src="https://github-readme-stats.vercel.app/api/pin/?theme=default&username={{ project.username }}&repo={{ project.repo }}">
+              </a>
+            </div>
+          </div>
+          {% endfor %}
+        </div>
+        <!-- /.row (nested) -->
+      </div>
+      <!-- /.col-lg-10 -->
+    </div>
+    <!-- /.row -->
+  </div>
+  <!-- /.container -->
+</section>

@@ -118,13 +118,11 @@ table.center th {
 
 .services {
     padding: 50px 0;
-    
 }
 
 .service-item {
     margin-bottom: 30px;
 }
-
 
 .service-link {
     color:inherit;
@@ -281,4 +279,33 @@ a.summary-link {
     background-color: transparent;
     padding: .375rem .75rem;
     border-radius: .25rem;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+    /*height: 100%;*/
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
 }
