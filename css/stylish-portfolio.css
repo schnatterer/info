@@ -147,6 +147,16 @@ footer {
 {
     vertical-align: top;
     width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+/*.nav-list {
+    background-color: #353535;
+}*/
+
+.bellow-nav {
+    margin-top: 70px;
 }
 
 #nav a:hover {
