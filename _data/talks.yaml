@@ -10,6 +10,13 @@
       location: Online
       date: 2021-03-17
       notes:
+    - occasion: <i alt="Youtube" class="fab fa-youtube"></i> Youtube
+      title: How did GitOps get started? An interview with Alexis Richardson
+      link: https://schlomo.schapiro.org/2021/02/gitops-interview-alexis-richardson.html
+      video: https://www.youtube.com/watch?v=lvLqJWOixDI
+      location: Online
+      date: 2021-02-11
+      notes:
 - year: 2020
   talks:
     - occasion: Continuous Lifecycle

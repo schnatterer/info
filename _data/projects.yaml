@@ -59,8 +59,8 @@ projects:
     type: GitHub
     description: Simple ansible role for trying out features without hassle on your
       localhost
-    technologies: ''
-    contribution: Contributor
+    technologies: 'Ansible'
+    contribution: Creator
     commits:
       from: '2021-03-05'
       to: '2021-03-05'
@@ -69,17 +69,17 @@ projects:
     type: GitHub
     description: Collection of shell scripts to automate everything on your android
       phone using termux app
-    technologies: ''
-    contribution: Contributor
+    technologies: 'Shell, Android'
+    contribution: Creator
     commits:
       from: '2021-01-03'
       to: '2021-03-02'
       amount: '28'
   - name: cloudogu/gitops-build-lib
     type: GitHub
-    description: 'null'
-    technologies: ''
-    contribution: Contributor
+    description: ' Jenkins pipeline shared library for automating deployments via GitOps '
+    technologies: 'Groovy, Jenkins, FluxCD, ArgoCD'
+    contribution:  Co-creator
     commits:
       from: '2021-01-28'
       to: '2021-03-01'

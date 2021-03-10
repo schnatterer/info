@@ -1,3 +1,33 @@
+- year: 2021
+  pubs:
+    - date: '2021-03-24'
+      title: 'Automation helpers - A Market overview for GitOps tools'
+      excerpt: |
+        This article captures a snapshot of the market for "GitOps tools", creates a catalog of general criteria for 
+        choosing the right GitOps tool and applies this catalog to a comparison of ArgoCD and Flux v2. 
+      media:
+        - type: Journal
+          medium: iX 4/2021
+          link: 
+          lang: DE
+        - type: Blog
+          medium: Cloudogu Blog (not published, yet)
+          link: 
+          lang: EN
+    - date: '2021-03-10'
+      title: 'Coding Continuous Delivery:  CIOps vs. GitOps with Jenkins'
+      excerpt: |
+        What is the difference between CIOps and GitOps? Is there still room for a CI server? 
+        This article shows hands-on how to automate certain aspects of GitOps using Jenkins.
+      media:
+        - type: Journal
+          medium: Java Aktuell 02/2021
+          link: 
+          lang: DE
+        - type: Blog
+          medium: Cloudogu Blog (not published, yet)
+          link: 
+          lang: EN
 - year: 2020
   pubs:
     - date: '2020-10-31'

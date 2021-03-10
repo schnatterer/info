@@ -18,7 +18,9 @@
                             <div class="article-metadata">
                                 {% for medium in pub.media %}
                                 <div>
+                                    {% if  medium.link  %}
                                     <a title="{{ medium.type }}" target="_blank" href="{{ medium.link }}">
+                                    {% endif %}
                                         <span>{% if medium.type == 'Journal' %}
                                         <i class="fas fa-newspaper"></i>
                                         {% elsif medium.type == 'Blog' %}
@@ -26,7 +28,9 @@
                                         {% endif %}
                                          {{ medium.medium }}
                                         </span>
+                                    {% if  medium.link  %}
                                     </a>
+                                    {% endif %}
                                     {% if medium.lang == 'EN' %}
                                     <img class="emoji" title="English" alt="🇬🇧🇬🇧" src="img/en.svg">
                                     {% elsif medium.lang == 'DE' %}
