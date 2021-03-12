@@ -33,7 +33,12 @@
                                 {% endif %}
                                 {% if talk.video != null %}
                                 <div title="Video">Video
-                                    <a href="{{ talk.video }}" class="icon-button"><i class="fas fa-file-video"></i></a></td>
+                                    <a href="{{ talk.video.link }}" class="icon-button"><i class="fas fa-file-video"></i></a></td>
+                                    {% if talk.video.lang == 'EN' %}
+                                    <img class="emoji" title="English" alt="🇬🇧" src="img/en.svg">
+                                    {% elsif talk.video.lang == 'DE' %}
+                                    <img class="emoji" title="German" alt="🇩🇪" src="img/de.svg">
+                                    {% endif %}
                                 {% endif %}
                                 {% if talk.demo-recording != null or talk.demo-github != null %}
                                 <div title="Demo">Demo

@@ -13,7 +13,9 @@
     - occasion: <i alt="Youtube" class="fab fa-youtube"></i> Youtube
       title: How did GitOps get started? An interview with Alexis Richardson
       link: https://schlomo.schapiro.org/2021/02/gitops-interview-alexis-richardson.html
-      video: https://www.youtube.com/watch?v=lvLqJWOixDI
+      video:
+        lang: EN
+        link: https://www.youtube.com/watch?v=lvLqJWOixDI
       location: Online
       date: 2021-02-11
       notes:
@@ -35,7 +37,9 @@
       slides-speakerdeck: https://speakerdeck.com/schnatterer/secure-by-default-anwendungssicherheit-mit-kubernetes-bordmitteln-verbessern
       slides-pdf: https://cloudogu.github.io/k8s-appops-security-talks/2020-10-23-heise-devsec/Secure-by-Default-Pragmatically-Improve-App-Security-Using-K8s-Built-Ins.pdf
       slides-github: https://cloudogu.github.io/k8s-appops-security-talks/2020-10-23-heise-devsec/
-      video: https://www.youtube.com/watch?v=XJ5dELNAi1w
+      video:
+        lang: DE
+        link: https://www.youtube.com/watch?v=XJ5dELNAi1w
       demo-recording: https://asciinema.org/a/366999
       demo-github: https://github.com/cloudogu/k8s-security-demos
       location: Online
@@ -57,7 +61,9 @@
       slides-speakerdeck: https://speakerdeck.com/schnatterer/good-practices-for-secure-kubernetes-appops
       slides-pdf: https://cloudogu.github.io/k8s-security-3-things/2019-12-12-it-tage/3-things-every-developer-should-know-about-k8s-security.pdf
       slides-github: https://cloudogu.github.io/k8s-appops-security-talks/2020-03-18-javaLand/
-      video: https://www.youtube.com/watch?v=YlvdFE1RsmI
+      video:
+        lang: DE
+        link: https://www.youtube.com/watch?v=YlvdFE1RsmI
       demo-github: https://github.com/cloudogu/k8s-security-demos 
       location: Online
       date: 2020-03-18
