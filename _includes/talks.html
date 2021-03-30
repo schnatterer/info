@@ -17,20 +17,22 @@
                                 <div title="Location"><i class="fas fa-map-marker-alt"></i> {{ talk.location }}</span></div>
                             </div>
                             <h3><a href="{{ talk.link }}">{{ talk.title }}</a></h3>
+
                             <div class="article-metadata">
                                 {% if talk.slides-speakerdeck != or talk.slides-pdf != null or talk.slides-github != null %}
                                 <div title="Slides">Slides
-                                        {% if talk.slides-speakerdeck != null %}
-                                        <a title="Speakerdeck" href="{{ talk.slides-speakerdeck }}" class="icon-button"> <i class="fab fa-speaker-deck"></i></a>
-                                        {% endif %}
-                                        {% if talk.slides-pdf != null %}
-                                        <a title="PDF" href="{{ talk.slides-pdf }}" class="icon-button"><i class="fas fa-file-pdf"></i></a>
-                                        {% endif %}
-                                        {% if talk.slides-github != null %}
-                                        <a title="GitHub" href="{{ talk.slides-github }}" class="icon-button"><i class="fab fa-github"></i></a>
-                                        {% endif %}
+                                    {% if talk.slides-speakerdeck != null %}
+                                    <a title="Speakerdeck" href="{{ talk.slides-speakerdeck }}" class="icon-button"> <i class="fab fa-speaker-deck"></i></a>
+                                    {% endif %}
+                                    {% if talk.slides-pdf != null %}
+                                    <a title="PDF" href="{{ talk.slides-pdf }}" class="icon-button"><i class="fas fa-file-pdf"></i></a>
+                                    {% endif %}
+                                    {% if talk.slides-github != null %}
+                                    <a title="GitHub" href="{{ talk.slides-github }}" class="icon-button"><i class="fab fa-github"></i></a>
+                                    {% endif %}
                                 </div>
                                 {% endif %}
+                                
                                 {% if talk.video != null %}
                                 <div title="Video">Video
                                     <a href="{{ talk.video.link }}" class="icon-button"><i class="fas fa-file-video"></i></a></td>
@@ -39,7 +41,9 @@
                                     {% elsif talk.video.lang == 'DE' %}
                                     <img class="emoji" title="German" alt="🇩🇪" src="img/de.svg">
                                     {% endif %}
+                                </div>
                                 {% endif %}
+
                                 {% if talk.demo-recording != null or talk.demo-github != null %}
                                 <div title="Demo">Demo
                                     {% if talk.demo-recording != null %}
@@ -55,14 +59,14 @@
                                     <i class="far fa-sticky-note"></i> {{ talk.notes }}
                                 </div>
                                 {% endif %}
-                            </div>   
+                                
+                            </div>
                         </div>
+                        <br/>
                         {% endfor %}
-                        </div>
                     </div>
-                    <br/>&nbsp;
-                    {% endfor %}
                 </div>
+                {% endfor %}
             </div>
         </div>
     </div>

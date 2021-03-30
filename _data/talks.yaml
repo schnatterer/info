@@ -1,11 +1,21 @@
 - year: 2021
   talks:
-    - occasion: Java Land
-      title: Good Practices for Secure Kubernetes AppOps
-      link: https://programm.javaland.eu/2021/#/scheduledEvent/606420
+    - occasion: Softwerkskammer Köln
+      title: GitOps Intro
+      link: https://www.meetup.com/Softwerkskammer-Koln/events/276484660
       slides-speakerdeck: 
       slides-pdf: 
       slides-github: 
+      video: 
+      location: Online
+      date: 2021-04-26
+      notes:
+    - occasion: Java Land
+      title: Good Practices for Secure Kubernetes AppOps
+      link: https://programm.javaland.eu/2021/#/scheduledEvent/606420
+      slides-speakerdeck: https://speakerdeck.com/schnatterer/good-practices-for-secure-kubernetes-appops-javaland-2021
+      slides-pdf: https://cloudogu.github.io/k8s-appops-security-talks/2021-03-17-javaLand/Good-Practices-for-Secure-Kubernetes-AppOps.pdf
+      slides-github: https://cloudogu.github.io/k8s-appops-security-talks/2021-03-17-javaLand/#/
       video: 
       location: Online
       date: 2021-03-17
