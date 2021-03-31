@@ -11,12 +11,13 @@
           link: https://www.heise.de/select/ix/2021/4/2100807514188955838
           lang: DE
         - type: Blog
-          medium: Cloudogu Blog <a title="PDF" href="https://cloudogu.com/downloads/publications/2021-04-ix--Automatisierungsgehilfen.pdf" class="icon-button"><i class="fas fa-file-pdf"></i></a>
+          medium: Cloudogu Blog <a title="PDF" href="https://cloudogu.com/downloads/publications/2021-04-ix--Automatisierungsgehilfen.pdf"
+            class="icon-button"><i class="fas fa-file-pdf"></i></a>
           link: https://cloudogu.com/de/blog/gitops-tools
           lang: DE
         - type: Blog
           medium: Cloudogu Blog (not published, yet)
-          link: 
+          link: null
           lang: EN
     - date: '2021-03-10'
       title: 'Coding Continuous Delivery:  CIOps vs. GitOps with Jenkins'
@@ -74,8 +75,9 @@
     - date: '2020-09-21'
       title: Automatic Let&#8217;s Encrypt Certificates with Apache Tomcat / Spring
         Boot
-      excerpt: A solution for fetching and renewing TLS certs without restart via Let’s Encrypt that works with standalone 
-        and embedded Tomcat as well as Spring Boot. 
+      excerpt: A solution for fetching and renewing TLS certs without restart via
+        Let’s Encrypt that works with standalone and embedded Tomcat as well as Spring
+        Boot.
       ID: '1330'
       media:
         - type: Blog
@@ -84,7 +86,8 @@
           lang: EN
     - date: '2020-04-26'
       title: Continuous Delivery to Maven Central with Travis CI
-      excerpt: Automatically deploying Java Artifacts to Maven Central via Travis CI.
+      excerpt: Automatically deploying Java Artifacts to Maven Central via Travis
+        CI.
       ID: '1316'
       media:
         - type: Blog
@@ -107,8 +110,9 @@
     - date: '2020-02-11'
       title: Docs As Code - Continuous Delivery of Presentations with reveal.js and
         Jenkins - Part 2
-      excerpt: '2nd part: Demonstrates additional alternatives for deployment (Sonatype Nexus and Kubernetes), 
-        while the general structure of the Jenkinsfile remains the same.'
+      excerpt: '2nd part: Demonstrates additional alternatives for deployment (Sonatype
+        Nexus and Kubernetes), while the general structure of the Jenkinsfile remains
+        the same.'
       media:
         - type: Blog
           medium: Cloudogu Blog
@@ -168,7 +172,8 @@
     - date: '2019-09-05'
       title: Docs As Code - Continuous Delivery of Presentations with reveal.js and
         Jenkins - Part 1
-      excerpt: '1st part: demonstrated the use cases and benefits of delivering presentations with reveal.js.'
+      excerpt: '1st part: demonstrated the use cases and benefits of delivering presentations
+        with reveal.js.'
       media:
         - type: Blog
           medium: Cloudogu Blog
@@ -176,8 +181,8 @@
           lang: EN
     - date: '2019-07-02'
       title: Generating a hard-coded build number/version name in your Java app
-      excerpt: Generate a version number for Java apps during the build as a static final field without any runtime 
-          dependencies using the annotation processor.
+      excerpt: Generate a version number for Java apps during the build as a static
+        final field without any runtime dependencies using the annotation processor.
       ID: '1184'
       media:
         - type: Blog
@@ -196,8 +201,8 @@
     - date: '2019-05-16'
       title: 'Short comparison: Building Graal Native Images with Quarkus, Micronaut
         and Helidon'
-      excerpt: Comparing the three frameworks via the experience from the "getting started" tutorials and beyond.
-          
+      excerpt: Comparing the three frameworks via the experience from the "getting
+        started" tutorials and beyond.
       ID: '1171'
       media:
         - type: Blog
@@ -206,9 +211,10 @@
           lang: EN
     - date: '2019-05-09'
       title: Continuous Delivery with Sonatype Nexus, Jenkins and the Cloudogu EcoSystem
-      excerpt: Continuous delivery of Java artifacts with Jenkins to Nexus repositories is easy. 
-        This articles shows examples for the enterprise as well as for open source (Maven Central). 
-      media: 
+      excerpt: Continuous delivery of Java artifacts with Jenkins to Nexus repositories
+        is easy. This articles shows examples for the enterprise as well as for open
+        source (Maven Central).
+      media:
         - type: Blog
           medium: Cloudogu Blog
           link: https://cloudogu.com/en/blog/cd-with-nexus-jenkins-ces
