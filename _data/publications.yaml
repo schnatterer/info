@@ -16,8 +16,8 @@
           link: https://cloudogu.com/de/blog/gitops-tools
           lang: DE
         - type: Blog
-          medium: Cloudogu Blog (not published, yet)
-          link: null
+          medium: Cloudogu Blog 
+          link: https://cloudogu.com/en/blog/gitops-tools
           lang: EN
     - date: '2021-03-10'
       title: 'Coding Continuous Delivery:  CIOps vs. GitOps with Jenkins'
