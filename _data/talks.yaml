@@ -1,11 +1,11 @@
 - year: 2021
   talks:
     - occasion: Softwerkskammer Köln
-      title: GitOps Intro
+      title: GitOps Introduction - A new age of ops automation?
       link: https://www.meetup.com/Softwerkskammer-Koln/events/276484660
-      slides-speakerdeck: 
-      slides-pdf: 
-      slides-github: 
+      slides-speakerdeck: https://speakerdeck.com/schnatterer/introduction-to-gitops-a-new-age-of-ops-automation
+      slides-pdf: https://cloudogu.github.io/gitops-talks/2021-04-26-softwerkskammer-koeln/pdf/Introduction%20to%20GitOps.pdf
+      slides-github: https://cloudogu.github.io/gitops-talks/2021-04-26-softwerkskammer-koeln/#/
       video: 
       location: Online
       date: 2021-04-26

@@ -30,8 +30,13 @@
           link: https://mydoag.doag.org/formes/pubfiles/12883614/docs/Publikationen/Java-Aktuell/2021/02-2021/02-2021-Java-aktuell-WEB.pdf
           lang: DE
         - type: Blog
-          medium: Cloudogu Blog (not published, yet)
-          link: null
+          medium: Cloudogu Blog <a title="PDF" href="https://cloudogu.com/downloads/publications/2021-02-java_aktuell-johannes_schnatterer_und_daniel_huchthausen-coding_continuous_delivery_ciops_vs_gitops_mit_jenkins.pdf"
+            class="icon-button"><i class="fas fa-file-pdf"></i></a>
+          link: https://cloudogu.com/de/blog/ciops-vs-gitops_de
+          lang: DE
+        - type: Blog
+          medium: Cloudogu Blog
+          link: https://cloudogu.com/en/blog/ciops-vs-gitops_en
           lang: EN
 - year: 2020
   pubs:
