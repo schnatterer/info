@@ -9,7 +9,7 @@
       video: 
       location: Online
       date: 2021-04-26
-      notes:
+      demo-github: https://github.com/cloudogu/k8s-gitops-playground
     - occasion: Java Land
       title: Good Practices for Secure Kubernetes AppOps
       link: https://programm.javaland.eu/2021/#/scheduledEvent/606420
