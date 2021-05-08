@@ -4,8 +4,8 @@ projects:
     type: GitHub
     description: Example CLI app written in Groovy, using micronaut, compiling into
       a static binary via Graal native image
-    technologies: ''
-    contribution: Contributor
+    technologies: Groovy, GraalVM, Micronaut, Docker, Maven, Picocli, GitHub Actions
+    contribution: Creator
     commits:
       from: '2021-05-07'
       to: '2021-05-07'
@@ -108,7 +108,7 @@ projects:
   - name: schnatterer/dsdl
     type: GitHub
     description: DiskStation DownLoader - gets files from Synology DiskStation Manager
-    technologies: NodeJS, Docker, Travis, SonarQube
+    technologies: NodeJS, Docker, GitHub Actions, SonarQube, ~~Travis~~
     contribution: Creator
     commits:
       from: '2018-04-26'
@@ -128,7 +128,7 @@ projects:
     type: GitHub
     description: A git-based wiki featuring markdown, a WYSIWYG Editor, PlantUML,
       and much more
-    technologies: Java, Docker, Tomcat, PlantUML, CAS, Maven
+    technologies: Java, Docker, Tomcat, PlantUML, CAS, Maven, GitHub Actions, ~~Travis~~
     contribution: Creator
     commits:
       from: '2018-05-31'
@@ -220,7 +220,7 @@ projects:
     type: GitHub
     description: A helm plugin that uses impersonating to execute helm-commands on
       clusters within the admin context
-    technologies: Helm, Bash
+    technologies: Helm, Bash, GitHub Actions
     contribution: Co-Creator
     commits:
       from: '2021-01-21'
@@ -549,7 +549,7 @@ projects:
   - name: schnatterer/helidon-getting-started
     type: GitHub
     description: Result of the Helidon quickstart sample
-    technologies: Java, Docker, GraalVM
+    technologies: Java, Docker, GraalVM, Helidon
     contribution: Creator
     commits:
       from: '2019-05-11'
@@ -559,7 +559,7 @@ projects:
     type: GitHub
     description: Result of micronaut.io getting started in a self-contained minimal
       docker image
-    technologies: Java, Docker, GraalVM
+    technologies: Java, Docker, GraalVM, Micronaut
     contribution: Creator
     commits:
       from: '2019-05-01'
@@ -569,7 +569,7 @@ projects:
     type: GitHub
     description: Result of quarkus.io getting started in a self-contained minimal
       docker image
-    technologies: Java, Docker, GraalVM
+    technologies: Java, Docker, GraalVM, Quarkus
     contribution: Creator
     commits:
       from: '2019-04-27'
