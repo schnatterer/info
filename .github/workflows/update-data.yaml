@@ -3,14 +3,8 @@ name: Update projects and posts
 on:
   schedule:
     - cron:  '0 3 * * *'
-  # Allows for trigger action manually (e.g. for testing)
-  # curl -H "Accept: application/vnd.github.everest-preview+json" \ 
-  #    -H "Authorization: token $token" \
-  #    --request POST \
-  #    --data '{"event_type": "update-data"}' \
-  #    https://api.github.com/repos/schnatterer/info/dispatches
-  repository_dispatch:
-    types: update-data
+  # Allows you to run this workflow manually from the Actions tab
+  workflow_dispatch:
 
 jobs:
   build:
