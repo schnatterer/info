@@ -31,7 +31,7 @@ projects:
   - name: schnatterer/docker-aliases
     type: GitHub
     description: Programmatically generated docker client aliases
-    technologies: NodeJS, Docker, Yarn, Travis
+    technologies: NodeJS, Docker, Yarn, GitHub Actions, ~~Travis~~
     contribution: Creator
     commits:
       from: '2019-09-17'
