@@ -1,5 +1,15 @@
 - year: 2021
   talks:
+    - occasion: Mastering Kubernetes
+      title: "GitOps: Introduction to Continuous Operations with Kubernetes"
+      link: https://konferenzen.heise.de/mastering-kubernetes/#diekonferenz
+      slides-speakerdeck: 
+      slides-pdf: 
+      slides-github: 
+      video: 
+      location: Virtual
+      date: 2021-07-15
+      demo-github:
     - occasion: Softwerkskammer Köln
       title: GitOps Introduction - A new age of ops automation?
       link: https://www.meetup.com/Softwerkskammer-Koln/events/276484660
@@ -7,7 +17,7 @@
       slides-pdf: https://cloudogu.github.io/gitops-talks/2021-04-26-softwerkskammer-koeln/pdf/Introduction%20to%20GitOps.pdf
       slides-github: https://cloudogu.github.io/gitops-talks/2021-04-26-softwerkskammer-koeln/#/
       video: https://www.youtube.com/watch?v=XgLLR_6szQs
-      location: Online
+      location: Virtual
       date: 2021-04-26
       demo-github: https://github.com/cloudogu/k8s-gitops-playground
     - occasion: Java Land
@@ -17,7 +27,7 @@
       slides-pdf: https://cloudogu.github.io/k8s-appops-security-talks/2021-03-17-javaLand/Good-Practices-for-Secure-Kubernetes-AppOps.pdf
       slides-github: https://cloudogu.github.io/k8s-appops-security-talks/2021-03-17-javaLand/#/
       video: 
-      location: Online
+      location: Virtual
       date: 2021-03-17
       notes:
     - occasion: <i alt="Youtube" class="fab fa-youtube"></i> Youtube
@@ -26,7 +36,7 @@
       video:
         lang: EN
         link: https://www.youtube.com/watch?v=lvLqJWOixDI
-      location: Online
+      location: Virtual
       date: 2021-02-11
       notes:
 - year: 2020
@@ -38,7 +48,7 @@
       slides-pdf: https://cloudogu.github.io/gitops-talks/pdf/Hands-on%20GitOps%20with%20K8s%20-%20a%20field%20report.pdf
       slides-github: https://cloudogu.github.io/gitops-talks/
       video:
-      location: Online
+      location: Virtual
       date: 2020-11-04
       notes:
     - occasion: Heise devSec()
@@ -52,7 +62,7 @@
         link: https://www.youtube.com/watch?v=XJ5dELNAi1w
       demo-recording: https://asciinema.org/a/366999
       demo-github: https://github.com/cloudogu/k8s-security-demos
-      location: Online
+      location: Virtual
       date: 2020-10-23
       notes:
     - occasion: Forum Digitale Transformation
@@ -62,7 +72,7 @@
       slides-pdf: https://cloudogu.github.io/k8s-intro-talk/pdf/Plunging-Into-Kubernetes-An-Introduction.pdf
       slides-github: https://github.com/cloudogu/k8s-intro-talk
       video:
-      location: Online
+      location: Virtual
       date: 2020-07-17
       notes:
     - occasion: Java Land
@@ -75,7 +85,7 @@
         lang: DE
         link: https://www.youtube.com/watch?v=YlvdFE1RsmI
       demo-github: https://github.com/cloudogu/k8s-security-demos 
-      location: Online
+      location: Virtual
       date: 2020-03-18
       notes: Conf cancelled (COVID19) ➡ video
 - year: 2019
