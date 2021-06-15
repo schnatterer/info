@@ -16,7 +16,9 @@
       slides-speakerdeck: https://speakerdeck.com/schnatterer/introduction-to-gitops-a-new-age-of-ops-automation
       slides-pdf: https://cloudogu.github.io/gitops-talks/2021-04-26-softwerkskammer-koeln/pdf/Introduction%20to%20GitOps.pdf
       slides-github: https://cloudogu.github.io/gitops-talks/2021-04-26-softwerkskammer-koeln/#/
-      video: https://www.youtube.com/watch?v=XgLLR_6szQs
+      video:
+        lang: DE
+        link: https://www.youtube.com/watch?v=XgLLR_6szQs
       location: Virtual
       date: 2021-04-26
       demo-github: https://github.com/cloudogu/k8s-gitops-playground
