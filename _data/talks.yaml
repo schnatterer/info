@@ -1,5 +1,15 @@
 - year: 2021
   talks:
+    - occasion: IT-Tage
+      title: "GitOps: Introduction to Continuous Operations with Kubernetes"
+      link: https://www.ittage.informatik-aktuell.de/programm/2021/gitops-einfuehrung-in-continuous-operations-am-beispiel-von-kubernetes.html
+      slides-speakerdeck: 
+      slides-pdf: 
+      slides-github: 
+      video: 
+      location: Virtual
+      date: 2021-12-09
+      demo-github:
     - occasion: Mastering Kubernetes
       title: "GitOps: Introduction to Continuous Operations with Kubernetes"
       link: https://konferenzen.heise.de/mastering-kubernetes/#diekonferenz
