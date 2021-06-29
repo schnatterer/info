@@ -1,5 +1,23 @@
 updated: '2021-06-29'
 projects:
+  - name: schnatterer/dotfiles-loader
+    type: GitHub
+    description: Generalized loader for dotfiles, basing on holman's topical approach
+    technologies: Zsh, bash
+    contribution: Fork maintainer
+    commits:
+      from: ''
+      to: ''
+      amount: ''
+  - name: schnatterer/dotfiles
+    type: GitHub
+    description: "@schnatterer's plain dotfiles. To be used with dotfiles-loader."
+    technologies: Zsh, bash
+    contribution: Creator
+    commits:
+      from: ''
+      to: ''
+      amount: ''
   - name: cloudogu/k8s-gitops-playground
     type: GitHub
     description: Reproducible infrastructure to showcase GitOps workflows
