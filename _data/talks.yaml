@@ -10,6 +10,25 @@
       location: Virtual
       date: 2021-12-09
       demo-github:
+    - occasion: Herbstcampus
+      title: "Continuous Operations with GitOps – an Introduction"
+      link: https://www.herbstcampus.de/lecture.php?id=13171&source=0
+      slides-speakerdeck: 
+      slides-pdf: 
+      slides-github: 
+      video: 
+      location: Virtual
+      date: 2021-09-15
+    - occasion: Herbstcampus
+      title: "Panel discussion: Infrastruture as Code"
+      link: https://www.herbstcampus.de/lecture.php?id=13462&source=0
+      slides-speakerdeck: 
+      slides-pdf: 
+      slides-github: 
+      video: 
+      location: Virtual
+      date: 2021-09-15
+      demo-github:
     - occasion: Mastering Kubernetes
       title: "GitOps: Introduction to Continuous Operations with Kubernetes"
       link: https://konferenzen.heise.de/mastering-kubernetes/#diekonferenz
