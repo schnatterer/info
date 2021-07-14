@@ -32,9 +32,9 @@
     - occasion: Mastering Kubernetes
       title: "GitOps: Introduction to Continuous Operations with Kubernetes"
       link: https://konferenzen.heise.de/mastering-kubernetes/#diekonferenz
-      slides-speakerdeck: 
-      slides-pdf: 
-      slides-github: 
+      slides-speakerdeck: https://speakerdeck.com/schnatterer/gitops-introduction-to-continuous-operations-with-kubernetes-mastering-kubernetes-2021
+      slides-pdf: https://cloudogu.github.io/gitops-talks/2021-07-15-mastering-kubernetes/pdf/GitOps-Continuous%20Operations%20with%20Kubernetes.pdf
+      slides-github: https://cloudogu.github.io/gitops-talks/2021-07-15-mastering-kubernetes/#/
       video: 
       location: Virtual
       date: 2021-07-15
