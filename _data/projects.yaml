@@ -37,7 +37,7 @@ projects:
       from: '2021-06-26'
       to: '2021-07-02'
       amount: '18'
-  - name: cloudogu/k8s-gitops-playground
+  - name: cloudogu/gitops-playground
     type: GitHub
     description: Reproducible infrastructure to showcase GitOps workflows
     technologies: Flux, k3s, Helm, Jenkins, SCM-Manager

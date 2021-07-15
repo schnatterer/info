@@ -5,7 +5,7 @@
 - username: cloudogu
   repo: k8s-security-demos
 - username: cloudogu
-  repo: k8s-gitops-playground
+  repo: gitops-playground
 - username: cloudogu
   repo: k8s-diagrams
 - username: schnatterer
