@@ -3,7 +3,15 @@ projects:
   - name: schnatterer/dsdl
     type: GitHub
     description: DiskStation DownLoader - gets files from Synology DiskStation Manager
-    technologies: NodeJS, Docker, GitHub Actions, SonarQube, ~~Travis~~
+    technologies: NodeJS, Docker, SonarQube
+    technologies-ci:
+      - type: GitHub Actions
+      - type: Travis
+        inactive: true
+    technologies-artifacts:
+      - type: npm
+      - type: DockerHub
+      - type: quay.io
     contribution: Creator
     commits:
       from: '2018-04-26'
@@ -13,8 +21,15 @@ projects:
     type: GitHub
     description: A git-based wiki featuring markdown, a WYSIWYG Editor, PlantUML,
       and much more
-    technologies: Java, Docker, Tomcat, PlantUML, CAS, Maven, GitHub Actions, GHCR,
-      ~~Travis~~, ~~DockerHub~~
+    technologies: Java, Docker, Tomcat, PlantUML, CAS, Maven
+    technologies-ci:
+      - type: GitHub Actions
+      - type: Travis
+        inactive: true
+    technologies-artifacts:
+      - type: GHCR
+      - type: DockerHub
+      - type: quay.io
     contribution: Creator
     commits:
       from: '2018-05-31'
@@ -78,6 +93,13 @@ projects:
     type: GitHub
     description: java binding for MusicBrainz XML Web Service/Version 2
     technologies: Java, Maven
+    technologies-ci:
+      - type: Travis
+        inactive: true
+    technologies-artifacts:
+      - type: Maven Central
+        groupId: info.schnatterer.musicbrainzws2-java
+        artifactId: musicbrainzws2-java
     contribution: Fork Maintainer
     commits:
       from: '2013-07-17'
@@ -116,7 +138,11 @@ projects:
     type: GitHub
     description: Ansible playbook to setup my development machines and helps to keep
       them in sync
-    technologies: Ansible, Docker, GitHub Actions, GHCR
+    technologies: Ansible, Docker
+    technologies-ci:
+      - type: GitHub Actions
+    technologies-artifacts:
+      - type: GHCR
     contribution: Fork Maintainer
     commits:
       from: '2019-06-21'
@@ -125,7 +151,11 @@ projects:
   - name: schnatterer/dotfiles
     type: GitHub
     description: '@schnatterer''s plain dotfiles. To be used with dotfiles-loader.'
-    technologies: Zsh, bash, GitHub Actions, GHCR
+    technologies: Zsh, bash
+    technologies-ci:
+      - type: GitHub Actions
+    technologies-artifacts:
+      - type: GHCR
     contribution: Creator
     commits:
       from: '2021-06-26'
@@ -134,7 +164,11 @@ projects:
   - name: schnatterer/dotfiles-loader
     type: GitHub
     description: Generalized loader for dotfiles, basing on holman's topical approach
-    technologies: Zsh, bash, GitHub Actions, GHCR
+    technologies: Zsh, bash
+    technologies-ci:
+      - type: GitHub Actions
+    technologies-artifacts:
+      - type: GHCR
     contribution: Fork maintainer
     commits:
       from: '2021-06-10'
@@ -163,7 +197,14 @@ projects:
   - name: schnatterer/docker-aliases
     type: GitHub
     description: Programmatically generated docker client aliases
-    technologies: NodeJS, Docker, Yarn, GitHub Actions, ~~Travis~~
+    technologies: NodeJS, Docker, Yarn
+    technologies-ci:
+      - type: GitHub Actions
+      - type: Travis
+        inactive: true
+    technologies-artifacts:
+      - type: DockerHub
+      - type: quay.io
     contribution: Creator
     commits:
       from: '2019-09-17'
@@ -239,7 +280,15 @@ projects:
   - name: schnatterer/tomcat-reloading-connector
     type: GitHub
     description: Tomcat connector that automatically reload SSLConfig
-    technologies: Java, Tomcat, Docker, Maven, Travis
+    technologies: Java, Tomcat, Docker, Maven
+    technologies-ci:
+      - type: Travis
+        inactive: true
+    technologies-artifacts:
+      - type: DockerHub
+        id: schnatterer/tomcat-reloading-connector-example
+      - type: Maven Central
+        groupId: info.schnatterer.tomcat-reloading-connector
     contribution: Creator
     commits:
       from: '2020-05-05'
@@ -387,7 +436,15 @@ projects:
   - name: schnatterer/moby-names-generator-java
     type: GitHub
     description: Java Version of the famous Moby (Docker) Names Generator
-    technologies: Java, Maven, Travis, SonarQube
+    technologies: Java, Maven, SonarQube
+    technologies-ci:
+      - type: Travis
+        inactive: true
+    technologies-artifacts:
+      - type: Maven Central
+        groupId: info.schnatterer.moby-names-generator
+        artifactId: moby-names-generator
+      - type: DockerHub
     contribution: Creator
     commits:
       from: '2020-03-04'
@@ -512,7 +569,13 @@ projects:
   - name: schnatterer/docker-image-size
     type: GitHub
     description: Queries and compares docker image sizes
-    technologies: Bash, Docker, Travis
+    technologies: Bash, Docker
+    technologies-ci:
+      - type: Travis
+        inactive: true
+    technologies-artifacts:
+      - type: DockerHub
+      - type: quay.io
     contribution: Creator
     commits:
       from: '2019-09-06'
