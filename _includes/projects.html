@@ -35,14 +35,76 @@
                     <tbody>
                     {% for project in site.data.projects.projects %}
                     <tr>
-                        <td class="row"><a href="https://github.com/{{ project.name }}">{{ project.name | replace: "/", "/&#8203;" }}</a></td>
-                        <td class="row"><img src="https://img.shields.io/github/stars/{{ project.name }}.svg?style=flat&label=&logo=github&labelColor=000000"/></td>
-                        <td class="row">{{ project.description }}</td>
-                        <td class="row">{{ project.technologies | markdownify }}</td>
-                        <td class="row">{{ project.contribution }}</td>
-                        <td class="row">{{ project.commits.from }}</td>
-                        <td class="row">{{ project.commits.to }}</td>
-                        <td class="row">{{ project.commits.amount }}</td>
+                        <td class="col-md-1"><a href="https://github.com/{{ project.name }}">{{ project.name | replace: "/", "/&#8203;" }}</a></td>
+                        <td class="col-md-1"><img src="https://img.shields.io/github/stars/{{ project.name }}.svg?style=flat&label=&logo=github&labelColor=000000"/></td>
+                        <td class="col-md-3">{{ project.description }}</td>
+                        <td class="col-md-3">{{ project.technologies }}
+                            {% if  project.technologies-ci  %}
+                                <br/><span style="text-decoration: underline">CI/CD:</span>
+                                {% for ci in  project.technologies-ci %}
+                                
+                                    {% assign ci_style = "" %}
+                                    {% assign ci_titleAppend = "" %}
+                                    {% if ci.inactive == true %}
+                                        {% assign ci_style = "text-decoration:line-through; color: grey" %}
+                                        {% assign ci_titleAppend = " (inactive)" %}
+                                    {% endif %}
+                                    
+                                    {% if ci.type == 'GitHub Actions' %}
+                                    <a style="{{  ci_style }}" title="GitHub Actions{{ ci_titleAppend }}" href="https://github.com/{{ project.name }}/actions" class="icon-button"><i class="fab fa-github"></i> Actions</a>
+                                    {% elsif  ci.type == 'Travis' %}
+                                    <a style="{{  ci_style }}" title="TravisCI{{ ci_titleAppend }}" href="https://travis-ci.com/github/{{ project.name }}/" class="icon-button">Travis</a>
+                                    {% elsif  ci.type == 'Docker Autobuild' %}
+                                    <a style="{{  ci_style }}" title="Docker Autobuild{{ ci_titleAppend }}" href="https://github.com/{{ project.name }}/{{ ci.path }}" class="icon-button"><i class="fab fa-docker"></i> Autobuild</a>
+                                    {% endif %}
+                                {% endfor %}
+                            {% endif %}
+                            
+                            {% if  project.technologies-artifacts  %}
+                                <br/><span style="text-decoration: underline">Artifacts:</span>
+                                {% for artifact in project.technologies-artifacts %}
+                                    {% assign artifact_url = artifact.url %}
+                                
+                                    {% if artifact.type == 'GHCR' %}
+                                        {% if artifact_url == '' or artifact_url == null %}
+                                            {% capture artifact_url %}https://hub.docker.com/repository/docker/{{ project.name }}{% endcapture %}
+                                        {% endif %}
+                                        <a title="GitHub Container Registry" href="{{ artifact_url }}" class="icon-button"><i class="fab fa-github"></i> GHCR</a>
+                                    {% elsif artifact.type == 'DockerHub' %}
+                                        {% if artifact.id %}
+                                            {% capture artifact_url %}https://hub.docker.com/r/{{ artifact.id }}{% endcapture %}
+                                        {% elsif artifact_url == '' or artifact_url == null %}
+                                            {% capture artifact_url %}https://hub.docker.com/r/{{ project.name }}{% endcapture %}
+                                        {% endif %}
+                                        <a title="DockerHub" href="{{ artifact_url }}" class="icon-button"><i class="fab fa-docker"></i> DockerHub</a>
+                                    {% elsif artifact.type == 'Quay.io' %}
+                                        {% if artifact_url == '' or artifact_url == null %}                                            {% capture artifact_url %}https://www.npmjs.com/package/{{ project.name }}{% endcapture %}
+                                            {% capture artifact_url %}https://quay.io/repository/{{ project.name}}{% endcapture %}
+                                        {% endif %}
+                                        <a title="Quay.io" href="{{ artifact_url }}" class="icon-button"><i class="fab fa-redhat"></i> Quay.io</a>
+                                    {% elsif artifact.type == 'npm' %}
+                                        {% if artifact.id %}
+                                            {% capture artifact_url %}https://www.npmjs.com/package/{{ artifact.id }}{% endcapture %}
+                                        {% elsif artifact_url == '' or artifact_url == null %}                                            {% capture artifact_url %}https://www.npmjs.com/package/{{ project.name }}{% endcapture %}
+                                            {% capture artifact_url %}https://www.npmjs.com/package/{{ project.name}}{% endcapture %}
+                                        {% endif %}
+                                        <a title="npm" href="{{ artifact_url }}" class="icon-button"><i class="fab fa-npm"></i> npm</a>
+                                    {% elsif artifact.type == 'Maven Central' %}
+                                        {% if artifact.artifactId and artifact.groupId %}
+                                            {% capture artifact_url %}https://search.maven.org/artifact/{{ artifact.groupId }}/{{ artifact.artifactId }}{% endcapture %}
+                                        {% elsif artifact.groupId %}
+                                            {% capture artifact_url %}https://search.maven.org/search?q=g:{{ artifact.groupId }}{% endcapture %}
+                                        {% endif %}
+                                        <a title="Maven Central" href="{{ artifact_url }}" class="icon-button"><i class="fas fa-feather"></i> Central</a>
+                                    {% endif %}
+                                    </span>
+                                {% endfor %}
+                            {% endif %}
+                        </td>
+                        <td class="col-md-1">{{ project.contribution }}</td>
+                        <td class="col-md-1">{{ project.commits.from }}</td>
+                        <td class="col-md-1">{{ project.commits.to }}</td>
+                        <td class="col-md-1">{{ project.commits.amount }}</td>
                     </tr>
                     {% endfor %}
                     </tbody>

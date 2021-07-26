@@ -3,7 +3,9 @@ projects:
   - name: schnatterer/info
     type: GitHub
     description: Source of this page
-    technologies: HTML, CSS, GitHub Actions
+    technologies: HTML, CSS
+    technologies-ci:
+      - type: GitHub Actions
     contribution: Creator
     commits:
       from: '2020-06-28'
@@ -19,8 +21,9 @@ projects:
         inactive: true
     technologies-artifacts:
       - type: npm
+        id: dsdl
       - type: DockerHub
-      - type: quay.io
+      - type: Quay.io
     contribution: Creator
     commits:
       from: '2018-04-26'
@@ -38,7 +41,7 @@ projects:
     technologies-artifacts:
       - type: GHCR
       - type: DockerHub
-      - type: quay.io
+      - type: Quay.io
     contribution: Creator
     commits:
       from: '2018-05-31'
@@ -204,7 +207,7 @@ projects:
         inactive: true
     technologies-artifacts:
       - type: DockerHub
-      - type: quay.io
+      - type: Quay.io
     contribution: Creator
     commits:
       from: '2019-09-17'
@@ -537,10 +540,7 @@ projects:
   - name: ohmyzsh/ohmyzsh
     type: GitHub
     description: 🙃 A delightful community-driven (with 1700+ contributors) framework
-      for managing your zsh configuration. Includes 200+ optional plugins (rails,
-      git, OSX, hub, capistrano, brew, ant, php, python, etc), over 140 themes to
-      spice up your morning, and an auto-update tool so that makes it easy to keep
-      up with the latest updates from the community.
+      for managing your zsh configuration.
     technologies: ''
     contribution: Contributor
     commits:
@@ -575,7 +575,7 @@ projects:
         inactive: true
     technologies-artifacts:
       - type: DockerHub
-      - type: quay.io
+      - type: Quay.io
     contribution: Creator
     commits:
       from: '2019-09-06'
@@ -633,6 +633,11 @@ projects:
     type: GitHub
     description: Gollum wiki with lots of sugar
     technologies: Caddy, Docker, Bash, OpenShift, Kubernetes
+    technologies-ci:
+      - type: Docker Autobuild
+        path: blob/master/hooks/build
+      - type: Travis
+        inactive: true
     contribution: Creator
     commits:
       from: '2017-09-06'
@@ -660,6 +665,11 @@ projects:
     type: GitHub
     description: Unofficial Docker builds of FernFlower Java decompiler
     technologies: Docker, GraalVM
+    technologies-ci:
+      - type: Docker Autobuild
+        path: blob/master/hooks/build
+      - type: Travis
+        inactive: true
     contribution: Creator
     commits:
       from: '2019-05-14'
@@ -861,9 +871,7 @@ projects:
   - name: cloudogu/ecosystem
     type: GitHub
     description: Cloudogu Ecosystem is an open platform, which lets you choose how
-      and where your team creates great software. Each service or tool is delivered
-      as a Dōgu, a Docker container, that can be easily integrated in your environment
-      just by pulling it from our registry.
+      and where your team creates great software.
     technologies: Java, Shiro
     contribution: Contributor
     commits:
