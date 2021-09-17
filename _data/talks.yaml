@@ -33,41 +33,41 @@
     - occasion: Java Forum Nord
       title: "GitOps - Einführung in Continous Operations am Beispiel von Kubernetes"
       link: https://javaforumnord.de/site/2021/page/sessions#sz-session-264833
-      slides-speakerdeck: 
-      slides-pdf: 
-      slides-github: 
+      slides-speakerdeck: https://speakerdeck.com/schnatterer/gitops-introduction-to-continuous-operations-with-kubernetes
+      slides-pdf: https://cloudogu.github.io/gitops-talks/2021-09-16-javaforumnord/pdf/GitOps:%20Introduction%20to%20Continuous%20Operations%20with%20Kubernetes.pdf
+      slides-github: https://cloudogu.github.io/gitops-talks/2021-09-16-javaforumnord/#/
       video: 
       location: Hannover, Germany
       date: 2021-09-16
+      demo-github: https://github.com/cloudogu/k8s-gitops-playground
     - occasion: Herbstcampus
       title: "Continuous Operations with GitOps – an Introduction"
       link: https://www.herbstcampus.de/veranstaltung-13171-0-continuous-operations-mit-gitops--eine-einfuehrung.html
-      slides-speakerdeck: 
-      slides-pdf: 
-      slides-github: 
+      slides-speakerdeck: https://speakerdeck.com/schnatterer/continuous-operations-with-gitops-an-introduction
+      slides-pdf: https://cloudogu.github.io/gitops-talks/2021-09-15-herbstcampus/pdf/Continuous%20Operations%20with%20GitOps%20%E2%80%93%20an%20Introduction.pdf
+      slides-github: https://cloudogu.github.io/gitops-talks/2021-09-15-herbstcampus/#/
       video: 
       location: Virtual
       date: 2021-09-15
+      demo-github: https://github.com/cloudogu/k8s-gitops-playground
     - occasion: Herbstcampus
       title: "Panel discussion: Infrastruture as Code"
       link: hhttps://www.herbstcampus.de/veranstaltung-13462-0-diskussionsrunde-infrastructure-as-code.html
-      slides-speakerdeck: 
-      slides-pdf: 
-      slides-github: 
-      video: 
       location: Virtual
       date: 2021-09-15
-      demo-github:
     - occasion: Mastering Kubernetes
       title: "GitOps: Introduction to Continuous Operations with Kubernetes"
       link: https://konferenzen.heise.de/mastering-kubernetes/#diekonferenz
       slides-speakerdeck: https://speakerdeck.com/schnatterer/gitops-introduction-to-continuous-operations-with-kubernetes-mastering-kubernetes-2021
       slides-pdf: https://cloudogu.github.io/gitops-talks/2021-07-15-mastering-kubernetes/pdf/GitOps-Continuous%20Operations%20with%20Kubernetes.pdf
       slides-github: https://cloudogu.github.io/gitops-talks/2021-07-15-mastering-kubernetes/#/
-      video: 
+      video:
+        lang: DE
+        link: https://event.heise.de/backoffice/conference/724
+        private: true
       location: Virtual
       date: 2021-07-15
-      demo-github:
+      demo-github: https://github.com/cloudogu/k8s-gitops-playground
     - occasion: Softwerkskammer Köln
       title: GitOps Introduction - A new age of ops automation?
       link: https://www.meetup.com/Softwerkskammer-Koln/events/276484660
@@ -86,9 +86,13 @@
       slides-speakerdeck: https://speakerdeck.com/schnatterer/good-practices-for-secure-kubernetes-appops-javaland-2021
       slides-pdf: https://cloudogu.github.io/k8s-appops-security-talks/2021-03-17-javaLand/Good-Practices-for-Secure-Kubernetes-AppOps.pdf
       slides-github: https://cloudogu.github.io/k8s-appops-security-talks/2021-03-17-javaLand/#/
-      video: 
+      video:
+        lang: DE
+        link: https://webkonferenz.doag.org/event/125
+        private: true
       location: Virtual
       date: 2021-03-17
+      demo-github: https://github.com/cloudogu/k8s-security-demos
       notes:
     - occasion: <i alt="Youtube" class="fab fa-youtube"></i> Youtube
       title: How did GitOps get started? An interview with Alexis Richardson
@@ -108,6 +112,9 @@
       slides-pdf: https://cloudogu.github.io/gitops-talks/pdf/Hands-on%20GitOps%20with%20K8s%20-%20a%20field%20report.pdf
       slides-github: https://cloudogu.github.io/gitops-talks/
       video:
+        lang: DE
+        link: https://vimeo.com/showcase/7834358/video/480935009
+        private: true
       location: Virtual
       date: 2020-11-04
       notes:
@@ -119,6 +126,7 @@
       slides-github: https://cloudogu.github.io/k8s-appops-security-talks/2020-10-23-heise-devsec/
       video:
         lang: DE
+        # Private: https://vimeo.com/showcase/7842905
         link: https://www.youtube.com/watch?v=XJ5dELNAi1w
       demo-recording: https://asciinema.org/a/366999
       demo-github: https://github.com/cloudogu/k8s-security-demos
