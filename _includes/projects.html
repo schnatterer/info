@@ -51,11 +51,11 @@
                                     {% endif %}
                                     
                                     {% if ci.type == 'GitHub Actions' %}
-                                    <a style="{{  ci_style }}" title="GitHub Actions{{ ci_titleAppend }}" href="https://github.com/{{ project.name }}/actions" class="icon-button"><i class="fab fa-github"></i> Actions</a>
+                                    <a style="{{  ci_style }}" title="GitHub Actions{{ ci_titleAppend }}" href="https://github.com/{{ project.name }}/actions" class="icon-button"><i class="fab fa-github"></i></a>
                                     {% elsif  ci.type == 'Travis' %}
-                                    <a style="{{  ci_style }}" title="TravisCI{{ ci_titleAppend }}" href="https://travis-ci.com/github/{{ project.name }}/" class="icon-button">Travis</a>
+                                    <a style="{{  ci_style }}" title="TravisCI{{ ci_titleAppend }}" href="https://travis-ci.com/github/{{ project.name }}/" class="icon-button">Ⓣ</a>
                                     {% elsif  ci.type == 'Docker Autobuild' %}
-                                    <a style="{{  ci_style }}" title="Docker Autobuild{{ ci_titleAppend }}" href="https://github.com/{{ project.name }}/{{ ci.path }}" class="icon-button"><i class="fab fa-docker"></i> Autobuild</a>
+                                    <a style="{{  ci_style }}" title="Docker Autobuild{{ ci_titleAppend }}" href="https://github.com/{{ project.name }}/{{ ci.path }}" class="icon-button"><i class="fab fa-docker"></i></a>
                                     {% endif %}
                                 {% endfor %}
                             {% endif %}
@@ -69,33 +69,33 @@
                                         {% if artifact_url == '' or artifact_url == null %}
                                             {% capture artifact_url %}https://hub.docker.com/repository/docker/{{ project.name }}{% endcapture %}
                                         {% endif %}
-                                        <a title="GitHub Container Registry" href="{{ artifact_url }}" class="icon-button"><i class="fab fa-github"></i> GHCR</a>
+                                        <a title="GitHub Container Registry" href="{{ artifact_url }}" class="icon-button"><i class="fab fa-github"></i></a>
                                     {% elsif artifact.type == 'DockerHub' %}
                                         {% if artifact.id %}
                                             {% capture artifact_url %}https://hub.docker.com/r/{{ artifact.id }}{% endcapture %}
                                         {% elsif artifact_url == '' or artifact_url == null %}
                                             {% capture artifact_url %}https://hub.docker.com/r/{{ project.name }}{% endcapture %}
                                         {% endif %}
-                                        <a title="DockerHub" href="{{ artifact_url }}" class="icon-button"><i class="fab fa-docker"></i> DockerHub</a>
+                                        <a title="DockerHub" href="{{ artifact_url }}" class="icon-button"><i class="fab fa-docker"></i></a>
                                     {% elsif artifact.type == 'Quay.io' %}
                                         {% if artifact_url == '' or artifact_url == null %}                                            {% capture artifact_url %}https://www.npmjs.com/package/{{ project.name }}{% endcapture %}
                                             {% capture artifact_url %}https://quay.io/repository/{{ project.name}}{% endcapture %}
                                         {% endif %}
-                                        <a title="Quay.io" href="{{ artifact_url }}" class="icon-button"><i class="fab fa-redhat"></i> Quay.io</a>
+                                        <a title="Quay.io" href="{{ artifact_url }}" class="icon-button"><i class="fab fa-redhat"></i></a>
                                     {% elsif artifact.type == 'npm' %}
                                         {% if artifact.id %}
                                             {% capture artifact_url %}https://www.npmjs.com/package/{{ artifact.id }}{% endcapture %}
                                         {% elsif artifact_url == '' or artifact_url == null %}                                            {% capture artifact_url %}https://www.npmjs.com/package/{{ project.name }}{% endcapture %}
                                             {% capture artifact_url %}https://www.npmjs.com/package/{{ project.name}}{% endcapture %}
                                         {% endif %}
-                                        <a title="npm" href="{{ artifact_url }}" class="icon-button"><i class="fab fa-npm"></i> npm</a>
+                                        <a title="npm" href="{{ artifact_url }}" class="icon-button"><i class="fab fa-npm"></i></a>
                                     {% elsif artifact.type == 'Maven Central' %}
                                         {% if artifact.artifactId and artifact.groupId %}
                                             {% capture artifact_url %}https://search.maven.org/artifact/{{ artifact.groupId }}/{{ artifact.artifactId }}{% endcapture %}
                                         {% elsif artifact.groupId %}
                                             {% capture artifact_url %}https://search.maven.org/search?q=g:{{ artifact.groupId }}{% endcapture %}
                                         {% endif %}
-                                        <a title="Maven Central" href="{{ artifact_url }}" class="icon-button"><i class="fas fa-feather"></i> Central</a>
+                                        <a title="Maven Central" href="{{ artifact_url }}" class="icon-button"><i class="fas fa-feather"></i></a>
                                     {% endif %}
                                     </span>
                                 {% endfor %}
