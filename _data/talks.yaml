@@ -46,13 +46,16 @@
       slides-speakerdeck: https://speakerdeck.com/schnatterer/continuous-operations-with-gitops-an-introduction
       slides-pdf: https://cloudogu.github.io/gitops-talks/2021-09-15-herbstcampus/pdf/Continuous%20Operations%20with%20GitOps%20%E2%80%93%20an%20Introduction.pdf
       slides-github: https://cloudogu.github.io/gitops-talks/2021-09-15-herbstcampus/#/
-      video: 
+      video:
+        lang: DE
+        link: https://vimeo.com/showcase/8879966/
+        private: true
       location: Virtual
       date: 2021-09-15
       demo-github: https://github.com/cloudogu/k8s-gitops-playground
     - occasion: Herbstcampus
       title: "Panel discussion: Infrastruture as Code"
-      link: hhttps://www.herbstcampus.de/veranstaltung-13462-0-diskussionsrunde-infrastructure-as-code.html
+      link: https://www.herbstcampus.de/veranstaltung-13462-0-diskussionsrunde-infrastructure-as-code.html
       location: Virtual
       date: 2021-09-15
     - occasion: Mastering Kubernetes
@@ -113,7 +116,7 @@
       slides-github: https://cloudogu.github.io/gitops-talks/
       video:
         lang: DE
-        link: https://vimeo.com/showcase/7834358/video/480935009
+        link: https://vimeo.com/showcase/7834358/
         private: true
       location: Virtual
       date: 2020-11-04
