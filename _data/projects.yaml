@@ -15,6 +15,11 @@ projects:
     type: GitHub
     description: Reproducible infrastructure to showcase GitOps workflows
     technologies: Flux, k3s, Helm, Jenkins, SCM-Manager
+    technologies-ci:
+      - type: Jenkins
+        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fgitops-playground/
+    technologies-artifacts:
+      - type: GHCR
     contribution: Co-Creator
     commits:
       from: '2020-10-14'
@@ -52,6 +57,9 @@ projects:
     type: GitHub
     description: Slides for talks on GitOps
     technologies: Flux, Kubernetes
+    technologies-ci:
+      - type: Jenkins
+        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fgitops-talks/branches/
     contribution: Creator
     commits:
       from: '2020-10-13'
@@ -120,7 +128,10 @@ projects:
     type: GitHub
     description: Docker images providing easier to use, opinionated reveal.js web
       apps - web-based slides/presentations
-    technologies: JavaScript, CSS, Gulp, Grunt, Docker, Jenkins, Bash
+    technologies: JavaScript, CSS, Gulp, Grunt, Docker, Bash
+    technologies-ci:
+      - type: Jenkins
+        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Freveal.js-docker/branches/
     contribution: Creator
     commits:
       from: '2020-03-11'
@@ -154,7 +165,13 @@ projects:
   - name: triologygmbh/test-data-loader
     type: GitHub
     description: A Groovy DSL for creating test data via JPA
-    technologies: Groovy, Maven, Jenkins, SonarQube
+    technologies: Groovy, Maven, SonarQube
+    technologies-ci:
+      - type: Jenkins
+        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/triologygmbh-github%2Ftest-data-loader/branches/
+    technologies-artifacts:
+      - type: Maven Central
+        groupId: de.triology.test-data-loader
     contribution: Maintainer
     commits:
       from: '2017-06-21'
@@ -182,7 +199,13 @@ projects:
     type: GitHub
     description: A tiny Java library that allows for conveniently reading the version
       name of an application
-    technologies: Java, Maven, Jenkins, SonarQube
+    technologies: Java, Maven, SonarQube
+    technologies-ci:
+      - type: Jenkins
+        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2FversionName/branches/
+    technologies-artifacts:
+      - type: Maven Central
+        groupId: com.cloudogu.versionName
     contribution: Creator
     commits:
       from: '2016-09-14'
@@ -220,6 +243,9 @@ projects:
     description: Examples for jenkins pipelines, comparing scripted and declarative
       syntax
     technologies: Groovy, Jenkins, Kubernetes, SonarQube
+    technologies-ci:
+      - type: Jenkins
+        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fjenkinsfiles/branches/
     contribution: Creator
     commits:
       from: '2017-07-17'
@@ -255,6 +281,10 @@ projects:
     type: GitHubu
     description: Containerized Kubernetes Helm client with support for plugins
     technologies: Docker, Helm
+    technologies-ci:
+      - type: GitHub Actions
+    technologies-artifacts:
+      - type: GHCR
     contribution: Co-Creator
     commits:
       from: '2020-10-14'
@@ -293,7 +323,13 @@ projects:
   - name: cloudogu/command-bus
     type: GitHub
     description: Java implementation of the Command-Bus pattern for Spring and CDI
-    technologies: Java, Maven, Jenkins, SonarQube
+    technologies: Java, Maven, SonarQube
+    technologies-ci:
+      - type: Jenkins
+        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fcommand-bus/branches/
+    technologies-artifacts:
+      - type: Maven Central
+        groupId: com.cloudogu.cb
     contribution: Co-creator
     commits:
       from: '2017-07-31'
@@ -302,7 +338,10 @@ projects:
   - name: cloudogu/reveal.js-docker-example
     type: GitHub
     description: Advanced example for using web-based slides/presentations via cloudogu/reveal.js-docker
-    technologies: Docker, Kubernetes, Jenkins, Maven
+    technologies: Docker, Kubernetes, Maven
+    technologies-ci:
+      - type: Jenkins
+        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Freveal.js-docker-example/branches/
     contribution: Creator
     commits:
       from: '2020-03-27'
@@ -348,6 +387,9 @@ projects:
     type: GitHub
     description: Resources for talks on Kubernetes appOps Security
     technologies: Kubernetes
+    technologies-ci:
+      - type: Jenkins
+        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fk8s-appops-security-talks/branches/
     contribution: Creator
     commits:
       from: '2019-02-08'
@@ -493,7 +535,13 @@ projects:
   - name: triologygmbh/reCAPTCHA-V2-java
     type: GitHub
     description: Java Bindings for reCAPTCHA V2
-    technologies: Java, Maven, Jenkins, SonarQube
+    technologies: Java, Maven, SonarQube
+    technologies-ci:
+      - type: Jenkins
+        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/triologygmbh-github%2FreCAPTCHA-V2-java/branches/
+    technologies-artifacts:
+      - type: Maven Central
+        groupId: de.triology.recaptchav2-java
     contribution: Co-creator
     commits:
       from: '2017-07-03'
@@ -513,6 +561,9 @@ projects:
     type: GitHub
     description: Slides for an intro talk to kubernetes
     technologies: Kubernetes
+    technologies-ci:
+      - type: Jenkins
+        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fk8s-intro-talk/branches/
     contribution: Creator
     commits:
       from: '2020-06-30'
@@ -1020,7 +1071,10 @@ projects:
   - name: triologygmbh/dependency-check
     type: GitHub
     description: An example on how to use the OWASP Dependency-Check maven plugin
-    technologies: Java, Maven, Jenkins
+    technologies: Java, Maven
+    technologies-ci:
+      - type: Jenkins
+        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/triologygmbh-github%2Fdependency-check/branches/
     contribution: Creator
     commits:
       from: '2016-07-29'

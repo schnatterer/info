@@ -56,6 +56,8 @@
                                     <a style="{{  ci_style }}" title="TravisCI{{ ci_titleAppend }}" href="https://travis-ci.com/github/{{ project.name }}/" class="icon-button">Ⓣ</a>
                                     {% elsif  ci.type == 'Docker Autobuild' %}
                                     <a style="{{  ci_style }}" title="Docker Autobuild{{ ci_titleAppend }}" href="https://github.com/{{ project.name }}/{{ ci.path }}" class="icon-button"><i class="fab fa-docker"></i></a>
+                                    {% elsif ci.type == 'Jenkins' %}
+                                    <a style="{{  ci_style }}" title="Jenkins{{ ci_titleAppend }}" href="{{ ci.url }}" class="icon-button"><i class="fab fa-jenkins"></i></a>
                                     {% endif %}
                                 {% endfor %}
                             {% endif %}
@@ -67,7 +69,7 @@
                                 
                                     {% if artifact.type == 'GHCR' %}
                                         {% if artifact_url == '' or artifact_url == null %}
-                                            {% capture artifact_url %}https://hub.docker.com/repository/docker/{{ project.name }}{% endcapture %}
+                                            {% capture artifact_url %}https://ghcr.io/{{ project.name }}{% endcapture %}
                                         {% endif %}
                                         <a title="GitHub Container Registry" href="{{ artifact_url }}" class="icon-button"><i class="fab fa-github"></i></a>
                                     {% elsif artifact.type == 'DockerHub' %}
