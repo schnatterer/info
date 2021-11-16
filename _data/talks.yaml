@@ -11,16 +11,6 @@
       date: 2021-12-09
       demo-github:
     - occasion: Continuous Lifecycle 
-      title: "Workshop: GitOps: Continuous Operations"
-      link: https://www.continuouslifecycle.de/veranstaltung-13261-0-gitops-hands-on-continuous-operations-mit-kubernetes.html
-      slides-speakerdeck: 
-      slides-pdf: 
-      slides-github: 
-      video: 
-      location: Virtual
-      date: 2021-11-10 - 2021-11-11 
-      demo-github:
-    - occasion: Continuous Lifecycle 
       title: "GitOps: Hands-on Continuous Operations with Kubernetes"
       link: https://www.continuouslifecycle.de/veranstaltung-13586-0-gitops-continuous-operations.html
       slides-speakerdeck: 
@@ -29,6 +19,16 @@
       video: 
       location: Virtual
       date: 2021-11-18
+      demo-github:
+    - occasion: Continuous Lifecycle
+      title: "Workshop: GitOps: Continuous Operations"
+      link: https://www.continuouslifecycle.de/veranstaltung-13261-0-gitops-hands-on-continuous-operations-mit-kubernetes.html
+      slides-speakerdeck:
+      slides-pdf:
+      slides-github:
+      video:
+      location: Virtual
+      date: 2021-11-10 - 2021-11-11
       demo-github:
     - occasion: Java Forum Nord
       title: "GitOps - Einführung in Continous Operations am Beispiel von Kubernetes"
