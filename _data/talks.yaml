@@ -4,12 +4,12 @@
       title: "GitOps: Introduction to Continuous Operations with Kubernetes"
       link: https://www.ittage.informatik-aktuell.de/programm/2021/gitops-einfuehrung-in-continuous-operations-am-beispiel-von-kubernetes.html
       slides-speakerdeck: 
-      slides-pdf: 
-      slides-github: 
+      slides-pdf: https://cloudogu.github.io/gitops-talks/2021-12-09-it-tage/pdf/GitOps:%20Introduction%20to%20Continuous%20Operations%20with%20Kubernetes.pdf
+      slides-github: https://cloudogu.github.io/gitops-talks/2021-12-09-it-tage/#/
       video: 
       location: Virtual
       date: 2021-12-09
-      demo-github:
+      demo-github: https://github.com/cloudogu/k8s-gitops-playground
     - occasion: Continuous Lifecycle 
       title: "GitOps: Hands-on Continuous Operations with Kubernetes"
       link: https://www.continuouslifecycle.de/veranstaltung-13261-0-gitops-hands-on-continuous-operations-mit-kubernetes.html
@@ -19,7 +19,7 @@
       video: 
       location: Virtual
       date: 2021-11-18
-      demo-github:
+      demo-github: https://github.com/cloudogu/k8s-gitops-playground
     - occasion: Continuous Lifecycle
       title: "Workshop: GitOps: Continuous Operations"
       link: https://www.continuouslifecycle.de/veranstaltung-13586-0-gitops-continuous-operations.html
