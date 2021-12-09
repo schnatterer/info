@@ -1,5 +1,13 @@
 - year: 2021
   pubs:
+    - date: '2021-12-09'
+      title: 'eBook: Kubernetes AppOps Security'
+      excerpt: "This eBook uses diagrams and code to illustrate how developers can secure the operations of their applications with kubernetes.\nIt focuses on network policies and security context."
+      media:
+        - type: Book
+          medium: myCloudogu
+          link: https://my.cloudogu.com/kubernetes-appops-security-ebook
+          lang: DE
     - date: '2021-03-24'
       title: Automation helpers - A Market overview for GitOps tools
       excerpt: "This article captures a snapshot of the market for \"GitOps tools\"\

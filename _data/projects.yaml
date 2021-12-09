@@ -65,6 +65,7 @@ projects:
     technologies-ci:
       - type: Travis
         inactive: true
+      - type: GitHub Actions
     technologies-artifacts:
       - type: Maven Central
         groupId: info.schnatterer.musicbrainzws2-java

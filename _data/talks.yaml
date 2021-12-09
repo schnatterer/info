@@ -3,10 +3,14 @@
     - occasion: IT-Tage
       title: "GitOps: Introduction to Continuous Operations with Kubernetes"
       link: https://www.ittage.informatik-aktuell.de/programm/2021/gitops-einfuehrung-in-continuous-operations-am-beispiel-von-kubernetes.html
-      slides-speakerdeck: 
+      slides-speakerdeck: https://speakerdeck.com/schnatterer/it-tage-2021-gitops-introduction-to-continuous-operations-with-kubernetes 
       slides-pdf: https://cloudogu.github.io/gitops-talks/2021-12-09-it-tage/pdf/GitOps:%20Introduction%20to%20Continuous%20Operations%20with%20Kubernetes.pdf
       slides-github: https://cloudogu.github.io/gitops-talks/2021-12-09-it-tage/#/
-      video: 
+      video:
+        lang: DE 
+        # This one might be public https://player.vimeo.com/video/654953870?h=174fe8bc96&title=0&byline=0&portrait=0&autoplay=1&autopause=0&app_id=122963
+        link: https://eventmobi.com/it-tage/agenda/7b4ee5eb-5f00-4836-b550-72e91be259a0/session/d0f8c709-7908-4964-a55a-807e68de6380
+        private: true
       location: Virtual
       date: 2021-12-09
       demo-github: https://github.com/cloudogu/k8s-gitops-playground
