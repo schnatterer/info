@@ -2,7 +2,10 @@
   pubs:
     - date: '2021-12-09'
       title: 'eBook: Kubernetes AppOps Security'
-      excerpt: "This eBook uses diagrams and code to illustrate how developers can secure the operations of their applications with kubernetes.\nIt focuses on network policies and security context."
+      excerpt: 'This eBook uses diagrams and code to illustrate how developers can
+        secure the operations of their applications with kubernetes.
+
+        It focuses on network policies and security context.'
       media:
         - type: Book
           medium: myCloudogu
