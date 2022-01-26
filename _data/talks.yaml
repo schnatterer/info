@@ -30,7 +30,7 @@
       location: Virtual
       date: 2021-11-10 - 2021-11-11
     - occasion: Java Forum Nord
-      title: "GitOps - Einführung in Continous Operations am Beispiel von Kubernetes"
+      title: "GitOps: Introduction to Continuous Operations with Kubernetes"
       link: https://javaforumnord.de/site/2021/page/sessions#sz-session-264833
       slides-speakerdeck: https://speakerdeck.com/schnatterer/gitops-introduction-to-continuous-operations-with-kubernetes
       slides-pdf: https://cloudogu.github.io/gitops-talks/2021-09-16-javaforumnord/pdf/GitOps:%20Introduction%20to%20Continuous%20Operations%20with%20Kubernetes.pdf
