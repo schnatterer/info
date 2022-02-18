@@ -1,3 +1,25 @@
+- year: 2022
+  talks:
+    - occasion: <i alt="Youtube" class="fab fa-youtube"></i> Youtube (GODDev)
+      title: "Hands-on GitOps in 10 Min"
+      link: https://www.youtube.com/watch?v=3qyRqvKBz8o
+      slides-github: https://cloudogu.github.io/gitops-talks/2022-01-videos/#/
+      video:
+        lang: DE 
+        link: https://www.youtube.com/watch?v=3qyRqvKBz8o
+      location: Virtual
+      date: 2022-01-28
+      demo-github: https://github.com/cloudogu/k8s-gitops-playground
+    - occasion: <i alt="Youtube" class="fab fa-youtube"></i> Youtube (GODDev)
+      title: "GitOps + CI Server"
+      link: https://www.youtube.com/watch?v=olOSFfBX0zg
+      slides-github: https://cloudogu.github.io/gitops-talks/2022-01-videos/#/extended-ci
+      video:
+        lang: DE 
+        link: https://www.youtube.com/watch?v=olOSFfBX0zg
+      location: Virtual
+      date: 2022-02-08
+      demo-github: https://github.com/cloudogu/k8s-gitops-playground
 - year: 2021
   talks:
     - occasion: IT-Tage
@@ -96,7 +118,7 @@
       date: 2021-03-17
       demo-github: https://github.com/cloudogu/k8s-security-demos
       notes:
-    - occasion: <i alt="Youtube" class="fab fa-youtube"></i> Youtube
+    - occasion: <i alt="Youtube" class="fab fa-youtube"></i> Youtube (Schlomo Schapiro)
       title: How did GitOps get started? An interview with Alexis Richardson
       link: https://schlomo.schapiro.org/2021/02/gitops-interview-alexis-richardson.html
       video:
