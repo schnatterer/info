@@ -1,14 +1,14 @@
 - year: 2022
   talks:
-    - occasion: <i alt="Youtube" class="fab fa-youtube"></i> Youtube (GODDev)
-      title: "Hands-on GitOps in 10 Min"
-      link: https://www.youtube.com/watch?v=3qyRqvKBz8o
-      slides-github: https://cloudogu.github.io/gitops-talks/2022-01-videos/#/
+    - occasion: Mastering Kubernetes
+      title: "GitOps - is this something for me?"
+      link: https://www.mastering-gitops.de/veranstaltung-14077-se-0-gitops--ist-das-was-fuer-mich.html
+      slides-speakerdeck: 
+      slides-pdf: 
+      slides-github: 
       video:
-        lang: DE 
-        link: https://www.youtube.com/watch?v=3qyRqvKBz8o
       location: Virtual
-      date: 2022-01-28
+      date: 2022-04-07
       demo-github: https://github.com/cloudogu/k8s-gitops-playground
     - occasion: <i alt="Youtube" class="fab fa-youtube"></i> Youtube (GODDev)
       title: "GitOps + CI Server"
@@ -19,6 +19,16 @@
         link: https://www.youtube.com/watch?v=olOSFfBX0zg
       location: Virtual
       date: 2022-02-08
+      demo-github: https://github.com/cloudogu/k8s-gitops-playground
+    - occasion: <i alt="Youtube" class="fab fa-youtube"></i> Youtube (GODDev)
+      title: "Hands-on GitOps in 10 Min"
+      link: https://www.youtube.com/watch?v=3qyRqvKBz8o
+      slides-github: https://cloudogu.github.io/gitops-talks/2022-01-videos/#/
+      video:
+        lang: DE 
+        link: https://www.youtube.com/watch?v=3qyRqvKBz8o
+      location: Virtual
+      date: 2022-01-28
       demo-github: https://github.com/cloudogu/k8s-gitops-playground
 - year: 2021
   talks:
