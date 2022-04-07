@@ -3,9 +3,9 @@
     - occasion: Mastering Kubernetes
       title: "GitOps - is this something for me?"
       link: https://www.mastering-gitops.de/veranstaltung-14077-se-0-gitops--ist-das-was-fuer-mich.html
-      slides-speakerdeck: 
-      slides-pdf: 
-      slides-github: 
+      slides-speakerdeck: https://speakerdeck.com/schnatterer/gitops-is-this-something-for-me
+      slides-pdf: https://cloudogu.github.io/gitops-talks/2022-04-mastering-gitops/pdf/GitOps:%20It%20this%20something%20for%20me.pdf
+      slides-github: https://cloudogu.github.io/gitops-talks/2022-04-mastering-gitops/
       video:
       location: Virtual
       date: 2022-04-07
