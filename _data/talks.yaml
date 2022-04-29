@@ -7,6 +7,9 @@
       slides-pdf: https://cloudogu.github.io/gitops-talks/2022-04-mastering-gitops/pdf/GitOps:%20It%20this%20something%20for%20me.pdf
       slides-github: https://cloudogu.github.io/gitops-talks/2022-04-mastering-gitops/
       video:
+        lang: DE
+        link: https://vimeo.com/showcase/9467521/video/697933265
+        private: true
       location: Virtual
       date: 2022-04-07
       demo-github: https://github.com/cloudogu/k8s-gitops-playground
