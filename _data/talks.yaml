@@ -1,6 +1,6 @@
 - year: 2022
   talks:
-    - occasion: Mastering Kubernetes
+    - occasion: Mastering GitOps
       title: "GitOps - is this something for me?"
       link: https://www.mastering-gitops.de/veranstaltung-14077-se-0-gitops--ist-das-was-fuer-mich.html
       slides-speakerdeck: https://speakerdeck.com/schnatterer/gitops-is-this-something-for-me
