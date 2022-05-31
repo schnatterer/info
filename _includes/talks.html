@@ -36,7 +36,7 @@
                                 {% if talk.video != null %}
                                 <div title="Video">Video
                                     {% if talk.video.private == true %}
-                                    <i class="fas fa-user-shield" title="requires login"></i></a>
+                                    <i class="fas fa-user-shield" title="private/requires login"></i></a>
                                     {% endif %}
                                     {% if talk.video.link != null %}<a href="{{ talk.video.link }}" class="icon-button">{% endif %}<i class="fas fa-file-video"></i></a>
                                     {% if talk.video.lang == 'EN' %}

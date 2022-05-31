@@ -8,6 +8,7 @@
       slides-pdf: https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/standard21/uploads/cloudogu2/original/1X/cfcce2da12d02ee32044f6c33c188067af7da379.pdf
       video:
         lang: EN
+        private: true
     - occasion: Mastering GitOps
       title: "GitOps - is this something for me?"
       link: https://www.mastering-gitops.de/veranstaltung-14077-se-0-gitops--ist-das-was-fuer-mich.html
@@ -16,8 +17,7 @@
       slides-github: https://cloudogu.github.io/gitops-talks/2022-04-mastering-gitops/
       video:
         lang: DE
-        link: https://vimeo.com/showcase/9467521/video/697933265
-        private: true
+        link: https://www.youtube.com/watch?v=HL0cC2HLSSI
       location: Virtual
       date: 2022-04-07
       demo-github: https://github.com/cloudogu/k8s-gitops-playground
