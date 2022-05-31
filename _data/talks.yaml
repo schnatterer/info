@@ -1,5 +1,13 @@
 - year: 2022
   talks:
+    - occasion: Invite to ottonova AG
+      title: "Container Security for developers"
+      link: https://community.cloudogu.com/t/container-security-for-developers/702
+      location: Virtual
+      date: 2022-05-30
+      slides-pdf: https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/standard21/uploads/cloudogu2/original/1X/cfcce2da12d02ee32044f6c33c188067af7da379.pdf
+      video:
+        lang: EN
     - occasion: Mastering GitOps
       title: "GitOps - is this something for me?"
       link: https://www.mastering-gitops.de/veranstaltung-14077-se-0-gitops--ist-das-was-fuer-mich.html

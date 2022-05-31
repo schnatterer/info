@@ -38,7 +38,7 @@
                                     {% if talk.video.private == true %}
                                     <i class="fas fa-user-shield" title="requires login"></i></a>
                                     {% endif %}
-                                    <a href="{{ talk.video.link }}" class="icon-button"><i class="fas fa-file-video"></i></a>
+                                    {% if talk.video.link != null %}<a href="{{ talk.video.link }}" class="icon-button">{% endif %}<i class="fas fa-file-video"></i></a>
                                     {% if talk.video.lang == 'EN' %}
                                     <img class="emoji" title="English" alt="🇬🇧" src="img/en.svg">
                                     {% elsif talk.video.lang == 'DE' %}
