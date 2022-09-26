@@ -1,5 +1,11 @@
 - year: 2022
   talks:
+    - occasion: IoT & Analytics Summit
+      title: "GitOps - is this something for me?"
+      link: https://summitberlin.softwareag.com/training/gitops-is-this-something-for-me/
+      location: Berlin, Germany
+      date: 2022-09-27
+      slides-pdf: 
     - occasion: Invite to ottonova AG
       title: "Container Security for developers"
       link: https://community.cloudogu.com/t/container-security-for-developers/702
