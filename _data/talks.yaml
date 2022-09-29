@@ -1,6 +1,15 @@
 - year: 2022
   talks:
     - occasion: Continuous Lifecycle
+      title: "GitOps - is this something for me?"
+      link: https://www.continuouslifecycle.de/veranstaltung-15122-0-gitops--ist-das-was-fuer-mich.html
+      slides-speakerdeck: 
+      slides-pdf: 
+      slides-github: 
+      location: Mannheim, Germany
+      date: 2022-11-16
+      demo-github: 
+    - occasion: Continuous Lifecycle
       title: "Workshop: GitOps: Continuous Operations"
       link: https://www.continuouslifecycle.de/veranstaltung-14189-0-gitops-continuous-operations.html
       # https://www.mastering-gitops.de/veranstaltung-14189-se-0-gitops-continuous-operations.html
@@ -12,6 +21,7 @@
       location: Berlin, Germany
       date: 2022-09-27
       slides-pdf: https://community.cloudogu.com/t/gitops-is-this-something-for-me-talk-on-2022-09-27/903/
+      demo-github: https://github.com/cloudogu/k8s-gitops-playground
     - occasion: Invite to ottonova AG
       title: "Container Security for developers"
       link: https://community.cloudogu.com/t/container-security-for-developers/702
