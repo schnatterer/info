@@ -1,11 +1,17 @@
 - year: 2022
   talks:
-    - occasion: IoT & Analytics Summit
+    - occasion: Continuous Lifecycle
+      title: "Workshop: GitOps: Continuous Operations"
+      link: https://www.continuouslifecycle.de/veranstaltung-14189-0-gitops-continuous-operations.html
+      # https://www.mastering-gitops.de/veranstaltung-14189-se-0-gitops-continuous-operations.html
+      location: Virtual
+      date: 2022-10-04 - 2021-10-05
+    - occasion: IoT & Analytics Summit (Software AG)
       title: "GitOps - is this something for me?"
       link: https://summitberlin.softwareag.com/training/gitops-is-this-something-for-me/
       location: Berlin, Germany
       date: 2022-09-27
-      slides-pdf: 
+      slides-pdf: https://community.cloudogu.com/t/gitops-is-this-something-for-me-talk-on-2022-09-27/903/
     - occasion: Invite to ottonova AG
       title: "Container Security for developers"
       link: https://community.cloudogu.com/t/container-security-for-developers/702
