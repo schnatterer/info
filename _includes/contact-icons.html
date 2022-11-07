@@ -1,32 +1,14 @@
-<ul class="list-inline" >
-    <li>
-        <a href="https://twitter.com/{{ site.twitter_username }}">
-            <i class="fab fa-twitter fa-fw {{ include.iconsClass }}"></i>
-        </a>
-    </li>
-    <li>
-        <a href="https://github.com/{{ site.github_username }}">
-            <i class="fab fa-github fa-fw {{ include.iconsClass }}"></i>
-        </a>
-    </li>
-    <li>
-        <a href="https://stackoverflow.com/users/{{ site.stackoverflow_userid }}">
-            <i class="fab fa-stack-overflow fa-fw {{ include.iconsClass }}"></i>
-        </a>
-    </li>
-    <li>
-        <a href="https://keybase.io/{{ site.keybase_id }}">
-            <i class="fab fa-keybase fa-fw {{ include.iconsClass }}"></i>
-        </a>
-    </li>
-    <li>
-        <a href="https://www.linkedin.com/in/{{ site.linkedin_personal_url }}">
-            <i class="fab fa-linkedin fa-fw {{ include.iconsClass }}"></i>
-        </a>
-    </li>
-    <li>
-        <a href="https://www.xing.com/profile/{{ site.xing_profile }}">
-            <i class="fab fa-xing fa-fw {{ include.iconsClass }}"></i>
-        </a>
-    </li>
+{% assign extraClasses = "visible-xs, hidden-xs" | split: ", " %}
+{% assign fontSizes = "0.75, 1" | split:', ' %}
+
+{% for extraClass in extraClasses %}
+<ul class="list-inline {{ extraClass }}" style="font-size: {{ fontSizes[forloop.index0] }}em;">
+    <li><a rel="me" href="https://{{ site.mastodon_handle }}"><i class="fab fa-mastodon fa-fw {{ include.iconsClass }}"></i></a></li>
+    <li><a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter fa-fw {{ include.iconsClass }}"></i></a></li>
+    <li><a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github fa-fw {{ include.iconsClass }}"></i></a></li>
+    <li><a href="https://stackoverflow.com/users/{{ site.stackoverflow_userid }}"><i class="fab fa-stack-overflow fa-fw {{ include.iconsClass }}"></i></a></li>
+    <li><a href="https://keybase.io/{{ site.keybase_id }}"><i class="fab fa-keybase fa-fw {{ include.iconsClass }}"></i></a></li>
+    <li><a href="https://www.linkedin.com/in/{{ site.linkedin_personal_url }}"><i class="fab fa-linkedin fa-fw {{ include.iconsClass }}"></i></a></li>
+    <li><a href="https://www.xing.com/profile/{{ site.xing_profile }}"><i class="fab fa-xing fa-fw {{ include.iconsClass }}"></i></a></li>
 </ul>
+{% endfor %}
