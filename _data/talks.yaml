@@ -1,14 +1,25 @@
+- year: 2023
+  talks:
+    - occasion: Mastering GitOps
+      title: "The perfect GitOps process: repos, folders, stages, patterns"
+      link: https://www.mastering-gitops.de/veranstaltung-15614-se-0-der-massgeschneiderte-gitops-prozess-repos-folders-stages-patterns.html
+      slides-pdf: 
+      slides-github: 
+      slides-speakerdeck: 
+      location: Virtual
+      date: 2022-03-02
+      demo-github: 
 - year: 2022
   talks:
     - occasion: Continuous Lifecycle
       title: "GitOps - is this something for me?"
       link: https://www.continuouslifecycle.de/veranstaltung-15122-0-gitops--ist-das-was-fuer-mich.html
-      slides-speakerdeck: 
-      slides-pdf: 
-      slides-github: 
+      slides-speakerdeck: https://speakerdeck.com/schnatterer/gitops-is-this-something-for-me-a404c889-0a85-47e3-8827-2280a4bef4c6
+      slides-pdf: https://cloudogu.github.io/gitops-talks/2022-11-continuous-lifecycle/pdf/GitOps:%20It%20this%20something%20for%20me.pdf
+      slides-github: https://cloudogu.github.io/gitops-talks/2022-11-continuous-lifecycle/#/
       location: Mannheim, Germany
       date: 2022-11-16
-      demo-github: 
+      demo-github: https://github.com/cloudogu/k8s-gitops-playground
     - occasion: Continuous Lifecycle
       title: "Workshop: GitOps: Continuous Operations"
       link: https://www.continuouslifecycle.de/veranstaltung-14189-0-gitops-continuous-operations.html
