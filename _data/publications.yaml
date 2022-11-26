@@ -1,16 +1,18 @@
 - year: 2022
   pubs:
     - date: '2022-11-25'
-      title: 'Repo Structures: Stages/Environments with base/shared resources in Kustomize or Helm in trunk-based development'
-      excerpt: 'A solution to a very specific GitOps design problem that seems to have an impact on many users'
+      title: 'Repo Structures: Stages/Environments with base/shared resources in Kustomize
+        or Helm in trunk-based development'
+      excerpt: A solution to a very specific GitOps design problem that seems to have
+        an impact on many users
       media:
         - type: Blog
           medium: Cloudogu Community
           link: https://community.cloudogu.com/t/repo-structures-stages-environments-with-base-shared-resources-in-kustomize-or-helm-in-trunk-based-development/994/1
           lang: EN
     - date: '2022-10-21'
-      title: 'Flux or argocd - the great controversy'
-      excerpt: 'Arguments for Flux or ArgoCD based on the requirements of current project'
+      title: Flux or argocd - the great controversy
+      excerpt: Arguments for Flux or ArgoCD based on the requirements of current project
       media:
         - type: Blog
           medium: Cloudogu Community
@@ -25,8 +27,9 @@
           link: https://community.cloudogu.com/t/continuously-scan-your-kubernetes-cluster-for-security-issues-using-trivy-operator/962/1
           lang: EN
     - date: '2022-09-21'
-      title: 'GitOps patterns for repository and folder/directory structure'
-      excerpt: 'My insights on GitOps repo and folder/directory structure patterns after combining my own experience with other awesome resources'
+      title: GitOps patterns for repository and folder/directory structure
+      excerpt: My insights on GitOps repo and folder/directory structure patterns
+        after combining my own experience with other awesome resources
       media:
         - type: Blog
           medium: Cloudogu Community
