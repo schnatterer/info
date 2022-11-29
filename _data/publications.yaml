@@ -19,8 +19,9 @@
           link: https://community.cloudogu.com/t/flux-or-argocd-the-great-controversy/967
           lang: EN
     - date: '2022-10-17'
-      title: 'Continuously scan your Kubernetes cluster for security issues using trivy operator'
-      excerpt: 'Getting started with trivy operator for k8s and current limitations'
+      title: Continuously scan your Kubernetes cluster for security issues using trivy
+        operator
+      excerpt: Getting started with trivy operator for k8s and current limitations
       media:
         - type: Blog
           medium: Cloudogu Community
