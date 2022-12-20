@@ -11,6 +11,14 @@
       demo-github: 
 - year: 2022
   talks:
+    - occasion: Netzpalaver
+      title: "IT trends for 2023: GitOps"
+      link: https://twitter.com/netzpalaver/status/1605167924544622592
+      location: Virtual
+      date: 2022-12-20
+      video:
+        lang: DE
+        link: https://twitter.com/netzpalaver/status/1605167924544622592
     - occasion: Continuous Lifecycle
       title: "GitOps - is this something for me?"
       link: https://www.continuouslifecycle.de/veranstaltung-15122-0-gitops--ist-das-was-fuer-mich.html
