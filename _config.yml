@@ -23,4 +23,4 @@ projects_text: An excerpt of contributions to FOSS projects
 markdown: kramdown
 
 include:
-  - .well-known/webfinger
+  - .well-known
