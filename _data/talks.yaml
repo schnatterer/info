@@ -3,12 +3,12 @@
     - occasion: Mastering GitOps
       title: "The perfect GitOps process: repos, folders, stages, patterns"
       link: https://www.mastering-gitops.de/veranstaltung-15614-se-0-der-massgeschneiderte-gitops-prozess-repos-folders-stages-patterns.html
-      slides-pdf: 
-      slides-github: 
-      slides-speakerdeck: 
+      slides-pdf: https://cloudogu.github.io/gitops-talks/2023-03-mastering-gitops/pdf/The%20perfect%20GitOps%20process:%20repos%2C%20folders%2C%20stages%2C%20patterns.pdf
+      slides-github: https://cloudogu.github.io/gitops-talks/2023-03-mastering-gitops/#/
+      slides-speakerdeck: https://speakerdeck.com/schnatterer/the-perfect-gitops-process-repos-folders-stages-patterns
       location: Virtual
       date: 2022-03-02
-      demo-github: 
+      demo-github: https://github.com/cloudogu/gitops-patterns
 - year: 2022
   talks:
     - occasion: Netzpalaver
