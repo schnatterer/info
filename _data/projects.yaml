@@ -1,5 +1,15 @@
 updated: '2023-03-14'
 projects:
+  - name: schnatterer/argocd-autopilot-example
+    type: GitHub
+    description: 'Example for GitOps repostructure created by argocd-autopilot '
+    technologies: 'ArgoCD'
+    contribution: Creator
+  - name: cloudogu/gitops-patterns
+    type: GitHub
+    description: 'Collection of patterns, examples and resources for GitOps process design, GitOps repository structures, etc '
+    technologies: 'GitOps'
+    contribution: Creator
   - name: schnatterer/info
     type: GitHub
     description: Source of this page
