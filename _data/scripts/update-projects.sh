@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 
 set -o nounset -o pipefail
-# Leads to mysterious failures after firstDate=...
-#set -o errexit
+set -o errexit
 
-#set -x
 BASEDIR=$(dirname "$0")
 TOKEN=$1
+
+set -x
 
 function main() {
   fetchProjects
@@ -45,6 +45,13 @@ function fetchProjects() {
                 \" \
              } \
             " https://api.github.com/graphql)
+
+  echo "Projects=${projects}"
+  if [[ $(jq 'has("errors")' <<< "${projects}") == "true" ]]; then
+    echo "GitHub query returned error"
+    jq '.errors[].message' <<< "${projects}"
+    exit 1
+  fi
 
   # TODO if necessary implement pagination
   [[ $(echo "$projects" | jq -r '.data.viewer.repositoriesContributedTo.pageInfo.hasNextPage') == 'true' ]] && (echo "Pagination not implemented " && exit 1)
@@ -91,11 +98,13 @@ function updateProjects() {
   i=0
   for project in $(yq -r '.projects[].name' "${BASEDIR}"/../projects.yaml); do
     tmpdir=$(mktemp -d)
-    git clone --bare http://github.com/${project} "${tmpdir}"
+    git clone --bare http://github.com/${project}/ "${tmpdir}"
     cd "${tmpdir}" || exit
-    firstDate="$(git log --all --author='schnatterer' --reverse --pretty=format:'%as' | head -n1)"
-    lastDate="$(git log --all --author='schnatterer' --pretty=format:'%as' | head -n1)"
-    nCommits="$(git log --all --author='schnatterer' --pretty=format:'%as' | wc -l)"
+    # Avoid failures after firstDate=... using || true
+    # https://unix.stackexchange.com/a/580119/
+    firstDate="$(git --no-pager log --all --author='schnatterer' --reverse --pretty=format:'%as' | head -n1 || true)"
+    lastDate="$(git --no-pager log --all --author='schnatterer' --pretty=format:'%as' | head -n1 || true)"
+    nCommits="$(git --no-pager log --all --author='schnatterer' --pretty=format:'%as' | wc -l)"
     # Last line does not have a line break and therefore is not counted
     nCommits=$((nCommits + 1))
     cd - || exit
