@@ -112,15 +112,6 @@ projects:
       from: '2015-05-21'
       to: '2023-02-10'
       amount: '41'
-  - name: cloudogu/jenkins-helm-docker
-    type: GitHub
-    description: Jenkins OCI image containing the plugins required for the helm chart
-    technologies: ''
-    contribution: Contributor
-    commits:
-      from: '2023-02-07'
-      to: '2023-02-07'
-      amount: '1'
   - name: cloudogu/sudo-kubeconfig
     type: GitHub
     description: Create a sudo kubeconfig for your current kubernetes context
@@ -207,7 +198,7 @@ projects:
     type: GitHub
     description: A curated list of awesome projects and resources related to Argo
       (a CNCF graduated project)
-    technologies: ''
+    technologies: ArgoCD
     contribution: Contributor
     commits:
       from: '2022-03-29'
