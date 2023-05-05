@@ -3,7 +3,7 @@ projects:
   - name: argoproj/argo-cd
     type: GitHub
     description: Declarative continuous deployment for Kubernetes.
-    technologies: ''
+    technologies: Argo CD
     contribution: Contributor
     commits:
       from: '2023-05-05'
@@ -12,7 +12,7 @@ projects:
   - name: cloudogu/gitops-talks
     type: GitHub
     description: Slides for talks on GitOps
-    technologies: Flux, Kubernetes
+    technologies: Flux, Argo CD, Kubernetes, reveal.js, SVG
     technologies-ci:
       - type: Jenkins
         url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fgitops-talks/branches/
@@ -25,7 +25,11 @@ projects:
     type: GitHub
     description: An OCI image containing Jenkins bundled with the basic plugins needed
       during startup of Jenkins Helm Chart
-    technologies: ''
+    technologies: Docker, Helm
+    technologies-ci:
+      - type: GitHub Actions
+    technologies-artifacts:
+      - type: GHCR
     contribution: Contributor
     commits:
       from: '2023-04-11'
@@ -34,7 +38,7 @@ projects:
   - name: cloudogu/gitops-playground
     type: GitHub
     description: Reproducible infrastructure to showcase GitOps workflows
-    technologies: Flux, k3s, Helm, Jenkins, SCM-Manager
+    technologies: Flux, Argo CD, Prometheus, Grafana, Hashicorp Vault, External Secrets Operator, k3s, Helm, Jenkins, SCM-Manager, Groovy, Bash, Docker
     technologies-ci:
       - type: Jenkins
         url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fgitops-playground/
@@ -92,7 +96,7 @@ projects:
   - name: cloudogu/reveal.js-docker-example
     type: GitHub
     description: Advanced example for using web-based slides/presentations via cloudogu/reveal.js-docker
-    technologies: Docker, Kubernetes, Maven
+    technologies: Docker, Kubernetes, Maven, reveal.js, HTML, CSS, JavaScript
     technologies-ci:
       - type: Jenkins
         url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Freveal.js-docker-example/branches/
@@ -139,7 +143,7 @@ projects:
     type: GitHub
     description: Docker images providing easier to use, opinionated reveal.js web
       apps - web-based slides/presentations
-    technologies: JavaScript, CSS, Gulp, Grunt, Docker, Bash
+    technologies: JavaScript, CSS, HTML, Gulp, Grunt, Docker, Bash
     technologies-ci:
       - type: Jenkins
         url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Freveal.js-docker/branches/
@@ -298,7 +302,7 @@ projects:
   - name: cloudogu/k8s-appops-security-talks
     type: GitHub
     description: Resources for talks on Kubernetes appOps Security
-    technologies: Kubernetes
+    technologies: Kubernetes, reveal.js
     technologies-ci:
       - type: Jenkins
         url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fk8s-appops-security-talks/branches/
@@ -628,7 +632,7 @@ projects:
   - name: cloudogu/k8s-intro-talk
     type: GitHub
     description: Slides for an intro talk to kubernetes
-    technologies: Kubernetes
+    technologies: Kubernetes, reveal.js
     technologies-ci:
       - type: Jenkins
         url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fk8s-intro-talk/branches/
