@@ -57,7 +57,7 @@
                                     {% elsif  ci.type == 'Docker Autobuild' %}
                                     <a style="{{  ci_style }}" title="Docker Autobuild{{ ci_titleAppend }}" href="https://github.com/{{ project.name }}/{{ ci.path }}" class="icon-button"><i class="fab fa-docker"></i></a>
                                     {% elsif ci.type == 'Jenkins' %}
-                                    <a style="{{  ci_style }}" title="Jenkins{{ ci_titleAppend }}" href="{{ ci.url }}" class="icon-button"><i class="fab fa-jenkins"></i></a>
+                                    <a style="{{  ci_style }}" title="Jenkins{{ ci_titleAppend }}" href="{{ ci.url | default: 'https://github.com/' | append: project.name | append: '/blob/main/Jenkinsfile' }}" class="icon-button"><i class="fab fa-jenkins"></i></a>
                                     {% endif %}
                                 {% endfor %}
                             {% endif %}
