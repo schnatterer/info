@@ -6,6 +6,10 @@
       slides-pdf: https://cloudogu.github.io/gitops-talks/2023-03-mastering-gitops/pdf/The%20perfect%20GitOps%20process:%20repos%2C%20folders%2C%20stages%2C%20patterns.pdf
       slides-github: https://cloudogu.github.io/gitops-talks/2023-03-mastering-gitops/#/
       slides-speakerdeck: https://speakerdeck.com/schnatterer/the-perfect-gitops-process-repos-folders-stages-patterns
+      video:
+        lang: DE
+        link: https://vimeo.com/showcase/10241187/video/805176142
+        private: true
       location: Virtual
       date: 2022-03-02
       demo-github: https://github.com/cloudogu/gitops-patterns
