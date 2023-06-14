@@ -1,5 +1,15 @@
 - year: 2023
   talks:
+    - occasion: Continuous Lifecycle
+      title: "GitOps Repo structures and patterns"
+      link: https://www.continuouslifecycle.de/veranstaltung-20848-0-gitops-repository-strukturen-und-patterns.html
+      slides-pdf: 
+      slides-github: 
+      slides-speakerdeck: 
+      video:
+      location: Mannheim, Germany
+      date: 2022-11-15
+      demo-github: 
     - occasion: Mastering GitOps
       title: "The perfect GitOps process: repos, folders, stages, patterns"
       link: https://www.mastering-gitops.de/veranstaltung-15614-se-0-der-massgeschneiderte-gitops-prozess-repos-folders-stages-patterns.html
