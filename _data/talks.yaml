@@ -8,7 +8,7 @@
       slides-speakerdeck: 
       video:
       location: Mannheim, Germany
-      date: 2022-11-15
+      date: 2023-11-15
       demo-github: 
     - occasion: Mastering GitOps
       title: "The perfect GitOps process: repos, folders, stages, patterns"
@@ -21,7 +21,7 @@
         link: https://vimeo.com/showcase/10241187/video/805176142
         private: true
       location: Virtual
-      date: 2022-03-02
+      date: 2023-03-02
       demo-github: https://github.com/cloudogu/gitops-patterns
 - year: 2022
   talks:
