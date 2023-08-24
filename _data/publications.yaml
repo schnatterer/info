@@ -1,5 +1,29 @@
 - year: 2022
   pubs:
+    - date: '2022-08-24'
+      title: "GitOps tools in detail: Argo CD vs. Flux"
+      excerpt: An in-depth comparison of Argo CD and Flux regarding bootstrapping, linking, CLI and GUI, components and resource requirements, authentication and authorization, templating, configuration management, monitoring and alerting, ecosystem, multi-tenancy,multi-cluster management, OCI, high availability and load balancing, maturity and commercial offerings.
+      media:
+        - type: Journal
+          medium: iX 9/2023
+          link: https://www.heise.de/hintergrund/GitOps-Tools-im-detaillierten-Vergleich-Argo-CD-und-Flux-9245592.html?seite=all
+          lang: DE
+    - date: '2022-08-24'
+      title: "GitOps: repository structures and patterns"
+      excerpt: Identifies many patterns from recurring elements during GitOps process design and describes them in four categories operator deployment, repository, promotion and wiring.
+      media:
+        - type: Journal
+          medium: iX 9/2023
+          link: https://www.heise.de/hintergrund/GitOps-Repository-Strukturen-und-Patterns-in-der-Theorie-9247815.html?seite=all
+          lang: DE
+    - date: '2022-08-24'
+      title: "Interview: Three questions and answers: how to get your individual GitOps process going"
+      excerpt: Implemented correctly, GitOps takes a lot of work off admins' shoulders. This interview shows how to find the best tools and define your own process.
+      media:
+        - type: Journal
+          medium: iX 9/2023
+          link: https://www.heise.de/news/Drei-Fragen-und-Antworten-Wie-findet-man-die-optimalen-GitOps-Werkzeuge-9282995.html
+          lang: DE
     - date: '2022-11-25'
       title: 'Repo Structures: Stages/Environments with base/shared resources in Kustomize
         or Helm in trunk-based development'
