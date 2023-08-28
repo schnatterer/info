@@ -1,3 +1,41 @@
+- year: 2023
+  pubs:
+    - date: '2023-08-24'
+      title: "GitOps tools in detail: Argo CD vs. Flux"
+      excerpt: An in-depth comparison of Argo CD and Flux regarding bootstrapping, linking, CLI and GUI, components and resource requirements, authentication and authorization, templating, configuration management, monitoring and alerting, ecosystem, multi-tenancy,multi-cluster management, OCI, high availability and load balancing, maturity and commercial offerings.
+      media:
+        - type: Journal
+          medium: iX 9/2023
+          link: https://www.heise.de/select/ix/2023/9/2320007190175782452
+          lang: DE
+        - type: Blog
+          medium: heise online
+          link: https://www.heise.de/hintergrund/GitOps-Tools-im-detaillierten-Vergleich-Argo-CD-und-Flux-9245592.html?seite=all
+          lang: DE
+    - date: '2023-08-24'
+      title: "GitOps: repository structures and patterns"
+      excerpt: Identifies many patterns from recurring elements during GitOps process design and describes them in four categories operator deployment, repository, promotion and wiring.
+      media:
+        - type: Journal
+          medium: iX 9/2023
+          link: https://www.heise.de/select/ix/2023/9/2311009282481758665
+          lang: DE
+        - type: Blog
+          medium: heise online
+          link: https://www.heise.de/hintergrund/GitOps-Repository-Strukturen-und-Patterns-in-der-Theorie-9247815.html?seite=all
+          lang: DE
+    - date: '2023-08-24'
+      title: "Interview: Three questions and answers: how to get your individual GitOps process going"
+      excerpt: Implemented correctly, GitOps takes a lot of work off admins' shoulders. This interview shows how to find the best tools and define your own process.
+      media:
+        - type: Journal
+          medium: iX 9/2023
+          link: https://newsletter.heise.de/html_mail.jsp?params=PIY%2B3hQV7ZYkQvc0e1ORaj6K4WDOFyq2bHPLChMNIQrTq4%2FEphJLlTD8gj%2Fa8e2doO%2BYcve2H9BPux6ySGHNsn1KN3Jlkwc%2Bq%2BQ25%2BUGNm0%3D
+          lang: DE
+        - type: Blog
+          medium: heise
+          link: https://www.heise.de/news/Drei-Fragen-und-Antworten-Wie-findet-man-die-optimalen-GitOps-Werkzeuge-9282995.html
+          lang: DE
 - year: 2022
   pubs:
     - date: '2022-11-25'
@@ -36,38 +74,6 @@
           medium: Cloudogu Community
           link: https://community.cloudogu.com/t/gitops-patterns-for-repository-and-folder-directory-structure/900/1
           lang: EN
-    - date: '2022-08-24'
-      title: 'Interview: Three questions and answers: how to get your individual GitOps
-        process going'
-      excerpt: Implemented correctly, GitOps takes a lot of work off admins' shoulders.
-        This interview shows how to find the best tools and define your own process.
-      media:
-        - type: Journal
-          medium: iX 9/2023
-          link: https://www.heise.de/news/Drei-Fragen-und-Antworten-Wie-findet-man-die-optimalen-GitOps-Werkzeuge-9282995.html
-          lang: DE
-    - date: '2022-08-24'
-      title: 'GitOps: repository structures and patterns'
-      excerpt: Identifies many patterns from recurring elements during GitOps process
-        design and describes them in four categories operator deployment, repository,
-        promotion and wiring.
-      media:
-        - type: Journal
-          medium: iX 9/2023
-          link: https://www.heise.de/hintergrund/GitOps-Repository-Strukturen-und-Patterns-in-der-Theorie-9247815.html?seite=all
-          lang: DE
-    - date: '2022-08-24'
-      title: 'GitOps tools in detail: Argo CD vs. Flux'
-      excerpt: An in-depth comparison of Argo CD and Flux regarding bootstrapping,
-        linking, CLI and GUI, components and resource requirements, authentication
-        and authorization, templating, configuration management, monitoring and alerting,
-        ecosystem, multi-tenancy,multi-cluster management, OCI, high availability
-        and load balancing, maturity and commercial offerings.
-      media:
-        - type: Journal
-          medium: iX 9/2023
-          link: https://www.heise.de/hintergrund/GitOps-Tools-im-detaillierten-Vergleich-Argo-CD-und-Flux-9245592.html?seite=all
-          lang: DE
 - year: 2021
   pubs:
     - date: '2021-12-09'
