@@ -33,6 +33,18 @@
                                     {% if  medium.link  %}
                                     </a>
                                     {% endif %}
+
+                                    {% if  medium.links  %}
+                                        {% for linkObject in medium.links %}
+                                            {% if  linkObject.link  %}
+                                            <a title="{{ medium.type }}" target="_blank" href="{{ linkObject.link }}">
+                                                {% endif %}
+                                                <span>{{ linkObject.name }}</span>
+                                                {% if  linkObject.link  %}
+                                            </a>
+                                            {% endif %}
+                                        {% endfor %}
+                                    {% endif %}
                                     {% if medium.lang == 'EN' %}
                                     <img class="emoji" title="English" alt="🇬🇧" src="img/en.svg">
                                     {% elsif medium.lang == 'DE' %}
