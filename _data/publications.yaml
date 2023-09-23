@@ -16,10 +16,10 @@
           lang: DE
     - date: '2023-08-24'
       title: 'GitOps: repository structures and patterns'
-      excerpt: Identifies patterns from recurring elements during GitOps process
-        design and describes them in four categories operator deployment, repository,
-        promotion and wiring. These pattern can help designing GitOps processes and repo structures as well as
-        finding and standardizing terminology, facilitating communication
+      excerpt: Identifies patterns from recurring elements during GitOps process design
+        and describes them in four categories operator deployment, repository, promotion
+        and wiring. These pattern can help designing GitOps processes and repo structures
+        as well as finding and standardizing terminology, facilitating communication
       media:
         - type: Journal
           medium: iX 9/2023
