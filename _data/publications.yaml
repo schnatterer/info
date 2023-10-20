@@ -1,5 +1,17 @@
 - year: 2023
   pubs:
+    - date: '2023-10-20'
+      title: 'GitOps: repository structures and patterns by example'
+      excerpt: Real examples of public GitOps repositories make the GitOps patterns more tangible
+      media:
+        - type: Journal
+          medium: iX 11/2023
+          link: https://www.heise.de/select/ix/2023/11/2311009322297640470
+          lang: DE
+        - type: Blog
+          medium: Cloudogu Blog
+          link: https://cloudogu.com/de/blog/gitops-repository-patterns-part-6-examples
+          lang: EN
     - date: '2023-08-24'
       title: 'Interview: Three questions and answers: how to get your individual GitOps
         process going'
@@ -43,6 +55,8 @@
               link: https://cloudogu.com/en/blog/gitops-repository-patterns-part-4-promotion-patterns
             - name: 5️⃣
               link: https://cloudogu.com/en/blog/gitops-repository-patterns-part-5-wiring-patterns
+            - name: 6️⃣
+              link: https://cloudogu.com/de/blog/gitops-repository-patterns-part-6-examples
         - type: Blog
           medium: Cloudogu Blog
           lang: DE
@@ -57,6 +71,8 @@
               link: https://cloudogu.com/de/blog/gitops-repository-patterns-teil-4-promotion-patterns
             - name: 5️⃣
               link: https://cloudogu.com/de/blog/gitops-repository-patterns-teil-5-verdrahtungs-patterns
+            - name: 6️⃣
+              link: https://cloudogu.com/de/blog/gitops-repository-patterns-teil-6-beispiele
     - date: '2023-08-24'
       title: 'GitOps tools in detail: Argo CD vs. Flux'
       excerpt: An in-depth comparison of Argo CD and Flux regarding bootstrapping,
