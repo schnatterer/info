@@ -1,11 +1,12 @@
 - year: 2024
   pubs:
     - date: '2024-01-31'
-      title: 'GitOps'
-      excerpt: Practical introduction for development and platform teams.<br/>
-               In-depth focus on GitOps (without basics for K8s or CI/CD).<br/>
-               Clear insight into the consequences of GitOps and the difference it makes in everyday development life.<br/>
-               Comprehensive guidance on relevant challenges such as secrets, repo structures and asynchronicity.
+      title: GitOps
+      excerpt: Practical introduction for development and platform teams.<br/> In-depth
+        focus on GitOps (without basics for K8s or CI/CD).<br/> Clear insight into
+        the consequences of GitOps and the difference it makes in everyday development
+        life.<br/> Comprehensive guidance on relevant challenges such as secrets,
+        repo structures and asynchronicity.
       media:
         - type: Book
           medium: dpunkt.verlag
@@ -15,7 +16,8 @@
   pubs:
     - date: '2023-10-20'
       title: 'GitOps: repository structures and patterns by example'
-      excerpt: Real examples of public GitOps repositories make the GitOps patterns more tangible
+      excerpt: Real examples of public GitOps repositories make the GitOps patterns
+        more tangible
       media:
         - type: Journal
           medium: iX 11/2023
