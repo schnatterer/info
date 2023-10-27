@@ -32,7 +32,7 @@ projects:
     type: GitHub
     description: 'Collection of patterns, examples and resources for GitOps process
       design, GitOps repository structures, etc '
-    technologies: GitOps
+    technologies: GitOps, PlantUML
     contribution: Creator
     commits:
       from: '2023-03-01'
@@ -52,8 +52,12 @@ projects:
   - name: cloudogu/mailhog-image
     type: GitHub
     description: 'Mailhog Docker/OCI image, regularly rebuilt '
-    technologies: ''
-    contribution: Contributor
+    technologies: Docker, Go
+    technologies-ci:
+      - type: GitHub Actions
+    technologies-artifacts:
+      - type: GHCR
+    contribution: Creator
     commits:
       from: '2023-10-25'
       to: '2023-10-26'
@@ -61,8 +65,12 @@ projects:
   - name: schnatterer/texlive-full-image
     type: GitHub
     description: Docker image providing full latex distro
-    technologies: ''
-    contribution: Contributor
+    technologies: Docker
+    technologies-ci:
+      - type: GitHub Actions
+    technologies-artifacts:
+      - type: GHCR
+    contribution: Creator
     commits:
       from: '2023-09-21'
       to: '2023-10-24'
@@ -82,8 +90,8 @@ projects:
   - name: schnatterer/tree2svg
     type: GitHub
     description: Create visual file trees as SVG
-    technologies: ''
-    contribution: Contributor
+    technologies: Bash
+    contribution: Creator
     commits:
       from: '2023-09-07'
       to: '2023-10-17'
@@ -100,7 +108,7 @@ projects:
   - name: schnatterer/dotfiles
     type: GitHub
     description: '@schnatterer''s plain dotfiles. To be used with dotfiles-loader.'
-    technologies: Zsh, bash
+    technologies: Zsh, Bash
     technologies-ci:
       - type: GitHub Actions
     technologies-artifacts:
@@ -488,7 +496,7 @@ projects:
   - name: schnatterer/dotfiles-loader
     type: GitHub
     description: Generalized loader for dotfiles, basing on holman's topical approach
-    technologies: Zsh, bash
+    technologies: Zsh, Bash
     technologies-ci:
       - type: GitHub Actions
     technologies-artifacts:

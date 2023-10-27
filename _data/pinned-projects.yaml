@@ -1,11 +1,13 @@
-- username: schnatterer
-  repo: docker-aliases
 - username: cloudogu
   repo: gitops-playground
 - username: cloudogu
-  repo: k8s-security-demos
+  repo: gitops-patterns
+- username: schnatterer
+  repo: docker-aliases
 - username: cloudogu
   repo: k8s-diagrams
+- username: cloudogu
+  repo: k8s-security-demos
 - username: cloudogu
   repo: helm-sudo
 - username: schnatterer
@@ -14,18 +16,16 @@
   repo: letsencrypt-tomcat
 - username: schnatterer
   repo: termux-scripts
+- username: schnatterer
+  repo: pmcaFilesystemServer
 - username: cloudogu
   repo: reveal.js-docker
 - username: schnatterer
   repo: dsdl
-- username: schnatterer
-  repo: colander
 - username: cloudogu
   repo: jenkinsfiles
 - username: cloudogu
   repo: ces-build-lib
-- username: schnatterer
-  repo: pmcaFilesystemServer
 - username: schnatterer
   repo: nusic
 - username: schnatterer
