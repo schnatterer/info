@@ -3,13 +3,13 @@
     - occasion: Continuous Lifecycle
       title: "GitOps Repo structures and patterns"
       link: https://www.continuouslifecycle.de/veranstaltung-20848-0-gitops-repository-strukturen-und-patterns.html
-      slides-pdf: 
-      slides-github: 
+      slides-pdf: https://cloudogu.github.io/gitops-talks/2023-11-continuous-lifecycle/pdf/GitOps%20Repo%20structures%20and%20patterns.pdf
+      slides-github: https://cloudogu.github.io/gitops-talks/2023-11-continuous-lifecycle 
       slides-speakerdeck: 
       video:
       location: Mannheim, Germany
       date: 2023-11-15
-      demo-github: 
+      demo-github: https://github.com/cloudogu/gitops-playground
     - occasion: Mastering GitOps
       title: "The perfect GitOps process: repos, folders, stages, patterns"
       link: https://www.mastering-gitops.de/veranstaltung-15614-se-0-der-massgeschneiderte-gitops-prozess-repos-folders-stages-patterns.html
