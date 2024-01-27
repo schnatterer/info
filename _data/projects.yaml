@@ -28,9 +28,9 @@ projects:
       amount: '453'
   - name: schnatterer/rooted-graphene
     type: GitHub
-    description: 'null'
+    description: ''
     technologies: ''
-    contribution: Contributor
+    contribution: Creator
     commits:
       from: '2023-12-21'
       to: '2023-12-31'
