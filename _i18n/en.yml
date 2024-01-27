@@ -1,0 +1,30 @@
+global:
+  description: Software development, operations, training + technical leadership
+
+projects:
+  title: Open Source Projects
+  subtext: An excerpt of contributions to FOSS projects
+  all: All
+  pinned: 
+    self: Pinned
+    title: Pinned Projects
+    subtext: Selected projects I had a great influence on and the other way round.
+
+publications:
+  title: Publications
+  subtext: Published books, articles and blog posts
+
+talks:
+  title: Talks
+  subtext: A list of public speaking engagements
+
+nav:
+  home: Home
+  projects: Projects
+  publications: Publications
+  talks: Talks
+  blog: Blog
+  blog-text: IT affinity - personal blog (external link)
+  about:
+    self: About
+    title: About me

@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-10 col-lg-offset-1 text-center">
-        <h2><strong><i class="fas fa-thumbtack"></i> Pinned Projects</strong></h2>
-        <div>Selected projects I had a great influence on and the other way round.</div>
+        <h2><strong><i class="fas fa-thumbtack"></i> {% translate projects.pinned.title %}</strong></h2>
+        <div>{% translate projects.pinned.subtext %}</div>
         <hr class="small">
         <div class="row">
           {% for project in site.data.pinned-projects %}

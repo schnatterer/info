@@ -10,14 +10,11 @@ keybase_id: schnatterer
 copyright: Johannes Schnatterer
 
 blog_url: 'https://itaffinity.wordpress.com/'
-publications_url: '/publications'
-talks_url: '/talks'
-projects_url: '/projects'
+publications_url: 'publications'
+talks_url: 'talks'
+projects_url: 'projects'
 
-blog_text: IT affinity - personal blog (external link)
-publications_text: Articles published in journals and on blogs
-talks_text: A list of public speaking engagements
-projects_text: An excerpt of contributions to FOSS projects
+languages: ["en", "de" ]
 
 # Build settings
 markdown: kramdown

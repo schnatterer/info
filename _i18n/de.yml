@@ -1,0 +1,30 @@
+global:
+  description: Software Entwicklung, Betrieb, Training + technische Führung
+
+projects:
+  title: Open Source Projekte
+  subtext: Auszug an Beiträgen zu FOSS Projekten
+  all: Alle
+  pinned:
+    self: Ausgewählte
+    title: Ausgewählte Projekte
+    subtext: Ausgewählte Projekte auf die ich großen Einfluss hatte, und umgekehrt.
+
+publications:
+  title: Veröffentlichungen
+  subtext: Veröffentliche Bücher, Fachartikel, Blog-Beiträge
+
+talks:
+  title: Vorträge
+  subtext: Liste öffentlicher Auftritte
+  
+nav:
+  home: Titelseite
+  projects: Projekte
+  publications: Veröffentlichungen
+  talks: Vorträge
+  blog: Blog
+  blog-text: IT affinity - persönlicher Blog (externer Link)
+  about: 
+    self: Über
+    title: Über mich

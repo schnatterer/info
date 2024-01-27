@@ -1,32 +1,36 @@
 <nav id="nav" class="navbar">
     <ul class="nav-list">
         <li>
-            <a href="/" title="Home page">
-                <span class="hidden-xs"><i class="fas fa-home"></i> Home</span>
+            {% if site.lang == "en" and site.default_locale_in_subfolder != true %}
+            <a href="{{ site.baseurl_root }}/" title="{% translate nav.home %}">
+            {% else %}
+            <a href="{{ site.baseurl_root }}/{{ site.lang }}" title="{% translate nav.home %}">
+            {% endif %}
+                <span class="hidden-xs"><i class="fas fa-home"></i> {% translate nav.home %}</span>
                 <span class="visible-xs"><i class="fas fa-home fa-2x"></i></span>
             </a>
         </li>
         <li>
-            <a href="{{ site.projects_url }}" title="Projects">
-                <span class="hidden-xs"><i class="fab fa-osi"></i> Projects</span>
+            <a href="{{ site.projects_url | prepend: site.baseurl_root }}" title="{% translate nav.projects %}">
+                <span class="hidden-xs"><i class="fab fa-osi"></i> {% translate nav.projects %}</span>
                 <span class="visible-xs"><i class="fab fa-osi fa-2x"></i></span>
             </a>
         </li>
         <li>
-            <a href="{{ site.publications_url }}" title="Publications">
-                <span class="hidden-xs"><i class="fa fa-book"></i> Publications</span>
+            <a href="{{ site.publications_url | prepend: site.baseurl_root }}" title="{% translate nav.publications %}">
+                <span class="hidden-xs"><i class="fa fa-book"></i> {% translate nav.publications %}</span>
                 <span class="visible-xs"><i class="fa fa-book fa-2x"></i></span>
             </a>
         </li>
         <li>
-            <a href="{{ site.talks_url }}" title="Talks">
-                <span class="hidden-xs"><i class="fa fa-microphone "></i> Talks</span>
+            <a href="{{ site.talks_url | prepend: site.baseurl_root }}" title="{% translate nav.talks %}">
+                <span class="hidden-xs"><i class="fa fa-microphone "></i> {% translate nav.talks %}</span>
                 <span class="visible-xs"><i class="fa fa-microphone fa-2x"></i></span>
             </a>
         </li>
         <li>
-            <a href="{{ site.blog_url }}" title="Blog (external link)" target="_blank">
-                <span class="hidden-xs"><i class="fas fa-edit"></i> Blog</span>
+            <a href="{{ site.blog_url | prepend: site.baseurl_root  }}" title="{% translate nav.blog-text %}" target="_blank">
+                <span class="hidden-xs"><i class="fas fa-edit"></i> {% translate nav.blog %}</span>
                 <span class="visible-xs"><i class="fas fa-edit fa-2x"></i></span>
             </a>
         </li>
