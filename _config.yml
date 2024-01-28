@@ -15,6 +15,9 @@ talks_url: 'talks'
 projects_url: 'projects'
 
 languages: ["en", "de" ]
+languageNames:
+  en: English
+  de: Deutsch
 
 # Build settings
 markdown: kramdown

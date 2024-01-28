@@ -34,5 +34,16 @@
                 <span class="visible-xs"><i class="fas fa-edit fa-2x"></i></span>
             </a>
         </li>
+        <li>
+            <a href="#" style="font-weight: bold">{{ site.lang }}</a>
+            {% for lang in site.languages %}
+                {% if lang == site.lang %} {% continue %} {% endif %}
+                {% if lang == "en" and site.default_locale_in_subfolder != true %}
+            |<a href="{{ site.baseurl_root }}/" title="{{ site.languageNames[lang] }}">{{ lang }}</a>
+                {% else %}
+            |<a href="{{ site.baseurl_root }}/{{ lang }}" title="{{ site.languageNames[lang] }}">{{ lang }}</a>
+                {% endif %}
+            {% endfor %}
+        </li>
     </ul>
 </nav>
