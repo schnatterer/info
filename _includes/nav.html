@@ -39,9 +39,9 @@
             {% for lang in site.languages %}
                 {% if lang == site.lang %} {% continue %} {% endif %}
                 {% if lang == "en" and site.default_locale_in_subfolder != true %}
-            |<a href="{{ site.baseurl_root }}/" title="{{ site.languageNames[lang] }}">{{ lang }}</a>
+            |<a href="{{ site.baseurl_root }}{{ page.url | remove: '.html' }}" title="{{ site.languageNames[lang] }}">{{ lang }}</a>
                 {% else %}
-            |<a href="{{ site.baseurl_root }}/{{ lang }}" title="{{ site.languageNames[lang] }}">{{ lang }}</a>
+            |<a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url | remove: '.html' }}" title="{{ site.languageNames[lang] }}">{{ lang }}</a>
                 {% endif %}
             {% endfor %}
         </li>

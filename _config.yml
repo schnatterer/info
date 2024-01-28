@@ -18,9 +18,13 @@ languages: ["en", "de" ]
 languageNames:
   en: English
   de: Deutsch
+exclude_from_localizations: ["font-awesome", "img", "css", "javascript", "CNAME", "favicon.ico", "site.webmanifest", ".well-known"]
 
 # Build settings
 markdown: kramdown
 
+exclude:
+  - LICENSE
+  - README.md
 include:
   - .well-known
