@@ -172,13 +172,13 @@ footer {
     text-overflow: ellipsis;
     white-space: nowrap;
 }
-
 #nav > ul > li
 {
     display: inline-block;
     border-right: 1px solid;
     border-color: rgba(255,255,255,.1);
 }
+
 
 #nav > ul > li:last-child
 {
@@ -187,13 +187,21 @@ footer {
 }
 
 #nav > ul > li > a,
-#nav > ul > li > span
+#nav > ul > li > span,
+#nav > ul > li > span > a
 {
     display: inline-block;
     padding: 1.5em 1.5em;
     letter-spacing: 0.06em;
     text-transform: uppercase;
     color: #FFFFFF;
+}
+
+#nav > ul > li > span {
+    padding: 0
+}
+#nav > ul > li > span > a {
+    padding: 0
 }
 
 img.emoji {

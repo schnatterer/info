@@ -7,42 +7,52 @@
             <a href="{{ site.baseurl_root }}/{{ site.lang }}" title="{% translate nav.home %}">
             {% endif %}
                 <span class="hidden-xs"><i class="fas fa-home"></i> {% translate nav.home %}</span>
-                <span class="visible-xs"><i class="fas fa-home fa-2x"></i></span>
+               <span class="visible-xs" style="font-size: 1.5em;"><i class="fas fa-home"></i></span>
             </a>
         </li>
         <li>
             <a href="{{ site.projects_url | prepend: site.baseurl_root }}" title="{% translate nav.projects %}">
                 <span class="hidden-xs"><i class="fab fa-osi"></i> {% translate nav.projects %}</span>
-                <span class="visible-xs"><i class="fab fa-osi fa-2x"></i></span>
+               <span class="visible-xs" style="font-size: 1.5em;"><i class="fab fa-osi"></i></span>
             </a>
         </li>
         <li>
             <a href="{{ site.publications_url | prepend: site.baseurl_root }}" title="{% translate nav.publications %}">
                 <span class="hidden-xs"><i class="fa fa-book"></i> {% translate nav.publications %}</span>
-                <span class="visible-xs"><i class="fa fa-book fa-2x"></i></span>
+               <span class="visible-xs" style="font-size: 1.5em;"><i class="fa fa-book"></i></span>
             </a>
         </li>
         <li>
             <a href="{{ site.talks_url | prepend: site.baseurl_root }}" title="{% translate nav.talks %}">
                 <span class="hidden-xs"><i class="fa fa-microphone "></i> {% translate nav.talks %}</span>
-                <span class="visible-xs"><i class="fa fa-microphone fa-2x"></i></span>
+               <span class="visible-xs" style="font-size: 1.5em;"><i class="fa fa-microphone"></i></span>
             </a>
         </li>
         <li>
             <a href="{{ site.blog_url | prepend: site.baseurl_root  }}" title="{% translate nav.blog-text %}" target="_blank">
                 <span class="hidden-xs"><i class="fas fa-edit"></i> {% translate nav.blog %}</span>
-                <span class="visible-xs"><i class="fas fa-edit fa-2x"></i></span>
+               <span class="visible-xs" style="font-size: 1.5em;"><i class="fas fa-edit"></i></span>
             </a>
         </li>
-        <li>
+        <li><span class="visible-xs">
             <a href="#" style="font-weight: bold">{{ site.lang }}</a>
             {% for lang in site.languages %}
                 {% if lang == site.lang %} {% continue %} {% endif %}
                 {% if lang == "en" and site.default_locale_in_subfolder != true %}
-            |<a href="{{ site.baseurl_root }}{{ page.url | remove: '.html' }}" title="{{ site.languageNames[lang] }}">{{ lang }}</a>
+            | <a href="{{ site.baseurl_root }}{{ page.url | remove: '.html' }}" title="{{ site.languageNames[lang] }}">{{ lang }}</a>
                 {% else %}
-            |<a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url | remove: '.html' }}" title="{{ site.languageNames[lang] }}">{{ lang }}</a>
+            | <a href="{{ site.baseurl_root }}/{{ lang }}{{ page.url | remove: '.html' }}" title="{{ site.languageNames[lang] }}">{{ lang }}</a>
                 {% endif %}
+            {% endfor %}
+            </span>
+            <a class="hidden-xs" href="#" style="font-weight: bold"><i class="far fa-check-circle"></i> {{ site.lang }}</a>
+            {% for lang in site.languages %}
+            {% if lang == site.lang %} {% continue %} {% endif %}
+            {% if lang == "en" and site.default_locale_in_subfolder != true %}
+            <span class="hidden-xs">|</span> <a class="hidden-xs" href="{{ site.baseurl_root }}{{ page.url | remove: '.html' }}" title="{{ site.languageNames[lang] }}">{{ lang }}</a>
+            {% else %}
+            <span class="hidden-xs">|</span> <a class="hidden-xs" href="{{ site.baseurl_root }}/{{ lang }}{{ page.url | remove: '.html' }}" title="{{ site.languageNames[lang] }}">{{ lang }}</a>
+            {% endif %}
             {% endfor %}
         </li>
     </ul>
