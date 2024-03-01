@@ -1,3 +1,10 @@
+- year: 2024
+  talks:
+    - occasion: Mastering GitOps
+      title: "Panel: Is there a perfekt GitOps tool"
+      link: https://www.mastering-gitops.de/veranstaltung-21911-se-0-panel-gibt-es-das-perfekte-gitops-tool.html
+      location: Virtual
+      date: 2024-04-16
 - year: 2023
   talks:
     - occasion: Continuous Lifecycle
