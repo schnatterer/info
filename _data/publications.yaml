@@ -1,6 +1,6 @@
 - year: 2024
   pubs:
-    - date: '2024-01-31'
+    - date: '2024-04-29'
       title: GitOps
       excerpt: Practical introduction for development and platform teams.<br/> In-depth
         focus on GitOps (without basics for K8s or CI/CD).<br/> Clear insight into
