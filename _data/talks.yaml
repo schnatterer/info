@@ -1,5 +1,10 @@
 - year: 2024
   talks:
+    - occasion: CloudLand
+      title: "Code ➡️ Cluster: Boosting development with a local kubernetes ops platform"
+      link: https://meine.doag.org/events/cloudland/2024/agenda/#eventDay.1718834400#agendaId.4234
+      location: Brühl, Germany
+      date: 2024-06-20
     - occasion: Mastering GitOps
       title: "Panel: Is there a perfekt GitOps tool"
       link: https://www.mastering-gitops.de/veranstaltung-21911-se-0-panel-gibt-es-das-perfekte-gitops-tool.html
