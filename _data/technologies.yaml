@@ -1,0 +1,45 @@
+# Items are rendered in the order listed here
+- name: Velero
+  size: 1
+- name: DevOps
+  size: 4
+- name: Google Cloud Platform
+  size: 6
+- name: Platform Engineering
+  size: 4
+- name: GitOps
+  size: 8
+- name: Progressive Delivery
+  size: 3
+- name: Security
+  size: 4
+- name: Observability
+  size: 5
+- name: Vault
+  size: 2
+- name: Infra As Code
+  size: 6
+- name: CertManager
+  size: 1
+- name: Kubernetes
+  size: 8
+- name: Terraform
+  size: 6
+- name: Open Tofu
+  size: 4
+- name: Trivy
+  size: 1
+- name: Prometheus
+  size: 4
+- name: Grafana
+  size: 4
+- name: ☕️
+  size: 1
+- name: Argo CD
+  size: 5
+- name: Microsoft Azure
+  size: 6
+- name: Flux
+  size: 3
+- name: Argo Rollouts
+  size: 1
