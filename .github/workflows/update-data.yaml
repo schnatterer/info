@@ -8,7 +8,7 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-latest
     steps:
       - run: sudo apt-get install -y jq
       - run: sudo -H pip install yq
@@ -17,6 +17,7 @@ jobs:
       - run: _data/scripts/sort-projects.sh
       - run: _data/scripts/update-posts.sh
       - run: _data/scripts/sort-posts.sh
+      - run: _data/scripts/update-pinned-projects.sh
       - uses: stefanzweifel/git-auto-commit-action@v4.11.0
         with:
           commit_message: Updates projects and posts
