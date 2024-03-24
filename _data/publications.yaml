@@ -1,21 +1,22 @@
 - year: 2024
   pubs:
-     - date: '2024-04-29'
-       title: GitOps
-       excerpt: Practical introduction for development and platform teams.<br/> In-depth
+    - date: '2024-04-29'
+      title: GitOps
+      excerpt: Practical introduction for development and platform teams.<br/> In-depth
         focus on GitOps (without basics for K8s or CI/CD).<br/> Clear insight into
         the consequences of GitOps and the difference it makes in everyday development
         life.<br/> Comprehensive guidance on relevant challenges such as secrets,
         repo structures and asynchronicity.
-       media:
+      media:
         - type: Book
           medium: dpunkt.verlag
           link: https://dpunkt.de/produkt/gitops/
           lang: DE
-     - date: '2024-03-18'
-       title: 'Weaveworks shutdown: Impact on GitOps?'
-       excerpt: In what way does the unravelling of the company Weaveworks affect the Flux project and GitOps as a whole?
-       media:
+    - date: '2024-03-18'
+      title: 'Weaveworks shutdown: Impact on GitOps?'
+      excerpt: In what way does the unravelling of the company Weaveworks affect the
+        Flux project and GitOps as a whole?
+      media:
         - type: Blog
           medium: GitOps Book Blog
           link: https://gitops-book.dev/blog/2024-03-18-weaveworks-flux/
