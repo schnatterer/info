@@ -49,16 +49,20 @@
           </div>
           <div class="col-md-3 col-sm-6">
             <div class="service-item">
-              <a class="service-link" href="{{ site.blog_url }}" target="_blank">
+                {% if site.lang == "en" and site.default_locale_in_subfolder != true %}
+                <a class="service-link" href="{{ site.baseurl_root }}/#consulting">
+                   {% else %}
+                <a class="service-link" href="{{ site.baseurl_root }}/{{ site.lang }}/#consulting">
+                    {% endif %}
                 <span class="fa-stack fa-4x">
                   <i class="fa fa-circle fa-stack-2x"></i>
-                  <i class="fas fa-edit fa-stack-1x text-primary"></i>
+                  <i class="fas fa-calendar-day fa-stack-1x text-primary"></i>
                 </span>
               </a>
               <h4>
-                <strong>{% translate nav.blog %}</strong>
+                <strong>{% translate nav.consulting.self %}</strong>
               </h4>
-              <p>{% translate nav.blog-text %}</p>
+              <p>{% translate consulting.subtext %}</p>
             </div>
           </div>
           <!-- /.row (nested) -->

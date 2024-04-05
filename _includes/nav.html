@@ -29,9 +29,13 @@
             </a>
         </li>
         <li>
-            <a href="{{ site.blog_url | prepend: site.baseurl_root  }}" title="{% translate nav.blog-text %}" target="_blank">
-                <span class="hidden-xs"><i class="fas fa-edit"></i> {% translate nav.blog %}</span>
-               <span class="visible-xs" style="font-size: 1.5em;"><i class="fas fa-edit"></i></span>
+            {% if site.lang == "en" and site.default_locale_in_subfolder != true %}
+            <a href="{{ site.baseurl_root }}/#consulting" title="{% translate nav.consulting.action %}">
+            {% else %}
+            <a href="{{ site.baseurl_root }}/{{ site.lang }}/#consulting" title="{% translate nav.consulting.action %}">
+            {% endif %}
+                <span class="hidden-xs"><i class="fas fa-calendar-day"></i> {% translate nav.consulting.self %}</span>
+               <span class="visible-xs" style="font-size: 1.5em;"><i class="fas fa-calendar-day"></i></span>
             </a>
         </li>
         <li><span class="visible-xs">

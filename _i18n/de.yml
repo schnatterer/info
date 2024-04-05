@@ -1,5 +1,7 @@
 global:
-  description: Software Entwicklung, Betrieb, Training + technische Führung
+  description1: "Freier Consultant und Trainer:"
+  description2: Cloud Engineering, DevOps
+  description3: + technische Führung
 
 projects:
   title: Open Source Projekte
@@ -29,3 +31,11 @@ nav:
   about: 
     self: Über
     title: Über mich
+    action: 
+  consulting:
+    self: Beratung
+    title: Termin buchen
+
+consulting:
+  subtext: Verfügbar als freier Consultant
+  action: Buchen mittels MeetFox

@@ -1,5 +1,7 @@
 global:
-  description: Software development, operations, training + technical leadership
+  description1: "Independent Consultant and Trainer:"
+  description2: Cloud Engineering, DevOps
+  description3: + Technical Leadership
 
 projects:
   title: Open Source Projects
@@ -29,3 +31,10 @@ nav:
   about:
     self: About
     title: About me
+  consulting:
+    self: Consulting
+    title: Schedule a meeting
+
+consulting:
+  subtext: Available as independent consultant
+  action: Book via MeetFox

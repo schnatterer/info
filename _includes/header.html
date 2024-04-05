@@ -1,16 +1,35 @@
 <header id="top" class="header">
-  <div class="text-vertical-center">
-    {% include nav.html %}
-    <img class="headerImage fa-10x" src="/img/avatar.jpg" alt="Avatar">
-    <br/>
-    <br/>
-    <h1>Johannes Schnatterer</h1>
-    <h3>{% translate global.description %}<h3>
-    <br/>
-    {% include contact-icons.html iconsClass="fa-2x" %}
-    <br/>
-    <br/>
-    <a href="#about" class="btn btn-dark btn-lg"><i class="fas fa-info-circle"></i> {% translate nav.about.self %}</a>
-    <br>
-  </div>
+    <div class="text-vertical-center">
+        {% include nav.html %}
+        <div class="bellow-nav">
+            <div class="row">
+                <img class="headerImage fa-10x" src="/img/avatar.jpg" alt="Avatar">
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-xs-12">
+                    <h1>Johannes Schnatterer</h1>
+                    <h3>{% translate global.description1 %}</h3>
+                    <h3>{% translate global.description2 %}</h3>
+                    <h3>{% translate global.description3 %}</h3>
+                    <br/>
+                    {% include contact-icons.html iconsClass="fa-3x" %}
+                    <br/>
+                </div>
+            </div>
+            <br/>
+            <div class="row">
+                <div class="col-xs-2 col-sm-4"></div> 
+                <div class="col-xs-4 col-sm-2">
+                    <a href="#about" title="{%translate nav.about.title%}" class="btn btn-dark btn-lg"><i class="fas fa-info-circle"></i>
+                        {% translate nav.about.self %}</a>
+                </div>
+                <div class="col-xs-4 col-sm-2">
+                    <a href="#consulting" title="{%translate nav.consulting.title%}" class="btn btn-dark btn-lg"><i class="fas fa-calendar-day"></i> 
+                        {%translate nav.consulting.self %}</a>
+                </div>
+                <div class="col-xs-2 col-sm-4"></div>
+            </div>
+        </div>
+    </div>
 </header>
