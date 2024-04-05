@@ -5,11 +5,13 @@
                 <h2><strong><i class="fas fa-info-circle"></i> {% translate nav.about.title %}</strong></h2>
             </div>
             <div class="row">
-                <div class="col-xs-10 col-xs-offset-1 about-text lead">
+                <div class="col-xs-10 col-xs-offset-1
+                            col-lg-10 col-lg-offset-0 about-text lead">
                     {% translate_file about-text.html %}
                 </div>
                 <div class="col-lg-1"></div>
-                <div class="col-lg-1 col-xs-11 align-middle">
+                <div class="col-lg-1 
+                            col-xs-12 align-middle">
                     <ul class="tag-cloud">
                         {% for tech in site.data.technologies %}
                         <li><span data-size="{{ tech.size }}">{{ tech.name }}</span></li>
