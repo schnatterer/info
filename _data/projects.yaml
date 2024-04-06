@@ -13,8 +13,10 @@ projects:
       amount: '1460'
   - name: schnatterer/rooted-graphene
     type: GitHub
-    description: ''
-    technologies: ''
+    description: 'GrapheneOS rooted and served via its own OTA server'
+    technologies: 'Bash'
+    technologies-ci:
+      - type: GitHub Actions
     contribution: Creator
     commits:
       from: '2023-12-21'
