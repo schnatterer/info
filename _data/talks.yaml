@@ -18,6 +18,10 @@
     - occasion: Mastering GitOps
       title: "Panel: Is there a perfect GitOps tool?"
       link: https://www.mastering-gitops.de/veranstaltung-21911-se-0-panel-gibt-es-das-perfekte-gitops-tool.html
+      video:
+        lang: DE
+        link: https://vimeo.com/showcase/11128310/video/939472280
+        private: true
       location: Virtual
       date: 2024-04-16
 - year: 2023
