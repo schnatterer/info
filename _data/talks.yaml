@@ -1,5 +1,14 @@
 - year: 2024
   talks:
+    - occasion: Continuous Lifecycle
+      title: "GitOps by Example – Repos, Patterns, Promotion, Processes"
+      link: https://www.continuouslifecycle.de/veranstaltung-22323-0-gitops-by-example--repos-patterns-promotion-processes.html
+      slides-pdf: 
+      slides-github: 
+      slides-speakerdeck:
+      video:
+      location: Mannheim, Germany
+      date: 2024-11-14
     - occasion: CloudLand
       title: "Code ➡️ Cluster: Boosting development with a local kubernetes ops platform"
       link: https://meine.doag.org/events/cloudland/2024/agenda/#eventDay.1718834400#agendaId.4234
