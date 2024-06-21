@@ -12,6 +12,11 @@
     - occasion: CloudLand
       title: "Code ➡️ Cluster: Boosting development with a local kubernetes ops platform"
       link: https://meine.doag.org/events/cloudland/2024/agenda/#eventDay.1718834400#agendaId.4234
+      slides-pdf: https://cloudogu.github.io/workshop-cloudland24/pdf/Code%20-%20Cluster%20Boosting%20development%20with%20a%20local%20kubernetes%20ops%20platform.pdf
+      slides-github: https://cloudogu.github.io/workshop-cloudland24
+      slides-speakerdeck:
+      video:
+      demo-github: https://github.com/cloudogu/gitops-playground
       location: Brühl, Germany
       date: 2024-06-20
     - occasion: Highway 2 CloudLand Tour
