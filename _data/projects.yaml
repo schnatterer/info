@@ -1,5 +1,11 @@
 updated: '2024-06-23'
 projects:
+  - name: walidshaari/Certified-Kubernetes-Security-Specialist
+    type: GitHub
+    description: 'Curated resources help you prepare for the CNCF/Linux Foundation CKS 2021 "Kubernetes Certified Security Specialist" Certification exam.  Please provide feedback or requests by raising issues, or making a pull request. All feedback for improvements are welcome. thank you.'
+    technologies: ''
+    contribution: Contributor
+    commits:
   - name: schnatterer/rooted-graphene
     type: GitHub
     description: GrapheneOS rooted and served via its own OTA server
@@ -24,9 +30,9 @@ projects:
       amount: '1543'
   - name: cloudogu/workshop-cloudland24
     type: GitHub
-    description: 'null'
+    description: 'Resources for workshop at CloudLand 2024'
     technologies: ''
-    contribution: Contributor
+    contribution: Creator
     commits:
       from: '2024-05-23'
       to: '2024-06-19'
