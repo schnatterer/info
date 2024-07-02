@@ -1,0 +1,410 @@
+/*!
+ * Start Bootstrap - Stylish Portfolio Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+/* Global Styles */
+
+html,
+body {
+    width: 100%;
+    height: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+}
+
+.text-vertical-center {
+    display: table-cell;
+    text-align: center;
+    vertical-align: middle;
+}
+
+.text-vertical-center h1 {
+    margin: 0;
+    padding: 0;
+    font-size: 4.5em;
+    font-weight: 700;
+}
+
+/* Custom Button Styles */
+
+.btn-dark {
+    border-radius: 0;
+    color: #fff;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.btn-dark:hover,
+.btn-dark:focus,
+.btn-dark:active {
+    color: #fff;
+    background-color: rgba(0,0,0,0.7);
+}
+
+.btn-light {
+    color: #333;
+    background-color: rgb(255,255,255);
+}
+
+.btn-light:hover,
+.btn-light:focus,
+.btn-light:active {
+    color: #333;
+    background-color: rgba(255,255,255,0.8);
+}
+
+/* Custom Horizontal Rule */
+
+hr.small {
+    max-width: 250px;
+}
+
+/* Header */
+
+.headerImage {
+  border-radius: 50%;
+  height: 1em;
+  width: 1em;
+}
+
+.header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    color: white;
+    background-color: #353535;
+}
+
+.short-header {
+    display: table;
+    position: relative;
+    width: 100%;
+    height: 40%;
+    color: white;
+    background-color: #353535;
+}
+
+.table-container {
+    overflow-x:auto;
+}
+
+h3.year {
+    font-weight: bold;
+}
+
+table.center th {
+    font-size: 18px;
+    white-space: nowrap;
+}
+
+/* About */
+
+.about {
+    padding: 50px 0;
+    font-size: 16px;
+    /*background-color: black;
+    color: #C8C3BC;*/
+}
+
+.about-text {
+    font-weight: 500;
+}
+
+/* Services */
+
+.services {
+    padding: 50px 0;
+}
+
+.service-item {
+    margin-bottom: 30px;
+}
+
+.service-link {
+    color:inherit;
+}
+
+.service-link:hover,
+.service-link:focus,
+.service-link:active {
+    color: #353535;
+}
+
+/* Footer */
+
+footer {
+    padding: 100px 0;
+    background-color: #353535;
+}
+
+/* Nav bar */
+
+#nav
+{
+    vertical-align: top;
+    width: 100%;
+    position: absolute;
+    top: 0;
+}
+
+/*.nav-list {
+    background-color: #353535;
+}*/
+
+.bellow-nav {
+    margin-top: 70px;
+}
+
+#nav a:hover {
+    background-color: #000;
+}
+
+#nav > ul
+{
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+#nav > ul > li
+{
+    display: inline-block;
+    border-right: 1px solid;
+    border-color: rgba(255,255,255,.1);
+}
+
+
+#nav > ul > li:last-child
+{
+    padding-right: 0;
+    border-right: none;
+}
+
+#nav > ul > li > a,
+#nav > ul > li > span,
+#nav > ul > li > span > a
+{
+    display: inline-block;
+    padding: 1.5em 1.5em;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+#nav > ul > li > span {
+    padding: 0
+}
+#nav > ul > li > span > a {
+    padding: 0
+}
+
+img.emoji {
+    height: 1em;
+    width: 1em;
+    margin: 0 .05em 0 .1em;
+    vertical-align: -0.1em;
+}
+
+
+/*************************************************
+ *  Card component
+ * From https://github.com/gcushen/hugo-academic
+ **************************************************/
+
+.card-simple {
+    background: #fff;
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    border: 1px solid rgba(0,0,0,.09);
+    border-radius: 3px;
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+}
+
+.card-simple:first-of-type {
+    margin-top: 0;
+}
+
+.card-simple p.read-more {
+    margin: 0;
+}
+
+.dark .card-simple {
+    background: rgb(40, 42, 54);
+    box-shadow: 0 1px 4px rgba(0,0,0,.04);
+    border: 1px solid rgb(68, 71, 90);
+}
+
+/* In page listings, display the linked summaries as normal text except for the hover cursor. */
+a.summary-link {
+    color: unset;
+    text-decoration: none;
+}
+
+.card {
+    margin-bottom: 1.5rem;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    background: #fff;
+    box-shadow: 0 2px 4px 0 rgba(0,0,0,0.2);
+    transition: all 0.2s ease-out;
+}
+
+.universal-wrapper {
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.1rem;
+    width: 100%;
+}
+@media only screen and (min-width:1001px) {
+    .universal-wrapper {
+        width: 1000px;
+    }
+}
+
+.align-middle {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.universal-wrapper-table {
+    margin: 0 auto;
+    padding-right: 1rem;
+    padding-left: 1rem;
+    padding-top: 0.1rem;
+    width: 100%;
+}
+@media only screen and (min-width:1401px) {
+    .universal-wrapper-table {
+        width: 1400px;
+    }
+}
+
+.article-metadata {
+    margin-bottom: 15px;
+    overflow: hidden;
+    font-size: 14px;
+    letter-spacing: 0.03em;
+    color: rgba(0,0,0,0.54);
+}
+
+.icon-button {
+    display: inline-block;
+    text-align: center;
+    vertical-align: middle;
+    user-select: none;
+    background-color: transparent;
+    padding: .375rem .75rem;
+    border-radius: .25rem;
+}
+
+/* Portfolio */
+
+.portfolio {
+    padding: 50px 0;
+    /*height: 100%;*/
+}
+
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.img-portfolio {
+    margin: 0 auto;
+}
+
+.img-portfolio:hover {
+    opacity: 0.8;
+}
+
+/* Call to Action */
+
+.call-to-action {
+    padding: 50px 0;
+}
+
+.call-to-action .btn {
+    margin: 10px;
+}
+
+/* tag-cloud
+Credit: https://dev.to/alvaromontoro/create-a-tag-cloud-with-html-and-css-1e90
+*/
+ul.tag-cloud {
+    list-style: none;
+    padding-left: 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    line-height: 2.75rem;
+    width: 450px;
+}
+
+ul.tag-cloud span {
+    /*   
+    Not supported by any browser at the moment :(
+    --size: attr(data-size number); 
+    */
+    --size: 4;
+    --color: #337ab7;
+    color: var(--color);
+    font-size: calc(var(--size) * 0.25rem + 0.5rem);
+    display: block;
+    padding: 0.125rem 0.25rem;
+    position: relative;
+    text-decoration: none;
+    /* 
+    For different tones of a single color
+    opacity: calc((15 - (9 - var(--size))) / 15); 
+    */
+}
+
+ul.tag-cloud span[data-size="1"] { --size: 1; }
+ul.tag-cloud span[data-size="2"] { --size: 2; }
+ul.tag-cloud span[data-size="3"] { --size: 3; }
+ul.tag-cloud span[data-size="4"] { --size: 4; }
+ul.tag-cloud span[data-size="5"] { --size: 6; }
+ul.tag-cloud span[data-size="6"] { --size: 8; }
+ul.tag-cloud span[data-size="7"] { --size: 10; }
+ul.tag-cloud span[data-size="8"] { --size: 13; }
+ul.tag-cloud span[data-size="9"] { --size: 16; }
+
+ul[data-show-value] span::after {
+    content: " (" attr(data-size) ")";
+    font-size: 1rem;
+}
+
+ul.tag-cloud li:nth-child(2n+1) span { --color: #3c763d; }
+ul.tag-cloud li:nth-child(3n+1) span { --color: #a94442; }
+ul.tag-cloud li:nth-child(4n+1) span { --color: #353535; }
+
+ul.tag-cloud a:focus {
+    outline: 1px dashed;
+}
+
+ul.tag-cloud span::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 50%;
+    width: 0;
+    height: 100%;
+    background: var(--color);
+    transform: translate(-50%, 0);
+    opacity: 0.15;
+    transition: width 0.25s;
+}
+
+ul.tag-cloud a:focus::before,
+ul.tag-cloud a:hover::before {
+    width: 100%;
+}
+
