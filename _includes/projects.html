@@ -69,7 +69,7 @@
                                 
                                     {% if artifact.type == 'GHCR' %}
                                         {% if artifact_url == '' or artifact_url == null %}
-                                            {% capture artifact_url %}https://ghcr.io/{{ project.name }}{% endcapture %}
+                                            {% capture artifact_url %}https://github.com/orgs/{{ project.name | split: '/' | slice: 0  }}/packages?repo_name={{ project.name | split: '/' | slice: 1 }}{% endcapture %}
                                         {% endif %}
                                         <a title="GitHub Container Registry" href="{{ artifact_url }}" class="icon-button"><i class="fab fa-github"></i></a>
                                     {% elsif artifact.type == 'DockerHub' %}

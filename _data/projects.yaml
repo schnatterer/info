@@ -3,8 +3,12 @@ projects:
   - name: cloudogu/trivy-db-mirror
     type: GitHub
     description: A mirror of the trivy vulnerability databases
-    technologies: ''
-    contribution: Contributor
+    technologies-ci:
+      - type: GitHub Actions
+    technologies-artifacts:
+      - type: GHCR
+    technologies: 'Trivy, Bash, OCI, Docker, skopeo'
+    contribution: Creator
     commits:
       from: '2024-10-01'
       to: '2024-10-01'
@@ -48,7 +52,7 @@ projects:
   - name: prometheus-community/helm-charts
     type: GitHub
     description: Prometheus community Helm charts
-    technologies: ''
+    technologies: 'Helm'
     contribution: Contributor
     commits:
       from: '2024-09-26'
@@ -255,7 +259,7 @@ projects:
   - name: falcosecurity/charts
     type: GitHub
     description: Community managed Helm charts for running Falco with Kubernetes
-    technologies: ''
+    technologies: 'Helm'
     contribution: Contributor
     commits:
       from: '2024-02-13'
@@ -277,8 +281,12 @@ projects:
   - name: schnatterer/plantuml-pdf
     type: GitHub
     description: A plantuml distro capable of building PDFs
-    technologies: ''
+    technologies: 'Docker'
     contribution: Contributor
+    technologies-ci:
+      - type: GitHub Actions
+    technologies-artifacts:
+      - type: GHCR
     commits:
       from: '2023-10-30'
       to: '2023-10-30'
