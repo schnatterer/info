@@ -28,6 +28,7 @@
                <span class="visible-xs" style="font-size: 1.5em;"><i class="fa fa-microphone"></i></span>
             </a>
         </li>
+            {% comment %}
         <li>
             {% if site.lang == "en" and site.default_locale_in_subfolder != true %}
             <a href="{{ site.baseurl_root }}/#consulting" title="{% translate nav.consulting.action %}">
@@ -38,6 +39,7 @@
                <span class="visible-xs" style="font-size: 1.5em;"><i class="fas fa-calendar-day"></i></span>
             </a>
         </li>
+        {% endcomment %}
         <li><span class="visible-xs">
             <a href="#" style="font-weight: bold">{{ site.lang }}</a>
             {% for lang in site.languages %}

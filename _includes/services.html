@@ -47,7 +47,8 @@
               <p>{% translate talks.subtext %}</p>
             </div>
           </div>
-          <div class="col-md-3 col-sm-6">
+            {% comment %}
+            <div class="col-md-3 col-sm-6">
             <div class="service-item">
                 {% if site.lang == "en" and site.default_locale_in_subfolder != true %}
                 <a class="service-link" href="{{ site.baseurl_root }}/#consulting">
@@ -65,7 +66,9 @@
               <p>{% translate consulting.subtext %}</p>
             </div>
           </div>
-          <!-- /.row (nested) -->
+            {% endcomment %}
+
+            <!-- /.row (nested) -->
         </div>
         <!-- /.col-lg-10 -->
       </div>
