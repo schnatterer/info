@@ -32,9 +32,10 @@
                                     {% endif %}
                                 </div>
                                 {% endif %}
-                                
+
+                                {% if talk.video != null or talk.videos != null %}
+                                <div title="Video">Videos
                                 {% if talk.video != null %}
-                                <div title="Video">Video
                                     {% if talk.video.private == true %}
                                     <i class="fas fa-user-shield" title="private/requires login"></i></a>
                                     {% endif %}
@@ -44,6 +45,21 @@
                                     {% elsif talk.video.lang == 'DE' %}
                                     <img class="emoji" title="German" alt="🇩🇪" src="/img/de.svg">
                                     {% endif %}
+                                {% endif %}
+
+                                {% if talk.videos %}
+                                {% for videoObject in talk.videos %}
+                                    {% if videoObject.private == true %}
+                                    <i class="fas fa-user-shield" title="private/requires login"></i></a>
+                                    {% endif %}
+                                    {% if videoObject.link != null %}<a href="{{ videoObject.link }}" class="icon-button">{% endif %}<i class="fas fa-file-video"></i></a>
+                                    {% if videoObject.lang == 'EN' %}
+                                    <img class="emoji" title="English" alt="🇬🇧" src="/img/en.svg">
+                                    {% elsif videoObject.lang == 'DE' %}
+                                    <img class="emoji" title="German" alt="🇩🇪" src="/img/de.svg">
+                                    {% endif %}
+                                {% endfor %}
+                                {% endif %}
                                 </div>
                                 {% endif %}
 
