@@ -1,0 +1,56 @@
+==================================================================
+https://keybase.io/schnatterer
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of https://schnatterer.info
+  * I am schnatterer (https://keybase.io/schnatterer) on keybase.
+  * I have a public key ASDbGjqJKG6g5hwtToEDczF-mJ51k-SRg1_rHzTFvRn_WAo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "0120db1a3a89286ea0e61c2d4e810373317e989e7593e491835feb1f34c5bd19ff580a",
+      "host": "keybase.io",
+      "kid": "0120db1a3a89286ea0e61c2d4e810373317e989e7593e491835feb1f34c5bd19ff580a",
+      "uid": "549e0cb54f4a35f38e47047a9b7e9b19",
+      "username": "schnatterer"
+    },
+    "merkle_root": {
+      "ctime": 1672733557,
+      "hash": "aa9b90ad25e0bbb83cdbcb5b2b09797d7eb93da1d1bde0701e5dad646196a624320044a51c60d899591dd5b08e81a250786948122397c3cff14f7dbea3833c7b",
+      "hash_meta": "3114f15d07b01b3aa840389766ca0e6265e18313f79f07108db8731df6c13351",
+      "seqno": 23803091
+    },
+    "service": {
+      "entropy": "+OpnIVuPYk7dhN2cxEryAH4f",
+      "hostname": "schnatterer.info",
+      "protocol": "https:"
+    },
+    "type": "web_service_binding",
+    "version": 2
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "6.0.1"
+  },
+  "ctime": 1672733651,
+  "expire_in": 504576000,
+  "prev": "4d6c0125d26a4364b06888ccf90522c4fbdae041128d6b4c3bca0d9d7332d0d5",
+  "seqno": 32,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEg2xo6iShuoOYcLU6BA3MxfpiedZPkkYNf6x80xb0Z/1gKp3BheWxvYWTESpcCIMQgTWwBJdJqQ2SwaIjM+QUixPva4EESjWtMO8oNnXMy0NXEIFRVW8koK8eOBGMXTGoODFPhdAyooKBxmA6ju+dAbKYcAgHCo3NpZ8RApvQTNTpfKcvHIngIT+07SvvDyl/eoxpB1nNQpMzJh4Ix0qoFyNxGZccF0CxuHMBIY4P7MQcZHjUhP2UUM/Q1CqhzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEID+Fn6w8ARoDAC1BH3RGZl3KRRE/k5rl6G+P+vpvaGrFo3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/schnatterer
+
+==================================================================
