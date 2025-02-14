@@ -1,5 +1,4 @@
 <section id="publications" class="about">
-    
     <div class="universal-wrapper">
         <div class="row">
             <div class="col-lg-12 text-center">
@@ -11,56 +10,86 @@
                     <div class="col-lg-10">
                         {% for pub in pubsPerYear.pubs %}
                         <div class="card-simple">
-                            <div class="article-metadata">
-                                <div title="Date"><i class="far fa-calendar-alt"></i> {{ pub.date }}</div>
-                            </div>
-                            <h3><span>{{ pub.title }}</span></h3>
-                            <div class="article-metadata">
-                                {% for medium in pub.media %}
-                                <div>
-                                    {% if  medium.link  %}
-                                    <a title="{{ medium.type }}" target="_blank" href="{{ medium.link }}">
-                                    {% endif %}
-                                        <span>{% if medium.type == 'Journal' %}
-                                        <i class="fas fa-newspaper"></i>
-                                        {% elsif medium.type == 'Blog' %}
-                                        <i class="fas fa-rss-square"></i>
-                                        {% elsif medium.type == 'Book' %}
-                                       <i class="fas fa-book"></i>
-                                        {% endif %}
-                                         {{ medium.medium }}
-                                        </span>
-                                    {% if  medium.link  %}
-                                    </a>
-                                    {% endif %}
-
-                                    {% if  medium.links  %}
-                                        {% for linkObject in medium.links %}
-                                            {% if  linkObject.link  %}
-                                            <a title="{{ medium.type }}" target="_blank" href="{{ linkObject.link }}">
+                            <div class="row">
+                                    <div class="article-metadata">
+                                        <div title="Date"><i class="far fa-calendar-alt"></i> {{ pub.date }}</div>
+                                    </div>
+                                    <h3><span>{{ pub.title }}</span></h3>
+                                    <div class="article-metadata">
+                                        {% for medium in pub.media %}
+                                        <div>
+                                            {% if medium.link %}
+                                            <a title="{{ medium.type }}" target="_blank" href="{{ medium.link }}">
+                                            {% endif %}
+                                            {% if medium.link %}
+                                                <span>{% if medium.type == 'Journal' %}
+                                                <i class="fas fa-newspaper"></i>
+                                                {% elsif medium.type == 'Blog' %}
+                                                <i class="fas fa-rss-square"></i>
+                                                {% elsif medium.type == 'Book' %}
+                                                <i class="fas fa-book"></i>
                                                 {% endif %}
-                                                <span>{{ linkObject.name }}</span>
-                                                {% if  linkObject.link  %}
+                                                {{ medium.medium }}
+                                                </span>
                                             </a>
                                             {% endif %}
+                                            {% if medium.links %}
+                                                {% for linkObject in medium.links %}
+                                                    {% if linkObject.link %}
+                                                    <a title="{{ medium.type }}" target="_blank" href="{{ linkObject.link }}">
+                                                    {% endif %}
+                                                    <span>{{ linkObject.name }}</span>
+                                                    {% if linkObject.link %}
+                                                    </a>
+                                                    {% endif %}
+                                                {% endfor %}
+                                            {% endif %}
+                                            {% if medium.lang == 'EN' %}
+                                            <img class="emoji" title="English" alt="🇬🇧" src="/img/en.svg">
+                                            {% elsif medium.lang == 'DE' %}
+                                            <img class="emoji" title="German" alt="🇩🇪" src="/img/de.svg">
+                                            {% endif %}
+                                        </div>
                                         {% endfor %}
-                                    {% endif %}
-                                    {% if medium.lang == 'EN' %}
-                                    <img class="emoji" title="English" alt="🇬🇧" src="/img/en.svg">
-                                    {% elsif medium.lang == 'DE' %}
-                                    <img class="emoji" title="German" alt="🇩🇪" src="/img/de.svg">
+                                    </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-lg-2">
+                                    {% if pub.image %}
+                                    <div>
+                                        <img style="max-width: 100%; height: auto; border-radius: 5px" src="{{ pub.image }}" alt="Publication Image">
+                                    </div>
+                                    {% elsif pub.excerpt %}
+                                    {% for medium in pub.media %}
+                                        {% if medium.medium == 'IT Affinity Blog' %}
+                                        <div class="pub-image">
+                                            <!-- image: https://secure.gravatar.com/blavatar/2b5f8353f7d9698a65d1ca520a06c46be0bb194ec512f802323935feb1d90dce?s=114 -->
+                                            <img style="max-width: 100%; height: auto; border-radius: 5px" src="img/publications/itaffinity.png" alt="IT Affinity Blog Icon">
+                                        </div>
+                                        {% elsif medium.medium == 'GitOps Book Blog' %}
+                                        <div class="pub-image">
+                                            <!-- image: https://gitops-book.dev/images/favicon_hu_2b196b2ecba4f309.png -->
+                                            <img style="max-width: 100%; height: auto; border-radius: 5px" src="img/publications/gitops-book-dev.png" alt="GitOps Book Blog Icon">
+                                        </div>
+                                        {% elsif medium.medium == 'Cloudogu Community' %}
+                                        <div class="pub-image">
+                                            <!-- image: https://europe1.discourse-cdn.com/flex013/uploads/cloudogu2/optimized/1X/3ef7b59172d86876b1e2ce1ce4a0b76d74a1c10d_2_180x180.png -->
+                                            <img style="max-width: 100%; height: auto; border-radius: 5px" src="img/publications/cloudogu-favicon.png" alt="Cloudogu Community Icon">
+                                        </div>
+                                        {% endif %}
+                                    {% endfor %}
                                     {% endif %}
                                 </div>
-                                {% endfor %}
+                                <div class="col-lg-8">
+                                    {% if pub.excerpt %}<div>{{ pub.excerpt }}</div>{% endif %}
+                                </div>
                             </div>
-                            {% if pub.excerpt  %}<div>{{ pub.excerpt }}</div>{% endif %}
                         </div>
-                    {% endfor %}
+                        {% endfor %}
                     </div>
                 </div>
                 <br/>&nbsp;
                 {% endfor %}
-            </div>
             </div>
         </div>
     </div>
