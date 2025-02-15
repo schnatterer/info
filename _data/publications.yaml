@@ -2,7 +2,8 @@
   pubs:
     - date: '2025-01-09'
       title: '2025: Increasing GitOps productivity'
-      excerpt: GitOps is getting more boring (in the best sense). This year we will likely see features enhancing productivity and DX
+      excerpt: GitOps is getting more boring (in the best sense). This year we will
+        likely see features enhancing productivity and DX
       media:
         - type: Blog
           medium: GitOps Book Blog
@@ -11,21 +12,22 @@
   pubs:
     - date: '2024-11-14'
       title: 'New example for Argo CD ApplicationSets '
-      excerpt: There is a new example config repo structure that advertises the usage of Argo CD AppSets
+      excerpt: There is a new example config repo structure that advertises the usage
+        of Argo CD AppSets
       media:
         - type: Blog
           medium: GitOps Book Blog
           link: https://gitops-book.dev/blog/2024-11-14-gitops-repo-examples/
     - date: '2024-08-16'
-      title: 'OpenGitOps Resources'
-      excerpt: OpenGitOps now provides a collection of resources relating to GitOps such as books, papers, articles, etc.
+      title: OpenGitOps Resources
+      excerpt: OpenGitOps now provides a collection of resources relating to GitOps
+        such as books, papers, articles, etc.
       media:
         - type: Blog
           medium: GitOps Book Blog
           link: https://gitops-book.dev/blog/2024-08-16-open-gitops-resources/
     - date: '2024-04-29'
       title: 'Book: GitOps'
-      #image: https://dpunkt.de/wp-content/uploads/2024/03/14019.jpg
       image: img/publications/14019.jpg
       excerpt: Practical introduction for development and platform teams.<br/> In-depth
         focus on GitOps (without basics for K8s or CI/CD).<br/> Clear insight into
@@ -49,7 +51,6 @@
   pubs:
     - date: '2023-10-20'
       title: 'GitOps: repository structures and patterns by example'
-      #image: https://www.heise.de/select/ix/2023/11/2311009322297640470/gitops_patterns2.png
       image: img/publications/gitops_patterns2.png
       excerpt: Real examples of public GitOps repositories make the GitOps patterns
         more tangible
@@ -67,7 +68,6 @@
         process going'
       excerpt: Implemented correctly, GitOps takes a lot of work off admins' shoulders.
         This interview shows how to find the best tools and define your own process.
-      #image: https://heise.cloudimg.io/width/610/q70.png-lossy-70.webp-lossy-70.foil1/_www-heise-de_/img/18/4/2/9/0/7/6/4/fragen_antworten-f1813382fe0ed6cf-a7037b431b41b227-3da4abe51150fbc8.jpeg
       image: img/publications/fragen_antworten-f1813382fe0ed6cf-a7037b431b41b227-3da4abe51150fbc8.jpeg
       media:
         - type: Journal
@@ -80,7 +80,6 @@
           lang: DE
     - date: '2023-08-24'
       title: 'GitOps: repository structures and patterns'
-      #image: https://heise.cloudimg.io/v7/_www-heise-de_/img/18/4/2/8/7/5/1/7/gitops_patterns1-10bcf74fd3ae5e81.png?org_if_sml=1&q=75&width=200
       image: img/publications/gitops_patterns1-10bcf74fd3ae5e81.png
       excerpt: Identifies patterns from recurring elements during GitOps process design
         and describes them in four categories operator deployment, repository, promotion
@@ -129,7 +128,6 @@
               link: https://cloudogu.com/de/blog/gitops-repository-patterns-teil-6-beispiele
     - date: '2023-08-24'
       title: 'GitOps tools in detail: Argo CD vs. Flux'
-      #image: https://heise.cloudimg.io/v7/_www-heise-de_%2Fselect%2Fix%2F2023%2F9%2F2320007190175782452%2Fgitops_argocd_flux.png%3Fchecksum%3D3125285467?ci_url_encoded=1&force_format=avif%2Cwebp%2Cjpeg&org_if_sml=1&q=50&width=860
       image: img/publications/gitops_argocd_flux.png
       excerpt: An in-depth comparison of Argo CD and Flux regarding bootstrapping,
         linking, CLI and GUI, components and resource requirements, authentication
@@ -187,11 +185,10 @@
   pubs:
     - date: '2021-12-09'
       title: 'eBook: Kubernetes AppOps Security'
-      #image: https://platform.cloudogu.com/_next/image/?url=https%3A%2F%2Fcms.cloudogu.com%2Fassets%2F4dbea201-0e96-409f-9c04-25e5431d2787&w=1920&q=75
       image: img/publications/4dbea201-0e96-409f-9c04-25e5431d2787.jpeg
-      excerpt: 'This eBook uses diagrams and code to illustrate how developers can
-        secure the operations of their applications with kubernetes.
-        It focuses on network policies and security context.'
+      excerpt: This eBook uses diagrams and code to illustrate how developers can
+        secure the operations of their applications with kubernetes. It focuses on
+        network policies and security context.
       media:
         - type: Book
           medium: myCloudogu
@@ -199,7 +196,6 @@
           lang: DE
     - date: '2021-03-24'
       title: Automation helpers - A Market overview for GitOps tools
-      #image: https://heise.cloudimg.io/v7/_www-heise-de_%2Fselect%2Fix%2F2021%2F4%2F2100807514188955838%2Fgitops_tools.jpg%3Fchecksum%3D2610734404?ci_url_encoded=1&force_format=avif%2Cwebp%2Cjpeg&org_if_sml=1&q=50&width=860
       image: img/publications/gitops_tools.jpg
       excerpt: "This article captures a snapshot of the market for \"GitOps tools\"\
         , creates a catalog of general criteria for \nchoosing the right GitOps tool\
@@ -223,7 +219,6 @@
       excerpt: "What is the difference between CIOps and GitOps? Is there still room\
         \ for a CI server? \nThis article shows hands-on how to automate certain aspects\
         \ of GitOps using Jenkins.\n"
-      #image: https://platform.cloudogu.com/_next/image/?url=https%3A%2F%2Fcms.cloudogu.com%2Fassets%2F2e889a4d-7e4c-48ee-85c1-60d7c4a7572c&w=1920&q=75
       image: img/publications/2e889a4d-7e4c-48ee-85c1-60d7c4a7572c.jpeg
       media:
         - type: Journal
@@ -255,7 +250,6 @@
         and Troubleshooting'
       excerpt: Use cases that call for several Pod Security Policies within one Kubernetes
         cluster and how to handle them, including troubleshooting tips.
-      #image: https://platform.cloudogu.com/_next/image/?url=https%3A%2F%2Fcms.cloudogu.com%2Fassets%2F9431e47c-f6de-42b8-92ca-b24b9532a8d7&w=1920&q=75
       image: img/publications/9431e47c-f6de-42b8-92ca-b24b9532a8d7.jpeg
       media:
         - type: Journal
@@ -271,7 +265,6 @@
         Practices'
       excerpt: Setting global security settings for pods and containers within a Kubernetes
         cluster using Pod Security Policies.
-      #image: https://platform.cloudogu.com/_next/image/?url=https%3A%2F%2Fcms.cloudogu.com%2Fassets%2F705b79a0-3a9a-40cf-a2c7-0e451eb61670&w=1920&q=75
       image: img/publications/705b79a0-3a9a-40cf-a2c7-0e451eb61670.jpeg
       media:
         - type: Journal
@@ -308,7 +301,6 @@
       title: 'Kubernetes AppOps Security Part 4: Security Context (2/2) – Background'
       excerpt: 'Backgrounds on Security Context in Kubernetes: Isolation of containers,
         attack vectors, defense and tooling.'
-      #image: https://platform.cloudogu.com/_next/image/?url=https%3A%2F%2Fcms.cloudogu.com%2Fassets%2Fde50039d-a3ff-474d-a1d5-bbe03eadf7d0&w=1920&q=75
       image: img/publications/de50039d-a3ff-474d-a1d5-bbe03eadf7d0.jpeg
       media:
         - type: Journal
@@ -325,7 +317,6 @@
       excerpt: '2nd part: Demonstrates additional alternatives for deployment (Sonatype
         Nexus and Kubernetes), while the general structure of the Jenkinsfile remains
         the same.'
-      #image: https://platform.cloudogu.com/_next/image/?url=https%3A%2F%2Fcms.cloudogu.com%2Fassets%2Fa0a6d6c9-e2c2-4257-b24b-55e4fd5ae3a6&w=1920&q=75
       image: img/publications/a0a6d6c9-e2c2-4257-b24b-55e4fd5ae3a6.jpeg
       media:
         - type: Blog
@@ -335,7 +326,6 @@
     - date: '2020-01-31'
       title: 'Kubernetes AppOps Security Part 3: Security Context (1/2) – Good Practices'
       excerpt: Recommended settings for the Security Context in Kubernetes pods.
-      #image: https://platform.cloudogu.com/_next/image/?url=https%3A%2F%2Fcms.cloudogu.com%2Fassets%2F56bc0cf4-66f8-49ee-9a06-609d483a00d1&w=1920&q=75
       image: img/publications/56bc0cf4-66f8-49ee-9a06-609d483a00d1.jpeg
       media:
         - type: Journal
@@ -353,7 +343,6 @@
         Topics and Tricks'
       excerpt: Advanced topics around Kubernetes Network Policies like CNI, testing,
         debugging, limitations, alternatives and pitfalls.
-      #image: https://platform.cloudogu.com/_next/image/?url=https%3A%2F%2Fcms.cloudogu.com%2Fassets%2F2318ed05-5eef-469a-a2d9-2b8ba4900605&w=1920&q=75
       image: img/publications/2318ed05-5eef-469a-a2d9-2b8ba4900605.jpeg
       media:
         - type: Journal
@@ -378,7 +367,6 @@
         and Good Practices'
       excerpt: Attack vectors mitigated by and good practices for Kubernetes Network
         Policies.
-      #image: https://platform.cloudogu.com/_next/image/?url=https%3A%2F%2Fcms.cloudogu.com%2Fassets%2F98eb2a51-e1ff-47fa-8b95-f2866735221b&w=1920&q=75
       image: img/publications/98eb2a51-e1ff-47fa-8b95-f2866735221b.jpeg
       media:
         - type: Journal
@@ -394,7 +382,6 @@
         Jenkins - Part 1
       excerpt: '1st part: demonstrated the use cases and benefits of delivering presentations
         with reveal.js.'
-      #image: https://platform.cloudogu.com/_next/image/?url=https%3A%2F%2Fcms.cloudogu.com%2Fassets%2F6c80b589-da52-4813-b129-a7e77e632d07&w=1920&q=75
       image: img/publications/6c80b589-da52-4813-b129-a7e77e632d07.jpeg
       media:
         - type: Blog
@@ -436,7 +423,6 @@
       excerpt: Continuous delivery of Java artifacts with Jenkins to Nexus repositories
         is easy. This articles shows examples for the enterprise as well as for open
         source (Maven Central).
-      #image: https://platform.cloudogu.com/_next/image/?url=https%3A%2F%2Fcms.cloudogu.com%2Fassets%2F654617c3-7e77-4c17-a85e-f02df6a2b053&w=1920&q=75
       image: img/publications/654617c3-7e77-4c17-a85e-f02df6a2b053.jpeg
       media:
         - type: Blog
@@ -447,7 +433,8 @@
   pubs:
     - date: '2018-07-15'
       title: Coding Continuous Delivery with Jenkins Pipelines
-      excerpt: Series of articles comprising four articles on Continuous Delivery with Jenkins published.
+      excerpt: Series of articles comprising four articles on Continuous Delivery
+        with Jenkins published.
       ID: '1107'
       media:
         - type: Blog
@@ -459,7 +446,6 @@
         and Deployment on Kubernetes et al. with the Jenkins Pipeline Plugin
       excerpt: How to trigger static code analysis using SonarQube and continuously
         deliver to Kubernetes from Jenkins pipelines.
-      #image: https://cloudogu.com/assets/blog/2018/Coding_CD_4_150x150-a567bbe19ae59e957f86a7e07d0d88924be209dd5e899cef97f523565ae10b6a204310fb842e68e6bfc7e961b10b6da5022490e2488b5ae85679cae0be6b33c6.png
       image: img/publications/Coding_CD_4_150x150-a567bbe19ae59e957f86a7e07d0d88924be209dd5e899cef97f523565ae10b6a204310fb842e68e6bfc7e961b10b6da5022490e2488b5ae85679cae0be6b33c6.png
       media:
         - type: Journal
@@ -474,7 +460,6 @@
       title: Coding Continuous Delivery Part 3 – Helpful Tools for the Jenkins Pipeline
       excerpt: 'Useful tools and methods for Jenkins pipelines: Shared libraries for
         reusing and unit testing; Advantages of using Docker containers.'
-      #image: https://cloudogu.com/assets/blog/2018/Coding_CD_3_150x150-9f511846c0788fa4fe18e6daf82ae74feb6e2e62cc6cbdc2d7a8cfba563170b416ebcee6bc0cc2d65bbe9344acb1a1b4799c23fb3ba1e7c87b0de02270f20527.png
       image: img/publications/Coding_CD_3_150x150-9f511846c0788fa4fe18e6daf82ae74feb6e2e62cc6cbdc2d7a8cfba563170b416ebcee6bc0cc2d65bbe9344acb1a1b4799c23fb3ba1e7c87b0de02270f20527.png
       media:
         - type: Journal
@@ -490,7 +475,6 @@
         Jenkins Pipeline
       excerpt: Faster feedback by accelerating Jenkins pipelines using parallelization
         and nightly builds.
-      #image: https://cloudogu.com/assets/blog/2018/Coding_CD_2_150x150-11fcdc1415bbac41121ad7857ca94c30dc5b4e9b9e667748f79eae59d6222316b73867aafb98b42267b105d8098f281a87de497fede64d02816592c62f66da0b.png
       image: img/publications/Coding_CD_2_150x150-11fcdc1415bbac41121ad7857ca94c30dc5b4e9b9e667748f79eae59d6222316b73867aafb98b42267b105d8098f281a87de497fede64d02816592c62f66da0b.png
       media:
         - type: Journal
