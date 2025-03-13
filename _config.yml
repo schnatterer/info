@@ -25,5 +25,7 @@ markdown: kramdown
 exclude:
   - LICENSE
   - README.md
+  # Needed for GH action
+  - vendor
 include:
   - .well-known
