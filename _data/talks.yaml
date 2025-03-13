@@ -1,3 +1,23 @@
+- year: 2025
+  talks:
+    - occasion: CloudLand
+      title: "GitOps Adventure: Repo Structures"
+      link: https://meine.doag.org/events/cloudland/2025/agenda/#agendaId.5732
+      slides-pdf: 
+      slides-github: 
+      slides-speakerdeck:
+      video:
+      location: Soltau, Germany
+      date: 2025-07-04
+    - occasion: CloudLand
+      title: "Workshop GitOps Adventure: Advanced HandsOn!"
+      link: https://meine.doag.org/events/cloudland/2025/agenda/#agendaId.5640
+      slides-pdf: 
+      slides-github: 
+      slides-speakerdeck:
+      video:
+      location: Soltau, Germany
+      date: 2025-07-02
 - year: 2024
   talks:
     - occasion: Continuous Lifecycle

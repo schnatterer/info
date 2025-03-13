@@ -1,5 +1,12 @@
 - year: 2025
   pubs:
+    - date: '2025-02-28'
+      title: ' Flux Preview Enviromments via Flux Operator'
+      excerpt: Flux gets a second out-of-tree option to provide PreviewEnvs
+      media:
+        - type: Blog
+          medium: GitOps Book Blog
+          link: https://gitops-book.dev/blog/2025-02-28-flux-preview-envs/
     - date: '2025-01-09'
       title: '2025: Increasing GitOps productivity'
       excerpt: GitOps is getting more boring (in the best sense). This year we will
