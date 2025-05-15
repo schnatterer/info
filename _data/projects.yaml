@@ -60,15 +60,6 @@ projects:
       from: '2021-01-03'
       to: '2025-04-08'
       amount: '75'
-  - name: rooted-graphene/test
-    type: GitHub
-    description: 'null'
-    technologies: ''
-    contribution: Contributor
-    commits:
-      from: '2025-04-06'
-      to: '2025-04-06'
-      amount: '2'
   - name: cloudogu/gitops-patterns
     type: GitHub
     description: 'Collection of patterns, examples and resources for GitOps process
@@ -81,9 +72,11 @@ projects:
       amount: '58'
   - name: rooted-graphene/ota
     type: GitHub
-    description: 'null'
-    technologies: ''
-    contribution: Contributor
+    description:  OTA server for rooted graphene
+    technologies: Bash
+    technologies-ci:
+      - type: GitHub Actions
+    contribution: Creator
     commits:
       from: '2023-12-21'
       to: '2025-04-03'
@@ -92,7 +85,7 @@ projects:
     type: GitHub
     description: A very specific pieced together migration 'script' that migrates
       data from Adidas Running (AKA Runtastic)  to FitoTrack
-    technologies: ''
+    technologies: Java, Gradle, Android
     contribution: Contributor
     commits:
       from: '2025-02-21'
@@ -101,7 +94,7 @@ projects:
   - name: chenxiaolong/my-avbroot-setup
     type: GitHub
     description: My personal avbroot setup for my Android devices
-    technologies: ''
+    technologies: Python
     contribution: Contributor
     commits:
       from: '2025-02-09'
@@ -1444,3 +1437,4 @@ ignored:
   - schnatterer/schnatterer.github.io
   - schnatterer/gh-pages-redirect
   - cloudogu/dotnet-docker
+  - rooted-graphene/test
