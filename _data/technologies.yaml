@@ -1,10 +1,12 @@
 # Items are rendered in the order listed here
+- name: Open Source
+  size: 7
 - name: Velero
   size: 1
 - name: DevOps
   size: 4
 - name: Google Cloud Platform
-  size: 6
+  size: 2
 - name: Platform Engineering
   size: 4
 - name: GitOps
@@ -38,7 +40,7 @@
 - name: Argo CD
   size: 5
 - name: Microsoft Azure
-  size: 6
+  size: 2
 - name: Flux
   size: 3
 - name: Argo Rollouts

@@ -30,6 +30,7 @@ nav:
   about:
     self: About
     title: About me
+    action: Schedule a meeting 
   consulting:
     self: Consulting
     title: Schedule a meeting

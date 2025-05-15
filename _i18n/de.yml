@@ -30,7 +30,7 @@ nav:
   about: 
     self: Über
     title: Über mich
-    action: 
+    action: Termin planen
   consulting:
     self: Beratung
     title: Termin buchen
