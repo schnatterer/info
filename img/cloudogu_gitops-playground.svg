@@ -100,7 +100,7 @@
     
 
     <text class="description" x="25" y="-5">
-      <tspan dy="1.2em" x="25">Creates a complete GitOps-based operational stack on your</tspan><tspan dy="1.2em" x="25">Kubernetes clusters</tspan>
+      <tspan dy="1.2em" x="25">Creates a complete GitOps-based operational stack / IDP on</tspan><tspan dy="1.2em" x="25">your Kubernetes clusters</tspan>
     </text>
 
     <g transform="translate(30, 65)">
