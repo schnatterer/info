@@ -3,8 +3,8 @@
     - occasion: CloudLand
       title: "Workshop GitOps Adventure: Advanced HandsOn!"
       link: https://meine.doag.org/events/cloudland/2025/agenda/#agendaId.5640
-      slides-pdf: 
-      slides-github: 
+      slides-pdf: https://cloudogu.github.io/workshop-cloudland25/pdf/GitOps%20Adventure%20Advanced%20HandsOn.pdf
+      slides-github: https://cloudogu.github.io/workshop-cloudland25/#/
       slides-speakerdeck:
       video:
       location: Soltau, Germany
@@ -12,12 +12,13 @@
     - occasion: CloudLand
       title: "GitOps Adventure: Repo Structures"
       link: https://meine.doag.org/events/cloudland/2025/agenda/#agendaId.5732
-      slides-pdf: 
-      slides-github: 
+      slides-pdf: https://cloudogu.github.io/gitops-talks/2025-07-cloud-land/pdf/GitOps%20Adventure%20Repo%20structures.pdf
+      slides-github: https://cloudogu.github.io/gitops-talks/2025-07-cloud-land/#/
       slides-speakerdeck:
+      demo-github: https://github.com/cloudogu/gop-multi-tenant-multi-cluster-example
       video:
       location: Soltau, Germany
-      date: 2025-07-02
+      date: 2025-07-04
 - year: 2024
   talks:
     - occasion: Continuous Lifecycle
