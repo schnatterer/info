@@ -1,7 +1,14 @@
 - year: 2025
   pubs:
+    - date: '2025-08-14'
+      title: ' Argo CD 3.1 brings OCI support'
+      excerpt: Argo CD supports reading generic Kubernetes manifests from OCI registries, catching up with Flux in this matter
+      media:
+        - type: Blog
+          medium: GitOps Book Blog
+          link: https://gitops-book.dev/blog/2025-08-14-argocd-oci/
     - date: '2025-02-28'
-      title: ' Flux Preview Enviromments via Flux Operator'
+      title: 'Flux Preview Environments via Flux Operator'
       excerpt: Flux gets a second out-of-tree option to provide PreviewEnvs
       media:
         - type: Blog
