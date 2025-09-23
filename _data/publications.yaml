@@ -1,8 +1,10 @@
 - year: 2025
   pubs:
     - date: '2025-09-19'
-      title: 'Automatic cloud migration with Cloudogu LowOps Platform'
-      excerpt: Cloudogus LowOps Platform (LOP) makes cloud switching easy, allowing to move from one cloud provider to another with minimal downtime and without changes for the user
+      title: Automatic cloud migration with Cloudogu LowOps Platform
+      excerpt: Cloudogus LowOps Platform (LOP) makes cloud switching easy, allowing
+        to move from one cloud provider to another with minimal downtime and without
+        changes for the user
       media:
         - type: Blog
           medium: Cloudogu Blog
@@ -13,7 +15,7 @@
           link: https://platform.cloudogu.com/de/blog/automatische-cloud-migration-lowops-plattform/
           lang: DE
     - date: '2025-08-14'
-      title: 'Argo CD 3.1 brings OCI support'
+      title: Argo CD 3.1 brings OCI support
       excerpt: Argo CD supports reading generic Kubernetes manifests from OCI registries,
         catching up with Flux in this matter
       media:
