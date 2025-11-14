@@ -1,5 +1,14 @@
 - year: 2025
   talks:
+    - occasion: CLC
+      title: "IDP as a Service – Managing tenants efficiently using GitOps "
+      link: https://clc-conference.eu/veranstaltung-83869-0-idp-as-a-service--tenants-mit-gitops-effizient-verwalten.html
+      slides-pdf: https://cloudogu.github.io/gitops-talks/2025-11-clc/pdf/IDP%20as%20a%20Service%20Managing%20tenants%20efficiently%20using%20GitOps.pdf
+      slides-github: https://cloudogu.github.io/gitops-talks/2025-11-clc/#/
+      slides-speakerdeck:
+      video:
+      location: Mannheim, Germany
+      date: 2025-11-19
     - occasion: CloudLand
       title: "Workshop GitOps Adventure: Advanced HandsOn!"
       link: https://meine.doag.org/events/cloudland/2025/agenda/#agendaId.5640
