@@ -57,7 +57,7 @@
                                 <div class="col-lg-2">
                                     {% if pub.image %}
                                     <div>
-                                        <img style="max-width: 100%; height: auto; border-radius: 5px" src="{{ pub.image }}" alt="Publication Image">
+                                        <img style="max-width: 150px; height: auto; border-radius: 5px" src="{{ pub.image }}" alt="Publication Image">
                                     </div>
                                     {% elsif pub.excerpt %}
                                     {% for medium in pub.media %}
@@ -76,7 +76,7 @@
                                     {% elsif medium.medium == 'Cloudogu Blog' or medium.medium == 'Cloudogu Community' %}
                                         <div class="pub-image">
                                             <!-- image: https://europe1.discourse-cdn.com/flex013/uploads/cloudogu2/optimized/1X/3ef7b59172d86876b1e2ce1ce4a0b76d74a1c10d_2_180x180.png -->
-                                            <img style="max-width: 100%; height: auto; border-radius: 5px" src="/img/publications/Cloudogu.svg" alt="Cloudogu Icon">
+                                            <img style="max-width: 150px; height: auto; border-radius: 5px" src="/img/publications/Cloudogu.svg" alt="Cloudogu Icon">
                                         </div>
                                         {% break %}
                                         {% endif %}
