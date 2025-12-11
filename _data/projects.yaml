@@ -14,7 +14,7 @@ projects:
   - name: schnatterer/rooted-graphene
     type: GitHub
     description: GrapheneOS rooted and served via its own OTA server
-    technologies: Bash
+    technologies: Bash, Android
     technologies-ci:
       - type: GitHub Actions
     contribution: Creator
@@ -37,8 +37,8 @@ projects:
   - name: cloudogu/gop-multi-tenant-shared-example
     type: GitHub
     description: Deploy an IDP to be shared by multiple tenants
-    technologies: ''
-    contribution: Contributor
+    technologies: Bash, Argo CD, Helm, k3d
+    contribution: Creator
     commits:
       from: '2025-11-14'
       to: '2025-11-14'
@@ -47,8 +47,8 @@ projects:
     type: GitHub
     description: 'IDP as a service: Deploy multiple tenants to dedicated clusters,
       managed centrally (Hub and spoke) using Argo CD app sets and GOP'
-    technologies: ''
-    contribution: Contributor
+    technologies: Bash, Argo CD, Helm, k3d
+    contribution: Creator
     commits:
       from: '2025-07-03'
       to: '2025-11-13'
@@ -56,8 +56,8 @@ projects:
   - name: cloudogu/gop-helm
     type: GitHub
     description: A Helm chart for GOP
-    technologies: ''
-    contribution: Contributor
+    technologies: Helm
+    contribution: Co-Creator
     commits:
       from: '2025-06-19'
       to: '2025-11-05'
@@ -73,9 +73,9 @@ projects:
       amount: '3'
   - name: cloudogu/gitops-playground
     type: GitHub
-    description: Reproducible infrastructure to showcase GitOps workflows
+    description: Creates a complete GitOps-based operational stack / IDP on your Kubernetes clusters
     technologies: Flux, Argo CD, Prometheus, Grafana, Hashicorp Vault, External Secrets
-      Operator, k3s, Helm, Jenkins, SCM-Manager, Groovy, Bash, Docker
+      Operator, k3d, Helm, Jenkins, SCM-Manager, Groovy, Bash, Docker
     technologies-ci:
       - type: Jenkins
         url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fgitops-playground/
@@ -127,7 +127,7 @@ projects:
     type: GitHub
     description: Collection of shell scripts to automate everything on your android
       phone using termux app
-    technologies: Shell, Android
+    technologies: Bash, Android
     contribution: Creator
     commits:
       from: '2021-01-03'
@@ -162,8 +162,8 @@ projects:
   - name: cloudogu/workshop-cloudland25
     type: GitHub
     description: Resources for workshop at CloudLand 2025
-    technologies: ''
-    contribution: Contributor
+    technologies: Docker, reveal.js, Kubernetes, Helm, ArgoCD, k3d
+    contribution: Creator
     commits:
       from: '2024-05-23'
       to: '2025-07-04'
@@ -310,9 +310,7 @@ projects:
   - name: walidshaari/Certified-Kubernetes-Security-Specialist
     type: GitHub
     description: Curated resources help you prepare for the CNCF/Linux Foundation
-      CKS 2021 "Kubernetes Certified Security Specialist" Certification exam.  Please
-      provide feedback or requests by raising issues, or making a pull request. All
-      feedback for improvements are welcome. thank you.
+      CKS 2021 "Kubernetes Certified Security Specialist" Certification exam.
     technologies: ''
     contribution: Contributor
     commits:
@@ -322,7 +320,7 @@ projects:
   - name: cloudogu/workshop-cloudland24
     type: GitHub
     description: Resources for workshop at CloudLand 2024
-    technologies: ''
+    technologies: Docker, reveal.js, Kubernetes, Helm, ArgoCD, k3d
     contribution: Creator
     commits:
       from: '2024-05-23'
