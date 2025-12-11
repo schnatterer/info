@@ -2,31 +2,27 @@
   repo: gitops-playground
 - username: cloudogu
   repo: gitops-patterns
-- username: schnatterer
-  repo: docker-aliases
 - username: cloudogu
   repo: k8s-diagrams
 - username: cloudogu
   repo: k8s-security-demos
+- username: schnatterer
+  repo: docker-aliases
 - username: cloudogu
-  repo: helm-sudo
+  repo: reveal.js-docker
 - username: schnatterer
-  repo: smeagol-galore
-- username: schnatterer
-  repo: letsencrypt-tomcat
+  repo: rooted-graphene
 - username: schnatterer
   repo: termux-scripts
 - username: schnatterer
   repo: pmcaFilesystemServer
-- username: cloudogu
-  repo: reveal.js-docker
 - username: schnatterer
-  repo: dsdl
+  repo: nusic
+- username: cloudogu
+  repo: helm-sudo
+- username: schnatterer
+  repo: letsencrypt-tomcat
 - username: cloudogu
   repo: jenkinsfiles
 - username: cloudogu
   repo: ces-build-lib
-- username: schnatterer
-  repo: nusic
-- username: schnatterer
-  repo: moby-names-generator-java

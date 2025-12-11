@@ -7,14 +7,20 @@
         <hr class="small">
         <div class="row">
           {% for project in site.data.pinned-projects %}
-          <div class="col-md-6 container-fluid">
-            <div class="portfolio-item container-fluid">
+          <div class="col-md-6">
+            <div class="portfolio-item ">
               <a href="https://github.com/{{ project.username }}/{{ project.repo }}">
                 <img style="height: 100%" class="img-portfolio img-responsive" 
                      src="/img/{{ project.username }}_{{ project.repo }}.svg">
               </a>
             </div>
           </div>
+            {% comment %}
+            Fix some cards not being rendered next to each other due to different lines.
+            cycle outputs nothing on the first iteration (odd items) and outputs a clearfix div on the second iteration (even items).
+            The classes visible-md-block and visible-lg-block ensure this reset only happens on desktop views where the columns are side-by-side (2 per row), preventing the uneven stacking behavior.
+            {% endcomment %}
+            {% cycle '', '<div class="clearfix visible-md-block visible-lg-block"></div>' %}
           {% endfor %}
         </div>
         <!-- /.row (nested) -->
