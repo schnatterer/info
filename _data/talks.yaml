@@ -1,3 +1,14 @@
+- year: 2026
+  talks:
+    - occasion: CloudLand
+      title: "Bye-bye Lock-in: Automate cloud switching using open source"
+      link: https://meine.doag.org/events/cloudland/2026/agenda/#agendaId.7507
+      slides-pdf: 
+      slides-github: 
+      slides-speakerdeck:
+      video:
+      location: Soltau, Germany
+      date: 2026-05-22
 - year: 2025
   talks:
     - occasion: CLC
