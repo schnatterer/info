@@ -1,20 +1,10 @@
 updated: '2026-01-20'
 projects:
-  - name: schnatterer/ckad-cka-cks-tips
+  - name: schnatterer/ckad-cka-cks-kubestronaut
     type: GitHub
-    description: Collection of tips for preparing for the CKAD, CKA, CKS exams.
-    technologies: ''
-    contribution: Contributor
-    commits:
-      from: '2024-03-04'
-      to: '2026-01-19'
-      amount: '3'
-  - name: schnatterer/cks-short-tips
-    type: GitHub
-    description: Five short tips for passing the CKS exam (Certified Kubernetes Security
-      Specialist)
-    technologies: ''
-    contribution: Contributor
+    description: Tips for preparing for the CKAD, CKA, CKS exams and becoming a kubestronaut
+    technologies: Kubernetes, Helm, Seccomp, Apparmor, Falco, OpenPolicyAgent, kube-bench, kubeadm, trivy, kubesec
+    contribution: Creator
     commits:
       from: '2024-03-04'
       to: '2026-01-19'
