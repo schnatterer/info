@@ -34,8 +34,8 @@ projects:
       amount: '3'
   - name: cloudogu/gop-lop-example
     type: GitHub
-    description: 'null'
-    technologies: ''
+    description: Deploy a GitOps-managed LowOps Platform on a plain Kubernetes cluster
+    technologies: Kubernetes, Argo CD, Helm, k3d, SCM-Manager
     contribution: Contributor
     commits:
       from: '2026-01-07'
