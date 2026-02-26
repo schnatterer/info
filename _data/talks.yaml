@@ -9,6 +9,11 @@
       video:
       location: Soltau, Germany
       date: 2026-05-22
+    - occasion: Digitaler Staat
+      title: "Panel: Forum 21: Between the Great Powers — the Third Way to Digital Independence"
+      link: https://www.digitaler-staat.org/programm/#1770107067630-00313eb0-803d
+      location: Berlin, Germany
+      date: 2026-03-04
 - year: 2025
   talks:
     - occasion: CLC
@@ -17,7 +22,6 @@
       slides-pdf: https://cloudogu.github.io/gitops-talks/2025-11-clc/pdf/IDP%20as%20a%20Service%20Managing%20tenants%20efficiently%20using%20GitOps.pdf
       slides-github: https://cloudogu.github.io/gitops-talks/2025-11-clc/#/
       slides-speakerdeck:
-      video:
       location: Mannheim, Germany
       date: 2025-11-19
     - occasion: CloudLand
