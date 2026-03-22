@@ -97,8 +97,22 @@ function fetchProjects() {
 function updateProjects() {
   i=0
   for project in $(yq -r '.projects[].name' "${BASEDIR}"/../projects.yaml); do
+    type=$(yq -r ".projects[$i].type" "${BASEDIR}"/../projects.yaml)
+    
+    case $type in
+      "GitLab")
+        url="https://gitlab.com/${project}"
+        ;;
+      "Codeberg")
+        url="https://codeberg.org/${project}"
+        ;;
+      "GitHub"|*)
+        url="https://github.com/${project}"
+        ;;
+    esac
+
     tmpdir=$(mktemp -d)
-    git clone --bare http://github.com/${project}/ "${tmpdir}"
+    git clone --bare "${url}" "${tmpdir}"
     cd "${tmpdir}" || exit
     # Avoid failures after firstDate=... using || true
     # https://unix.stackexchange.com/a/580119/

@@ -7,7 +7,7 @@
                     <thead>
                     <tr>
                         <th scope="col" title="Name">
-                            <i class="fab fa-github"></i> <span class="hidden-xs"> Name</span>
+                            <i class="fab fa-osi"></i> <span class="hidden-xs"> Name</span>
                         </th>
                         <th scope="col" title="Stars">
                             <i class="fas fa-star"></i><span class="hidden-xs"> Stars</span>
@@ -35,8 +35,27 @@
                     <tbody>
                     {% for project in site.data.projects.projects %}
                     <tr>
-                        <td class="col-md-1"><a href="https://github.com/{{ project.name }}">{{ project.name | replace: "/", "/&#8203;" }}</a></td>
-                        <td class="col-md-1"><img src="https://img.shields.io/github/stars/{{ project.name }}.svg?style=flat&label=&logo=github&labelColor=000000"/></td>
+                        <td class="col-md-1">
+                            {% if project.type == 'GitLab' %}
+                            <i class="fab fa-gitlab" title="GitLab"></i> <a href="https://gitlab.com/{{ project.name }}">{{ project.name | replace: "/", "/&#8203;" }}</a>
+                            {% elsif project.type == 'Codeberg' %}
+                            <i class="fas fa-mountain" title="Codeberg"></i> <a href="https://codeberg.org/{{ project.name }}">{{ project.name | replace: "/", "/&#8203;" }}</a>
+                            {% else %}
+                            <i class="fab fa-github" title="GitHub"></i> <a href="https://github.com/{{ project.name }}">{{ project.name | replace: "/", "/&#8203;" }}</a>
+                            {% endif %}
+                        </td>
+                        <td class="col-md-1">
+                            {% if project.type == 'GitLab' %}
+                            <img src="https://img.shields.io/gitlab/stars/{{ project.name }}.svg?style=flat&label=&logo=gitlab&labelColor=000000"/>
+                            {% elsif project.type == 'Codeberg' %}
+                            <!-- Codeberg doesn't have a native stars badge in shields.io that works reliably without mirror. 
+                                 TODO: Check if Codeberg adds native support or use a different provider. 
+                                 For now, use GitHub mirror if exists or GitHub badge as placeholder. -->
+                            <img src="https://img.shields.io/github/stars/{{ project.name }}.svg?style=flat&label=&logo=github&labelColor=000000"/>
+                            {% else %}
+                            <img src="https://img.shields.io/github/stars/{{ project.name }}.svg?style=flat&label=&logo=github&labelColor=000000"/>
+                            {% endif %}
+                        </td>
                         <td class="col-md-3">{{ project.description }}</td>
                         <td class="col-md-3">{{ project.technologies }}
                             {% if  project.technologies-ci  %}
