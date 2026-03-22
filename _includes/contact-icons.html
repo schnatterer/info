@@ -4,6 +4,8 @@
 {% for extraClass in extraClasses %}
 <ul class="list-inline {{ extraClass }}" style="font-size: {{ fontSizes[forloop.index0] }}em;">
     <li><a rel="me" href="https://{{ site.mastodon_handle }}"><i class="fab fa-mastodon fa-fw {{ include.iconsClass }}"></i></a></li>
+    <li><a href="https://coderberg.org/{{ site.codeberg_username }}"><i class="fas fa-mountain fa-fw {{ include.iconsClass }}"></i></a></li>
+    <li><a href="https://gitlab.com/{{ site.gitlab_username }}"><i class="fab fa-gitlab fa-fw {{ include.iconsClass }}"></i></a></li>
     <li><a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github fa-fw {{ include.iconsClass }}"></i></a></li>
     <li><a href="https://bsky.app/profile/{{ site.bluesky_username }}"><i class="fa-brands fa-bluesky {{ include.iconsClass }}"></i></a></li>
     <li><a href="https://www.linkedin.com/in/{{ site.linkedin_personal_url }}"><i class="fab fa-linkedin fa-fw {{ include.iconsClass }}"></i></a></li>
