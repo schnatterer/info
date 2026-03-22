@@ -3,6 +3,7 @@
 
 {% for extraClass in extraClasses %}
 <ul class="list-inline {{ extraClass }}" style="font-size: {{ fontSizes[forloop.index0] }}em;">
+    {% comment %}More than 8 items will lead to line break in mobile!{% endcomment %}
     <li><a rel="me" href="https://{{ site.mastodon_handle }}"><i class="fab fa-mastodon fa-fw {{ include.iconsClass }}"></i></a></li>
     <li><a href="https://codeberg.org/{{ site.codeberg_username }}"><img src="/img/icons/codeberg.svg" class="fa-img {{ include.iconsClass }}" alt="Codeberg"></a></li>
     <li><a href="https://gitlab.com/{{ site.gitlab_username }}"><i class="fab fa-gitlab fa-fw {{ include.iconsClass }}"></i></a></li>
@@ -10,7 +11,6 @@
     <li><a href="https://bsky.app/profile/{{ site.bluesky_username }}"><i class="fa-brands fa-bluesky {{ include.iconsClass }}"></i></a></li>
     <li><a href="https://www.linkedin.com/in/{{ site.linkedin_personal_url }}"><i class="fab fa-linkedin fa-fw {{ include.iconsClass }}"></i></a></li>
     <li><a href="https://stackoverflow.com/users/{{ site.stackoverflow_userid }}"><i class="fab fa-stack-overflow fa-fw {{ include.iconsClass }}"></i></a></li>
-    <li><a href="https://keybase.io/{{ site.keybase_id }}"><i class="fab fa-keybase fa-fw {{ include.iconsClass }}"></i></a></li>
     <li><a href="https://www.xing.com/profile/{{ site.xing_profile }}"><i class="fab fa-xing fa-fw {{ include.iconsClass }}"></i></a></li>
 </ul>
 <a rel="me" href="https://fosstodon.org/@schnatterer"></a>
