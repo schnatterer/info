@@ -6,6 +6,22 @@
 
 /* Global Styles */
 
+img.fa-img {
+    height: 1em;
+    width: 1.25em;
+    vertical-align: -0.125em;
+    filter: invert(44%) sepia(50%) saturate(1001%) hue-rotate(176deg) brightness(91%) contrast(85%);
+    transition: filter 0.2s;
+}
+
+a:hover img.fa-img {
+    filter: brightness(0) invert(1);
+}
+
+.fa-3x img.fa-img {
+    font-size: 3em;
+}
+
 html,
 body {
     width: 100%;
@@ -418,4 +434,3 @@ ul.tag-cloud a:focus::before,
 ul.tag-cloud a:hover::before {
     width: 100%;
 }
-

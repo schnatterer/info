@@ -39,19 +39,16 @@
                             {% if project.type == 'GitLab' %}
                             <i class="fab fa-gitlab" title="GitLab"></i> <a href="https://gitlab.com/{{ project.name }}">{{ project.name | replace: "/", "/&#8203;" }}</a>
                             {% elsif project.type == 'Codeberg' %}
-                            <i class="fas fa-mountain" title="Codeberg"></i> <a href="https://codeberg.org/{{ project.name }}">{{ project.name | replace: "/", "/&#8203;" }}</a>
+                            <img height="16" width="16" style="vertical-align: middle; margin-top: -2px;" title="Codeberg" src="/img/icons/codeberg.svg" /> <a href="https://codeberg.org/{{ project.name }}">{{ project.name | replace: "/", "/&#8203;" }}</a>
                             {% else %}
                             <i class="fab fa-github" title="GitHub"></i> <a href="https://github.com/{{ project.name }}">{{ project.name | replace: "/", "/&#8203;" }}</a>
                             {% endif %}
                         </td>
                         <td class="col-md-1">
                             {% if project.type == 'GitLab' %}
-                            <img src="https://img.shields.io/gitlab/stars/{{ project.name }}.svg?style=flat&label=&logo=gitlab&labelColor=000000"/>
+                            <img src="https://img.shields.io/gitlab/stars/{{ project.name }}.svg?style=flat&label=&logo=gitlab&labelColor=000000&logoColor=FFFFFF"/>
                             {% elsif project.type == 'Codeberg' %}
-                            <!-- Codeberg doesn't have a native stars badge in shields.io that works reliably without mirror. 
-                                 TODO: Check if Codeberg adds native support or use a different provider. 
-                                 For now, use GitHub mirror if exists or GitHub badge as placeholder. -->
-                            <img src="https://img.shields.io/github/stars/{{ project.name }}.svg?style=flat&label=&logo=github&labelColor=000000"/>
+                            <img src="https://img.shields.io/gitea/stars/{{ project.name }}?style=flat&label=&logo=Codeberg&labelColor=000000&logoColor=FFFFFF&gitea_url=https%3A%2F%2Fcodeberg.org%2F"/>
                             {% else %}
                             <img src="https://img.shields.io/github/stars/{{ project.name }}.svg?style=flat&label=&logo=github&labelColor=000000"/>
                             {% endif %}
