@@ -4,14 +4,14 @@
 {% for extraClass in extraClasses %}
 <ul class="list-inline {{ extraClass }}" style="font-size: {{ fontSizes[forloop.index0] }}em;">
     {% comment %}More than 8 items will lead to line break in mobile!{% endcomment %}
-    <li><a rel="me" href="https://{{ site.mastodon_handle }}"><i class="fab fa-mastodon fa-fw {{ include.iconsClass }}"></i></a></li>
-    <li><a href="https://codeberg.org/{{ site.codeberg_username }}"><img src="/img/icons/codeberg.svg" class="fa-img {{ include.iconsClass }}" alt="Codeberg"></a></li>
-    <li><a href="https://gitlab.com/{{ site.gitlab_username }}"><i class="fab fa-gitlab fa-fw {{ include.iconsClass }}"></i></a></li>
-    <li><a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github fa-fw {{ include.iconsClass }}"></i></a></li>
-    <li><a href="https://bsky.app/profile/{{ site.bluesky_username }}"><i class="fa-brands fa-bluesky {{ include.iconsClass }}"></i></a></li>
-    <li><a href="https://www.linkedin.com/in/{{ site.linkedin_personal_url }}"><i class="fab fa-linkedin fa-fw {{ include.iconsClass }}"></i></a></li>
-    <li><a href="https://stackoverflow.com/users/{{ site.stackoverflow_userid }}"><i class="fab fa-stack-overflow fa-fw {{ include.iconsClass }}"></i></a></li>
-    <li><a href="https://www.xing.com/profile/{{ site.xing_profile }}"><i class="fab fa-xing fa-fw {{ include.iconsClass }}"></i></a></li>
+    <li><a rel="me" href="https://{{ site.mastodon_handle }}" title="Mastodon" aria-label="Mastodon"><img src="/img/icons/mastodon.svg" class="fa-img {{ include.iconsClass }}" alt="Mastodon"></a></li>
+    <li><a href="https://codeberg.org/{{ site.codeberg_username }}" title="Codeberg" aria-label="Codeberg"><img src="/img/icons/codeberg.svg" class="fa-img {{ include.iconsClass }}" alt="Codeberg"></a></li>
+    <li><a href="https://gitlab.com/{{ site.gitlab_username }}" title="GitLab" aria-label="GitLab"><img src="/img/icons/gitlab.svg" class="fa-img {{ include.iconsClass }}" alt="GitLab"></a></li>
+    <li><a href="https://github.com/{{ site.github_username }}" title="GitHub" aria-label="GitHub"><img src="/img/icons/github.svg" class="fa-img {{ include.iconsClass }}" alt="GitHub"></a></li>
+    <li><a href="https://bsky.app/profile/{{ site.bluesky_username }}" title="Bluesky" aria-label="Bluesky"><img src="/img/icons/bluesky.svg" class="fa-img {{ include.iconsClass }}" alt="Bluesky"></a></li>
+    <li><a href="https://www.linkedin.com/in/{{ site.linkedin_personal_url }}" title="LinkedIn" aria-label="LinkedIn"><img src="/img/icons/linkedin.svg" class="fa-img {{ include.iconsClass }}" alt="LinkedIn"></a></li>
+    <li><a href="https://stackoverflow.com/users/{{ site.stackoverflow_userid }}" title="Stack Overflow" aria-label="Stack Overflow"><img src="/font-awesome/svgs/brands/stack-overflow.svg" class="fa-img {{ include.iconsClass }}" alt="Stack Overflow"></a></li>
+    <li><a href="https://www.xing.com/profile/{{ site.xing_profile }}" title="XING" aria-label="XING"><img src="/font-awesome/svgs/brands/xing.svg" class="fa-img {{ include.iconsClass }}" alt="XING"></a></li>
 </ul>
 <a rel="me" href="https://fosstodon.org/@schnatterer"></a>
 {% endfor %}
