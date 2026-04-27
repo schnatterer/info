@@ -9,6 +9,15 @@
       video:
       location: Soltau, Germany
       date: 2026-05-22
+    - occasion: SCS Summit
+      title: "Open Source from Infrastructure to End Users: Sovereign Tool Stacks based on SCS Standards"
+      link: https://sovereigncloudstack.org/insights/scs-summit-2026/
+      slides-pdf: 
+      slides-github: 
+      slides-speakerdeck:
+      video:
+      location: Berlin, Germany
+      date: 2026-05-21
     - occasion: Hannover Messe
       title: "Beyond Atlassian: Sovereign Project Management and Docs all-in-one"
       link: https://www.hannovermesse.de/veranstaltung/jenseits-von-atlassian-souveranes-projektmanagement-und-dokumentation-aus-einer-hand/vor/97267
