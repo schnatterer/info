@@ -1,11 +1,23 @@
 - year: 2026
   talks:
+    - occasion: Zukunftskongress Staat & Verwaltung
+      title: "Cloud Switching Made Easy: The Automated Operations Platform for Tool Stacks, Exemplified by ITZBund SWEC"
+      link: https://www.zukunftskongress.de/de/node/11403
+      slides-pdf:
+      slides-github:
+      slides-speakerdeck:
+      video:
+      location: Berlin, Germany
+      date: 2026-06-10
     - occasion: CloudLand
       title: "Bye-bye Lock-in: Automate cloud switching using open source"
-      link: https://meine.doag.org/events/cloudland/2026/agenda/#agendaId.7507
+      link: https://meine.doag.org/events/cloludland/2026/agenda/#agendaId.7507
       slides-pdf: https://cloudogu.github.io/cloud-switching-talk/pdf/Bye-bye%20Lock-in%20Automate%20cloud%20switching%20using%20open%20source.pdf
       slides-github: https://cloudogu.github.io/cloud-switching-talk
       video:
+        lang: DE
+        link: https://meine.doag.org/events/cloudland/2026/agenda/#agendaId.7507
+        private: true
       location: Soltau, Germany
       date: 2026-05-22
     - occasion: SCS Summit
