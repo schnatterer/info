@@ -1,5 +1,14 @@
 - year: 2026
   talks:
+    - occasion: ITCS Hamburg
+      title: "Multi-Cloud in reality: Cloud-Switching automated as open source solution"
+      links: https://it-cs.io/events/hamburg/#
+      slides-pdf:
+      slides-github:
+      slides-speakerdeck:
+      video:
+      location: Hamburg, Germany
+      date: 2026-06-26
     - occasion: Zukunftskongress Staat & Verwaltung
       title: "Cloud Switching Made Easy: The Automated Operations Platform for Tool Stacks, Exemplified by ITZBund SWEC"
       link: https://www.zukunftskongress.de/de/node/11403
