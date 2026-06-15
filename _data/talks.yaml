@@ -3,10 +3,10 @@
     - occasion: ITCS Hamburg
       title: "Multi-Cloud in reality: Cloud-Switching automated as open source solution"
       links: https://it-cs.io/events/hamburg/#
-      slides-pdf:
+      slides-pdf: 
       slides-github:
       slides-speakerdeck:
-      video:
+      video: 
       location: Hamburg, Germany
       date: 2026-06-26
     - occasion: Zukunftskongress Staat & Verwaltung
@@ -36,6 +36,8 @@
       slides-github: 
       slides-speakerdeck:
       video:
+        lang: DE
+        link: https://www.youtube.com/watch?v=h0so9EieL4A&list=PLx1Xfd_O6YXG21hmtxKvq_hLV47FUyaw-&index=6
       location: Berlin, Germany
       date: 2026-05-21
     - occasion: Hannover Messe
