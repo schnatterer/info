@@ -2,7 +2,7 @@
   talks:
     - occasion: ITCS Hamburg
       title: "Multi-Cloud in reality: Cloud-Switching automated as open source solution"
-      links: https://it-cs.io/events/hamburg/#
+      link: https://it-cs.io/events/hamburg/#
       slides-pdf: 
       slides-github:
       slides-speakerdeck:
