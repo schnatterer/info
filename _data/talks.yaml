@@ -108,11 +108,15 @@
     - occasion: Highway 2 CloudLand Tour
       title: "GitOps - is this something for me, or not?"
       link: https://meine.doag.org/shop/prd.1142.tourstopp-braunschweig/
+      slides-pdf: https://cloudogu.github.io/gitops-talks/2024-05-h2c/pdf/GitOps%20is%20this%20something%20for%20me%20-%20or%20not.pdf
+      slides-github: https://cloudogu.github.io/gitops-talks/2024-05-h2c/#/
       location: Braunschweig, Germany
       date: 2024-05-03
     - occasion: Highway 2 CloudLand Tour
       title: "GitOps - is this something for me, or not?"
       link: https://meine.doag.org/shop/prd.1143.tourstopp-hannover/
+      slides-pdf: https://cloudogu.github.io/gitops-talks/2024-05-h2c/pdf/GitOps%20is%20this%20something%20for%20me%20-%20or%20not.pdf
+      slides-github: https://cloudogu.github.io/gitops-talks/2024-05-h2c/#/
       location: Hannover, Germany
       date: 2024-05-02
     - occasion: Mastering GitOps
@@ -183,10 +187,9 @@
       demo-github: https://github.com/cloudogu/k8s-gitops-playground
     - occasion: Invite to ottonova AG
       title: "Container Security for developers"
-      link: https://community.cloudogu.com/t/container-security-for-developers/702
       location: Virtual
       date: 2022-05-30
-      slides-pdf: https://discourse-cloud-file-uploads.s3.dualstack.us-west-2.amazonaws.com/standard21/uploads/cloudogu2/original/1X/cfcce2da12d02ee32044f6c33c188067af7da379.pdf
+      slides-pdf: "https://lfx-user-presentations-prod.s3.us-east-2.amazonaws.com/user-presentations/schnatterer/1782898755673-Container%20Security%20for%20Developers.pdf?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Credential=ASIA2NUPYX2RGOR5JGJJ%2F20260701%2Fus-east-2%2Fs3%2Faws4_request&X-Amz-Date=20260701T094536Z&X-Amz-Expires=1800&X-Amz-Security-Token=IQoJb3JpZ2luX2VjEBEaCXVzLWVhc3QtMiJGMEQCIH6Qb5cBF9KYp6l84u47Lxqs5cetK5B6mrB8x1jt681JAiAx1wmAW9789o6uXuYpip%2BhdX%2BPs4SzHdZjtdQPGCaDGyr%2BAwja%2F%2F%2F%2F%2F%2F%2F%2F%2F%2F8BEAIaDDcxNjQ4NzMxMTAxMCIMft8J1E7OUxvk3fIbKtIDjMGPNBkQDbYe9W7i6U7hyyy1YBUsX2ifktezqx%2FU5zaGzStTakqsUqixVN7OCQ2BHCK7G47NdEnuhup4q6UBYHcqhjQmE4Aca3QNiqapankxg3PZycuCI6rxKYAryWU01usyoqWVXjvi548DU8zgLpUQQllTzYykidD0UEf8y%2FMjkIHKVdUK7GFk1nFubbnaDhyoujjPCJlP3ik4ARxz0zF1LCfU9dASKfU4PSFQcFy7jnOQafFBFj%2FAhhlydVLTlYj%2B%2B%2FaLq9XxnNxqhMleFDqNX3yB%2FYRa6HpkXsxlH%2FmZ4n%2F4qIg1EFHtibT%2BStS6pAqM0w0W7iFP36V5jZjLcxOM2klrQ2xvWl4CT%2FpOphRqyKS5tZr5H5vuOxorURhDZeVdO6e7EOowcWgxGZtgCSt5uG9dIudbhnuVIqCXzTdzGxxoKKr6RHWh3OF66BZf2FepGQIT6NMiQ5VbVbFuoJz78AF3DR72BqFC4FrNIlLvUNThtKEKGzs4gDBxocELFOELOhE9o%2F3dUYuE8hpGhbO0%2BWO7HmW7Qr0Hy1wFFUxqDo5cTM26xVV%2FdZcTpChIBcY%2Bf8%2BL0QNoIeCWBi4WTDpNEq39QT9jMtWTTs2qedHRDzCOtpPSBjqiAanSuSqq64BW0CpcPm2AhDylYCrMoMfo2x4xg1KufbzH9Ep0fft9e33R%2BhpjLiGFP%2FcNIbE9ZbUG%2Fgwv9jaHp07258ATUlCWEQtAWqn7hMcWOf%2Fv94c%2FO%2F3Y1C7coEOgmV7ps6HlEcCAvQNGVibcURwGX9xrd7QsskaxL9crIdONRXK4ERz8BbdKWKBLTToXZQaHcyyUEWK4ReY0iL0vPtfSQg%3D%3D&X-Amz-SignedHeaders=host&X-Amz-Signature=a8a83c2467969fe5f30aaba0f6a245560dee6c08a6965e3d5240c84c5c53046a"
       video:
         lang: EN
         private: true
