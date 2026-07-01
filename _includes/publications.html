@@ -21,7 +21,7 @@
                                             {% if medium.link %}
                                             <a title="{{ medium.type }}" target="_blank" href="{{ medium.link }}">
                                             {% endif %}
-                                            {% if medium.link %}
+                                            {% if medium.type %}
                                                 <span>{% if medium.type == 'Journal' %}
                                                 <i class="fas fa-newspaper"></i>
                                                 {% elsif medium.type == 'Blog' %}
@@ -31,6 +31,8 @@
                                                 {% endif %}
                                                 {{ medium.medium }}
                                                 </span>
+                                            {% endif %}
+                                            {% if medium.link %}
                                             </a>
                                             {% endif %}
                                             {% if medium.links %}
