@@ -1,24 +1,22 @@
 - year: 2026
   pubs:
     - date: '2026-08-14'
-      title: 'Bye-bye Lock-in: Easily Change Cloud Providers Through Automated Cloud Switching'
+      title: 'Bye-bye Lock-in: Easily Change Cloud Providers Through Automated Cloud
+        Switching'
       image: /img/publications/red-stack-logo.jpg
-      excerpt: 
-        Anyone implementing multi-cloud architectures will sooner or later need to migrate applications from one
-        cloud provider to another.
-        While Kubernetes abstraction and backup/restore mechanisms make this technically feasible, 
-        the process for production systems is often complex and risky.
-        This article presents a Kubernetes-native concept for automated, 
-        incremental cloud switching that simplifies the process significantly and is available as an
-        open source reference implementation.
+      excerpt: Anyone implementing multi-cloud architectures will sooner or later
+        need to migrate applications from one cloud provider to another. While Kubernetes
+        abstraction and backup/restore mechanisms make this technically feasible,
+        the process for production systems is often complex and risky. This article
+        presents a Kubernetes-native concept for automated, incremental cloud switching
+        that simplifies the process significantly and is available as an open source
+        reference implementation.
       media:
         - type: Journal
           medium: RedStack 03/2026
-#          link: https://www.heise.de/select/ix/2023/11/2311009322297640470
           lang: DE
         - type: Blog
           medium: Cloudogu Blog
-#          link: https://cloudogu.com/de/blog/gitops-repository-patterns-part-6-examples
           lang: EN
 - year: 2025
   pubs:
