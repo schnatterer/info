@@ -38,8 +38,11 @@ projects:
   - name: cloudogu/cloud-switching-talk
     type: GitHub
     description: Slides for talks on Cloud Switching
-    technologies: ''
     contribution: Contributor
+    technologies: Kubernetes, Sovereign Cloud Stack, reveal.js, SVG
+    technologies-ci:
+      - type: Jenkins
+        url: https://ecosystem.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fgitops-talks/branches/
     commits:
       from: '2026-03-26'
       to: '2026-05-19'
@@ -91,7 +94,7 @@ projects:
       Operator, k3d, Helm, Jenkins, SCM-Manager, Groovy, Bash, Docker
     technologies-ci:
       - type: Jenkins
-        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fgitops-playground/
+        url: https://ecosystem.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fgitops-playground/
     technologies-artifacts:
       - type: GHCR
     contribution: Co-Creator
@@ -125,7 +128,7 @@ projects:
     technologies: Docker, Kubernetes, Maven, reveal.js, HTML, CSS, JavaScript
     technologies-ci:
       - type: Jenkins
-        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Freveal.js-docker-example/branches/
+        url: https://ecosystem.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Freveal.js-docker-example/branches/
     contribution: Creator
     commits:
       from: '2020-03-27'
@@ -138,7 +141,7 @@ projects:
     technologies: JavaScript, CSS, HTML, Gulp, Grunt, Docker, Bash
     technologies-ci:
       - type: Jenkins
-        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Freveal.js-docker/branches/
+        url: https://ecosystem.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Freveal.js-docker/branches/
     contribution: Creator
     commits:
       from: '2020-03-11'
@@ -150,7 +153,7 @@ projects:
     technologies: Flux, Argo CD, Kubernetes, reveal.js, SVG
     technologies-ci:
       - type: Jenkins
-        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fgitops-talks/branches/
+        url: https://ecosystem.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fgitops-talks/branches/
     contribution: Creator
     commits:
       from: '2020-10-13'
@@ -305,7 +308,7 @@ projects:
     technologies: Kubernetes, reveal.js
     technologies-ci:
       - type: Jenkins
-        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fk8s-appops-security-talks/branches/
+        url: https://ecosystem.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fk8s-appops-security-talks/branches/
     contribution: Creator
     commits:
       from: '2019-02-08'
@@ -378,7 +381,7 @@ projects:
     technologies: Java, Maven, SonarQube
     technologies-ci:
       - type: Jenkins
-        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2FversionName/branches/
+        url: https://ecosystem.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2FversionName/branches/
     technologies-artifacts:
       - type: Maven Central
         groupId: com.cloudogu.versionName
@@ -536,7 +539,7 @@ projects:
     technologies: Groovy, Jenkins, Kubernetes, SonarQube
     technologies-ci:
       - type: Jenkins
-        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fjenkinsfiles/branches/
+        url: https://ecosystem.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fjenkinsfiles/branches/
     contribution: Creator
     commits:
       from: '2017-07-17'
@@ -548,7 +551,7 @@ projects:
     technologies: Java, Maven, SonarQube
     technologies-ci:
       - type: Jenkins
-        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fcommand-bus/branches/
+        url: https://ecosystem.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fcommand-bus/branches/
     technologies-artifacts:
       - type: Maven Central
         groupId: com.cloudogu.cb
@@ -710,7 +713,7 @@ projects:
     technologies: Groovy, Maven, SonarQube
     technologies-ci:
       - type: Jenkins
-        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/triologygmbh-github%2Ftest-data-loader/branches/
+        url: https://ecosystem.cloudogu.com/jenkins/blue/organizations/jenkins/triologygmbh-github%2Ftest-data-loader/branches/
     technologies-artifacts:
       - type: Maven Central
         groupId: de.triology.test-data-loader
@@ -882,7 +885,7 @@ projects:
     technologies: Java, Maven, SonarQube
     technologies-ci:
       - type: Jenkins
-        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/triologygmbh-github%2FreCAPTCHA-V2-java/branches/
+        url: https://ecosystem.cloudogu.com/jenkins/blue/organizations/jenkins/triologygmbh-github%2FreCAPTCHA-V2-java/branches/
     technologies-artifacts:
       - type: Maven Central
         groupId: de.triology.recaptchav2-java
@@ -907,7 +910,7 @@ projects:
     technologies: Kubernetes, reveal.js
     technologies-ci:
       - type: Jenkins
-        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fk8s-intro-talk/branches/
+        url: https://ecosystem.cloudogu.com/jenkins/blue/organizations/jenkins/cloudogu-github%2Fk8s-intro-talk/branches/
     contribution: Creator
     commits:
       from: '2020-06-30'
@@ -1418,7 +1421,7 @@ projects:
     technologies: Java, Maven
     technologies-ci:
       - type: Jenkins
-        url: https://oss.cloudogu.com/jenkins/blue/organizations/jenkins/triologygmbh-github%2Fdependency-check/branches/
+        url: https://ecosystem.cloudogu.com/jenkins/blue/organizations/jenkins/triologygmbh-github%2Fdependency-check/branches/
     contribution: Creator
     commits:
       from: '2016-07-29'
