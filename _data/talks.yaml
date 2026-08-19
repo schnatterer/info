@@ -2,11 +2,13 @@
   talks:
     - occasion: ITCS Hamburg
       title: "Multi-Cloud in reality: Cloud-Switching automated as open source solution"
-      link: https://it-cs.io/events/hamburg/#
-      slides-pdf: 
-      slides-github:
+      link: https://it-cs.io/events/recap-hh26/
+      slides-pdf: https://cloudogu.github.io/cloud-switching-talk/2026-06-itcs/pdf/Multi-Cloud%20in%20reality%20Cloud-Switching%20automated%20as%20open%20source%20solution.pdf
+      slides-github: https://cloudogu.github.io/cloud-switching-talk/2026-06-itcs/#/
       slides-speakerdeck:
-      video: 
+      video:
+        lang: DE
+        link: https://www.youtube.com/watch?v=0rDcKSEPX0g
       location: Hamburg, Germany
       date: 2026-06-26
     - occasion: Zukunftskongress Staat & Verwaltung
@@ -21,8 +23,8 @@
     - occasion: CloudLand
       title: "Bye-bye Lock-in: Automate cloud switching using open source"
       link: https://meine.doag.org/events/cloudland/2026/agenda/#agendaId.7507
-      slides-pdf: https://cloudogu.github.io/cloud-switching-talk/pdf/Bye-bye%20Lock-in%20Automate%20cloud%20switching%20using%20open%20source.pdf
-      slides-github: https://cloudogu.github.io/cloud-switching-talk
+      slides-pdf: https://cloudogu.github.io/cloud-switching-talk/2026-05-cloud-land/pdf/Bye-bye%20Lock-in%20Automate%20cloud%20switching%20using%20open%20source.pdf
+      slides-github: https://cloudogu.github.io/cloud-switching-talk/2026-05-cloud-land/#
       video:
         lang: DE
         link: https://meine.doag.org/events/cloudland/2026/agenda/#agendaId.7507
