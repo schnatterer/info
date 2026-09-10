@@ -1,5 +1,37 @@
 - year: 2026
   talks:
+    - occasion: IT-Tage
+      title: "Bye-bye Lock-in: Automate cloud switching using open source"
+      link: https://ittage.informatik-aktuell.de/programm/2026/bye-bye-lock-in-cloud-switching-mittels-open-source-automatisieren.html
+      slides-pdf:
+      slides-github:
+      slides-speakerdeck:
+      location: Frankfurt, Germany
+      date: 2026-12-10
+    - occasion: IT-Tage
+      title: "Open Source from Infrastructure to End Users: Sovereign Tool Stacks based on SCS Standards"
+      link: https://ittage.informatik-aktuell.de/programm/2026/open-source-von-der-infrastruktur-bis-zu-endanwendenden-ein-souveraener-stack-auf-scs-standards.html
+      slides-pdf:
+      slides-github:
+      slides-speakerdeck:
+      location: Frankfurt, Germany
+      date: 2026-12-10
+    - occasion: ALASCA Summit
+      title: "Multi-Cloud in Practice: An Open Source Solution to Automated Cloud Switching"
+      link: https://alasca.cloud/programm/cloudogu-multi-cloud-in-practice-an-open-source-solution-to-automated-cloud-switchin/
+      slides-pdf: 
+      slides-github: 
+      slides-speakerdeck:
+      location: Dresden, Germany
+      date: 2026-11-04
+    - occasion: metalstack.summit
+      title: "Live Cloud Migration: from Google Cloud to metalstack.cloud"
+      link: https://metalstack.cloud/de/lp/metalstack-summit-2026
+      slides-pdf: 
+      slides-github: 
+      slides-speakerdeck:
+      location: Munich, Germany
+      date: 2026-10-15
     - occasion: ITCS Hamburg
       title: "Multi-Cloud in reality: Cloud-Switching automated as open source solution"
       link: https://it-cs.io/events/recap-hh26/
