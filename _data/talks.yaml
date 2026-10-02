@@ -27,11 +27,26 @@
     - occasion: metalstack.summit
       title: "Live Cloud Migration: from Google Cloud to metalstack.cloud"
       link: https://metalstack.cloud/de/lp/metalstack-summit-2026
-      slides-pdf: 
-      slides-github: 
+      slides-pdf:
+      slides-github:
       slides-speakerdeck:
       location: Munich, Germany
       date: 2026-10-15
+    - occasion: SmartCountryConvention 
+      title: '“10x openDesk, please!“ – Efficient Deployment of Complex Software Systems with the Cloudogu EcoSystem Using openDesk as an Example'
+      link: https://online.smartcountry.berlin/eventdate/10-Mal-OpenDesk-bitte-Effiziente-Bereitstellung-komplexer-Software-Systeme-mit-dem-Cloudogu-EcoSystem-am-Beispiel-OpenDesk--evtd_8faab05c-d45e-4beb-a667-992eafccb80a
+      slides-pdf: 
+      slides-github: 
+      location: Berlin, Germany
+      date: 2026-10-13
+    - occasion: SmartCountryConvention 
+      title: '“AWS, IONOS, On-Premises, whatever!“ – Cloud switching between any environments made easy with the Cloudogu EcoSystem'
+      link: https://online.smartcountry.berlin/eventdate/AWS-IONOS-On-Premises-Your-Choice-Seamlessly-Switch-Between-Environments-with-the-Cloudogu-EcoSystem--evtd_b77b0563-7d9e-406f-9d2c-0fcaaaa13e2a
+      slides-pdf: 
+      slides-github: 
+      slides-speakerdeck:
+      location: Berlin, Germany
+      date: 2026-10-13
     - occasion: ITCS Hamburg
       title: "Multi-Cloud in reality: Cloud-Switching automated as open source solution"
       link: https://it-cs.io/events/recap-hh26/
